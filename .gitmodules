@@ -1,0 +1,4 @@
+[submodule "dep/zlib"]
+	path = dep/zlib
+	url = https://github.com/madler/zlib.git
+	branch = master
