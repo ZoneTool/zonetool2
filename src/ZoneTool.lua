@@ -34,7 +34,6 @@ function ZoneTool:project()
         
         -- ThirdParty
         zlib:link()
-        chaiscript:link()
 
         if _OPTIONS["set-version"] then
             defines {

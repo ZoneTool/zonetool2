@@ -84,16 +84,11 @@ workspace "zonetool"
 	-- Dependencies
 	-- ========================
 
-	-- include "dep/libtomcrypt.lua"
-	-- include "dep/libtommath.lua"
 	include "dep/zlib.lua"
-	include "dep/chaiscript.lua"
 
 	-- All projects here should be in the thirdparty folder
 	group "thirdparty"
 
-	-- libtommath:project()
-	-- libtomcrypt:project()
 	zlib:project()
 
 	-- Reset group
@@ -105,16 +100,6 @@ workspace "zonetool"
 
 	include "src/ZoneTool.lua"
 	include "src/ZoneTool-Frontend.lua"
-	-- include "src/ZoneUtils.lua"
-	-- include "src/IW3.lua"
-	-- include "src/IW4.lua"
-	-- include "src/IW5.lua"
-	-- include "src/CODO.lua"
 
 	ZoneTool:project()
 	ZoneTool_Frontend:project()
-	-- ZoneUtils:project()
-	-- IW3:project()
-	-- IW4:project()
-	-- IW5:project()
-	-- CODO:project()
