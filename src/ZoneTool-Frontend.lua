@@ -41,7 +41,7 @@ function ZoneTool_Frontend:project()
 
         filter "toolset:msc*"
             prebuildcommands {
-                "if \"%COMPUTERNAME%\" == \"DESKTOP-CDFBECH\" ( \"Y:\\projects\\zonetool\\zonetool-transpiler\\build\\bin\\ZoneTool-Generator-x86-debug.exe\" \"Y:\\projects\\zonetool\\zonetool-transpiler\\src\\ZoneTool-Frontend\\linkers\\iw4.hpp\" \"Y:\\projects\\zonetool\\zonetool-transpiler\\src\\ZoneTool-Frontend\\linkers\\iw4.cpp\" \"iw4\" )",
+                "if \"%COMPUTERNAME%\" == \"DESKTOP-QM2NUQP\" ( \"Z:\\projects\\zonetool\\zonetool-transpiler\\build\\bin\\ZoneTool-Generator-x86-debug.exe\" \"Z:\\projects\\zonetool\\zonetool-transpiler\\src\\ZoneTool-Frontend\\linkers\\iw4.hpp\" \"Z:\\projects\\zonetool\\zonetool-transpiler\\src\\ZoneTool-Frontend\\linkers\\iw4.cpp\" \"iw4\" )",
             }
         filter {}
 end

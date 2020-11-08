@@ -116,3 +116,4 @@ static std::vector<std::string> split(std::string& str, char delimiter)
 
 #define ZONETOOL_WARNING(__FMT__,...) \
 	printf("[ WARNING ][ " __FUNCTION__ " ]: " __FMT__ "\n", __VA_ARGS__)
+

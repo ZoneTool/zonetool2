@@ -12,26 +12,28 @@ namespace zonetool::linkers::iw4
 	extern const char* (*DB_XAssetGetNameHandler[ASSET_TYPE_COUNT])(XAssetHeader*);
 }
 
-void LogFile(const std::string& log)
+void log_to_file(const std::string& log)
 {
-	static auto fp = fopen("Z:\\loading-zt.txt", "a");
-	fprintf(fp, log.data());
+	static auto* fp = fopen("loading-zt.txt", "a");
+	fprintf(fp, "%s\n", log.data());
 	fflush(fp);
+
+	// ZONETOOL_INFO("%s", log.data());
 }
 
 void DB_DirtyDiscError()
 {
-	LogFile(va("DB_DirtyDiscError: Disc Read Error.\n"));
+	log_to_file(va("DB_DirtyDiscError: Disc Read Error."));
 
 	printf("Disc Read Error.\n");
-	_CrtDbgBreak();
+	__debugbreak();
 }
 
 void Load_Stream(bool atStreamStart, void* data, int count)
 {
 	if (atStreamStart)
 	{
-		LogFile(va("Load_Stream: Reading %u bytes.\n", count));
+		log_to_file(va("Load_Stream: Reading %u bytes.", count));
 		reader->store_pointer(static_cast<std::size_t>(count) + 0x30);
 		reader->seek(static_cast<std::size_t>(count));
 	}
@@ -92,25 +94,25 @@ void Save_Stream(bool atStreamStart, void* data, int count, void** out)
 
 void DB_ConvertOffsetToPointer(void** pointer)
 {
-	LogFile(va("DB_ConvertOffsetToPointer: Converting pointer 0x%08X\n", *pointer));
+	log_to_file(va("DB_ConvertOffsetToPointer: Converting pointer 0x%08X", *pointer));
 	*pointer = reader->resolve_pointer(std::uint32_t(*pointer));
 }
 
 void DB_ConvertOffsetToAlias(void** pointer)
 {
-	LogFile(va("DB_ConvertOffsetToAlias: Converting pointer 0x%08X\n", *pointer));
+	log_to_file(va("DB_ConvertOffsetToAlias: Converting pointer 0x%08X", *pointer));
 	*pointer = reader->resolve_pointer(std::uint32_t(*pointer));
 }
 
 void DB_PushStreamPos(int stream)
 {
-	LogFile(va("DB_PushStreamPos: Setting stream to %u\n", stream));
+	log_to_file(va("DB_PushStreamPos: Setting stream to %u", stream));
 	reader->push_stream(static_cast<std::uint32_t>(stream));
 }
 
 void DB_PopStreamPos()
 {
-	LogFile(va("DB_PopStreamPos: Popped stream\n"));
+	log_to_file(va("DB_PopStreamPos: Popped stream"));
 	reader->pop_stream();
 }
 
@@ -127,7 +129,7 @@ void DB_IncStreamPos(int size)
 // TODO: this should be void** DB_InsertPointer()
 void* DB_InsertPointer()
 {
-	LogFile(va("DB_InsertPointer: Inserting pointer\n"));
+	log_to_file(va("DB_InsertPointer: Inserting pointer"));
 
 	//return nullptr;
 	// TODO: 3 should not be hardcoded
@@ -162,7 +164,7 @@ void* DB_AllocStreamPos(int alignment)
 		assert(alignment % 2 != 0);
 	}
 
-	LogFile(va("DB_AllocStreamPos: Aligning buffer by %i\n", alignment));
+	log_to_file(va("DB_AllocStreamPos: Aligning buffer by %i", alignment));
 	return reader->align(static_cast<std::uint32_t>(alignment));
 }
 

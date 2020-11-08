@@ -16,7 +16,7 @@ int main(int argc, char** argv)
 		return 0;
 	}
 
-	auto fp = static_cast<FILE*>(nullptr);
+	auto* fp = static_cast<FILE*>(nullptr);
 
 	ZONETOOL_INFO("ZoneTool Transpiler by RektInator.");
 	ZONETOOL_INFO("  \"No matter how hard or unlikely, if it's possible, it will be done.\"");
