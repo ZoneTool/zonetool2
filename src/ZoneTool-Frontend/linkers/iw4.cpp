@@ -23210,7 +23210,7 @@ void Save_$C8D87EB0090687D323381DFB7A82089CPtr(bool atStreamStart)
 			*out$C8D87EB0090687D323381DFB7A82089CPtr = AllocSave_$C8D87EB0090687D323381DFB7A82089C();
 			var$C8D87EB0090687D323381DFB7A82089C = *var$C8D87EB0090687D323381DFB7A82089CPtr;
 			stream$C8D87EB0090687D323381DFB7A82089C = *out$C8D87EB0090687D323381DFB7A82089CPtr;
-			auto v1 = sub_44AF80((void**)stream$C8D87EB0090687D323381DFB7A82089CPtr, (void**)out$C8D87EB0090687D323381DFB7A82089CPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)stream$C8D87EB0090687D323381DFB7A82089CPtr, (void**)out$C8D87EB0090687D323381DFB7A82089CPtr);
 			DB_FindStreamDataOrInsert((void*)*var$C8D87EB0090687D323381DFB7A82089CPtr, v1);
 			Save_$C8D87EB0090687D323381DFB7A82089C(true);
 		}
@@ -23258,7 +23258,7 @@ void Save_$E43DBA5037697D705289B74D87E76C70Ptr(bool atStreamStart)
 			*out$E43DBA5037697D705289B74D87E76C70Ptr = AllocSave_$E43DBA5037697D705289B74D87E76C70();
 			var$E43DBA5037697D705289B74D87E76C70 = *var$E43DBA5037697D705289B74D87E76C70Ptr;
 			stream$E43DBA5037697D705289B74D87E76C70 = *out$E43DBA5037697D705289B74D87E76C70Ptr;
-			auto v1 = sub_44AF80((void**)stream$E43DBA5037697D705289B74D87E76C70Ptr, (void**)out$E43DBA5037697D705289B74D87E76C70Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)stream$E43DBA5037697D705289B74D87E76C70Ptr, (void**)out$E43DBA5037697D705289B74D87E76C70Ptr);
 			DB_FindStreamDataOrInsert((void*)*var$E43DBA5037697D705289B74D87E76C70Ptr, v1);
 			Save_$E43DBA5037697D705289B74D87E76C70(true);
 		}
@@ -23306,7 +23306,7 @@ void Save_BoundsPtr(bool atStreamStart)
 			*outBoundsPtr = AllocSave_Bounds();
 			varBounds = *varBoundsPtr;
 			streamBounds = *outBoundsPtr;
-			auto v1 = sub_44AF80((void**)streamBoundsPtr, (void**)outBoundsPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamBoundsPtr, (void**)outBoundsPtr);
 			DB_FindStreamDataOrInsert((void*)*varBoundsPtr, v1);
 			Save_Bounds(true);
 		}
@@ -23354,7 +23354,7 @@ void Save_BrushWrapperPtr(bool atStreamStart)
 			*outBrushWrapperPtr = AllocSave_BrushWrapper();
 			varBrushWrapper = *varBrushWrapperPtr;
 			streamBrushWrapper = *outBrushWrapperPtr;
-			auto v1 = sub_44AF80((void**)streamBrushWrapperPtr, (void**)outBrushWrapperPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamBrushWrapperPtr, (void**)outBrushWrapperPtr);
 			DB_FindStreamDataOrInsert((void*)*varBrushWrapperPtr, v1);
 			Save_BrushWrapper(true);
 		}
@@ -23402,7 +23402,7 @@ void Save_CardMemoryPtr(bool atStreamStart)
 			*outCardMemoryPtr = AllocSave_CardMemory();
 			varCardMemory = *varCardMemoryPtr;
 			streamCardMemory = *outCardMemoryPtr;
-			auto v1 = sub_44AF80((void**)streamCardMemoryPtr, (void**)outCardMemoryPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamCardMemoryPtr, (void**)outCardMemoryPtr);
 			DB_FindStreamDataOrInsert((void*)*varCardMemoryPtr, v1);
 			Save_CardMemory(true);
 		}
@@ -23450,7 +23450,7 @@ void Save_ClipMaterialPtr(bool atStreamStart)
 			*outClipMaterialPtr = AllocSave_ClipMaterial();
 			varClipMaterial = *varClipMaterialPtr;
 			streamClipMaterial = *outClipMaterialPtr;
-			auto v1 = sub_44AF80((void**)streamClipMaterialPtr, (void**)outClipMaterialPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamClipMaterialPtr, (void**)outClipMaterialPtr);
 			DB_FindStreamDataOrInsert((void*)*varClipMaterialPtr, v1);
 			Save_ClipMaterial(true);
 		}
@@ -23515,7 +23515,7 @@ void Save_CollisionAabbTreeIndexPtr(bool atStreamStart)
 			*outCollisionAabbTreeIndexPtr = AllocSave_CollisionAabbTreeIndex();
 			varCollisionAabbTreeIndex = *varCollisionAabbTreeIndexPtr;
 			streamCollisionAabbTreeIndex = *outCollisionAabbTreeIndexPtr;
-			auto v1 = sub_44AF80((void**)streamCollisionAabbTreeIndexPtr, (void**)outCollisionAabbTreeIndexPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamCollisionAabbTreeIndexPtr, (void**)outCollisionAabbTreeIndexPtr);
 			DB_FindStreamDataOrInsert((void*)*varCollisionAabbTreeIndexPtr, v1);
 			Save_CollisionAabbTreeIndex(true);
 		}
@@ -23546,7 +23546,7 @@ void Save_CollisionAabbTreePtr(bool atStreamStart)
 			*outCollisionAabbTreePtr = AllocSave_CollisionAabbTree();
 			varCollisionAabbTree = *varCollisionAabbTreePtr;
 			streamCollisionAabbTree = *outCollisionAabbTreePtr;
-			auto v1 = sub_44AF80((void**)streamCollisionAabbTreePtr, (void**)outCollisionAabbTreePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamCollisionAabbTreePtr, (void**)outCollisionAabbTreePtr);
 			DB_FindStreamDataOrInsert((void*)*varCollisionAabbTreePtr, v1);
 			Save_CollisionAabbTree(true);
 		}
@@ -23594,7 +23594,7 @@ void Save_CollisionBorderPtr(bool atStreamStart)
 			*outCollisionBorderPtr = AllocSave_CollisionBorder();
 			varCollisionBorder = *varCollisionBorderPtr;
 			streamCollisionBorder = *outCollisionBorderPtr;
-			auto v1 = sub_44AF80((void**)streamCollisionBorderPtr, (void**)outCollisionBorderPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamCollisionBorderPtr, (void**)outCollisionBorderPtr);
 			DB_FindStreamDataOrInsert((void*)*varCollisionBorderPtr, v1);
 			Save_CollisionBorder(true);
 		}
@@ -23642,7 +23642,7 @@ void Save_CollisionPartitionPtr(bool atStreamStart)
 			*outCollisionPartitionPtr = AllocSave_CollisionPartition();
 			varCollisionPartition = *varCollisionPartitionPtr;
 			streamCollisionPartition = *outCollisionPartitionPtr;
-			auto v1 = sub_44AF80((void**)streamCollisionPartitionPtr, (void**)outCollisionPartitionPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamCollisionPartitionPtr, (void**)outCollisionPartitionPtr);
 			DB_FindStreamDataOrInsert((void*)*varCollisionPartitionPtr, v1);
 			Save_CollisionPartition(true);
 		}
@@ -23690,7 +23690,7 @@ void Save_ComPrimaryLightPtr(bool atStreamStart)
 			*outComPrimaryLightPtr = AllocSave_ComPrimaryLight();
 			varComPrimaryLight = *varComPrimaryLightPtr;
 			streamComPrimaryLight = *outComPrimaryLightPtr;
-			auto v1 = sub_44AF80((void**)streamComPrimaryLightPtr, (void**)outComPrimaryLightPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamComPrimaryLightPtr, (void**)outComPrimaryLightPtr);
 			DB_FindStreamDataOrInsert((void*)*varComPrimaryLightPtr, v1);
 			Save_ComPrimaryLight(true);
 		}
@@ -23744,7 +23744,7 @@ void Save_ComWorldPtr(bool atStreamStart)
 			*outComWorldPtr = AllocSave_ComWorld();
 			varComWorld = *varComWorldPtr;
 			streamComWorld = *outComWorldPtr;
-			auto v1 = sub_44AF80((void**)streamComWorldPtr, (void**)outComWorldPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamComWorldPtr, (void**)outComWorldPtr);
 			DB_FindStreamDataOrInsert((void*)*varComWorldPtr, v1);
 			Save_ComWorld(true);
 		}
@@ -23793,7 +23793,7 @@ void Save_ConditionalScriptPtr(bool atStreamStart)
 			*outConditionalScriptPtr = AllocSave_ConditionalScript();
 			varConditionalScript = *varConditionalScriptPtr;
 			streamConditionalScript = *outConditionalScriptPtr;
-			auto v1 = sub_44AF80((void**)streamConditionalScriptPtr, (void**)outConditionalScriptPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamConditionalScriptPtr, (void**)outConditionalScriptPtr);
 			DB_FindStreamDataOrInsert((void*)*varConditionalScriptPtr, v1);
 			Save_ConditionalScript(true);
 		}
@@ -23841,7 +23841,7 @@ void Save_DObjAnimMatPtr(bool atStreamStart)
 			*outDObjAnimMatPtr = AllocSave_DObjAnimMat();
 			varDObjAnimMat = *varDObjAnimMatPtr;
 			streamDObjAnimMat = *outDObjAnimMatPtr;
-			auto v1 = sub_44AF80((void**)streamDObjAnimMatPtr, (void**)outDObjAnimMatPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamDObjAnimMatPtr, (void**)outDObjAnimMatPtr);
 			DB_FindStreamDataOrInsert((void*)*varDObjAnimMatPtr, v1);
 			Save_DObjAnimMat(true);
 		}
@@ -23889,7 +23889,7 @@ void Save_DynEntityClientPtr(bool atStreamStart)
 			*outDynEntityClientPtr = AllocSave_DynEntityClient();
 			varDynEntityClient = *varDynEntityClientPtr;
 			streamDynEntityClient = *outDynEntityClientPtr;
-			auto v1 = sub_44AF80((void**)streamDynEntityClientPtr, (void**)outDynEntityClientPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamDynEntityClientPtr, (void**)outDynEntityClientPtr);
 			DB_FindStreamDataOrInsert((void*)*varDynEntityClientPtr, v1);
 			Save_DynEntityClient(true);
 		}
@@ -23937,7 +23937,7 @@ void Save_DynEntityCollPtr(bool atStreamStart)
 			*outDynEntityCollPtr = AllocSave_DynEntityColl();
 			varDynEntityColl = *varDynEntityCollPtr;
 			streamDynEntityColl = *outDynEntityCollPtr;
-			auto v1 = sub_44AF80((void**)streamDynEntityCollPtr, (void**)outDynEntityCollPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamDynEntityCollPtr, (void**)outDynEntityCollPtr);
 			DB_FindStreamDataOrInsert((void*)*varDynEntityCollPtr, v1);
 			Save_DynEntityColl(true);
 		}
@@ -23985,7 +23985,7 @@ void Save_DynEntityDefPtr(bool atStreamStart)
 			*outDynEntityDefPtr = AllocSave_DynEntityDef();
 			varDynEntityDef = *varDynEntityDefPtr;
 			streamDynEntityDef = *outDynEntityDefPtr;
-			auto v1 = sub_44AF80((void**)streamDynEntityDefPtr, (void**)outDynEntityDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamDynEntityDefPtr, (void**)outDynEntityDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varDynEntityDefPtr, v1);
 			Save_DynEntityDef(true);
 		}
@@ -24033,7 +24033,7 @@ void Save_DynEntityPosePtr(bool atStreamStart)
 			*outDynEntityPosePtr = AllocSave_DynEntityPose();
 			varDynEntityPose = *varDynEntityPosePtr;
 			streamDynEntityPose = *outDynEntityPosePtr;
-			auto v1 = sub_44AF80((void**)streamDynEntityPosePtr, (void**)outDynEntityPosePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamDynEntityPosePtr, (void**)outDynEntityPosePtr);
 			DB_FindStreamDataOrInsert((void*)*varDynEntityPosePtr, v1);
 			Save_DynEntityPose(true);
 		}
@@ -24081,7 +24081,7 @@ void Save_EventDataPtr(bool atStreamStart)
 			*outEventDataPtr = AllocSave_EventData();
 			varEventData = *varEventDataPtr;
 			streamEventData = *outEventDataPtr;
-			auto v1 = sub_44AF80((void**)streamEventDataPtr, (void**)outEventDataPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamEventDataPtr, (void**)outEventDataPtr);
 			DB_FindStreamDataOrInsert((void*)*varEventDataPtr, v1);
 			Save_EventData(true);
 		}
@@ -24129,7 +24129,7 @@ void Save_ExpressionStringPtr(bool atStreamStart)
 			*outExpressionStringPtr = AllocSave_ExpressionString();
 			varExpressionString = *varExpressionStringPtr;
 			streamExpressionString = *outExpressionStringPtr;
-			auto v1 = sub_44AF80((void**)streamExpressionStringPtr, (void**)outExpressionStringPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamExpressionStringPtr, (void**)outExpressionStringPtr);
 			DB_FindStreamDataOrInsert((void*)*varExpressionStringPtr, v1);
 			Save_ExpressionString(true);
 		}
@@ -24177,7 +24177,7 @@ void Save_ExpressionSupportingDataPtr(bool atStreamStart)
 			*outExpressionSupportingDataPtr = AllocSave_ExpressionSupportingData();
 			varExpressionSupportingData = *varExpressionSupportingDataPtr;
 			streamExpressionSupportingData = *outExpressionSupportingDataPtr;
-			auto v1 = sub_44AF80((void**)streamExpressionSupportingDataPtr, (void**)outExpressionSupportingDataPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamExpressionSupportingDataPtr, (void**)outExpressionSupportingDataPtr);
 			DB_FindStreamDataOrInsert((void*)*varExpressionSupportingDataPtr, v1);
 			Save_ExpressionSupportingData(true);
 		}
@@ -24231,7 +24231,7 @@ void Save_Font_sPtr(bool atStreamStart)
 			*outFont_sPtr = AllocSave_Font_s();
 			varFont_s = *varFont_sPtr;
 			streamFont_s = *outFont_sPtr;
-			auto v1 = sub_44AF80((void**)streamFont_sPtr, (void**)outFont_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFont_sPtr, (void**)outFont_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varFont_sPtr, v1);
 			Save_Font_s(true);
 		}
@@ -24286,7 +24286,7 @@ void Save_FxEffectDefPtr(bool atStreamStart)
 			*outFxEffectDefPtr = AllocSave_FxEffectDef();
 			varFxEffectDef = *varFxEffectDefPtr;
 			streamFxEffectDef = *outFxEffectDefPtr;
-			auto v1 = sub_44AF80((void**)streamFxEffectDefPtr, (void**)outFxEffectDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxEffectDefPtr, (void**)outFxEffectDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxEffectDefPtr, v1);
 			Save_FxEffectDef(true);
 		}
@@ -24335,7 +24335,7 @@ void Save_FxEffectDefRefPtr(bool atStreamStart)
 			*outFxEffectDefRefPtr = AllocSave_FxEffectDefRef();
 			varFxEffectDefRef = *varFxEffectDefRefPtr;
 			streamFxEffectDefRef = *outFxEffectDefRefPtr;
-			auto v1 = sub_44AF80((void**)streamFxEffectDefRefPtr, (void**)outFxEffectDefRefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxEffectDefRefPtr, (void**)outFxEffectDefRefPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxEffectDefRefPtr, v1);
 			Save_FxEffectDefRef(true);
 		}
@@ -24383,7 +24383,7 @@ void Save_FxElemAtlasPtr(bool atStreamStart)
 			*outFxElemAtlasPtr = AllocSave_FxElemAtlas();
 			varFxElemAtlas = *varFxElemAtlasPtr;
 			streamFxElemAtlas = *outFxElemAtlasPtr;
-			auto v1 = sub_44AF80((void**)streamFxElemAtlasPtr, (void**)outFxElemAtlasPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxElemAtlasPtr, (void**)outFxElemAtlasPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxElemAtlasPtr, v1);
 			Save_FxElemAtlas(true);
 		}
@@ -24431,7 +24431,7 @@ void Save_FxElemDefPtr(bool atStreamStart)
 			*outFxElemDefPtr = AllocSave_FxElemDef();
 			varFxElemDef = *varFxElemDefPtr;
 			streamFxElemDef = *outFxElemDefPtr;
-			auto v1 = sub_44AF80((void**)streamFxElemDefPtr, (void**)outFxElemDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxElemDefPtr, (void**)outFxElemDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxElemDefPtr, v1);
 			Save_FxElemDef(true);
 		}
@@ -24479,7 +24479,7 @@ void Save_FxElemDefVisualsPtr(bool atStreamStart)
 			*outFxElemDefVisualsPtr = AllocSave_FxElemDefVisuals();
 			varFxElemDefVisuals = *varFxElemDefVisualsPtr;
 			streamFxElemDefVisuals = *outFxElemDefVisualsPtr;
-			auto v1 = sub_44AF80((void**)streamFxElemDefVisualsPtr, (void**)outFxElemDefVisualsPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxElemDefVisualsPtr, (void**)outFxElemDefVisualsPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxElemDefVisualsPtr, v1);
 			Save_FxElemDefVisuals(true);
 		}
@@ -24527,7 +24527,7 @@ void Save_FxElemExtendedDefPtrPtr(bool atStreamStart)
 			*outFxElemExtendedDefPtrPtr = AllocSave_FxElemExtendedDefPtr();
 			varFxElemExtendedDefPtr = *varFxElemExtendedDefPtrPtr;
 			streamFxElemExtendedDefPtr = *outFxElemExtendedDefPtrPtr;
-			auto v1 = sub_44AF80((void**)streamFxElemExtendedDefPtrPtr, (void**)outFxElemExtendedDefPtrPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxElemExtendedDefPtrPtr, (void**)outFxElemExtendedDefPtrPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxElemExtendedDefPtrPtr, v1);
 			Save_FxElemExtendedDefPtr(true);
 		}
@@ -24575,7 +24575,7 @@ void Save_FxElemMarkVisualsPtr(bool atStreamStart)
 			*outFxElemMarkVisualsPtr = AllocSave_FxElemMarkVisuals();
 			varFxElemMarkVisuals = *varFxElemMarkVisualsPtr;
 			streamFxElemMarkVisuals = *outFxElemMarkVisualsPtr;
-			auto v1 = sub_44AF80((void**)streamFxElemMarkVisualsPtr, (void**)outFxElemMarkVisualsPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxElemMarkVisualsPtr, (void**)outFxElemMarkVisualsPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxElemMarkVisualsPtr, v1);
 			Save_FxElemMarkVisuals(true);
 		}
@@ -24623,7 +24623,7 @@ void Save_FxElemVec3RangePtr(bool atStreamStart)
 			*outFxElemVec3RangePtr = AllocSave_FxElemVec3Range();
 			varFxElemVec3Range = *varFxElemVec3RangePtr;
 			streamFxElemVec3Range = *outFxElemVec3RangePtr;
-			auto v1 = sub_44AF80((void**)streamFxElemVec3RangePtr, (void**)outFxElemVec3RangePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxElemVec3RangePtr, (void**)outFxElemVec3RangePtr);
 			DB_FindStreamDataOrInsert((void*)*varFxElemVec3RangePtr, v1);
 			Save_FxElemVec3Range(true);
 		}
@@ -24671,7 +24671,7 @@ void Save_FxElemVelStateInFramePtr(bool atStreamStart)
 			*outFxElemVelStateInFramePtr = AllocSave_FxElemVelStateInFrame();
 			varFxElemVelStateInFrame = *varFxElemVelStateInFramePtr;
 			streamFxElemVelStateInFrame = *outFxElemVelStateInFramePtr;
-			auto v1 = sub_44AF80((void**)streamFxElemVelStateInFramePtr, (void**)outFxElemVelStateInFramePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxElemVelStateInFramePtr, (void**)outFxElemVelStateInFramePtr);
 			DB_FindStreamDataOrInsert((void*)*varFxElemVelStateInFramePtr, v1);
 			Save_FxElemVelStateInFrame(true);
 		}
@@ -24719,7 +24719,7 @@ void Save_FxElemVelStateSamplePtr(bool atStreamStart)
 			*outFxElemVelStateSamplePtr = AllocSave_FxElemVelStateSample();
 			varFxElemVelStateSample = *varFxElemVelStateSamplePtr;
 			streamFxElemVelStateSample = *outFxElemVelStateSamplePtr;
-			auto v1 = sub_44AF80((void**)streamFxElemVelStateSamplePtr, (void**)outFxElemVelStateSamplePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxElemVelStateSamplePtr, (void**)outFxElemVelStateSamplePtr);
 			DB_FindStreamDataOrInsert((void*)*varFxElemVelStateSamplePtr, v1);
 			Save_FxElemVelStateSample(true);
 		}
@@ -24767,7 +24767,7 @@ void Save_FxElemVisStateSamplePtr(bool atStreamStart)
 			*outFxElemVisStateSamplePtr = AllocSave_FxElemVisStateSample();
 			varFxElemVisStateSample = *varFxElemVisStateSamplePtr;
 			streamFxElemVisStateSample = *outFxElemVisStateSamplePtr;
-			auto v1 = sub_44AF80((void**)streamFxElemVisStateSamplePtr, (void**)outFxElemVisStateSamplePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxElemVisStateSamplePtr, (void**)outFxElemVisStateSamplePtr);
 			DB_FindStreamDataOrInsert((void*)*varFxElemVisStateSamplePtr, v1);
 			Save_FxElemVisStateSample(true);
 		}
@@ -24815,7 +24815,7 @@ void Save_FxElemVisualStatePtr(bool atStreamStart)
 			*outFxElemVisualStatePtr = AllocSave_FxElemVisualState();
 			varFxElemVisualState = *varFxElemVisualStatePtr;
 			streamFxElemVisualState = *outFxElemVisualStatePtr;
-			auto v1 = sub_44AF80((void**)streamFxElemVisualStatePtr, (void**)outFxElemVisualStatePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxElemVisualStatePtr, (void**)outFxElemVisualStatePtr);
 			DB_FindStreamDataOrInsert((void*)*varFxElemVisualStatePtr, v1);
 			Save_FxElemVisualState(true);
 		}
@@ -24863,7 +24863,7 @@ void Save_FxElemVisualsPtr(bool atStreamStart)
 			*outFxElemVisualsPtr = AllocSave_FxElemVisuals();
 			varFxElemVisuals = *varFxElemVisualsPtr;
 			streamFxElemVisuals = *outFxElemVisualsPtr;
-			auto v1 = sub_44AF80((void**)streamFxElemVisualsPtr, (void**)outFxElemVisualsPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxElemVisualsPtr, (void**)outFxElemVisualsPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxElemVisualsPtr, v1);
 			Save_FxElemVisuals(true);
 		}
@@ -24911,7 +24911,7 @@ void Save_FxFloatRangePtr(bool atStreamStart)
 			*outFxFloatRangePtr = AllocSave_FxFloatRange();
 			varFxFloatRange = *varFxFloatRangePtr;
 			streamFxFloatRange = *outFxFloatRangePtr;
-			auto v1 = sub_44AF80((void**)streamFxFloatRangePtr, (void**)outFxFloatRangePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxFloatRangePtr, (void**)outFxFloatRangePtr);
 			DB_FindStreamDataOrInsert((void*)*varFxFloatRangePtr, v1);
 			Save_FxFloatRange(true);
 		}
@@ -24959,7 +24959,7 @@ void Save_FxGlassCrackHeaderPtr(bool atStreamStart)
 			*outFxGlassCrackHeaderPtr = AllocSave_FxGlassCrackHeader();
 			varFxGlassCrackHeader = *varFxGlassCrackHeaderPtr;
 			streamFxGlassCrackHeader = *outFxGlassCrackHeaderPtr;
-			auto v1 = sub_44AF80((void**)streamFxGlassCrackHeaderPtr, (void**)outFxGlassCrackHeaderPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxGlassCrackHeaderPtr, (void**)outFxGlassCrackHeaderPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxGlassCrackHeaderPtr, v1);
 			Save_FxGlassCrackHeader(true);
 		}
@@ -25007,7 +25007,7 @@ void Save_FxGlassDefPtr(bool atStreamStart)
 			*outFxGlassDefPtr = AllocSave_FxGlassDef();
 			varFxGlassDef = *varFxGlassDefPtr;
 			streamFxGlassDef = *outFxGlassDefPtr;
-			auto v1 = sub_44AF80((void**)streamFxGlassDefPtr, (void**)outFxGlassDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxGlassDefPtr, (void**)outFxGlassDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxGlassDefPtr, v1);
 			Save_FxGlassDef(true);
 		}
@@ -25055,7 +25055,7 @@ void Save_FxGlassGeometryDataPtr(bool atStreamStart)
 			*outFxGlassGeometryDataPtr = AllocSave_FxGlassGeometryData();
 			varFxGlassGeometryData = *varFxGlassGeometryDataPtr;
 			streamFxGlassGeometryData = *outFxGlassGeometryDataPtr;
-			auto v1 = sub_44AF80((void**)streamFxGlassGeometryDataPtr, (void**)outFxGlassGeometryDataPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxGlassGeometryDataPtr, (void**)outFxGlassGeometryDataPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxGlassGeometryDataPtr, v1);
 			Save_FxGlassGeometryData(true);
 		}
@@ -25103,7 +25103,7 @@ void Save_FxGlassHoleHeaderPtr(bool atStreamStart)
 			*outFxGlassHoleHeaderPtr = AllocSave_FxGlassHoleHeader();
 			varFxGlassHoleHeader = *varFxGlassHoleHeaderPtr;
 			streamFxGlassHoleHeader = *outFxGlassHoleHeaderPtr;
-			auto v1 = sub_44AF80((void**)streamFxGlassHoleHeaderPtr, (void**)outFxGlassHoleHeaderPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxGlassHoleHeaderPtr, (void**)outFxGlassHoleHeaderPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxGlassHoleHeaderPtr, v1);
 			Save_FxGlassHoleHeader(true);
 		}
@@ -25151,7 +25151,7 @@ void Save_FxGlassInitPieceStatePtr(bool atStreamStart)
 			*outFxGlassInitPieceStatePtr = AllocSave_FxGlassInitPieceState();
 			varFxGlassInitPieceState = *varFxGlassInitPieceStatePtr;
 			streamFxGlassInitPieceState = *outFxGlassInitPieceStatePtr;
-			auto v1 = sub_44AF80((void**)streamFxGlassInitPieceStatePtr, (void**)outFxGlassInitPieceStatePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxGlassInitPieceStatePtr, (void**)outFxGlassInitPieceStatePtr);
 			DB_FindStreamDataOrInsert((void*)*varFxGlassInitPieceStatePtr, v1);
 			Save_FxGlassInitPieceState(true);
 		}
@@ -25199,7 +25199,7 @@ void Save_FxGlassPieceDynamicsPtr(bool atStreamStart)
 			*outFxGlassPieceDynamicsPtr = AllocSave_FxGlassPieceDynamics();
 			varFxGlassPieceDynamics = *varFxGlassPieceDynamicsPtr;
 			streamFxGlassPieceDynamics = *outFxGlassPieceDynamicsPtr;
-			auto v1 = sub_44AF80((void**)streamFxGlassPieceDynamicsPtr, (void**)outFxGlassPieceDynamicsPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxGlassPieceDynamicsPtr, (void**)outFxGlassPieceDynamicsPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxGlassPieceDynamicsPtr, v1);
 			Save_FxGlassPieceDynamics(true);
 		}
@@ -25247,7 +25247,7 @@ void Save_FxGlassPiecePlacePtr(bool atStreamStart)
 			*outFxGlassPiecePlacePtr = AllocSave_FxGlassPiecePlace();
 			varFxGlassPiecePlace = *varFxGlassPiecePlacePtr;
 			streamFxGlassPiecePlace = *outFxGlassPiecePlacePtr;
-			auto v1 = sub_44AF80((void**)streamFxGlassPiecePlacePtr, (void**)outFxGlassPiecePlacePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxGlassPiecePlacePtr, (void**)outFxGlassPiecePlacePtr);
 			DB_FindStreamDataOrInsert((void*)*varFxGlassPiecePlacePtr, v1);
 			Save_FxGlassPiecePlace(true);
 		}
@@ -25295,7 +25295,7 @@ void Save_FxGlassPieceStatePtr(bool atStreamStart)
 			*outFxGlassPieceStatePtr = AllocSave_FxGlassPieceState();
 			varFxGlassPieceState = *varFxGlassPieceStatePtr;
 			streamFxGlassPieceState = *outFxGlassPieceStatePtr;
-			auto v1 = sub_44AF80((void**)streamFxGlassPieceStatePtr, (void**)outFxGlassPieceStatePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxGlassPieceStatePtr, (void**)outFxGlassPieceStatePtr);
 			DB_FindStreamDataOrInsert((void*)*varFxGlassPieceStatePtr, v1);
 			Save_FxGlassPieceState(true);
 		}
@@ -25343,7 +25343,7 @@ void Save_FxGlassSystemPtr(bool atStreamStart)
 			*outFxGlassSystemPtr = AllocSave_FxGlassSystem();
 			varFxGlassSystem = *varFxGlassSystemPtr;
 			streamFxGlassSystem = *outFxGlassSystemPtr;
-			auto v1 = sub_44AF80((void**)streamFxGlassSystemPtr, (void**)outFxGlassSystemPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxGlassSystemPtr, (void**)outFxGlassSystemPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxGlassSystemPtr, v1);
 			Save_FxGlassSystem(true);
 		}
@@ -25391,7 +25391,7 @@ void Save_FxGlassVertexPtr(bool atStreamStart)
 			*outFxGlassVertexPtr = AllocSave_FxGlassVertex();
 			varFxGlassVertex = *varFxGlassVertexPtr;
 			streamFxGlassVertex = *outFxGlassVertexPtr;
-			auto v1 = sub_44AF80((void**)streamFxGlassVertexPtr, (void**)outFxGlassVertexPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxGlassVertexPtr, (void**)outFxGlassVertexPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxGlassVertexPtr, v1);
 			Save_FxGlassVertex(true);
 		}
@@ -25439,7 +25439,7 @@ void Save_FxIntRangePtr(bool atStreamStart)
 			*outFxIntRangePtr = AllocSave_FxIntRange();
 			varFxIntRange = *varFxIntRangePtr;
 			streamFxIntRange = *outFxIntRangePtr;
-			auto v1 = sub_44AF80((void**)streamFxIntRangePtr, (void**)outFxIntRangePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxIntRangePtr, (void**)outFxIntRangePtr);
 			DB_FindStreamDataOrInsert((void*)*varFxIntRangePtr, v1);
 			Save_FxIntRange(true);
 		}
@@ -25487,7 +25487,7 @@ void Save_FxSparkFountainDefPtr(bool atStreamStart)
 			*outFxSparkFountainDefPtr = AllocSave_FxSparkFountainDef();
 			varFxSparkFountainDef = *varFxSparkFountainDefPtr;
 			streamFxSparkFountainDef = *outFxSparkFountainDefPtr;
-			auto v1 = sub_44AF80((void**)streamFxSparkFountainDefPtr, (void**)outFxSparkFountainDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxSparkFountainDefPtr, (void**)outFxSparkFountainDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxSparkFountainDefPtr, v1);
 			Save_FxSparkFountainDef(true);
 		}
@@ -25535,7 +25535,7 @@ void Save_FxSpatialFramePtr(bool atStreamStart)
 			*outFxSpatialFramePtr = AllocSave_FxSpatialFrame();
 			varFxSpatialFrame = *varFxSpatialFramePtr;
 			streamFxSpatialFrame = *outFxSpatialFramePtr;
-			auto v1 = sub_44AF80((void**)streamFxSpatialFramePtr, (void**)outFxSpatialFramePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxSpatialFramePtr, (void**)outFxSpatialFramePtr);
 			DB_FindStreamDataOrInsert((void*)*varFxSpatialFramePtr, v1);
 			Save_FxSpatialFrame(true);
 		}
@@ -25600,7 +25600,7 @@ void Save_FxSpawnDefLoopingPtr(bool atStreamStart)
 			*outFxSpawnDefLoopingPtr = AllocSave_FxSpawnDefLooping();
 			varFxSpawnDefLooping = *varFxSpawnDefLoopingPtr;
 			streamFxSpawnDefLooping = *outFxSpawnDefLoopingPtr;
-			auto v1 = sub_44AF80((void**)streamFxSpawnDefLoopingPtr, (void**)outFxSpawnDefLoopingPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxSpawnDefLoopingPtr, (void**)outFxSpawnDefLoopingPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxSpawnDefLoopingPtr, v1);
 			Save_FxSpawnDefLooping(true);
 		}
@@ -25648,7 +25648,7 @@ void Save_FxSpawnDefOneShotPtr(bool atStreamStart)
 			*outFxSpawnDefOneShotPtr = AllocSave_FxSpawnDefOneShot();
 			varFxSpawnDefOneShot = *varFxSpawnDefOneShotPtr;
 			streamFxSpawnDefOneShot = *outFxSpawnDefOneShotPtr;
-			auto v1 = sub_44AF80((void**)streamFxSpawnDefOneShotPtr, (void**)outFxSpawnDefOneShotPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxSpawnDefOneShotPtr, (void**)outFxSpawnDefOneShotPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxSpawnDefOneShotPtr, v1);
 			Save_FxSpawnDefOneShot(true);
 		}
@@ -25679,7 +25679,7 @@ void Save_FxSpawnDefPtr(bool atStreamStart)
 			*outFxSpawnDefPtr = AllocSave_FxSpawnDef();
 			varFxSpawnDef = *varFxSpawnDefPtr;
 			streamFxSpawnDef = *outFxSpawnDefPtr;
-			auto v1 = sub_44AF80((void**)streamFxSpawnDefPtr, (void**)outFxSpawnDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxSpawnDefPtr, (void**)outFxSpawnDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxSpawnDefPtr, v1);
 			Save_FxSpawnDef(true);
 		}
@@ -25727,7 +25727,7 @@ void Save_FxTrailDefPtr(bool atStreamStart)
 			*outFxTrailDefPtr = AllocSave_FxTrailDef();
 			varFxTrailDef = *varFxTrailDefPtr;
 			streamFxTrailDef = *outFxTrailDefPtr;
-			auto v1 = sub_44AF80((void**)streamFxTrailDefPtr, (void**)outFxTrailDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxTrailDefPtr, (void**)outFxTrailDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxTrailDefPtr, v1);
 			Save_FxTrailDef(true);
 		}
@@ -25775,7 +25775,7 @@ void Save_FxTrailVertexPtr(bool atStreamStart)
 			*outFxTrailVertexPtr = AllocSave_FxTrailVertex();
 			varFxTrailVertex = *varFxTrailVertexPtr;
 			streamFxTrailVertex = *outFxTrailVertexPtr;
-			auto v1 = sub_44AF80((void**)streamFxTrailVertexPtr, (void**)outFxTrailVertexPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxTrailVertexPtr, (void**)outFxTrailVertexPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxTrailVertexPtr, v1);
 			Save_FxTrailVertex(true);
 		}
@@ -25829,7 +25829,7 @@ void Save_FxWorldPtr(bool atStreamStart)
 			*outFxWorldPtr = AllocSave_FxWorld();
 			varFxWorld = *varFxWorldPtr;
 			streamFxWorld = *outFxWorldPtr;
-			auto v1 = sub_44AF80((void**)streamFxWorldPtr, (void**)outFxWorldPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamFxWorldPtr, (void**)outFxWorldPtr);
 			DB_FindStreamDataOrInsert((void*)*varFxWorldPtr, v1);
 			Save_FxWorld(true);
 		}
@@ -25878,7 +25878,7 @@ void Save_G_GlassDataPtr(bool atStreamStart)
 			*outG_GlassDataPtr = AllocSave_G_GlassData();
 			varG_GlassData = *varG_GlassDataPtr;
 			streamG_GlassData = *outG_GlassDataPtr;
-			auto v1 = sub_44AF80((void**)streamG_GlassDataPtr, (void**)outG_GlassDataPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamG_GlassDataPtr, (void**)outG_GlassDataPtr);
 			DB_FindStreamDataOrInsert((void*)*varG_GlassDataPtr, v1);
 			Save_G_GlassData(true);
 		}
@@ -25926,7 +25926,7 @@ void Save_G_GlassNamePtr(bool atStreamStart)
 			*outG_GlassNamePtr = AllocSave_G_GlassName();
 			varG_GlassName = *varG_GlassNamePtr;
 			streamG_GlassName = *outG_GlassNamePtr;
-			auto v1 = sub_44AF80((void**)streamG_GlassNamePtr, (void**)outG_GlassNamePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamG_GlassNamePtr, (void**)outG_GlassNamePtr);
 			DB_FindStreamDataOrInsert((void*)*varG_GlassNamePtr, v1);
 			Save_G_GlassName(true);
 		}
@@ -25974,7 +25974,7 @@ void Save_G_GlassPiecePtr(bool atStreamStart)
 			*outG_GlassPiecePtr = AllocSave_G_GlassPiece();
 			varG_GlassPiece = *varG_GlassPiecePtr;
 			streamG_GlassPiece = *outG_GlassPiecePtr;
-			auto v1 = sub_44AF80((void**)streamG_GlassPiecePtr, (void**)outG_GlassPiecePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamG_GlassPiecePtr, (void**)outG_GlassPiecePtr);
 			DB_FindStreamDataOrInsert((void*)*varG_GlassPiecePtr, v1);
 			Save_G_GlassPiece(true);
 		}
@@ -26028,7 +26028,7 @@ void Save_GameWorldMpPtr(bool atStreamStart)
 			*outGameWorldMpPtr = AllocSave_GameWorldMp();
 			varGameWorldMp = *varGameWorldMpPtr;
 			streamGameWorldMp = *outGameWorldMpPtr;
-			auto v1 = sub_44AF80((void**)streamGameWorldMpPtr, (void**)outGameWorldMpPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGameWorldMpPtr, (void**)outGameWorldMpPtr);
 			DB_FindStreamDataOrInsert((void*)*varGameWorldMpPtr, v1);
 			Save_GameWorldMp(true);
 		}
@@ -26077,7 +26077,7 @@ void Save_GfxColorPtr(bool atStreamStart)
 			*outGfxColorPtr = AllocSave_GfxColor();
 			varGfxColor = *varGfxColorPtr;
 			streamGfxColor = *outGfxColorPtr;
-			auto v1 = sub_44AF80((void**)streamGfxColorPtr, (void**)outGfxColorPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGfxColorPtr, (void**)outGfxColorPtr);
 			DB_FindStreamDataOrInsert((void*)*varGfxColorPtr, v1);
 			Save_GfxColor(true);
 		}
@@ -26125,7 +26125,7 @@ void Save_GfxDrawSurfPtr(bool atStreamStart)
 			*outGfxDrawSurfPtr = AllocSave_GfxDrawSurf();
 			varGfxDrawSurf = *varGfxDrawSurfPtr;
 			streamGfxDrawSurf = *outGfxDrawSurfPtr;
-			auto v1 = sub_44AF80((void**)streamGfxDrawSurfPtr, (void**)outGfxDrawSurfPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGfxDrawSurfPtr, (void**)outGfxDrawSurfPtr);
 			DB_FindStreamDataOrInsert((void*)*varGfxDrawSurfPtr, v1);
 			Save_GfxDrawSurf(true);
 		}
@@ -26195,7 +26195,7 @@ void Save_GfxImageLoadDefPtr(bool atStreamStart)
 			*outGfxImageLoadDefPtr = AllocSave_GfxImageLoadDef();
 			varGfxImageLoadDef = *varGfxImageLoadDefPtr;
 			streamGfxImageLoadDef = *outGfxImageLoadDefPtr;
-			auto v1 = sub_44AF80((void**)streamGfxImageLoadDefPtr, (void**)outGfxImageLoadDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGfxImageLoadDefPtr, (void**)outGfxImageLoadDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varGfxImageLoadDefPtr, v1);
 			Save_GfxImageLoadDef(true);
 		}
@@ -26227,7 +26227,7 @@ void Save_GfxImagePtr(bool atStreamStart)
 			*outGfxImagePtr = AllocSave_GfxImage();
 			varGfxImage = *varGfxImagePtr;
 			streamGfxImage = *outGfxImagePtr;
-			auto v1 = sub_44AF80((void**)streamGfxImagePtr, (void**)outGfxImagePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGfxImagePtr, (void**)outGfxImagePtr);
 			DB_FindStreamDataOrInsert((void*)*varGfxImagePtr, v1);
 			Save_GfxImage(true);
 		}
@@ -26282,7 +26282,7 @@ void Save_GfxLightDefPtr(bool atStreamStart)
 			*outGfxLightDefPtr = AllocSave_GfxLightDef();
 			varGfxLightDef = *varGfxLightDefPtr;
 			streamGfxLightDef = *outGfxLightDefPtr;
-			auto v1 = sub_44AF80((void**)streamGfxLightDefPtr, (void**)outGfxLightDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGfxLightDefPtr, (void**)outGfxLightDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varGfxLightDefPtr, v1);
 			Save_GfxLightDef(true);
 		}
@@ -26331,7 +26331,7 @@ void Save_GfxLightImagePtr(bool atStreamStart)
 			*outGfxLightImagePtr = AllocSave_GfxLightImage();
 			varGfxLightImage = *varGfxLightImagePtr;
 			streamGfxLightImage = *outGfxLightImagePtr;
-			auto v1 = sub_44AF80((void**)streamGfxLightImagePtr, (void**)outGfxLightImagePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGfxLightImagePtr, (void**)outGfxLightImagePtr);
 			DB_FindStreamDataOrInsert((void*)*varGfxLightImagePtr, v1);
 			Save_GfxLightImage(true);
 		}
@@ -26379,7 +26379,7 @@ void Save_GfxPackedVertexPtr(bool atStreamStart)
 			*outGfxPackedVertexPtr = AllocSave_GfxPackedVertex();
 			varGfxPackedVertex = *varGfxPackedVertexPtr;
 			streamGfxPackedVertex = *outGfxPackedVertexPtr;
-			auto v1 = sub_44AF80((void**)streamGfxPackedVertexPtr, (void**)outGfxPackedVertexPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGfxPackedVertexPtr, (void**)outGfxPackedVertexPtr);
 			DB_FindStreamDataOrInsert((void*)*varGfxPackedVertexPtr, v1);
 			Save_GfxPackedVertex(true);
 		}
@@ -26427,7 +26427,7 @@ void Save_GfxPixelShaderLoadDefPtr(bool atStreamStart)
 			*outGfxPixelShaderLoadDefPtr = AllocSave_GfxPixelShaderLoadDef();
 			varGfxPixelShaderLoadDef = *varGfxPixelShaderLoadDefPtr;
 			streamGfxPixelShaderLoadDef = *outGfxPixelShaderLoadDefPtr;
-			auto v1 = sub_44AF80((void**)streamGfxPixelShaderLoadDefPtr, (void**)outGfxPixelShaderLoadDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGfxPixelShaderLoadDefPtr, (void**)outGfxPixelShaderLoadDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varGfxPixelShaderLoadDefPtr, v1);
 			Save_GfxPixelShaderLoadDef(true);
 		}
@@ -26475,7 +26475,7 @@ void Save_GfxPlacementPtr(bool atStreamStart)
 			*outGfxPlacementPtr = AllocSave_GfxPlacement();
 			varGfxPlacement = *varGfxPlacementPtr;
 			streamGfxPlacement = *outGfxPlacementPtr;
-			auto v1 = sub_44AF80((void**)streamGfxPlacementPtr, (void**)outGfxPlacementPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGfxPlacementPtr, (void**)outGfxPlacementPtr);
 			DB_FindStreamDataOrInsert((void*)*varGfxPlacementPtr, v1);
 			Save_GfxPlacement(true);
 		}
@@ -26523,7 +26523,7 @@ void Save_GfxStateBitsPtr(bool atStreamStart)
 			*outGfxStateBitsPtr = AllocSave_GfxStateBits();
 			varGfxStateBits = *varGfxStateBitsPtr;
 			streamGfxStateBits = *outGfxStateBitsPtr;
-			auto v1 = sub_44AF80((void**)streamGfxStateBitsPtr, (void**)outGfxStateBitsPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGfxStateBitsPtr, (void**)outGfxStateBitsPtr);
 			DB_FindStreamDataOrInsert((void*)*varGfxStateBitsPtr, v1);
 			Save_GfxStateBits(true);
 		}
@@ -26571,7 +26571,7 @@ void Save_GfxTexturePtr(bool atStreamStart)
 			*outGfxTexturePtr = AllocSave_GfxTexture();
 			varGfxTexture = *varGfxTexturePtr;
 			streamGfxTexture = *outGfxTexturePtr;
-			auto v1 = sub_44AF80((void**)streamGfxTexturePtr, (void**)outGfxTexturePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGfxTexturePtr, (void**)outGfxTexturePtr);
 			DB_FindStreamDataOrInsert((void*)*varGfxTexturePtr, v1);
 			Save_GfxTexture(true);
 		}
@@ -26619,7 +26619,7 @@ void Save_GfxVertexShaderLoadDefPtr(bool atStreamStart)
 			*outGfxVertexShaderLoadDefPtr = AllocSave_GfxVertexShaderLoadDef();
 			varGfxVertexShaderLoadDef = *varGfxVertexShaderLoadDefPtr;
 			streamGfxVertexShaderLoadDef = *outGfxVertexShaderLoadDefPtr;
-			auto v1 = sub_44AF80((void**)streamGfxVertexShaderLoadDefPtr, (void**)outGfxVertexShaderLoadDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGfxVertexShaderLoadDefPtr, (void**)outGfxVertexShaderLoadDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varGfxVertexShaderLoadDefPtr, v1);
 			Save_GfxVertexShaderLoadDef(true);
 		}
@@ -26667,7 +26667,7 @@ void Save_GlyphPtr(bool atStreamStart)
 			*outGlyphPtr = AllocSave_Glyph();
 			varGlyph = *varGlyphPtr;
 			streamGlyph = *outGlyphPtr;
-			auto v1 = sub_44AF80((void**)streamGlyphPtr, (void**)outGlyphPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamGlyphPtr, (void**)outGlyphPtr);
 			DB_FindStreamDataOrInsert((void*)*varGlyphPtr, v1);
 			Save_Glyph(true);
 		}
@@ -26715,7 +26715,7 @@ void Save_ItemFloatExpressionPtr(bool atStreamStart)
 			*outItemFloatExpressionPtr = AllocSave_ItemFloatExpression();
 			varItemFloatExpression = *varItemFloatExpressionPtr;
 			streamItemFloatExpression = *outItemFloatExpressionPtr;
-			auto v1 = sub_44AF80((void**)streamItemFloatExpressionPtr, (void**)outItemFloatExpressionPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamItemFloatExpressionPtr, (void**)outItemFloatExpressionPtr);
 			DB_FindStreamDataOrInsert((void*)*varItemFloatExpressionPtr, v1);
 			Save_ItemFloatExpression(true);
 		}
@@ -26763,7 +26763,7 @@ void Save_ItemKeyHandlerPtr(bool atStreamStart)
 			*outItemKeyHandlerPtr = AllocSave_ItemKeyHandler();
 			varItemKeyHandler = *varItemKeyHandlerPtr;
 			streamItemKeyHandler = *outItemKeyHandlerPtr;
-			auto v1 = sub_44AF80((void**)streamItemKeyHandlerPtr, (void**)outItemKeyHandlerPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamItemKeyHandlerPtr, (void**)outItemKeyHandlerPtr);
 			DB_FindStreamDataOrInsert((void*)*varItemKeyHandlerPtr, v1);
 			Save_ItemKeyHandler(true);
 		}
@@ -26811,7 +26811,7 @@ void Save_LbColumnDefPtr(bool atStreamStart)
 			*outLbColumnDefPtr = AllocSave_LbColumnDef();
 			varLbColumnDef = *varLbColumnDefPtr;
 			streamLbColumnDef = *outLbColumnDefPtr;
-			auto v1 = sub_44AF80((void**)streamLbColumnDefPtr, (void**)outLbColumnDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamLbColumnDefPtr, (void**)outLbColumnDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varLbColumnDefPtr, v1);
 			Save_LbColumnDef(true);
 		}
@@ -26865,7 +26865,7 @@ void Save_LeaderboardDefPtr(bool atStreamStart)
 			*outLeaderboardDefPtr = AllocSave_LeaderboardDef();
 			varLeaderboardDef = *varLeaderboardDefPtr;
 			streamLeaderboardDef = *outLeaderboardDefPtr;
-			auto v1 = sub_44AF80((void**)streamLeaderboardDefPtr, (void**)outLeaderboardDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamLeaderboardDefPtr, (void**)outLeaderboardDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varLeaderboardDefPtr, v1);
 			Save_LeaderboardDef(true);
 		}
@@ -26914,7 +26914,7 @@ void Save_LoadedSoundPtr(bool atStreamStart)
 			*outLoadedSoundPtr = AllocSave_LoadedSound();
 			varLoadedSound = *varLoadedSoundPtr;
 			streamLoadedSound = *outLoadedSoundPtr;
-			auto v1 = sub_44AF80((void**)streamLoadedSoundPtr, (void**)outLoadedSoundPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamLoadedSoundPtr, (void**)outLoadedSoundPtr);
 			DB_FindStreamDataOrInsert((void*)*varLoadedSoundPtr, v1);
 			Save_LoadedSound(true);
 		}
@@ -26968,7 +26968,7 @@ void Save_LocalizeEntryPtr(bool atStreamStart)
 			*outLocalizeEntryPtr = AllocSave_LocalizeEntry();
 			varLocalizeEntry = *varLocalizeEntryPtr;
 			streamLocalizeEntry = *outLocalizeEntryPtr;
-			auto v1 = sub_44AF80((void**)streamLocalizeEntryPtr, (void**)outLocalizeEntryPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamLocalizeEntryPtr, (void**)outLocalizeEntryPtr);
 			DB_FindStreamDataOrInsert((void*)*varLocalizeEntryPtr, v1);
 			Save_LocalizeEntry(true);
 		}
@@ -27017,7 +27017,7 @@ void Save_MSSChannelMapPtr(bool atStreamStart)
 			*outMSSChannelMapPtr = AllocSave_MSSChannelMap();
 			varMSSChannelMap = *varMSSChannelMapPtr;
 			streamMSSChannelMap = *outMSSChannelMapPtr;
-			auto v1 = sub_44AF80((void**)streamMSSChannelMapPtr, (void**)outMSSChannelMapPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMSSChannelMapPtr, (void**)outMSSChannelMapPtr);
 			DB_FindStreamDataOrInsert((void*)*varMSSChannelMapPtr, v1);
 			Save_MSSChannelMap(true);
 		}
@@ -27065,7 +27065,7 @@ void Save_MSSSpeakerLevelsPtr(bool atStreamStart)
 			*outMSSSpeakerLevelsPtr = AllocSave_MSSSpeakerLevels();
 			varMSSSpeakerLevels = *varMSSSpeakerLevelsPtr;
 			streamMSSSpeakerLevels = *outMSSSpeakerLevelsPtr;
-			auto v1 = sub_44AF80((void**)streamMSSSpeakerLevelsPtr, (void**)outMSSSpeakerLevelsPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMSSSpeakerLevelsPtr, (void**)outMSSSpeakerLevelsPtr);
 			DB_FindStreamDataOrInsert((void*)*varMSSSpeakerLevelsPtr, v1);
 			Save_MSSSpeakerLevels(true);
 		}
@@ -27119,7 +27119,7 @@ void Save_MapEntsPtr(bool atStreamStart)
 			*outMapEntsPtr = AllocSave_MapEnts();
 			varMapEnts = *varMapEntsPtr;
 			streamMapEnts = *outMapEntsPtr;
-			auto v1 = sub_44AF80((void**)streamMapEntsPtr, (void**)outMapEntsPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMapEntsPtr, (void**)outMapEntsPtr);
 			DB_FindStreamDataOrInsert((void*)*varMapEntsPtr, v1);
 			Save_MapEnts(true);
 		}
@@ -27168,7 +27168,7 @@ void Save_MapTriggersPtr(bool atStreamStart)
 			*outMapTriggersPtr = AllocSave_MapTriggers();
 			varMapTriggers = *varMapTriggersPtr;
 			streamMapTriggers = *outMapTriggersPtr;
-			auto v1 = sub_44AF80((void**)streamMapTriggersPtr, (void**)outMapTriggersPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMapTriggersPtr, (void**)outMapTriggersPtr);
 			DB_FindStreamDataOrInsert((void*)*varMapTriggersPtr, v1);
 			Save_MapTriggers(true);
 		}
@@ -27221,7 +27221,7 @@ void Save_MaterialArgumentCodeConstPtr(bool atStreamStart)
 			*outMaterialArgumentCodeConstPtr = AllocSave_MaterialArgumentCodeConst();
 			varMaterialArgumentCodeConst = *varMaterialArgumentCodeConstPtr;
 			streamMaterialArgumentCodeConst = *outMaterialArgumentCodeConstPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialArgumentCodeConstPtr, (void**)outMaterialArgumentCodeConstPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialArgumentCodeConstPtr, (void**)outMaterialArgumentCodeConstPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialArgumentCodeConstPtr, v1);
 			Save_MaterialArgumentCodeConst(true);
 		}
@@ -27269,7 +27269,7 @@ void Save_MaterialArgumentDefPtr(bool atStreamStart)
 			*outMaterialArgumentDefPtr = AllocSave_MaterialArgumentDef();
 			varMaterialArgumentDef = *varMaterialArgumentDefPtr;
 			streamMaterialArgumentDef = *outMaterialArgumentDefPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialArgumentDefPtr, (void**)outMaterialArgumentDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialArgumentDefPtr, (void**)outMaterialArgumentDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialArgumentDefPtr, v1);
 			Save_MaterialArgumentDef(true);
 		}
@@ -27334,7 +27334,7 @@ void Save_MaterialConstantDefPtr(bool atStreamStart)
 			*outMaterialConstantDefPtr = AllocSave_MaterialConstantDef();
 			varMaterialConstantDef = *varMaterialConstantDefPtr;
 			streamMaterialConstantDef = *outMaterialConstantDefPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialConstantDefPtr, (void**)outMaterialConstantDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialConstantDefPtr, (void**)outMaterialConstantDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialConstantDefPtr, v1);
 			Save_MaterialConstantDef(true);
 		}
@@ -27382,7 +27382,7 @@ void Save_MaterialInfoPtr(bool atStreamStart)
 			*outMaterialInfoPtr = AllocSave_MaterialInfo();
 			varMaterialInfo = *varMaterialInfoPtr;
 			streamMaterialInfo = *outMaterialInfoPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialInfoPtr, (void**)outMaterialInfoPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialInfoPtr, (void**)outMaterialInfoPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialInfoPtr, v1);
 			Save_MaterialInfo(true);
 		}
@@ -27430,7 +27430,7 @@ void Save_MaterialPassPtr(bool atStreamStart)
 			*outMaterialPassPtr = AllocSave_MaterialPass();
 			varMaterialPass = *varMaterialPassPtr;
 			streamMaterialPass = *outMaterialPassPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialPassPtr, (void**)outMaterialPassPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialPassPtr, (void**)outMaterialPassPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialPassPtr, v1);
 			Save_MaterialPass(true);
 		}
@@ -27500,7 +27500,7 @@ void Save_MaterialPixelShaderProgramPtr(bool atStreamStart)
 			*outMaterialPixelShaderProgramPtr = AllocSave_MaterialPixelShaderProgram();
 			varMaterialPixelShaderProgram = *varMaterialPixelShaderProgramPtr;
 			streamMaterialPixelShaderProgram = *outMaterialPixelShaderProgramPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialPixelShaderProgramPtr, (void**)outMaterialPixelShaderProgramPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialPixelShaderProgramPtr, (void**)outMaterialPixelShaderProgramPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialPixelShaderProgramPtr, v1);
 			Save_MaterialPixelShaderProgram(true);
 		}
@@ -27532,7 +27532,7 @@ void Save_MaterialPixelShaderPtr(bool atStreamStart)
 			*outMaterialPixelShaderPtr = AllocSave_MaterialPixelShader();
 			varMaterialPixelShader = *varMaterialPixelShaderPtr;
 			streamMaterialPixelShader = *outMaterialPixelShaderPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialPixelShaderPtr, (void**)outMaterialPixelShaderPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialPixelShaderPtr, (void**)outMaterialPixelShaderPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialPixelShaderPtr, v1);
 			Save_MaterialPixelShader(true);
 		}
@@ -27565,7 +27565,7 @@ void Save_MaterialPtr(bool atStreamStart)
 			*outMaterialPtr = AllocSave_Material();
 			varMaterial = *varMaterialPtr;
 			streamMaterial = *outMaterialPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialPtr, (void**)outMaterialPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialPtr, (void**)outMaterialPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialPtr, v1);
 			Save_Material(true);
 		}
@@ -27614,7 +27614,7 @@ void Save_MaterialShaderArgumentPtr(bool atStreamStart)
 			*outMaterialShaderArgumentPtr = AllocSave_MaterialShaderArgument();
 			varMaterialShaderArgument = *varMaterialShaderArgumentPtr;
 			streamMaterialShaderArgument = *outMaterialShaderArgumentPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialShaderArgumentPtr, (void**)outMaterialShaderArgumentPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialShaderArgumentPtr, (void**)outMaterialShaderArgumentPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialShaderArgumentPtr, v1);
 			Save_MaterialShaderArgument(true);
 		}
@@ -27662,7 +27662,7 @@ void Save_MaterialStreamRoutingPtr(bool atStreamStart)
 			*outMaterialStreamRoutingPtr = AllocSave_MaterialStreamRouting();
 			varMaterialStreamRouting = *varMaterialStreamRoutingPtr;
 			streamMaterialStreamRouting = *outMaterialStreamRoutingPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialStreamRoutingPtr, (void**)outMaterialStreamRoutingPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialStreamRoutingPtr, (void**)outMaterialStreamRoutingPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialStreamRoutingPtr, v1);
 			Save_MaterialStreamRouting(true);
 		}
@@ -27710,7 +27710,7 @@ void Save_MaterialTechniquePtr(bool atStreamStart)
 			*outMaterialTechniquePtr = AllocSave_MaterialTechnique();
 			varMaterialTechnique = *varMaterialTechniquePtr;
 			streamMaterialTechnique = *outMaterialTechniquePtr;
-			auto v1 = sub_44AF80((void**)streamMaterialTechniquePtr, (void**)outMaterialTechniquePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialTechniquePtr, (void**)outMaterialTechniquePtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialTechniquePtr, v1);
 			Save_MaterialTechnique(true);
 		}
@@ -27764,7 +27764,7 @@ void Save_MaterialTechniqueSetPtr(bool atStreamStart)
 			*outMaterialTechniqueSetPtr = AllocSave_MaterialTechniqueSet();
 			varMaterialTechniqueSet = *varMaterialTechniqueSetPtr;
 			streamMaterialTechniqueSet = *outMaterialTechniqueSetPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialTechniqueSetPtr, (void**)outMaterialTechniqueSetPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialTechniqueSetPtr, (void**)outMaterialTechniqueSetPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialTechniqueSetPtr, v1);
 			Save_MaterialTechniqueSet(true);
 		}
@@ -27830,7 +27830,7 @@ void Save_MaterialTextureDefInfoPtr(bool atStreamStart)
 			*outMaterialTextureDefInfoPtr = AllocSave_MaterialTextureDefInfo();
 			varMaterialTextureDefInfo = *varMaterialTextureDefInfoPtr;
 			streamMaterialTextureDefInfo = *outMaterialTextureDefInfoPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialTextureDefInfoPtr, (void**)outMaterialTextureDefInfoPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialTextureDefInfoPtr, (void**)outMaterialTextureDefInfoPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialTextureDefInfoPtr, v1);
 			Save_MaterialTextureDefInfo(true);
 		}
@@ -27861,7 +27861,7 @@ void Save_MaterialTextureDefPtr(bool atStreamStart)
 			*outMaterialTextureDefPtr = AllocSave_MaterialTextureDef();
 			varMaterialTextureDef = *varMaterialTextureDefPtr;
 			streamMaterialTextureDef = *outMaterialTextureDefPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialTextureDefPtr, (void**)outMaterialTextureDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialTextureDefPtr, (void**)outMaterialTextureDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialTextureDefPtr, v1);
 			Save_MaterialTextureDef(true);
 		}
@@ -27915,7 +27915,7 @@ void Save_MaterialVertexDeclarationPtr(bool atStreamStart)
 			*outMaterialVertexDeclarationPtr = AllocSave_MaterialVertexDeclaration();
 			varMaterialVertexDeclaration = *varMaterialVertexDeclarationPtr;
 			streamMaterialVertexDeclaration = *outMaterialVertexDeclarationPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialVertexDeclarationPtr, (void**)outMaterialVertexDeclarationPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialVertexDeclarationPtr, (void**)outMaterialVertexDeclarationPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialVertexDeclarationPtr, v1);
 			Save_MaterialVertexDeclaration(true);
 		}
@@ -27986,7 +27986,7 @@ void Save_MaterialVertexShaderProgramPtr(bool atStreamStart)
 			*outMaterialVertexShaderProgramPtr = AllocSave_MaterialVertexShaderProgram();
 			varMaterialVertexShaderProgram = *varMaterialVertexShaderProgramPtr;
 			streamMaterialVertexShaderProgram = *outMaterialVertexShaderProgramPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialVertexShaderProgramPtr, (void**)outMaterialVertexShaderProgramPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialVertexShaderProgramPtr, (void**)outMaterialVertexShaderProgramPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialVertexShaderProgramPtr, v1);
 			Save_MaterialVertexShaderProgram(true);
 		}
@@ -28018,7 +28018,7 @@ void Save_MaterialVertexShaderPtr(bool atStreamStart)
 			*outMaterialVertexShaderPtr = AllocSave_MaterialVertexShader();
 			varMaterialVertexShader = *varMaterialVertexShaderPtr;
 			streamMaterialVertexShader = *outMaterialVertexShaderPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialVertexShaderPtr, (void**)outMaterialVertexShaderPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialVertexShaderPtr, (void**)outMaterialVertexShaderPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialVertexShaderPtr, v1);
 			Save_MaterialVertexShader(true);
 		}
@@ -28067,7 +28067,7 @@ void Save_MaterialVertexStreamRoutingPtr(bool atStreamStart)
 			*outMaterialVertexStreamRoutingPtr = AllocSave_MaterialVertexStreamRouting();
 			varMaterialVertexStreamRouting = *varMaterialVertexStreamRoutingPtr;
 			streamMaterialVertexStreamRouting = *outMaterialVertexStreamRoutingPtr;
-			auto v1 = sub_44AF80((void**)streamMaterialVertexStreamRoutingPtr, (void**)outMaterialVertexStreamRoutingPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMaterialVertexStreamRoutingPtr, (void**)outMaterialVertexStreamRoutingPtr);
 			DB_FindStreamDataOrInsert((void*)*varMaterialVertexStreamRoutingPtr, v1);
 			Save_MaterialVertexStreamRouting(true);
 		}
@@ -28115,7 +28115,7 @@ void Save_MenuEventHandlerPtr(bool atStreamStart)
 			*outMenuEventHandlerPtr = AllocSave_MenuEventHandler();
 			varMenuEventHandler = *varMenuEventHandlerPtr;
 			streamMenuEventHandler = *outMenuEventHandlerPtr;
-			auto v1 = sub_44AF80((void**)streamMenuEventHandlerPtr, (void**)outMenuEventHandlerPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMenuEventHandlerPtr, (void**)outMenuEventHandlerPtr);
 			DB_FindStreamDataOrInsert((void*)*varMenuEventHandlerPtr, v1);
 			Save_MenuEventHandler(true);
 		}
@@ -28163,7 +28163,7 @@ void Save_MenuEventHandlerSetPtr(bool atStreamStart)
 			*outMenuEventHandlerSetPtr = AllocSave_MenuEventHandlerSet();
 			varMenuEventHandlerSet = *varMenuEventHandlerSetPtr;
 			streamMenuEventHandlerSet = *outMenuEventHandlerSetPtr;
-			auto v1 = sub_44AF80((void**)streamMenuEventHandlerSetPtr, (void**)outMenuEventHandlerSetPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMenuEventHandlerSetPtr, (void**)outMenuEventHandlerSetPtr);
 			DB_FindStreamDataOrInsert((void*)*varMenuEventHandlerSetPtr, v1);
 			Save_MenuEventHandlerSet(true);
 		}
@@ -28217,7 +28217,7 @@ void Save_MenuListPtr(bool atStreamStart)
 			*outMenuListPtr = AllocSave_MenuList();
 			varMenuList = *varMenuListPtr;
 			streamMenuList = *outMenuListPtr;
-			auto v1 = sub_44AF80((void**)streamMenuListPtr, (void**)outMenuListPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMenuListPtr, (void**)outMenuListPtr);
 			DB_FindStreamDataOrInsert((void*)*varMenuListPtr, v1);
 			Save_MenuList(true);
 		}
@@ -28266,7 +28266,7 @@ void Save_MssSoundPtr(bool atStreamStart)
 			*outMssSoundPtr = AllocSave_MssSound();
 			varMssSound = *varMssSoundPtr;
 			streamMssSound = *outMssSoundPtr;
-			auto v1 = sub_44AF80((void**)streamMssSoundPtr, (void**)outMssSoundPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamMssSoundPtr, (void**)outMssSoundPtr);
 			DB_FindStreamDataOrInsert((void*)*varMssSoundPtr, v1);
 			Save_MssSound(true);
 		}
@@ -28314,7 +28314,7 @@ void Save_OperandPtr(bool atStreamStart)
 			*outOperandPtr = AllocSave_Operand();
 			varOperand = *varOperandPtr;
 			streamOperand = *outOperandPtr;
-			auto v1 = sub_44AF80((void**)streamOperandPtr, (void**)outOperandPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamOperandPtr, (void**)outOperandPtr);
 			DB_FindStreamDataOrInsert((void*)*varOperandPtr, v1);
 			Save_Operand(true);
 		}
@@ -28362,7 +28362,7 @@ void Save_PackedTexCoordsPtr(bool atStreamStart)
 			*outPackedTexCoordsPtr = AllocSave_PackedTexCoords();
 			varPackedTexCoords = *varPackedTexCoordsPtr;
 			streamPackedTexCoords = *outPackedTexCoordsPtr;
-			auto v1 = sub_44AF80((void**)streamPackedTexCoordsPtr, (void**)outPackedTexCoordsPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamPackedTexCoordsPtr, (void**)outPackedTexCoordsPtr);
 			DB_FindStreamDataOrInsert((void*)*varPackedTexCoordsPtr, v1);
 			Save_PackedTexCoords(true);
 		}
@@ -28410,7 +28410,7 @@ void Save_PackedUnitVecPtr(bool atStreamStart)
 			*outPackedUnitVecPtr = AllocSave_PackedUnitVec();
 			varPackedUnitVec = *varPackedUnitVecPtr;
 			streamPackedUnitVec = *outPackedUnitVecPtr;
-			auto v1 = sub_44AF80((void**)streamPackedUnitVecPtr, (void**)outPackedUnitVecPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamPackedUnitVecPtr, (void**)outPackedUnitVecPtr);
 			DB_FindStreamDataOrInsert((void*)*varPackedUnitVecPtr, v1);
 			Save_PackedUnitVec(true);
 		}
@@ -28464,7 +28464,7 @@ void Save_PhysCollmapPtr(bool atStreamStart)
 			*outPhysCollmapPtr = AllocSave_PhysCollmap();
 			varPhysCollmap = *varPhysCollmapPtr;
 			streamPhysCollmap = *outPhysCollmapPtr;
-			auto v1 = sub_44AF80((void**)streamPhysCollmapPtr, (void**)outPhysCollmapPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamPhysCollmapPtr, (void**)outPhysCollmapPtr);
 			DB_FindStreamDataOrInsert((void*)*varPhysCollmapPtr, v1);
 			Save_PhysCollmap(true);
 		}
@@ -28513,7 +28513,7 @@ void Save_PhysGeomInfoPtr(bool atStreamStart)
 			*outPhysGeomInfoPtr = AllocSave_PhysGeomInfo();
 			varPhysGeomInfo = *varPhysGeomInfoPtr;
 			streamPhysGeomInfo = *outPhysGeomInfoPtr;
-			auto v1 = sub_44AF80((void**)streamPhysGeomInfoPtr, (void**)outPhysGeomInfoPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamPhysGeomInfoPtr, (void**)outPhysGeomInfoPtr);
 			DB_FindStreamDataOrInsert((void*)*varPhysGeomInfoPtr, v1);
 			Save_PhysGeomInfo(true);
 		}
@@ -28561,7 +28561,7 @@ void Save_PhysMassPtr(bool atStreamStart)
 			*outPhysMassPtr = AllocSave_PhysMass();
 			varPhysMass = *varPhysMassPtr;
 			streamPhysMass = *outPhysMassPtr;
-			auto v1 = sub_44AF80((void**)streamPhysMassPtr, (void**)outPhysMassPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamPhysMassPtr, (void**)outPhysMassPtr);
 			DB_FindStreamDataOrInsert((void*)*varPhysMassPtr, v1);
 			Save_PhysMass(true);
 		}
@@ -28615,7 +28615,7 @@ void Save_PhysPresetPtr(bool atStreamStart)
 			*outPhysPresetPtr = AllocSave_PhysPreset();
 			varPhysPreset = *varPhysPresetPtr;
 			streamPhysPreset = *outPhysPresetPtr;
-			auto v1 = sub_44AF80((void**)streamPhysPresetPtr, (void**)outPhysPresetPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamPhysPresetPtr, (void**)outPhysPresetPtr);
 			DB_FindStreamDataOrInsert((void*)*varPhysPresetPtr, v1);
 			Save_PhysPreset(true);
 		}
@@ -28664,7 +28664,7 @@ void Save_PicmipPtr(bool atStreamStart)
 			*outPicmipPtr = AllocSave_Picmip();
 			varPicmip = *varPicmipPtr;
 			streamPicmip = *outPicmipPtr;
-			auto v1 = sub_44AF80((void**)streamPicmipPtr, (void**)outPicmipPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamPicmipPtr, (void**)outPicmipPtr);
 			DB_FindStreamDataOrInsert((void*)*varPicmipPtr, v1);
 			Save_Picmip(true);
 		}
@@ -28718,7 +28718,7 @@ void Save_RawFilePtr(bool atStreamStart)
 			*outRawFilePtr = AllocSave_RawFile();
 			varRawFile = *varRawFilePtr;
 			streamRawFile = *outRawFilePtr;
-			auto v1 = sub_44AF80((void**)streamRawFilePtr, (void**)outRawFilePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamRawFilePtr, (void**)outRawFilePtr);
 			DB_FindStreamDataOrInsert((void*)*varRawFilePtr, v1);
 			Save_RawFile(true);
 		}
@@ -28767,7 +28767,7 @@ void Save_SModelAabbNodePtr(bool atStreamStart)
 			*outSModelAabbNodePtr = AllocSave_SModelAabbNode();
 			varSModelAabbNode = *varSModelAabbNodePtr;
 			streamSModelAabbNode = *outSModelAabbNodePtr;
-			auto v1 = sub_44AF80((void**)streamSModelAabbNodePtr, (void**)outSModelAabbNodePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamSModelAabbNodePtr, (void**)outSModelAabbNodePtr);
 			DB_FindStreamDataOrInsert((void*)*varSModelAabbNodePtr, v1);
 			Save_SModelAabbNode(true);
 		}
@@ -28815,7 +28815,7 @@ void Save_ScriptStringListPtr(bool atStreamStart)
 			*outScriptStringListPtr = AllocSave_ScriptStringList();
 			varScriptStringList = *varScriptStringListPtr;
 			streamScriptStringList = *outScriptStringListPtr;
-			auto v1 = sub_44AF80((void**)streamScriptStringListPtr, (void**)outScriptStringListPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamScriptStringListPtr, (void**)outScriptStringListPtr);
 			DB_FindStreamDataOrInsert((void*)*varScriptStringListPtr, v1);
 			Save_ScriptStringList(true);
 		}
@@ -28863,7 +28863,7 @@ void Save_SetLocalVarDataPtr(bool atStreamStart)
 			*outSetLocalVarDataPtr = AllocSave_SetLocalVarData();
 			varSetLocalVarData = *varSetLocalVarDataPtr;
 			streamSetLocalVarData = *outSetLocalVarDataPtr;
-			auto v1 = sub_44AF80((void**)streamSetLocalVarDataPtr, (void**)outSetLocalVarDataPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamSetLocalVarDataPtr, (void**)outSetLocalVarDataPtr);
 			DB_FindStreamDataOrInsert((void*)*varSetLocalVarDataPtr, v1);
 			Save_SetLocalVarData(true);
 		}
@@ -28917,7 +28917,7 @@ void Save_SndCurvePtr(bool atStreamStart)
 			*outSndCurvePtr = AllocSave_SndCurve();
 			varSndCurve = *varSndCurvePtr;
 			streamSndCurve = *outSndCurvePtr;
-			auto v1 = sub_44AF80((void**)streamSndCurvePtr, (void**)outSndCurvePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamSndCurvePtr, (void**)outSndCurvePtr);
 			DB_FindStreamDataOrInsert((void*)*varSndCurvePtr, v1);
 			Save_SndCurve(true);
 		}
@@ -28966,7 +28966,7 @@ void Save_SndDriverGlobalsPtr(bool atStreamStart)
 			*outSndDriverGlobalsPtr = AllocSave_SndDriverGlobals();
 			varSndDriverGlobals = *varSndDriverGlobalsPtr;
 			streamSndDriverGlobals = *outSndDriverGlobalsPtr;
-			auto v1 = sub_44AF80((void**)streamSndDriverGlobalsPtr, (void**)outSndDriverGlobalsPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamSndDriverGlobalsPtr, (void**)outSndDriverGlobalsPtr);
 			DB_FindStreamDataOrInsert((void*)*varSndDriverGlobalsPtr, v1);
 			Save_SndDriverGlobals(true);
 		}
@@ -29014,7 +29014,7 @@ void Save_SoundFilePtr(bool atStreamStart)
 			*outSoundFilePtr = AllocSave_SoundFile();
 			varSoundFile = *varSoundFilePtr;
 			streamSoundFile = *outSoundFilePtr;
-			auto v1 = sub_44AF80((void**)streamSoundFilePtr, (void**)outSoundFilePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamSoundFilePtr, (void**)outSoundFilePtr);
 			DB_FindStreamDataOrInsert((void*)*varSoundFilePtr, v1);
 			Save_SoundFile(true);
 		}
@@ -29062,7 +29062,7 @@ void Save_SoundFileRefPtr(bool atStreamStart)
 			*outSoundFileRefPtr = AllocSave_SoundFileRef();
 			varSoundFileRef = *varSoundFileRefPtr;
 			streamSoundFileRef = *outSoundFileRefPtr;
-			auto v1 = sub_44AF80((void**)streamSoundFileRefPtr, (void**)outSoundFileRefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamSoundFileRefPtr, (void**)outSoundFileRefPtr);
 			DB_FindStreamDataOrInsert((void*)*varSoundFileRefPtr, v1);
 			Save_SoundFileRef(true);
 		}
@@ -29110,7 +29110,7 @@ void Save_SpeakerMapPtr(bool atStreamStart)
 			*outSpeakerMapPtr = AllocSave_SpeakerMap();
 			varSpeakerMap = *varSpeakerMapPtr;
 			streamSpeakerMap = *outSpeakerMapPtr;
-			auto v1 = sub_44AF80((void**)streamSpeakerMapPtr, (void**)outSpeakerMapPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamSpeakerMapPtr, (void**)outSpeakerMapPtr);
 			DB_FindStreamDataOrInsert((void*)*varSpeakerMapPtr, v1);
 			Save_SpeakerMap(true);
 		}
@@ -29158,7 +29158,7 @@ void Save_StagePtr(bool atStreamStart)
 			*outStagePtr = AllocSave_Stage();
 			varStage = *varStagePtr;
 			streamStage = *outStagePtr;
-			auto v1 = sub_44AF80((void**)streamStagePtr, (void**)outStagePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStagePtr, (void**)outStagePtr);
 			DB_FindStreamDataOrInsert((void*)*varStagePtr, v1);
 			Save_Stage(true);
 		}
@@ -29206,7 +29206,7 @@ void Save_Statement_sPtr(bool atStreamStart)
 			*outStatement_sPtr = AllocSave_Statement_s();
 			varStatement_s = *varStatement_sPtr;
 			streamStatement_s = *outStatement_sPtr;
-			auto v1 = sub_44AF80((void**)streamStatement_sPtr, (void**)outStatement_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStatement_sPtr, (void**)outStatement_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varStatement_sPtr, v1);
 			Save_Statement_s(true);
 		}
@@ -29271,7 +29271,7 @@ void Save_StaticDvarListPtr(bool atStreamStart)
 			*outStaticDvarListPtr = AllocSave_StaticDvarList();
 			varStaticDvarList = *varStaticDvarListPtr;
 			streamStaticDvarList = *outStaticDvarListPtr;
-			auto v1 = sub_44AF80((void**)streamStaticDvarListPtr, (void**)outStaticDvarListPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStaticDvarListPtr, (void**)outStaticDvarListPtr);
 			DB_FindStreamDataOrInsert((void*)*varStaticDvarListPtr, v1);
 			Save_StaticDvarList(true);
 		}
@@ -29302,7 +29302,7 @@ void Save_StaticDvarPtr(bool atStreamStart)
 			*outStaticDvarPtr = AllocSave_StaticDvar();
 			varStaticDvar = *varStaticDvarPtr;
 			streamStaticDvar = *outStaticDvarPtr;
-			auto v1 = sub_44AF80((void**)streamStaticDvarPtr, (void**)outStaticDvarPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStaticDvarPtr, (void**)outStaticDvarPtr);
 			DB_FindStreamDataOrInsert((void*)*varStaticDvarPtr, v1);
 			Save_StaticDvar(true);
 		}
@@ -29350,7 +29350,7 @@ void Save_StreamFileInfoPtr(bool atStreamStart)
 			*outStreamFileInfoPtr = AllocSave_StreamFileInfo();
 			varStreamFileInfo = *varStreamFileInfoPtr;
 			streamStreamFileInfo = *outStreamFileInfoPtr;
-			auto v1 = sub_44AF80((void**)streamStreamFileInfoPtr, (void**)outStreamFileInfoPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStreamFileInfoPtr, (void**)outStreamFileInfoPtr);
 			DB_FindStreamDataOrInsert((void*)*varStreamFileInfoPtr, v1);
 			Save_StreamFileInfo(true);
 		}
@@ -29398,7 +29398,7 @@ void Save_StreamFileNamePtr(bool atStreamStart)
 			*outStreamFileNamePtr = AllocSave_StreamFileName();
 			varStreamFileName = *varStreamFileNamePtr;
 			streamStreamFileName = *outStreamFileNamePtr;
-			auto v1 = sub_44AF80((void**)streamStreamFileNamePtr, (void**)outStreamFileNamePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStreamFileNamePtr, (void**)outStreamFileNamePtr);
 			DB_FindStreamDataOrInsert((void*)*varStreamFileNamePtr, v1);
 			Save_StreamFileName(true);
 		}
@@ -29446,7 +29446,7 @@ void Save_StreamFileNameRawPtr(bool atStreamStart)
 			*outStreamFileNameRawPtr = AllocSave_StreamFileNameRaw();
 			varStreamFileNameRaw = *varStreamFileNameRawPtr;
 			streamStreamFileNameRaw = *outStreamFileNameRawPtr;
-			auto v1 = sub_44AF80((void**)streamStreamFileNameRawPtr, (void**)outStreamFileNameRawPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStreamFileNameRawPtr, (void**)outStreamFileNameRawPtr);
 			DB_FindStreamDataOrInsert((void*)*varStreamFileNameRawPtr, v1);
 			Save_StreamFileNameRaw(true);
 		}
@@ -29494,7 +29494,7 @@ void Save_StreamedSoundPtr(bool atStreamStart)
 			*outStreamedSoundPtr = AllocSave_StreamedSound();
 			varStreamedSound = *varStreamedSoundPtr;
 			streamStreamedSound = *outStreamedSoundPtr;
-			auto v1 = sub_44AF80((void**)streamStreamedSoundPtr, (void**)outStreamedSoundPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStreamedSoundPtr, (void**)outStreamedSoundPtr);
 			DB_FindStreamDataOrInsert((void*)*varStreamedSoundPtr, v1);
 			Save_StreamedSound(true);
 		}
@@ -29542,7 +29542,7 @@ void Save_StringListPtr(bool atStreamStart)
 			*outStringListPtr = AllocSave_StringList();
 			varStringList = *varStringListPtr;
 			streamStringList = *outStringListPtr;
-			auto v1 = sub_44AF80((void**)streamStringListPtr, (void**)outStringListPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStringListPtr, (void**)outStringListPtr);
 			DB_FindStreamDataOrInsert((void*)*varStringListPtr, v1);
 			Save_StringList(true);
 		}
@@ -29612,7 +29612,7 @@ void Save_StringTableCellPtr(bool atStreamStart)
 			*outStringTableCellPtr = AllocSave_StringTableCell();
 			varStringTableCell = *varStringTableCellPtr;
 			streamStringTableCell = *outStringTableCellPtr;
-			auto v1 = sub_44AF80((void**)streamStringTableCellPtr, (void**)outStringTableCellPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStringTableCellPtr, (void**)outStringTableCellPtr);
 			DB_FindStreamDataOrInsert((void*)*varStringTableCellPtr, v1);
 			Save_StringTableCell(true);
 		}
@@ -29644,7 +29644,7 @@ void Save_StringTablePtr(bool atStreamStart)
 			*outStringTablePtr = AllocSave_StringTable();
 			varStringTable = *varStringTablePtr;
 			streamStringTable = *outStringTablePtr;
-			auto v1 = sub_44AF80((void**)streamStringTablePtr, (void**)outStringTablePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStringTablePtr, (void**)outStringTablePtr);
 			DB_FindStreamDataOrInsert((void*)*varStringTablePtr, v1);
 			Save_StringTable(true);
 		}
@@ -29693,7 +29693,7 @@ void Save_StructuredDataDefPtr(bool atStreamStart)
 			*outStructuredDataDefPtr = AllocSave_StructuredDataDef();
 			varStructuredDataDef = *varStructuredDataDefPtr;
 			streamStructuredDataDef = *outStructuredDataDefPtr;
-			auto v1 = sub_44AF80((void**)streamStructuredDataDefPtr, (void**)outStructuredDataDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStructuredDataDefPtr, (void**)outStructuredDataDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varStructuredDataDefPtr, v1);
 			Save_StructuredDataDef(true);
 		}
@@ -29747,7 +29747,7 @@ void Save_StructuredDataDefSetPtr(bool atStreamStart)
 			*outStructuredDataDefSetPtr = AllocSave_StructuredDataDefSet();
 			varStructuredDataDefSet = *varStructuredDataDefSetPtr;
 			streamStructuredDataDefSet = *outStructuredDataDefSetPtr;
-			auto v1 = sub_44AF80((void**)streamStructuredDataDefSetPtr, (void**)outStructuredDataDefSetPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStructuredDataDefSetPtr, (void**)outStructuredDataDefSetPtr);
 			DB_FindStreamDataOrInsert((void*)*varStructuredDataDefSetPtr, v1);
 			Save_StructuredDataDefSet(true);
 		}
@@ -29813,7 +29813,7 @@ void Save_StructuredDataEnumEntryPtr(bool atStreamStart)
 			*outStructuredDataEnumEntryPtr = AllocSave_StructuredDataEnumEntry();
 			varStructuredDataEnumEntry = *varStructuredDataEnumEntryPtr;
 			streamStructuredDataEnumEntry = *outStructuredDataEnumEntryPtr;
-			auto v1 = sub_44AF80((void**)streamStructuredDataEnumEntryPtr, (void**)outStructuredDataEnumEntryPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStructuredDataEnumEntryPtr, (void**)outStructuredDataEnumEntryPtr);
 			DB_FindStreamDataOrInsert((void*)*varStructuredDataEnumEntryPtr, v1);
 			Save_StructuredDataEnumEntry(true);
 		}
@@ -29844,7 +29844,7 @@ void Save_StructuredDataEnumPtr(bool atStreamStart)
 			*outStructuredDataEnumPtr = AllocSave_StructuredDataEnum();
 			varStructuredDataEnum = *varStructuredDataEnumPtr;
 			streamStructuredDataEnum = *outStructuredDataEnumPtr;
-			auto v1 = sub_44AF80((void**)streamStructuredDataEnumPtr, (void**)outStructuredDataEnumPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStructuredDataEnumPtr, (void**)outStructuredDataEnumPtr);
 			DB_FindStreamDataOrInsert((void*)*varStructuredDataEnumPtr, v1);
 			Save_StructuredDataEnum(true);
 		}
@@ -29892,7 +29892,7 @@ void Save_StructuredDataEnumedArrayPtr(bool atStreamStart)
 			*outStructuredDataEnumedArrayPtr = AllocSave_StructuredDataEnumedArray();
 			varStructuredDataEnumedArray = *varStructuredDataEnumedArrayPtr;
 			streamStructuredDataEnumedArray = *outStructuredDataEnumedArrayPtr;
-			auto v1 = sub_44AF80((void**)streamStructuredDataEnumedArrayPtr, (void**)outStructuredDataEnumedArrayPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStructuredDataEnumedArrayPtr, (void**)outStructuredDataEnumedArrayPtr);
 			DB_FindStreamDataOrInsert((void*)*varStructuredDataEnumedArrayPtr, v1);
 			Save_StructuredDataEnumedArray(true);
 		}
@@ -29940,7 +29940,7 @@ void Save_StructuredDataIndexedArrayPtr(bool atStreamStart)
 			*outStructuredDataIndexedArrayPtr = AllocSave_StructuredDataIndexedArray();
 			varStructuredDataIndexedArray = *varStructuredDataIndexedArrayPtr;
 			streamStructuredDataIndexedArray = *outStructuredDataIndexedArrayPtr;
-			auto v1 = sub_44AF80((void**)streamStructuredDataIndexedArrayPtr, (void**)outStructuredDataIndexedArrayPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStructuredDataIndexedArrayPtr, (void**)outStructuredDataIndexedArrayPtr);
 			DB_FindStreamDataOrInsert((void*)*varStructuredDataIndexedArrayPtr, v1);
 			Save_StructuredDataIndexedArray(true);
 		}
@@ -30005,7 +30005,7 @@ void Save_StructuredDataStructPropertyPtr(bool atStreamStart)
 			*outStructuredDataStructPropertyPtr = AllocSave_StructuredDataStructProperty();
 			varStructuredDataStructProperty = *varStructuredDataStructPropertyPtr;
 			streamStructuredDataStructProperty = *outStructuredDataStructPropertyPtr;
-			auto v1 = sub_44AF80((void**)streamStructuredDataStructPropertyPtr, (void**)outStructuredDataStructPropertyPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStructuredDataStructPropertyPtr, (void**)outStructuredDataStructPropertyPtr);
 			DB_FindStreamDataOrInsert((void*)*varStructuredDataStructPropertyPtr, v1);
 			Save_StructuredDataStructProperty(true);
 		}
@@ -30036,7 +30036,7 @@ void Save_StructuredDataStructPtr(bool atStreamStart)
 			*outStructuredDataStructPtr = AllocSave_StructuredDataStruct();
 			varStructuredDataStruct = *varStructuredDataStructPtr;
 			streamStructuredDataStruct = *outStructuredDataStructPtr;
-			auto v1 = sub_44AF80((void**)streamStructuredDataStructPtr, (void**)outStructuredDataStructPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStructuredDataStructPtr, (void**)outStructuredDataStructPtr);
 			DB_FindStreamDataOrInsert((void*)*varStructuredDataStructPtr, v1);
 			Save_StructuredDataStruct(true);
 		}
@@ -30084,7 +30084,7 @@ void Save_StructuredDataTypePtr(bool atStreamStart)
 			*outStructuredDataTypePtr = AllocSave_StructuredDataType();
 			varStructuredDataType = *varStructuredDataTypePtr;
 			streamStructuredDataType = *outStructuredDataTypePtr;
-			auto v1 = sub_44AF80((void**)streamStructuredDataTypePtr, (void**)outStructuredDataTypePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStructuredDataTypePtr, (void**)outStructuredDataTypePtr);
 			DB_FindStreamDataOrInsert((void*)*varStructuredDataTypePtr, v1);
 			Save_StructuredDataType(true);
 		}
@@ -30132,7 +30132,7 @@ void Save_StructuredDataTypeUnionPtr(bool atStreamStart)
 			*outStructuredDataTypeUnionPtr = AllocSave_StructuredDataTypeUnion();
 			varStructuredDataTypeUnion = *varStructuredDataTypeUnionPtr;
 			streamStructuredDataTypeUnion = *outStructuredDataTypeUnionPtr;
-			auto v1 = sub_44AF80((void**)streamStructuredDataTypeUnionPtr, (void**)outStructuredDataTypeUnionPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamStructuredDataTypeUnionPtr, (void**)outStructuredDataTypeUnionPtr);
 			DB_FindStreamDataOrInsert((void*)*varStructuredDataTypeUnionPtr, v1);
 			Save_StructuredDataTypeUnion(true);
 		}
@@ -30180,7 +30180,7 @@ void Save_TempStringPtr(bool atStreamStart)
 			*outTempStringPtr = AllocSave_TempString();
 			varTempString = *varTempStringPtr;
 			streamTempString = *outTempStringPtr;
-			auto v1 = sub_44AF80((void**)streamTempStringPtr, (void**)outTempStringPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamTempStringPtr, (void**)outTempStringPtr);
 			DB_FindStreamDataOrInsert((void*)*varTempStringPtr, v1);
 			Save_TempString(true);
 		}
@@ -30234,7 +30234,7 @@ void Save_TracerDefPtr(bool atStreamStart)
 			*outTracerDefPtr = AllocSave_TracerDef();
 			varTracerDef = *varTracerDefPtr;
 			streamTracerDef = *outTracerDefPtr;
-			auto v1 = sub_44AF80((void**)streamTracerDefPtr, (void**)outTracerDefPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamTracerDefPtr, (void**)outTracerDefPtr);
 			DB_FindStreamDataOrInsert((void*)*varTracerDefPtr, v1);
 			Save_TracerDef(true);
 		}
@@ -30283,7 +30283,7 @@ void Save_TriIndicePtr(bool atStreamStart)
 			*outTriIndicePtr = AllocSave_TriIndice();
 			varTriIndice = *varTriIndicePtr;
 			streamTriIndice = *outTriIndicePtr;
-			auto v1 = sub_44AF80((void**)streamTriIndicePtr, (void**)outTriIndicePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamTriIndicePtr, (void**)outTriIndicePtr);
 			DB_FindStreamDataOrInsert((void*)*varTriIndicePtr, v1);
 			Save_TriIndice(true);
 		}
@@ -30331,7 +30331,7 @@ void Save_TriggerHullPtr(bool atStreamStart)
 			*outTriggerHullPtr = AllocSave_TriggerHull();
 			varTriggerHull = *varTriggerHullPtr;
 			streamTriggerHull = *outTriggerHullPtr;
-			auto v1 = sub_44AF80((void**)streamTriggerHullPtr, (void**)outTriggerHullPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamTriggerHullPtr, (void**)outTriggerHullPtr);
 			DB_FindStreamDataOrInsert((void*)*varTriggerHullPtr, v1);
 			Save_TriggerHull(true);
 		}
@@ -30379,7 +30379,7 @@ void Save_TriggerModelPtr(bool atStreamStart)
 			*outTriggerModelPtr = AllocSave_TriggerModel();
 			varTriggerModel = *varTriggerModelPtr;
 			streamTriggerModel = *outTriggerModelPtr;
-			auto v1 = sub_44AF80((void**)streamTriggerModelPtr, (void**)outTriggerModelPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamTriggerModelPtr, (void**)outTriggerModelPtr);
 			DB_FindStreamDataOrInsert((void*)*varTriggerModelPtr, v1);
 			Save_TriggerModel(true);
 		}
@@ -30427,7 +30427,7 @@ void Save_TriggerSlabPtr(bool atStreamStart)
 			*outTriggerSlabPtr = AllocSave_TriggerSlab();
 			varTriggerSlab = *varTriggerSlabPtr;
 			streamTriggerSlab = *outTriggerSlabPtr;
-			auto v1 = sub_44AF80((void**)streamTriggerSlabPtr, (void**)outTriggerSlabPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamTriggerSlabPtr, (void**)outTriggerSlabPtr);
 			DB_FindStreamDataOrInsert((void*)*varTriggerSlabPtr, v1);
 			Save_TriggerSlab(true);
 		}
@@ -30475,7 +30475,7 @@ void Save_UIFunctionListPtr(bool atStreamStart)
 			*outUIFunctionListPtr = AllocSave_UIFunctionList();
 			varUIFunctionList = *varUIFunctionListPtr;
 			streamUIFunctionList = *outUIFunctionListPtr;
-			auto v1 = sub_44AF80((void**)streamUIFunctionListPtr, (void**)outUIFunctionListPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamUIFunctionListPtr, (void**)outUIFunctionListPtr);
 			DB_FindStreamDataOrInsert((void*)*varUIFunctionListPtr, v1);
 			Save_UIFunctionList(true);
 		}
@@ -30523,7 +30523,7 @@ void Save_WaterWritablePtr(bool atStreamStart)
 			*outWaterWritablePtr = AllocSave_WaterWritable();
 			varWaterWritable = *varWaterWritablePtr;
 			streamWaterWritable = *outWaterWritablePtr;
-			auto v1 = sub_44AF80((void**)streamWaterWritablePtr, (void**)outWaterWritablePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamWaterWritablePtr, (void**)outWaterWritablePtr);
 			DB_FindStreamDataOrInsert((void*)*varWaterWritablePtr, v1);
 			Save_WaterWritable(true);
 		}
@@ -30571,7 +30571,7 @@ void Save_XAnimDeltaPartPtr(bool atStreamStart)
 			*outXAnimDeltaPartPtr = AllocSave_XAnimDeltaPart();
 			varXAnimDeltaPart = *varXAnimDeltaPartPtr;
 			streamXAnimDeltaPart = *outXAnimDeltaPartPtr;
-			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartPtr, (void**)outXAnimDeltaPartPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimDeltaPartPtr, (void**)outXAnimDeltaPartPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartPtr, v1);
 			Save_XAnimDeltaPart(true);
 		}
@@ -30624,7 +30624,7 @@ void Save_XAnimDeltaPartQuat2Ptr(bool atStreamStart)
 			*outXAnimDeltaPartQuat2Ptr = AllocSave_XAnimDeltaPartQuat2();
 			varXAnimDeltaPartQuat2 = *varXAnimDeltaPartQuat2Ptr;
 			streamXAnimDeltaPartQuat2 = *outXAnimDeltaPartQuat2Ptr;
-			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartQuat2Ptr, (void**)outXAnimDeltaPartQuat2Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimDeltaPartQuat2Ptr, (void**)outXAnimDeltaPartQuat2Ptr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartQuat2Ptr, v1);
 			Save_XAnimDeltaPartQuat2(true);
 		}
@@ -30689,7 +30689,7 @@ void Save_XAnimDeltaPartQuatData2Ptr(bool atStreamStart)
 			*outXAnimDeltaPartQuatData2Ptr = AllocSave_XAnimDeltaPartQuatData2();
 			varXAnimDeltaPartQuatData2 = *varXAnimDeltaPartQuatData2Ptr;
 			streamXAnimDeltaPartQuatData2 = *outXAnimDeltaPartQuatData2Ptr;
-			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartQuatData2Ptr, (void**)outXAnimDeltaPartQuatData2Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimDeltaPartQuatData2Ptr, (void**)outXAnimDeltaPartQuatData2Ptr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartQuatData2Ptr, v1);
 			Save_XAnimDeltaPartQuatData2(true);
 		}
@@ -30754,7 +30754,7 @@ void Save_XAnimDeltaPartQuatDataFrames2Ptr(bool atStreamStart)
 			*outXAnimDeltaPartQuatDataFrames2Ptr = AllocSave_XAnimDeltaPartQuatDataFrames2();
 			varXAnimDeltaPartQuatDataFrames2 = *varXAnimDeltaPartQuatDataFrames2Ptr;
 			streamXAnimDeltaPartQuatDataFrames2 = *outXAnimDeltaPartQuatDataFrames2Ptr;
-			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartQuatDataFrames2Ptr, (void**)outXAnimDeltaPartQuatDataFrames2Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimDeltaPartQuatDataFrames2Ptr, (void**)outXAnimDeltaPartQuatDataFrames2Ptr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartQuatDataFrames2Ptr, v1);
 			Save_XAnimDeltaPartQuatDataFrames2(true);
 		}
@@ -30797,7 +30797,7 @@ void Save_XAnimDeltaPartQuatDataFramesPtr(bool atStreamStart)
 			*outXAnimDeltaPartQuatDataFramesPtr = AllocSave_XAnimDeltaPartQuatDataFrames();
 			varXAnimDeltaPartQuatDataFrames = *varXAnimDeltaPartQuatDataFramesPtr;
 			streamXAnimDeltaPartQuatDataFrames = *outXAnimDeltaPartQuatDataFramesPtr;
-			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartQuatDataFramesPtr, (void**)outXAnimDeltaPartQuatDataFramesPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimDeltaPartQuatDataFramesPtr, (void**)outXAnimDeltaPartQuatDataFramesPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartQuatDataFramesPtr, v1);
 			Save_XAnimDeltaPartQuatDataFrames(true);
 		}
@@ -30828,7 +30828,7 @@ void Save_XAnimDeltaPartQuatDataPtr(bool atStreamStart)
 			*outXAnimDeltaPartQuatDataPtr = AllocSave_XAnimDeltaPartQuatData();
 			varXAnimDeltaPartQuatData = *varXAnimDeltaPartQuatDataPtr;
 			streamXAnimDeltaPartQuatData = *outXAnimDeltaPartQuatDataPtr;
-			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartQuatDataPtr, (void**)outXAnimDeltaPartQuatDataPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimDeltaPartQuatDataPtr, (void**)outXAnimDeltaPartQuatDataPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartQuatDataPtr, v1);
 			Save_XAnimDeltaPartQuatData(true);
 		}
@@ -30859,7 +30859,7 @@ void Save_XAnimDeltaPartQuatPtr(bool atStreamStart)
 			*outXAnimDeltaPartQuatPtr = AllocSave_XAnimDeltaPartQuat();
 			varXAnimDeltaPartQuat = *varXAnimDeltaPartQuatPtr;
 			streamXAnimDeltaPartQuat = *outXAnimDeltaPartQuatPtr;
-			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartQuatPtr, (void**)outXAnimDeltaPartQuatPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimDeltaPartQuatPtr, (void**)outXAnimDeltaPartQuatPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartQuatPtr, v1);
 			Save_XAnimDeltaPartQuat(true);
 		}
@@ -30907,7 +30907,7 @@ void Save_XAnimDynamicFramesPtr(bool atStreamStart)
 			*outXAnimDynamicFramesPtr = AllocSave_XAnimDynamicFrames();
 			varXAnimDynamicFrames = *varXAnimDynamicFramesPtr;
 			streamXAnimDynamicFrames = *outXAnimDynamicFramesPtr;
-			auto v1 = sub_44AF80((void**)streamXAnimDynamicFramesPtr, (void**)outXAnimDynamicFramesPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimDynamicFramesPtr, (void**)outXAnimDynamicFramesPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimDynamicFramesPtr, v1);
 			Save_XAnimDynamicFrames(true);
 		}
@@ -30955,7 +30955,7 @@ void Save_XAnimDynamicIndicesPtr(bool atStreamStart)
 			*outXAnimDynamicIndicesPtr = AllocSave_XAnimDynamicIndices();
 			varXAnimDynamicIndices = *varXAnimDynamicIndicesPtr;
 			streamXAnimDynamicIndices = *outXAnimDynamicIndicesPtr;
-			auto v1 = sub_44AF80((void**)streamXAnimDynamicIndicesPtr, (void**)outXAnimDynamicIndicesPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimDynamicIndicesPtr, (void**)outXAnimDynamicIndicesPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimDynamicIndicesPtr, v1);
 			Save_XAnimDynamicIndices(true);
 		}
@@ -31003,7 +31003,7 @@ void Save_XAnimIndicesPtr(bool atStreamStart)
 			*outXAnimIndicesPtr = AllocSave_XAnimIndices();
 			varXAnimIndices = *varXAnimIndicesPtr;
 			streamXAnimIndices = *outXAnimIndicesPtr;
-			auto v1 = sub_44AF80((void**)streamXAnimIndicesPtr, (void**)outXAnimIndicesPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimIndicesPtr, (void**)outXAnimIndicesPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimIndicesPtr, v1);
 			Save_XAnimIndices(true);
 		}
@@ -31051,7 +31051,7 @@ void Save_XAnimNotifyInfoPtr(bool atStreamStart)
 			*outXAnimNotifyInfoPtr = AllocSave_XAnimNotifyInfo();
 			varXAnimNotifyInfo = *varXAnimNotifyInfoPtr;
 			streamXAnimNotifyInfo = *outXAnimNotifyInfoPtr;
-			auto v1 = sub_44AF80((void**)streamXAnimNotifyInfoPtr, (void**)outXAnimNotifyInfoPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimNotifyInfoPtr, (void**)outXAnimNotifyInfoPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimNotifyInfoPtr, v1);
 			Save_XAnimNotifyInfo(true);
 		}
@@ -31116,7 +31116,7 @@ void Save_XAnimPartTransDataPtr(bool atStreamStart)
 			*outXAnimPartTransDataPtr = AllocSave_XAnimPartTransData();
 			varXAnimPartTransData = *varXAnimPartTransDataPtr;
 			streamXAnimPartTransData = *outXAnimPartTransDataPtr;
-			auto v1 = sub_44AF80((void**)streamXAnimPartTransDataPtr, (void**)outXAnimPartTransDataPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimPartTransDataPtr, (void**)outXAnimPartTransDataPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimPartTransDataPtr, v1);
 			Save_XAnimPartTransData(true);
 		}
@@ -31164,7 +31164,7 @@ void Save_XAnimPartTransFramesPtr(bool atStreamStart)
 			*outXAnimPartTransFramesPtr = AllocSave_XAnimPartTransFrames();
 			varXAnimPartTransFrames = *varXAnimPartTransFramesPtr;
 			streamXAnimPartTransFrames = *outXAnimPartTransFramesPtr;
-			auto v1 = sub_44AF80((void**)streamXAnimPartTransFramesPtr, (void**)outXAnimPartTransFramesPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimPartTransFramesPtr, (void**)outXAnimPartTransFramesPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimPartTransFramesPtr, v1);
 			Save_XAnimPartTransFrames(true);
 		}
@@ -31195,7 +31195,7 @@ void Save_XAnimPartTransPtr(bool atStreamStart)
 			*outXAnimPartTransPtr = AllocSave_XAnimPartTrans();
 			varXAnimPartTrans = *varXAnimPartTransPtr;
 			streamXAnimPartTrans = *outXAnimPartTransPtr;
-			auto v1 = sub_44AF80((void**)streamXAnimPartTransPtr, (void**)outXAnimPartTransPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimPartTransPtr, (void**)outXAnimPartTransPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimPartTransPtr, v1);
 			Save_XAnimPartTrans(true);
 		}
@@ -31249,7 +31249,7 @@ void Save_XAnimPartsPtr(bool atStreamStart)
 			*outXAnimPartsPtr = AllocSave_XAnimParts();
 			varXAnimParts = *varXAnimPartsPtr;
 			streamXAnimParts = *outXAnimPartsPtr;
-			auto v1 = sub_44AF80((void**)streamXAnimPartsPtr, (void**)outXAnimPartsPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAnimPartsPtr, (void**)outXAnimPartsPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAnimPartsPtr, v1);
 			Save_XAnimParts(true);
 		}
@@ -31315,7 +31315,7 @@ void Save_XAssetHeaderPtr(bool atStreamStart)
 			*outXAssetHeaderPtr = AllocSave_XAssetHeader();
 			varXAssetHeader = *varXAssetHeaderPtr;
 			streamXAssetHeader = *outXAssetHeaderPtr;
-			auto v1 = sub_44AF80((void**)streamXAssetHeaderPtr, (void**)outXAssetHeaderPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAssetHeaderPtr, (void**)outXAssetHeaderPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAssetHeaderPtr, v1);
 			Save_XAssetHeader(true);
 		}
@@ -31369,7 +31369,7 @@ void Save_XAssetListPtr(bool atStreamStart)
 			*outXAssetListPtr = AllocSave_XAssetList();
 			varXAssetList = *varXAssetListPtr;
 			streamXAssetList = *outXAssetListPtr;
-			auto v1 = sub_44AF80((void**)streamXAssetListPtr, (void**)outXAssetListPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAssetListPtr, (void**)outXAssetListPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAssetListPtr, v1);
 			Save_XAssetList(true);
 		}
@@ -31401,7 +31401,7 @@ void Save_XAssetPtr(bool atStreamStart)
 			*outXAssetPtr = AllocSave_XAsset();
 			varXAsset = *varXAssetPtr;
 			streamXAsset = *outXAssetPtr;
-			auto v1 = sub_44AF80((void**)streamXAssetPtr, (void**)outXAssetPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXAssetPtr, (void**)outXAssetPtr);
 			DB_FindStreamDataOrInsert((void*)*varXAssetPtr, v1);
 			Save_XAsset(true);
 		}
@@ -31449,7 +31449,7 @@ void Save_XBoneInfoPtr(bool atStreamStart)
 			*outXBoneInfoPtr = AllocSave_XBoneInfo();
 			varXBoneInfo = *varXBoneInfoPtr;
 			streamXBoneInfo = *outXBoneInfoPtr;
-			auto v1 = sub_44AF80((void**)streamXBoneInfoPtr, (void**)outXBoneInfoPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXBoneInfoPtr, (void**)outXBoneInfoPtr);
 			DB_FindStreamDataOrInsert((void*)*varXBoneInfoPtr, v1);
 			Save_XBoneInfo(true);
 		}
@@ -31519,7 +31519,7 @@ void Save_XModelCollSurf_sPtr(bool atStreamStart)
 			*outXModelCollSurf_sPtr = AllocSave_XModelCollSurf_s();
 			varXModelCollSurf_s = *varXModelCollSurf_sPtr;
 			streamXModelCollSurf_s = *outXModelCollSurf_sPtr;
-			auto v1 = sub_44AF80((void**)streamXModelCollSurf_sPtr, (void**)outXModelCollSurf_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXModelCollSurf_sPtr, (void**)outXModelCollSurf_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varXModelCollSurf_sPtr, v1);
 			Save_XModelCollSurf_s(true);
 		}
@@ -31567,7 +31567,7 @@ void Save_XModelCollTri_sPtr(bool atStreamStart)
 			*outXModelCollTri_sPtr = AllocSave_XModelCollTri_s();
 			varXModelCollTri_s = *varXModelCollTri_sPtr;
 			streamXModelCollTri_s = *outXModelCollTri_sPtr;
-			auto v1 = sub_44AF80((void**)streamXModelCollTri_sPtr, (void**)outXModelCollTri_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXModelCollTri_sPtr, (void**)outXModelCollTri_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varXModelCollTri_sPtr, v1);
 			Save_XModelCollTri_s(true);
 		}
@@ -31615,7 +31615,7 @@ void Save_XModelLodInfoPtr(bool atStreamStart)
 			*outXModelLodInfoPtr = AllocSave_XModelLodInfo();
 			varXModelLodInfo = *varXModelLodInfoPtr;
 			streamXModelLodInfo = *outXModelLodInfoPtr;
-			auto v1 = sub_44AF80((void**)streamXModelLodInfoPtr, (void**)outXModelLodInfoPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXModelLodInfoPtr, (void**)outXModelLodInfoPtr);
 			DB_FindStreamDataOrInsert((void*)*varXModelLodInfoPtr, v1);
 			Save_XModelLodInfo(true);
 		}
@@ -31647,7 +31647,7 @@ void Save_XModelPtr(bool atStreamStart)
 			*outXModelPtr = AllocSave_XModel();
 			varXModel = *varXModelPtr;
 			streamXModel = *outXModelPtr;
-			auto v1 = sub_44AF80((void**)streamXModelPtr, (void**)outXModelPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXModelPtr, (void**)outXModelPtr);
 			DB_FindStreamDataOrInsert((void*)*varXModelPtr, v1);
 			Save_XModel(true);
 		}
@@ -31702,7 +31702,7 @@ void Save_XModelSurfsPtr(bool atStreamStart)
 			*outXModelSurfsPtr = AllocSave_XModelSurfs();
 			varXModelSurfs = *varXModelSurfsPtr;
 			streamXModelSurfs = *outXModelSurfsPtr;
-			auto v1 = sub_44AF80((void**)streamXModelSurfsPtr, (void**)outXModelSurfsPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXModelSurfsPtr, (void**)outXModelSurfsPtr);
 			DB_FindStreamDataOrInsert((void*)*varXModelSurfsPtr, v1);
 			Save_XModelSurfs(true);
 		}
@@ -31751,7 +31751,7 @@ void Save_XRigidVertListPtr(bool atStreamStart)
 			*outXRigidVertListPtr = AllocSave_XRigidVertList();
 			varXRigidVertList = *varXRigidVertListPtr;
 			streamXRigidVertList = *outXRigidVertListPtr;
-			auto v1 = sub_44AF80((void**)streamXRigidVertListPtr, (void**)outXRigidVertListPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXRigidVertListPtr, (void**)outXRigidVertListPtr);
 			DB_FindStreamDataOrInsert((void*)*varXRigidVertListPtr, v1);
 			Save_XRigidVertList(true);
 		}
@@ -31799,7 +31799,7 @@ void Save_XStringPtr(bool atStreamStart)
 			*outXStringPtr = AllocSave_XString();
 			varXString = *varXStringPtr;
 			streamXString = *outXStringPtr;
-			auto v1 = sub_44AF80((void**)streamXStringPtr, (void**)outXStringPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXStringPtr, (void**)outXStringPtr);
 			DB_FindStreamDataOrInsert((void*)*varXStringPtr, v1);
 			Save_XString(true);
 		}
@@ -31864,7 +31864,7 @@ void Save_XSurfaceCollisionAabbPtr(bool atStreamStart)
 			*outXSurfaceCollisionAabbPtr = AllocSave_XSurfaceCollisionAabb();
 			varXSurfaceCollisionAabb = *varXSurfaceCollisionAabbPtr;
 			streamXSurfaceCollisionAabb = *outXSurfaceCollisionAabbPtr;
-			auto v1 = sub_44AF80((void**)streamXSurfaceCollisionAabbPtr, (void**)outXSurfaceCollisionAabbPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXSurfaceCollisionAabbPtr, (void**)outXSurfaceCollisionAabbPtr);
 			DB_FindStreamDataOrInsert((void*)*varXSurfaceCollisionAabbPtr, v1);
 			Save_XSurfaceCollisionAabb(true);
 		}
@@ -31912,7 +31912,7 @@ void Save_XSurfaceCollisionLeafPtr(bool atStreamStart)
 			*outXSurfaceCollisionLeafPtr = AllocSave_XSurfaceCollisionLeaf();
 			varXSurfaceCollisionLeaf = *varXSurfaceCollisionLeafPtr;
 			streamXSurfaceCollisionLeaf = *outXSurfaceCollisionLeafPtr;
-			auto v1 = sub_44AF80((void**)streamXSurfaceCollisionLeafPtr, (void**)outXSurfaceCollisionLeafPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXSurfaceCollisionLeafPtr, (void**)outXSurfaceCollisionLeafPtr);
 			DB_FindStreamDataOrInsert((void*)*varXSurfaceCollisionLeafPtr, v1);
 			Save_XSurfaceCollisionLeaf(true);
 		}
@@ -31960,7 +31960,7 @@ void Save_XSurfaceCollisionNodePtr(bool atStreamStart)
 			*outXSurfaceCollisionNodePtr = AllocSave_XSurfaceCollisionNode();
 			varXSurfaceCollisionNode = *varXSurfaceCollisionNodePtr;
 			streamXSurfaceCollisionNode = *outXSurfaceCollisionNodePtr;
-			auto v1 = sub_44AF80((void**)streamXSurfaceCollisionNodePtr, (void**)outXSurfaceCollisionNodePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXSurfaceCollisionNodePtr, (void**)outXSurfaceCollisionNodePtr);
 			DB_FindStreamDataOrInsert((void*)*varXSurfaceCollisionNodePtr, v1);
 			Save_XSurfaceCollisionNode(true);
 		}
@@ -32008,7 +32008,7 @@ void Save_XSurfaceCollisionTreePtr(bool atStreamStart)
 			*outXSurfaceCollisionTreePtr = AllocSave_XSurfaceCollisionTree();
 			varXSurfaceCollisionTree = *varXSurfaceCollisionTreePtr;
 			streamXSurfaceCollisionTree = *outXSurfaceCollisionTreePtr;
-			auto v1 = sub_44AF80((void**)streamXSurfaceCollisionTreePtr, (void**)outXSurfaceCollisionTreePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXSurfaceCollisionTreePtr, (void**)outXSurfaceCollisionTreePtr);
 			DB_FindStreamDataOrInsert((void*)*varXSurfaceCollisionTreePtr, v1);
 			Save_XSurfaceCollisionTree(true);
 		}
@@ -32039,7 +32039,7 @@ void Save_XSurfacePtr(bool atStreamStart)
 			*outXSurfacePtr = AllocSave_XSurface();
 			varXSurface = *varXSurfacePtr;
 			streamXSurface = *outXSurfacePtr;
-			auto v1 = sub_44AF80((void**)streamXSurfacePtr, (void**)outXSurfacePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXSurfacePtr, (void**)outXSurfacePtr);
 			DB_FindStreamDataOrInsert((void*)*varXSurfacePtr, v1);
 			Save_XSurface(true);
 		}
@@ -32087,7 +32087,7 @@ void Save_XSurfaceVertexInfoPtr(bool atStreamStart)
 			*outXSurfaceVertexInfoPtr = AllocSave_XSurfaceVertexInfo();
 			varXSurfaceVertexInfo = *varXSurfaceVertexInfoPtr;
 			streamXSurfaceVertexInfo = *outXSurfaceVertexInfoPtr;
-			auto v1 = sub_44AF80((void**)streamXSurfaceVertexInfoPtr, (void**)outXSurfaceVertexInfoPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamXSurfaceVertexInfoPtr, (void**)outXSurfaceVertexInfoPtr);
 			DB_FindStreamDataOrInsert((void*)*varXSurfaceVertexInfoPtr, v1);
 			Save_XSurfaceVertexInfo(true);
 		}
@@ -32135,7 +32135,7 @@ void Save__AILSOUNDINFOPtr(bool atStreamStart)
 			*out_AILSOUNDINFOPtr = AllocSave__AILSOUNDINFO();
 			var_AILSOUNDINFO = *var_AILSOUNDINFOPtr;
 			stream_AILSOUNDINFO = *out_AILSOUNDINFOPtr;
-			auto v1 = sub_44AF80((void**)stream_AILSOUNDINFOPtr, (void**)out_AILSOUNDINFOPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)stream_AILSOUNDINFOPtr, (void**)out_AILSOUNDINFOPtr);
 			DB_FindStreamDataOrInsert((void*)*var_AILSOUNDINFOPtr, v1);
 			Save__AILSOUNDINFO(true);
 		}
@@ -32183,7 +32183,7 @@ void Save_boolPtr(bool atStreamStart)
 			*outboolPtr = AllocSave_bool();
 			varbool = *varboolPtr;
 			streambool = *outboolPtr;
-			auto v1 = sub_44AF80((void**)streamboolPtr, (void**)outboolPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamboolPtr, (void**)outboolPtr);
 			DB_FindStreamDataOrInsert((void*)*varboolPtr, v1);
 			Save_bool(true);
 		}
@@ -32231,7 +32231,7 @@ void Save_cLeafBrushNodeChildren_tPtr(bool atStreamStart)
 			*outcLeafBrushNodeChildren_tPtr = AllocSave_cLeafBrushNodeChildren_t();
 			varcLeafBrushNodeChildren_t = *varcLeafBrushNodeChildren_tPtr;
 			streamcLeafBrushNodeChildren_t = *outcLeafBrushNodeChildren_tPtr;
-			auto v1 = sub_44AF80((void**)streamcLeafBrushNodeChildren_tPtr, (void**)outcLeafBrushNodeChildren_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcLeafBrushNodeChildren_tPtr, (void**)outcLeafBrushNodeChildren_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varcLeafBrushNodeChildren_tPtr, v1);
 			Save_cLeafBrushNodeChildren_t(true);
 		}
@@ -32279,7 +32279,7 @@ void Save_cLeafBrushNodeData_tPtr(bool atStreamStart)
 			*outcLeafBrushNodeData_tPtr = AllocSave_cLeafBrushNodeData_t();
 			varcLeafBrushNodeData_t = *varcLeafBrushNodeData_tPtr;
 			streamcLeafBrushNodeData_t = *outcLeafBrushNodeData_tPtr;
-			auto v1 = sub_44AF80((void**)streamcLeafBrushNodeData_tPtr, (void**)outcLeafBrushNodeData_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcLeafBrushNodeData_tPtr, (void**)outcLeafBrushNodeData_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varcLeafBrushNodeData_tPtr, v1);
 			Save_cLeafBrushNodeData_t(true);
 		}
@@ -32327,7 +32327,7 @@ void Save_cLeafBrushNodeLeaf_tPtr(bool atStreamStart)
 			*outcLeafBrushNodeLeaf_tPtr = AllocSave_cLeafBrushNodeLeaf_t();
 			varcLeafBrushNodeLeaf_t = *varcLeafBrushNodeLeaf_tPtr;
 			streamcLeafBrushNodeLeaf_t = *outcLeafBrushNodeLeaf_tPtr;
-			auto v1 = sub_44AF80((void**)streamcLeafBrushNodeLeaf_tPtr, (void**)outcLeafBrushNodeLeaf_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcLeafBrushNodeLeaf_tPtr, (void**)outcLeafBrushNodeLeaf_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varcLeafBrushNodeLeaf_tPtr, v1);
 			Save_cLeafBrushNodeLeaf_t(true);
 		}
@@ -32375,7 +32375,7 @@ void Save_cLeafBrushNode_sPtr(bool atStreamStart)
 			*outcLeafBrushNode_sPtr = AllocSave_cLeafBrushNode_s();
 			varcLeafBrushNode_s = *varcLeafBrushNode_sPtr;
 			streamcLeafBrushNode_s = *outcLeafBrushNode_sPtr;
-			auto v1 = sub_44AF80((void**)streamcLeafBrushNode_sPtr, (void**)outcLeafBrushNode_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcLeafBrushNode_sPtr, (void**)outcLeafBrushNode_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varcLeafBrushNode_sPtr, v1);
 			Save_cLeafBrushNode_s(true);
 		}
@@ -32423,7 +32423,7 @@ void Save_cLeaf_tPtr(bool atStreamStart)
 			*outcLeaf_tPtr = AllocSave_cLeaf_t();
 			varcLeaf_t = *varcLeaf_tPtr;
 			streamcLeaf_t = *outcLeaf_tPtr;
-			auto v1 = sub_44AF80((void**)streamcLeaf_tPtr, (void**)outcLeaf_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcLeaf_tPtr, (void**)outcLeaf_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varcLeaf_tPtr, v1);
 			Save_cLeaf_t(true);
 		}
@@ -32471,7 +32471,7 @@ void Save_cNode_tPtr(bool atStreamStart)
 			*outcNode_tPtr = AllocSave_cNode_t();
 			varcNode_t = *varcNode_tPtr;
 			streamcNode_t = *outcNode_tPtr;
-			auto v1 = sub_44AF80((void**)streamcNode_tPtr, (void**)outcNode_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcNode_tPtr, (void**)outcNode_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varcNode_tPtr, v1);
 			Save_cNode_t(true);
 		}
@@ -32519,7 +32519,7 @@ void Save_cStaticModel_sPtr(bool atStreamStart)
 			*outcStaticModel_sPtr = AllocSave_cStaticModel_s();
 			varcStaticModel_s = *varcStaticModel_sPtr;
 			streamcStaticModel_s = *outcStaticModel_sPtr;
-			auto v1 = sub_44AF80((void**)streamcStaticModel_sPtr, (void**)outcStaticModel_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcStaticModel_sPtr, (void**)outcStaticModel_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varcStaticModel_sPtr, v1);
 			Save_cStaticModel_s(true);
 		}
@@ -32567,7 +32567,7 @@ void Save_cbrush_tPtr(bool atStreamStart)
 			*outcbrush_tPtr = AllocSave_cbrush_t();
 			varcbrush_t = *varcbrush_tPtr;
 			streamcbrush_t = *outcbrush_tPtr;
-			auto v1 = sub_44AF80((void**)streamcbrush_tPtr, (void**)outcbrush_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcbrush_tPtr, (void**)outcbrush_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varcbrush_tPtr, v1);
 			Save_cbrush_t(true);
 		}
@@ -32615,7 +32615,7 @@ void Save_cbrushside_tPtr(bool atStreamStart)
 			*outcbrushside_tPtr = AllocSave_cbrushside_t();
 			varcbrushside_t = *varcbrushside_tPtr;
 			streamcbrushside_t = *outcbrushside_tPtr;
-			auto v1 = sub_44AF80((void**)streamcbrushside_tPtr, (void**)outcbrushside_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcbrushside_tPtr, (void**)outcbrushside_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varcbrushside_tPtr, v1);
 			Save_cbrushside_t(true);
 		}
@@ -32668,7 +32668,7 @@ void Save_char16Ptr(bool atStreamStart)
 			*outchar16Ptr = AllocSave_char16();
 			varchar16 = *varchar16Ptr;
 			streamchar16 = *outchar16Ptr;
-			auto v1 = sub_44AF80((void**)streamchar16Ptr, (void**)outchar16Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamchar16Ptr, (void**)outchar16Ptr);
 			DB_FindStreamDataOrInsert((void*)*varchar16Ptr, v1);
 			Save_char16(true);
 		}
@@ -32711,7 +32711,7 @@ void Save_charPtr(bool atStreamStart)
 			*outcharPtr = AllocSave_char();
 			varchar = *varcharPtr;
 			streamchar = *outcharPtr;
-			auto v1 = sub_44AF80((void**)streamcharPtr, (void**)outcharPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcharPtr, (void**)outcharPtr);
 			DB_FindStreamDataOrInsert((void*)*varcharPtr, v1);
 			Save_char(true);
 		}
@@ -32765,7 +32765,7 @@ void Save_clipMap_tPtr(bool atStreamStart)
 			*outclipMap_tPtr = AllocSave_clipMap_t();
 			varclipMap_t = *varclipMap_tPtr;
 			streamclipMap_t = *outclipMap_tPtr;
-			auto v1 = sub_44AF80((void**)streamclipMap_tPtr, (void**)outclipMap_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamclipMap_tPtr, (void**)outclipMap_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varclipMap_tPtr, v1);
 			Save_clipMap_t(true);
 		}
@@ -32814,7 +32814,7 @@ void Save_cmodel_tPtr(bool atStreamStart)
 			*outcmodel_tPtr = AllocSave_cmodel_t();
 			varcmodel_t = *varcmodel_tPtr;
 			streamcmodel_t = *outcmodel_tPtr;
-			auto v1 = sub_44AF80((void**)streamcmodel_tPtr, (void**)outcmodel_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcmodel_tPtr, (void**)outcmodel_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varcmodel_tPtr, v1);
 			Save_cmodel_t(true);
 		}
@@ -32862,7 +32862,7 @@ void Save_columnInfo_sPtr(bool atStreamStart)
 			*outcolumnInfo_sPtr = AllocSave_columnInfo_s();
 			varcolumnInfo_s = *varcolumnInfo_sPtr;
 			streamcolumnInfo_s = *outcolumnInfo_sPtr;
-			auto v1 = sub_44AF80((void**)streamcolumnInfo_sPtr, (void**)outcolumnInfo_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcolumnInfo_sPtr, (void**)outcolumnInfo_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varcolumnInfo_sPtr, v1);
 			Save_columnInfo_s(true);
 		}
@@ -32910,7 +32910,7 @@ void Save_complex_sPtr(bool atStreamStart)
 			*outcomplex_sPtr = AllocSave_complex_s();
 			varcomplex_s = *varcomplex_sPtr;
 			streamcomplex_s = *outcomplex_sPtr;
-			auto v1 = sub_44AF80((void**)streamcomplex_sPtr, (void**)outcomplex_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcomplex_sPtr, (void**)outcomplex_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varcomplex_sPtr, v1);
 			Save_complex_s(true);
 		}
@@ -32958,7 +32958,7 @@ void Save_cplane_sPtr(bool atStreamStart)
 			*outcplane_sPtr = AllocSave_cplane_s();
 			varcplane_s = *varcplane_sPtr;
 			streamcplane_s = *outcplane_sPtr;
-			auto v1 = sub_44AF80((void**)streamcplane_sPtr, (void**)outcplane_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamcplane_sPtr, (void**)outcplane_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varcplane_sPtr, v1);
 			Save_cplane_s(true);
 		}
@@ -33006,7 +33006,7 @@ void Save_doublePtr(bool atStreamStart)
 			*outdoublePtr = AllocSave_double();
 			vardouble = *vardoublePtr;
 			streamdouble = *outdoublePtr;
-			auto v1 = sub_44AF80((void**)streamdoublePtr, (void**)outdoublePtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamdoublePtr, (void**)outdoublePtr);
 			DB_FindStreamDataOrInsert((void*)*vardoublePtr, v1);
 			Save_double(true);
 		}
@@ -33054,7 +33054,7 @@ void Save_editFieldDef_sPtr(bool atStreamStart)
 			*outeditFieldDef_sPtr = AllocSave_editFieldDef_s();
 			vareditFieldDef_s = *vareditFieldDef_sPtr;
 			streameditFieldDef_s = *outeditFieldDef_sPtr;
-			auto v1 = sub_44AF80((void**)streameditFieldDef_sPtr, (void**)outeditFieldDef_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streameditFieldDef_sPtr, (void**)outeditFieldDef_sPtr);
 			DB_FindStreamDataOrInsert((void*)*vareditFieldDef_sPtr, v1);
 			Save_editFieldDef_s(true);
 		}
@@ -33102,7 +33102,7 @@ void Save_entryInternalDataPtr(bool atStreamStart)
 			*outentryInternalDataPtr = AllocSave_entryInternalData();
 			varentryInternalData = *varentryInternalDataPtr;
 			streamentryInternalData = *outentryInternalDataPtr;
-			auto v1 = sub_44AF80((void**)streamentryInternalDataPtr, (void**)outentryInternalDataPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamentryInternalDataPtr, (void**)outentryInternalDataPtr);
 			DB_FindStreamDataOrInsert((void*)*varentryInternalDataPtr, v1);
 			Save_entryInternalData(true);
 		}
@@ -33150,7 +33150,7 @@ void Save_expressionEntryPtr(bool atStreamStart)
 			*outexpressionEntryPtr = AllocSave_expressionEntry();
 			varexpressionEntry = *varexpressionEntryPtr;
 			streamexpressionEntry = *outexpressionEntryPtr;
-			auto v1 = sub_44AF80((void**)streamexpressionEntryPtr, (void**)outexpressionEntryPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamexpressionEntryPtr, (void**)outexpressionEntryPtr);
 			DB_FindStreamDataOrInsert((void*)*varexpressionEntryPtr, v1);
 			Save_expressionEntry(true);
 		}
@@ -33203,7 +33203,7 @@ void Save_float16Ptr(bool atStreamStart)
 			*outfloat16Ptr = AllocSave_float16();
 			varfloat16 = *varfloat16Ptr;
 			streamfloat16 = *outfloat16Ptr;
-			auto v1 = sub_44AF80((void**)streamfloat16Ptr, (void**)outfloat16Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamfloat16Ptr, (void**)outfloat16Ptr);
 			DB_FindStreamDataOrInsert((void*)*varfloat16Ptr, v1);
 			Save_float16(true);
 		}
@@ -33246,7 +33246,7 @@ void Save_floatPtr(bool atStreamStart)
 			*outfloatPtr = AllocSave_float();
 			varfloat = *varfloatPtr;
 			streamfloat = *outfloatPtr;
-			auto v1 = sub_44AF80((void**)streamfloatPtr, (void**)outfloatPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamfloatPtr, (void**)outfloatPtr);
 			DB_FindStreamDataOrInsert((void*)*varfloatPtr, v1);
 			Save_float(true);
 		}
@@ -33294,7 +33294,7 @@ void Save_int16Ptr(bool atStreamStart)
 			*outint16Ptr = AllocSave_int16();
 			varint16 = *varint16Ptr;
 			streamint16 = *outint16Ptr;
-			auto v1 = sub_44AF80((void**)streamint16Ptr, (void**)outint16Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamint16Ptr, (void**)outint16Ptr);
 			DB_FindStreamDataOrInsert((void*)*varint16Ptr, v1);
 			Save_int16(true);
 		}
@@ -33342,7 +33342,7 @@ void Save_int32Ptr(bool atStreamStart)
 			*outint32Ptr = AllocSave_int32();
 			varint32 = *varint32Ptr;
 			streamint32 = *outint32Ptr;
-			auto v1 = sub_44AF80((void**)streamint32Ptr, (void**)outint32Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamint32Ptr, (void**)outint32Ptr);
 			DB_FindStreamDataOrInsert((void*)*varint32Ptr, v1);
 			Save_int32(true);
 		}
@@ -33390,7 +33390,7 @@ void Save_int64Ptr(bool atStreamStart)
 			*outint64Ptr = AllocSave_int64();
 			varint64 = *varint64Ptr;
 			streamint64 = *outint64Ptr;
-			auto v1 = sub_44AF80((void**)streamint64Ptr, (void**)outint64Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamint64Ptr, (void**)outint64Ptr);
 			DB_FindStreamDataOrInsert((void*)*varint64Ptr, v1);
 			Save_int64(true);
 		}
@@ -33438,7 +33438,7 @@ void Save_int8Ptr(bool atStreamStart)
 			*outint8Ptr = AllocSave_int8();
 			varint8 = *varint8Ptr;
 			streamint8 = *outint8Ptr;
-			auto v1 = sub_44AF80((void**)streamint8Ptr, (void**)outint8Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamint8Ptr, (void**)outint8Ptr);
 			DB_FindStreamDataOrInsert((void*)*varint8Ptr, v1);
 			Save_int8(true);
 		}
@@ -33486,7 +33486,7 @@ void Save_itemDefData_tPtr(bool atStreamStart)
 			*outitemDefData_tPtr = AllocSave_itemDefData_t();
 			varitemDefData_t = *varitemDefData_tPtr;
 			streamitemDefData_t = *outitemDefData_tPtr;
-			auto v1 = sub_44AF80((void**)streamitemDefData_tPtr, (void**)outitemDefData_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamitemDefData_tPtr, (void**)outitemDefData_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varitemDefData_tPtr, v1);
 			Save_itemDefData_t(true);
 		}
@@ -33534,7 +33534,7 @@ void Save_itemDef_sPtr(bool atStreamStart)
 			*outitemDef_sPtr = AllocSave_itemDef_s();
 			varitemDef_s = *varitemDef_sPtr;
 			streamitemDef_s = *outitemDef_sPtr;
-			auto v1 = sub_44AF80((void**)streamitemDef_sPtr, (void**)outitemDef_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamitemDef_sPtr, (void**)outitemDef_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varitemDef_sPtr, v1);
 			Save_itemDef_s(true);
 		}
@@ -33582,7 +33582,7 @@ void Save_listBoxDef_sPtr(bool atStreamStart)
 			*outlistBoxDef_sPtr = AllocSave_listBoxDef_s();
 			varlistBoxDef_s = *varlistBoxDef_sPtr;
 			streamlistBoxDef_s = *outlistBoxDef_sPtr;
-			auto v1 = sub_44AF80((void**)streamlistBoxDef_sPtr, (void**)outlistBoxDef_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamlistBoxDef_sPtr, (void**)outlistBoxDef_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varlistBoxDef_sPtr, v1);
 			Save_listBoxDef_s(true);
 		}
@@ -33636,7 +33636,7 @@ void Save_menuDef_tPtr(bool atStreamStart)
 			*outmenuDef_tPtr = AllocSave_menuDef_t();
 			varmenuDef_t = *varmenuDef_tPtr;
 			streammenuDef_t = *outmenuDef_tPtr;
-			auto v1 = sub_44AF80((void**)streammenuDef_tPtr, (void**)outmenuDef_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streammenuDef_tPtr, (void**)outmenuDef_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varmenuDef_tPtr, v1);
 			Save_menuDef_t(true);
 		}
@@ -33685,7 +33685,7 @@ void Save_menuTransitionPtr(bool atStreamStart)
 			*outmenuTransitionPtr = AllocSave_menuTransition();
 			varmenuTransition = *varmenuTransitionPtr;
 			streammenuTransition = *outmenuTransitionPtr;
-			auto v1 = sub_44AF80((void**)streammenuTransitionPtr, (void**)outmenuTransitionPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streammenuTransitionPtr, (void**)outmenuTransitionPtr);
 			DB_FindStreamDataOrInsert((void*)*varmenuTransitionPtr, v1);
 			Save_menuTransition(true);
 		}
@@ -33733,7 +33733,7 @@ void Save_multiDef_sPtr(bool atStreamStart)
 			*outmultiDef_sPtr = AllocSave_multiDef_s();
 			varmultiDef_s = *varmultiDef_sPtr;
 			streammultiDef_s = *outmultiDef_sPtr;
-			auto v1 = sub_44AF80((void**)streammultiDef_sPtr, (void**)outmultiDef_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streammultiDef_sPtr, (void**)outmultiDef_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varmultiDef_sPtr, v1);
 			Save_multiDef_s(true);
 		}
@@ -33781,7 +33781,7 @@ void Save_newsTickerDef_sPtr(bool atStreamStart)
 			*outnewsTickerDef_sPtr = AllocSave_newsTickerDef_s();
 			varnewsTickerDef_s = *varnewsTickerDef_sPtr;
 			streamnewsTickerDef_s = *outnewsTickerDef_sPtr;
-			auto v1 = sub_44AF80((void**)streamnewsTickerDef_sPtr, (void**)outnewsTickerDef_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamnewsTickerDef_sPtr, (void**)outnewsTickerDef_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varnewsTickerDef_sPtr, v1);
 			Save_newsTickerDef_s(true);
 		}
@@ -33829,7 +33829,7 @@ void Save_operandInternalDataUnionPtr(bool atStreamStart)
 			*outoperandInternalDataUnionPtr = AllocSave_operandInternalDataUnion();
 			varoperandInternalDataUnion = *varoperandInternalDataUnionPtr;
 			streamoperandInternalDataUnion = *outoperandInternalDataUnionPtr;
-			auto v1 = sub_44AF80((void**)streamoperandInternalDataUnionPtr, (void**)outoperandInternalDataUnionPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamoperandInternalDataUnionPtr, (void**)outoperandInternalDataUnionPtr);
 			DB_FindStreamDataOrInsert((void*)*varoperandInternalDataUnionPtr, v1);
 			Save_operandInternalDataUnion(true);
 		}
@@ -33877,7 +33877,7 @@ void Save_rectDef_sPtr(bool atStreamStart)
 			*outrectDef_sPtr = AllocSave_rectDef_s();
 			varrectDef_s = *varrectDef_sPtr;
 			streamrectDef_s = *outrectDef_sPtr;
-			auto v1 = sub_44AF80((void**)streamrectDef_sPtr, (void**)outrectDef_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamrectDef_sPtr, (void**)outrectDef_sPtr);
 			DB_FindStreamDataOrInsert((void*)*varrectDef_sPtr, v1);
 			Save_rectDef_s(true);
 		}
@@ -33931,7 +33931,7 @@ void Save_snd_alias_list_tPtr(bool atStreamStart)
 			*outsnd_alias_list_tPtr = AllocSave_snd_alias_list_t();
 			varsnd_alias_list_t = *varsnd_alias_list_tPtr;
 			streamsnd_alias_list_t = *outsnd_alias_list_tPtr;
-			auto v1 = sub_44AF80((void**)streamsnd_alias_list_tPtr, (void**)outsnd_alias_list_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamsnd_alias_list_tPtr, (void**)outsnd_alias_list_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varsnd_alias_list_tPtr, v1);
 			Save_snd_alias_list_t(true);
 		}
@@ -33980,7 +33980,7 @@ void Save_snd_alias_tPtr(bool atStreamStart)
 			*outsnd_alias_tPtr = AllocSave_snd_alias_t();
 			varsnd_alias_t = *varsnd_alias_tPtr;
 			streamsnd_alias_t = *outsnd_alias_tPtr;
-			auto v1 = sub_44AF80((void**)streamsnd_alias_tPtr, (void**)outsnd_alias_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamsnd_alias_tPtr, (void**)outsnd_alias_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varsnd_alias_tPtr, v1);
 			Save_snd_alias_t(true);
 		}
@@ -34028,7 +34028,7 @@ void Save_textScrollDef_sPtr(bool atStreamStart)
 			*outtextScrollDef_sPtr = AllocSave_textScrollDef_s();
 			vartextScrollDef_s = *vartextScrollDef_sPtr;
 			streamtextScrollDef_s = *outtextScrollDef_sPtr;
-			auto v1 = sub_44AF80((void**)streamtextScrollDef_sPtr, (void**)outtextScrollDef_sPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamtextScrollDef_sPtr, (void**)outtextScrollDef_sPtr);
 			DB_FindStreamDataOrInsert((void*)*vartextScrollDef_sPtr, v1);
 			Save_textScrollDef_s(true);
 		}
@@ -34076,7 +34076,7 @@ void Save_uint16Ptr(bool atStreamStart)
 			*outuint16Ptr = AllocSave_uint16();
 			varuint16 = *varuint16Ptr;
 			streamuint16 = *outuint16Ptr;
-			auto v1 = sub_44AF80((void**)streamuint16Ptr, (void**)outuint16Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamuint16Ptr, (void**)outuint16Ptr);
 			DB_FindStreamDataOrInsert((void*)*varuint16Ptr, v1);
 			Save_uint16(true);
 		}
@@ -34124,7 +34124,7 @@ void Save_uint32Ptr(bool atStreamStart)
 			*outuint32Ptr = AllocSave_uint32();
 			varuint32 = *varuint32Ptr;
 			streamuint32 = *outuint32Ptr;
-			auto v1 = sub_44AF80((void**)streamuint32Ptr, (void**)outuint32Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamuint32Ptr, (void**)outuint32Ptr);
 			DB_FindStreamDataOrInsert((void*)*varuint32Ptr, v1);
 			Save_uint32(true);
 		}
@@ -34172,7 +34172,7 @@ void Save_uint64Ptr(bool atStreamStart)
 			*outuint64Ptr = AllocSave_uint64();
 			varuint64 = *varuint64Ptr;
 			streamuint64 = *outuint64Ptr;
-			auto v1 = sub_44AF80((void**)streamuint64Ptr, (void**)outuint64Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamuint64Ptr, (void**)outuint64Ptr);
 			DB_FindStreamDataOrInsert((void*)*varuint64Ptr, v1);
 			Save_uint64(true);
 		}
@@ -34220,7 +34220,7 @@ void Save_uint8Ptr(bool atStreamStart)
 			*outuint8Ptr = AllocSave_uint8();
 			varuint8 = *varuint8Ptr;
 			streamuint8 = *outuint8Ptr;
-			auto v1 = sub_44AF80((void**)streamuint8Ptr, (void**)outuint8Ptr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamuint8Ptr, (void**)outuint8Ptr);
 			DB_FindStreamDataOrInsert((void*)*varuint8Ptr, v1);
 			Save_uint8(true);
 		}
@@ -34268,7 +34268,7 @@ void Save_vec1_tPtr(bool atStreamStart)
 			*outvec1_tPtr = AllocSave_vec1_t();
 			varvec1_t = *varvec1_tPtr;
 			streamvec1_t = *outvec1_tPtr;
-			auto v1 = sub_44AF80((void**)streamvec1_tPtr, (void**)outvec1_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamvec1_tPtr, (void**)outvec1_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varvec1_tPtr, v1);
 			Save_vec1_t(true);
 		}
@@ -34316,7 +34316,7 @@ void Save_vec2_tPtr(bool atStreamStart)
 			*outvec2_tPtr = AllocSave_vec2_t();
 			varvec2_t = *varvec2_tPtr;
 			streamvec2_t = *outvec2_tPtr;
-			auto v1 = sub_44AF80((void**)streamvec2_tPtr, (void**)outvec2_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamvec2_tPtr, (void**)outvec2_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varvec2_tPtr, v1);
 			Save_vec2_t(true);
 		}
@@ -34364,7 +34364,7 @@ void Save_vec3_tPtr(bool atStreamStart)
 			*outvec3_tPtr = AllocSave_vec3_t();
 			varvec3_t = *varvec3_tPtr;
 			streamvec3_t = *outvec3_tPtr;
-			auto v1 = sub_44AF80((void**)streamvec3_tPtr, (void**)outvec3_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamvec3_tPtr, (void**)outvec3_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varvec3_tPtr, v1);
 			Save_vec3_t(true);
 		}
@@ -34412,7 +34412,7 @@ void Save_vec4_tPtr(bool atStreamStart)
 			*outvec4_tPtr = AllocSave_vec4_t();
 			varvec4_t = *varvec4_tPtr;
 			streamvec4_t = *outvec4_tPtr;
-			auto v1 = sub_44AF80((void**)streamvec4_tPtr, (void**)outvec4_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamvec4_tPtr, (void**)outvec4_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varvec4_tPtr, v1);
 			Save_vec4_t(true);
 		}
@@ -34460,7 +34460,7 @@ void Save_water_tPtr(bool atStreamStart)
 			*outwater_tPtr = AllocSave_water_t();
 			varwater_t = *varwater_tPtr;
 			streamwater_t = *outwater_tPtr;
-			auto v1 = sub_44AF80((void**)streamwater_tPtr, (void**)outwater_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamwater_tPtr, (void**)outwater_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varwater_tPtr, v1);
 			Save_water_t(true);
 		}
@@ -34508,7 +34508,7 @@ void Save_windowDef_tPtr(bool atStreamStart)
 			*outwindowDef_tPtr = AllocSave_windowDef_t();
 			varwindowDef_t = *varwindowDef_tPtr;
 			streamwindowDef_t = *outwindowDef_tPtr;
-			auto v1 = sub_44AF80((void**)streamwindowDef_tPtr, (void**)outwindowDef_tPtr);
+			auto v1 = DB_GetStreamOffsetAndSetPointer((void**)streamwindowDef_tPtr, (void**)outwindowDef_tPtr);
 			DB_FindStreamDataOrInsert((void*)*varwindowDef_tPtr, v1);
 			Save_windowDef_t(true);
 		}

@@ -744,7 +744,7 @@ namespace zonetool::code_generator
 			code += va("\t\t\t*%s = %s();\n", out_type_ptr.data(), allocsave_type.data());
 			code += va("\t\t\t%s = *%s;\n", variable_type.data(), variable_type_ptr.data());
 			code += va("\t\t\t%s = *%s;\n", stream_type.data(), out_type_ptr.data());
-			code += va("\t\t\tauto v1 = sub_44AF80((void**)%s, (void**)%s);\n", stream_type_ptr.data(), out_type_ptr.data());
+			code += va("\t\t\tauto v1 = DB_GetStreamOffsetAndSetPointer((void**)%s, (void**)%s);\n", stream_type_ptr.data(), out_type_ptr.data());
 			code += va("\t\t\tDB_FindStreamDataOrInsert((void*)*%s, v1);\n", variable_type_ptr.data());
 			code += va("\t\t\t%s(true);\n", save_type.data());
 			code += "\t\t}\n";
@@ -762,7 +762,7 @@ namespace zonetool::code_generator
 			code += va("\t\t\t*%s = %s();\n", out_type_ptr.data(), allocsave_type.data());
 			code += va("\t\t\t%s = *%s;\n", variable_type.data(), variable_type_ptr.data());
 			code += va("\t\t\t%s = *%s;\n", stream_type.data(), out_type_ptr.data());
-			code += va("\t\t\tauto v1 = sub_44AF80((void**)%s, (void**)%s);\n", stream_type_ptr.data(), out_type_ptr.data());
+			code += va("\t\t\tauto v1 = DB_GetStreamOffsetAndSetPointer((void**)%s, (void**)%s);\n", stream_type_ptr.data(), out_type_ptr.data());
 			code += va("\t\t\tDB_FindStreamDataOrInsert((void*)*%s, v1);\n", variable_type_ptr.data());
 			code += va("\t\t\t%s(true);\n", save_type.data());
 			code += "\t\t}\n";			

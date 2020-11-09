@@ -145,7 +145,7 @@ void* DB_FindStreamData(void*)
 	return nullptr;
 }
 
-void* sub_44AF80(void**, void**)
+void* DB_GetStreamOffsetAndSetPointer(void**, void**)
 {
 	return nullptr;
 }
