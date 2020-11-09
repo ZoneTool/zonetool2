@@ -13,403 +13,801 @@
 namespace zonetool::linkers::iw4
 {
 $C8D87EB0090687D323381DFB7A82089C* AllocLoad_$C8D87EB0090687D323381DFB7A82089C();
+$C8D87EB0090687D323381DFB7A82089C* AllocSave_$C8D87EB0090687D323381DFB7A82089C();
 $C8D87EB0090687D323381DFB7A82089C** AllocLoad_$C8D87EB0090687D323381DFB7A82089CPtr();
+$C8D87EB0090687D323381DFB7A82089C** AllocSave_$C8D87EB0090687D323381DFB7A82089CPtr();
 $E43DBA5037697D705289B74D87E76C70* AllocLoad_$E43DBA5037697D705289B74D87E76C70();
+$E43DBA5037697D705289B74D87E76C70* AllocSave_$E43DBA5037697D705289B74D87E76C70();
 $E43DBA5037697D705289B74D87E76C70** AllocLoad_$E43DBA5037697D705289B74D87E76C70Ptr();
+$E43DBA5037697D705289B74D87E76C70** AllocSave_$E43DBA5037697D705289B74D87E76C70Ptr();
 Bounds* AllocLoad_Bounds();
+Bounds* AllocSave_Bounds();
 Bounds** AllocLoad_BoundsPtr();
+Bounds** AllocSave_BoundsPtr();
 BrushWrapper* AllocLoad_BrushWrapper();
+BrushWrapper* AllocSave_BrushWrapper();
 BrushWrapper** AllocLoad_BrushWrapperPtr();
+BrushWrapper** AllocSave_BrushWrapperPtr();
 CardMemory* AllocLoad_CardMemory();
+CardMemory* AllocSave_CardMemory();
 CardMemory** AllocLoad_CardMemoryPtr();
+CardMemory** AllocSave_CardMemoryPtr();
 ClipMaterial* AllocLoad_ClipMaterial();
+ClipMaterial* AllocSave_ClipMaterial();
 ClipMaterial** AllocLoad_ClipMaterialPtr();
+ClipMaterial** AllocSave_ClipMaterialPtr();
 CollisionAabbTree* AllocLoad_CollisionAabbTree();
+CollisionAabbTree* AllocSave_CollisionAabbTree();
 CollisionAabbTree** AllocLoad_CollisionAabbTreePtr();
+CollisionAabbTree** AllocSave_CollisionAabbTreePtr();
 CollisionAabbTreeIndex* AllocLoad_CollisionAabbTreeIndex();
+CollisionAabbTreeIndex* AllocSave_CollisionAabbTreeIndex();
 CollisionAabbTreeIndex** AllocLoad_CollisionAabbTreeIndexPtr();
+CollisionAabbTreeIndex** AllocSave_CollisionAabbTreeIndexPtr();
 CollisionBorder* AllocLoad_CollisionBorder();
+CollisionBorder* AllocSave_CollisionBorder();
 CollisionBorder** AllocLoad_CollisionBorderPtr();
+CollisionBorder** AllocSave_CollisionBorderPtr();
 CollisionPartition* AllocLoad_CollisionPartition();
+CollisionPartition* AllocSave_CollisionPartition();
 CollisionPartition** AllocLoad_CollisionPartitionPtr();
+CollisionPartition** AllocSave_CollisionPartitionPtr();
 ComPrimaryLight* AllocLoad_ComPrimaryLight();
+ComPrimaryLight* AllocSave_ComPrimaryLight();
 ComPrimaryLight** AllocLoad_ComPrimaryLightPtr();
+ComPrimaryLight** AllocSave_ComPrimaryLightPtr();
 ComWorld* AllocLoad_ComWorld();
+ComWorld* AllocSave_ComWorld();
 ComWorld** AllocLoad_ComWorldPtr();
+ComWorld** AllocSave_ComWorldPtr();
 ConditionalScript* AllocLoad_ConditionalScript();
+ConditionalScript* AllocSave_ConditionalScript();
 ConditionalScript** AllocLoad_ConditionalScriptPtr();
+ConditionalScript** AllocSave_ConditionalScriptPtr();
 DObjAnimMat* AllocLoad_DObjAnimMat();
+DObjAnimMat* AllocSave_DObjAnimMat();
 DObjAnimMat** AllocLoad_DObjAnimMatPtr();
+DObjAnimMat** AllocSave_DObjAnimMatPtr();
 DynEntityClient* AllocLoad_DynEntityClient();
+DynEntityClient* AllocSave_DynEntityClient();
 DynEntityClient** AllocLoad_DynEntityClientPtr();
+DynEntityClient** AllocSave_DynEntityClientPtr();
 DynEntityColl* AllocLoad_DynEntityColl();
+DynEntityColl* AllocSave_DynEntityColl();
 DynEntityColl** AllocLoad_DynEntityCollPtr();
+DynEntityColl** AllocSave_DynEntityCollPtr();
 DynEntityDef* AllocLoad_DynEntityDef();
+DynEntityDef* AllocSave_DynEntityDef();
 DynEntityDef** AllocLoad_DynEntityDefPtr();
+DynEntityDef** AllocSave_DynEntityDefPtr();
 DynEntityPose* AllocLoad_DynEntityPose();
+DynEntityPose* AllocSave_DynEntityPose();
 DynEntityPose** AllocLoad_DynEntityPosePtr();
+DynEntityPose** AllocSave_DynEntityPosePtr();
 EventData* AllocLoad_EventData();
+EventData* AllocSave_EventData();
 EventData** AllocLoad_EventDataPtr();
+EventData** AllocSave_EventDataPtr();
 ExpressionString* AllocLoad_ExpressionString();
+ExpressionString* AllocSave_ExpressionString();
 ExpressionString** AllocLoad_ExpressionStringPtr();
+ExpressionString** AllocSave_ExpressionStringPtr();
 ExpressionSupportingData* AllocLoad_ExpressionSupportingData();
+ExpressionSupportingData* AllocSave_ExpressionSupportingData();
 ExpressionSupportingData** AllocLoad_ExpressionSupportingDataPtr();
+ExpressionSupportingData** AllocSave_ExpressionSupportingDataPtr();
 Font_s* AllocLoad_Font_s();
+Font_s* AllocSave_Font_s();
 Font_s** AllocLoad_Font_sPtr();
+Font_s** AllocSave_Font_sPtr();
 FxEffectDef* AllocLoad_FxEffectDef();
+FxEffectDef* AllocSave_FxEffectDef();
 FxEffectDef** AllocLoad_FxEffectDefPtr();
+FxEffectDef** AllocSave_FxEffectDefPtr();
 FxEffectDefRef* AllocLoad_FxEffectDefRef();
+FxEffectDefRef* AllocSave_FxEffectDefRef();
 FxEffectDefRef** AllocLoad_FxEffectDefRefPtr();
+FxEffectDefRef** AllocSave_FxEffectDefRefPtr();
 FxElemAtlas* AllocLoad_FxElemAtlas();
+FxElemAtlas* AllocSave_FxElemAtlas();
 FxElemAtlas** AllocLoad_FxElemAtlasPtr();
+FxElemAtlas** AllocSave_FxElemAtlasPtr();
 FxElemDef* AllocLoad_FxElemDef();
+FxElemDef* AllocSave_FxElemDef();
 FxElemDef** AllocLoad_FxElemDefPtr();
+FxElemDef** AllocSave_FxElemDefPtr();
 FxElemDefVisuals* AllocLoad_FxElemDefVisuals();
+FxElemDefVisuals* AllocSave_FxElemDefVisuals();
 FxElemDefVisuals** AllocLoad_FxElemDefVisualsPtr();
+FxElemDefVisuals** AllocSave_FxElemDefVisualsPtr();
 FxElemExtendedDefPtr* AllocLoad_FxElemExtendedDefPtr();
+FxElemExtendedDefPtr* AllocSave_FxElemExtendedDefPtr();
 FxElemExtendedDefPtr** AllocLoad_FxElemExtendedDefPtrPtr();
+FxElemExtendedDefPtr** AllocSave_FxElemExtendedDefPtrPtr();
 FxElemMarkVisuals* AllocLoad_FxElemMarkVisuals();
+FxElemMarkVisuals* AllocSave_FxElemMarkVisuals();
 FxElemMarkVisuals** AllocLoad_FxElemMarkVisualsPtr();
+FxElemMarkVisuals** AllocSave_FxElemMarkVisualsPtr();
 FxElemVec3Range* AllocLoad_FxElemVec3Range();
+FxElemVec3Range* AllocSave_FxElemVec3Range();
 FxElemVec3Range** AllocLoad_FxElemVec3RangePtr();
+FxElemVec3Range** AllocSave_FxElemVec3RangePtr();
 FxElemVelStateInFrame* AllocLoad_FxElemVelStateInFrame();
+FxElemVelStateInFrame* AllocSave_FxElemVelStateInFrame();
 FxElemVelStateInFrame** AllocLoad_FxElemVelStateInFramePtr();
+FxElemVelStateInFrame** AllocSave_FxElemVelStateInFramePtr();
 FxElemVelStateSample* AllocLoad_FxElemVelStateSample();
+FxElemVelStateSample* AllocSave_FxElemVelStateSample();
 FxElemVelStateSample** AllocLoad_FxElemVelStateSamplePtr();
+FxElemVelStateSample** AllocSave_FxElemVelStateSamplePtr();
 FxElemVisStateSample* AllocLoad_FxElemVisStateSample();
+FxElemVisStateSample* AllocSave_FxElemVisStateSample();
 FxElemVisStateSample** AllocLoad_FxElemVisStateSamplePtr();
+FxElemVisStateSample** AllocSave_FxElemVisStateSamplePtr();
 FxElemVisualState* AllocLoad_FxElemVisualState();
+FxElemVisualState* AllocSave_FxElemVisualState();
 FxElemVisualState** AllocLoad_FxElemVisualStatePtr();
+FxElemVisualState** AllocSave_FxElemVisualStatePtr();
 FxElemVisuals* AllocLoad_FxElemVisuals();
+FxElemVisuals* AllocSave_FxElemVisuals();
 FxElemVisuals** AllocLoad_FxElemVisualsPtr();
+FxElemVisuals** AllocSave_FxElemVisualsPtr();
 FxFloatRange* AllocLoad_FxFloatRange();
+FxFloatRange* AllocSave_FxFloatRange();
 FxFloatRange** AllocLoad_FxFloatRangePtr();
+FxFloatRange** AllocSave_FxFloatRangePtr();
 FxGlassCrackHeader* AllocLoad_FxGlassCrackHeader();
+FxGlassCrackHeader* AllocSave_FxGlassCrackHeader();
 FxGlassCrackHeader** AllocLoad_FxGlassCrackHeaderPtr();
+FxGlassCrackHeader** AllocSave_FxGlassCrackHeaderPtr();
 FxGlassDef* AllocLoad_FxGlassDef();
+FxGlassDef* AllocSave_FxGlassDef();
 FxGlassDef** AllocLoad_FxGlassDefPtr();
+FxGlassDef** AllocSave_FxGlassDefPtr();
 FxGlassGeometryData* AllocLoad_FxGlassGeometryData();
+FxGlassGeometryData* AllocSave_FxGlassGeometryData();
 FxGlassGeometryData** AllocLoad_FxGlassGeometryDataPtr();
+FxGlassGeometryData** AllocSave_FxGlassGeometryDataPtr();
 FxGlassHoleHeader* AllocLoad_FxGlassHoleHeader();
+FxGlassHoleHeader* AllocSave_FxGlassHoleHeader();
 FxGlassHoleHeader** AllocLoad_FxGlassHoleHeaderPtr();
+FxGlassHoleHeader** AllocSave_FxGlassHoleHeaderPtr();
 FxGlassInitPieceState* AllocLoad_FxGlassInitPieceState();
+FxGlassInitPieceState* AllocSave_FxGlassInitPieceState();
 FxGlassInitPieceState** AllocLoad_FxGlassInitPieceStatePtr();
+FxGlassInitPieceState** AllocSave_FxGlassInitPieceStatePtr();
 FxGlassPieceDynamics* AllocLoad_FxGlassPieceDynamics();
+FxGlassPieceDynamics* AllocSave_FxGlassPieceDynamics();
 FxGlassPieceDynamics** AllocLoad_FxGlassPieceDynamicsPtr();
+FxGlassPieceDynamics** AllocSave_FxGlassPieceDynamicsPtr();
 FxGlassPiecePlace* AllocLoad_FxGlassPiecePlace();
+FxGlassPiecePlace* AllocSave_FxGlassPiecePlace();
 FxGlassPiecePlace** AllocLoad_FxGlassPiecePlacePtr();
+FxGlassPiecePlace** AllocSave_FxGlassPiecePlacePtr();
 FxGlassPieceState* AllocLoad_FxGlassPieceState();
+FxGlassPieceState* AllocSave_FxGlassPieceState();
 FxGlassPieceState** AllocLoad_FxGlassPieceStatePtr();
+FxGlassPieceState** AllocSave_FxGlassPieceStatePtr();
 FxGlassSystem* AllocLoad_FxGlassSystem();
+FxGlassSystem* AllocSave_FxGlassSystem();
 FxGlassSystem** AllocLoad_FxGlassSystemPtr();
+FxGlassSystem** AllocSave_FxGlassSystemPtr();
 FxGlassVertex* AllocLoad_FxGlassVertex();
+FxGlassVertex* AllocSave_FxGlassVertex();
 FxGlassVertex** AllocLoad_FxGlassVertexPtr();
+FxGlassVertex** AllocSave_FxGlassVertexPtr();
 FxIntRange* AllocLoad_FxIntRange();
+FxIntRange* AllocSave_FxIntRange();
 FxIntRange** AllocLoad_FxIntRangePtr();
+FxIntRange** AllocSave_FxIntRangePtr();
 FxSparkFountainDef* AllocLoad_FxSparkFountainDef();
+FxSparkFountainDef* AllocSave_FxSparkFountainDef();
 FxSparkFountainDef** AllocLoad_FxSparkFountainDefPtr();
+FxSparkFountainDef** AllocSave_FxSparkFountainDefPtr();
 FxSpatialFrame* AllocLoad_FxSpatialFrame();
+FxSpatialFrame* AllocSave_FxSpatialFrame();
 FxSpatialFrame** AllocLoad_FxSpatialFramePtr();
+FxSpatialFrame** AllocSave_FxSpatialFramePtr();
 FxSpawnDef* AllocLoad_FxSpawnDef();
+FxSpawnDef* AllocSave_FxSpawnDef();
 FxSpawnDef** AllocLoad_FxSpawnDefPtr();
+FxSpawnDef** AllocSave_FxSpawnDefPtr();
 FxSpawnDefLooping* AllocLoad_FxSpawnDefLooping();
+FxSpawnDefLooping* AllocSave_FxSpawnDefLooping();
 FxSpawnDefLooping** AllocLoad_FxSpawnDefLoopingPtr();
+FxSpawnDefLooping** AllocSave_FxSpawnDefLoopingPtr();
 FxSpawnDefOneShot* AllocLoad_FxSpawnDefOneShot();
+FxSpawnDefOneShot* AllocSave_FxSpawnDefOneShot();
 FxSpawnDefOneShot** AllocLoad_FxSpawnDefOneShotPtr();
+FxSpawnDefOneShot** AllocSave_FxSpawnDefOneShotPtr();
 FxTrailDef* AllocLoad_FxTrailDef();
+FxTrailDef* AllocSave_FxTrailDef();
 FxTrailDef** AllocLoad_FxTrailDefPtr();
+FxTrailDef** AllocSave_FxTrailDefPtr();
 FxTrailVertex* AllocLoad_FxTrailVertex();
+FxTrailVertex* AllocSave_FxTrailVertex();
 FxTrailVertex** AllocLoad_FxTrailVertexPtr();
+FxTrailVertex** AllocSave_FxTrailVertexPtr();
 FxWorld* AllocLoad_FxWorld();
+FxWorld* AllocSave_FxWorld();
 FxWorld** AllocLoad_FxWorldPtr();
+FxWorld** AllocSave_FxWorldPtr();
 G_GlassData* AllocLoad_G_GlassData();
+G_GlassData* AllocSave_G_GlassData();
 G_GlassData** AllocLoad_G_GlassDataPtr();
+G_GlassData** AllocSave_G_GlassDataPtr();
 G_GlassName* AllocLoad_G_GlassName();
+G_GlassName* AllocSave_G_GlassName();
 G_GlassName** AllocLoad_G_GlassNamePtr();
+G_GlassName** AllocSave_G_GlassNamePtr();
 G_GlassPiece* AllocLoad_G_GlassPiece();
+G_GlassPiece* AllocSave_G_GlassPiece();
 G_GlassPiece** AllocLoad_G_GlassPiecePtr();
+G_GlassPiece** AllocSave_G_GlassPiecePtr();
 GameWorldMp* AllocLoad_GameWorldMp();
+GameWorldMp* AllocSave_GameWorldMp();
 GameWorldMp** AllocLoad_GameWorldMpPtr();
+GameWorldMp** AllocSave_GameWorldMpPtr();
 GfxColor* AllocLoad_GfxColor();
+GfxColor* AllocSave_GfxColor();
 GfxColor** AllocLoad_GfxColorPtr();
+GfxColor** AllocSave_GfxColorPtr();
 GfxDrawSurf* AllocLoad_GfxDrawSurf();
+GfxDrawSurf* AllocSave_GfxDrawSurf();
 GfxDrawSurf** AllocLoad_GfxDrawSurfPtr();
+GfxDrawSurf** AllocSave_GfxDrawSurfPtr();
 GfxImage* AllocLoad_GfxImage();
+GfxImage* AllocSave_GfxImage();
 GfxImage** AllocLoad_GfxImagePtr();
+GfxImage** AllocSave_GfxImagePtr();
 GfxImageLoadDef* AllocLoad_GfxImageLoadDef();
+GfxImageLoadDef* AllocSave_GfxImageLoadDef();
 GfxImageLoadDef** AllocLoad_GfxImageLoadDefPtr();
+GfxImageLoadDef** AllocSave_GfxImageLoadDefPtr();
 GfxLightDef* AllocLoad_GfxLightDef();
+GfxLightDef* AllocSave_GfxLightDef();
 GfxLightDef** AllocLoad_GfxLightDefPtr();
+GfxLightDef** AllocSave_GfxLightDefPtr();
 GfxLightImage* AllocLoad_GfxLightImage();
+GfxLightImage* AllocSave_GfxLightImage();
 GfxLightImage** AllocLoad_GfxLightImagePtr();
+GfxLightImage** AllocSave_GfxLightImagePtr();
 GfxPackedVertex* AllocLoad_GfxPackedVertex();
+GfxPackedVertex* AllocSave_GfxPackedVertex();
 GfxPackedVertex** AllocLoad_GfxPackedVertexPtr();
+GfxPackedVertex** AllocSave_GfxPackedVertexPtr();
 GfxPixelShaderLoadDef* AllocLoad_GfxPixelShaderLoadDef();
+GfxPixelShaderLoadDef* AllocSave_GfxPixelShaderLoadDef();
 GfxPixelShaderLoadDef** AllocLoad_GfxPixelShaderLoadDefPtr();
+GfxPixelShaderLoadDef** AllocSave_GfxPixelShaderLoadDefPtr();
 GfxPlacement* AllocLoad_GfxPlacement();
+GfxPlacement* AllocSave_GfxPlacement();
 GfxPlacement** AllocLoad_GfxPlacementPtr();
+GfxPlacement** AllocSave_GfxPlacementPtr();
 GfxStateBits* AllocLoad_GfxStateBits();
+GfxStateBits* AllocSave_GfxStateBits();
 GfxStateBits** AllocLoad_GfxStateBitsPtr();
+GfxStateBits** AllocSave_GfxStateBitsPtr();
 GfxTexture* AllocLoad_GfxTexture();
+GfxTexture* AllocSave_GfxTexture();
 GfxTexture** AllocLoad_GfxTexturePtr();
+GfxTexture** AllocSave_GfxTexturePtr();
 GfxVertexShaderLoadDef* AllocLoad_GfxVertexShaderLoadDef();
+GfxVertexShaderLoadDef* AllocSave_GfxVertexShaderLoadDef();
 GfxVertexShaderLoadDef** AllocLoad_GfxVertexShaderLoadDefPtr();
+GfxVertexShaderLoadDef** AllocSave_GfxVertexShaderLoadDefPtr();
 Glyph* AllocLoad_Glyph();
+Glyph* AllocSave_Glyph();
 Glyph** AllocLoad_GlyphPtr();
+Glyph** AllocSave_GlyphPtr();
 ItemFloatExpression* AllocLoad_ItemFloatExpression();
+ItemFloatExpression* AllocSave_ItemFloatExpression();
 ItemFloatExpression** AllocLoad_ItemFloatExpressionPtr();
+ItemFloatExpression** AllocSave_ItemFloatExpressionPtr();
 ItemKeyHandler* AllocLoad_ItemKeyHandler();
+ItemKeyHandler* AllocSave_ItemKeyHandler();
 ItemKeyHandler** AllocLoad_ItemKeyHandlerPtr();
+ItemKeyHandler** AllocSave_ItemKeyHandlerPtr();
 LbColumnDef* AllocLoad_LbColumnDef();
+LbColumnDef* AllocSave_LbColumnDef();
 LbColumnDef** AllocLoad_LbColumnDefPtr();
+LbColumnDef** AllocSave_LbColumnDefPtr();
 LeaderboardDef* AllocLoad_LeaderboardDef();
+LeaderboardDef* AllocSave_LeaderboardDef();
 LeaderboardDef** AllocLoad_LeaderboardDefPtr();
+LeaderboardDef** AllocSave_LeaderboardDefPtr();
 LoadedSound* AllocLoad_LoadedSound();
+LoadedSound* AllocSave_LoadedSound();
 LoadedSound** AllocLoad_LoadedSoundPtr();
+LoadedSound** AllocSave_LoadedSoundPtr();
 LocalizeEntry* AllocLoad_LocalizeEntry();
+LocalizeEntry* AllocSave_LocalizeEntry();
 LocalizeEntry** AllocLoad_LocalizeEntryPtr();
+LocalizeEntry** AllocSave_LocalizeEntryPtr();
 MSSChannelMap* AllocLoad_MSSChannelMap();
+MSSChannelMap* AllocSave_MSSChannelMap();
 MSSChannelMap** AllocLoad_MSSChannelMapPtr();
+MSSChannelMap** AllocSave_MSSChannelMapPtr();
 MSSSpeakerLevels* AllocLoad_MSSSpeakerLevels();
+MSSSpeakerLevels* AllocSave_MSSSpeakerLevels();
 MSSSpeakerLevels** AllocLoad_MSSSpeakerLevelsPtr();
+MSSSpeakerLevels** AllocSave_MSSSpeakerLevelsPtr();
 MapEnts* AllocLoad_MapEnts();
+MapEnts* AllocSave_MapEnts();
 MapEnts** AllocLoad_MapEntsPtr();
+MapEnts** AllocSave_MapEntsPtr();
 MapTriggers* AllocLoad_MapTriggers();
+MapTriggers* AllocSave_MapTriggers();
 MapTriggers** AllocLoad_MapTriggersPtr();
+MapTriggers** AllocSave_MapTriggersPtr();
 Material* AllocLoad_Material();
+Material* AllocSave_Material();
 Material** AllocLoad_MaterialPtr();
+Material** AllocSave_MaterialPtr();
 MaterialArgumentCodeConst* AllocLoad_MaterialArgumentCodeConst();
+MaterialArgumentCodeConst* AllocSave_MaterialArgumentCodeConst();
 MaterialArgumentCodeConst** AllocLoad_MaterialArgumentCodeConstPtr();
+MaterialArgumentCodeConst** AllocSave_MaterialArgumentCodeConstPtr();
 MaterialArgumentDef* AllocLoad_MaterialArgumentDef();
+MaterialArgumentDef* AllocSave_MaterialArgumentDef();
 MaterialArgumentDef** AllocLoad_MaterialArgumentDefPtr();
+MaterialArgumentDef** AllocSave_MaterialArgumentDefPtr();
 MaterialConstantDef* AllocLoad_MaterialConstantDef();
+MaterialConstantDef* AllocSave_MaterialConstantDef();
 MaterialConstantDef** AllocLoad_MaterialConstantDefPtr();
+MaterialConstantDef** AllocSave_MaterialConstantDefPtr();
 MaterialInfo* AllocLoad_MaterialInfo();
+MaterialInfo* AllocSave_MaterialInfo();
 MaterialInfo** AllocLoad_MaterialInfoPtr();
+MaterialInfo** AllocSave_MaterialInfoPtr();
 MaterialPass* AllocLoad_MaterialPass();
+MaterialPass* AllocSave_MaterialPass();
 MaterialPass** AllocLoad_MaterialPassPtr();
+MaterialPass** AllocSave_MaterialPassPtr();
 MaterialPixelShader* AllocLoad_MaterialPixelShader();
+MaterialPixelShader* AllocSave_MaterialPixelShader();
 MaterialPixelShader** AllocLoad_MaterialPixelShaderPtr();
+MaterialPixelShader** AllocSave_MaterialPixelShaderPtr();
 MaterialPixelShaderProgram* AllocLoad_MaterialPixelShaderProgram();
+MaterialPixelShaderProgram* AllocSave_MaterialPixelShaderProgram();
 MaterialPixelShaderProgram** AllocLoad_MaterialPixelShaderProgramPtr();
+MaterialPixelShaderProgram** AllocSave_MaterialPixelShaderProgramPtr();
 MaterialShaderArgument* AllocLoad_MaterialShaderArgument();
+MaterialShaderArgument* AllocSave_MaterialShaderArgument();
 MaterialShaderArgument** AllocLoad_MaterialShaderArgumentPtr();
+MaterialShaderArgument** AllocSave_MaterialShaderArgumentPtr();
 MaterialStreamRouting* AllocLoad_MaterialStreamRouting();
+MaterialStreamRouting* AllocSave_MaterialStreamRouting();
 MaterialStreamRouting** AllocLoad_MaterialStreamRoutingPtr();
+MaterialStreamRouting** AllocSave_MaterialStreamRoutingPtr();
 MaterialTechnique* AllocLoad_MaterialTechnique();
+MaterialTechnique* AllocSave_MaterialTechnique();
 MaterialTechnique** AllocLoad_MaterialTechniquePtr();
+MaterialTechnique** AllocSave_MaterialTechniquePtr();
 MaterialTechniqueSet* AllocLoad_MaterialTechniqueSet();
+MaterialTechniqueSet* AllocSave_MaterialTechniqueSet();
 MaterialTechniqueSet** AllocLoad_MaterialTechniqueSetPtr();
+MaterialTechniqueSet** AllocSave_MaterialTechniqueSetPtr();
 MaterialTextureDef* AllocLoad_MaterialTextureDef();
+MaterialTextureDef* AllocSave_MaterialTextureDef();
 MaterialTextureDef** AllocLoad_MaterialTextureDefPtr();
+MaterialTextureDef** AllocSave_MaterialTextureDefPtr();
 MaterialTextureDefInfo* AllocLoad_MaterialTextureDefInfo();
+MaterialTextureDefInfo* AllocSave_MaterialTextureDefInfo();
 MaterialTextureDefInfo** AllocLoad_MaterialTextureDefInfoPtr();
+MaterialTextureDefInfo** AllocSave_MaterialTextureDefInfoPtr();
 MaterialVertexDeclaration* AllocLoad_MaterialVertexDeclaration();
+MaterialVertexDeclaration* AllocSave_MaterialVertexDeclaration();
 MaterialVertexDeclaration** AllocLoad_MaterialVertexDeclarationPtr();
+MaterialVertexDeclaration** AllocSave_MaterialVertexDeclarationPtr();
 MaterialVertexShader* AllocLoad_MaterialVertexShader();
+MaterialVertexShader* AllocSave_MaterialVertexShader();
 MaterialVertexShader** AllocLoad_MaterialVertexShaderPtr();
+MaterialVertexShader** AllocSave_MaterialVertexShaderPtr();
 MaterialVertexShaderProgram* AllocLoad_MaterialVertexShaderProgram();
+MaterialVertexShaderProgram* AllocSave_MaterialVertexShaderProgram();
 MaterialVertexShaderProgram** AllocLoad_MaterialVertexShaderProgramPtr();
+MaterialVertexShaderProgram** AllocSave_MaterialVertexShaderProgramPtr();
 MaterialVertexStreamRouting* AllocLoad_MaterialVertexStreamRouting();
+MaterialVertexStreamRouting* AllocSave_MaterialVertexStreamRouting();
 MaterialVertexStreamRouting** AllocLoad_MaterialVertexStreamRoutingPtr();
+MaterialVertexStreamRouting** AllocSave_MaterialVertexStreamRoutingPtr();
 MenuEventHandler* AllocLoad_MenuEventHandler();
+MenuEventHandler* AllocSave_MenuEventHandler();
 MenuEventHandler** AllocLoad_MenuEventHandlerPtr();
+MenuEventHandler** AllocSave_MenuEventHandlerPtr();
 MenuEventHandlerSet* AllocLoad_MenuEventHandlerSet();
+MenuEventHandlerSet* AllocSave_MenuEventHandlerSet();
 MenuEventHandlerSet** AllocLoad_MenuEventHandlerSetPtr();
+MenuEventHandlerSet** AllocSave_MenuEventHandlerSetPtr();
 MenuList* AllocLoad_MenuList();
+MenuList* AllocSave_MenuList();
 MenuList** AllocLoad_MenuListPtr();
+MenuList** AllocSave_MenuListPtr();
 MssSound* AllocLoad_MssSound();
+MssSound* AllocSave_MssSound();
 MssSound** AllocLoad_MssSoundPtr();
+MssSound** AllocSave_MssSoundPtr();
 Operand* AllocLoad_Operand();
+Operand* AllocSave_Operand();
 Operand** AllocLoad_OperandPtr();
+Operand** AllocSave_OperandPtr();
 PackedTexCoords* AllocLoad_PackedTexCoords();
+PackedTexCoords* AllocSave_PackedTexCoords();
 PackedTexCoords** AllocLoad_PackedTexCoordsPtr();
+PackedTexCoords** AllocSave_PackedTexCoordsPtr();
 PackedUnitVec* AllocLoad_PackedUnitVec();
+PackedUnitVec* AllocSave_PackedUnitVec();
 PackedUnitVec** AllocLoad_PackedUnitVecPtr();
+PackedUnitVec** AllocSave_PackedUnitVecPtr();
 PhysCollmap* AllocLoad_PhysCollmap();
+PhysCollmap* AllocSave_PhysCollmap();
 PhysCollmap** AllocLoad_PhysCollmapPtr();
+PhysCollmap** AllocSave_PhysCollmapPtr();
 PhysGeomInfo* AllocLoad_PhysGeomInfo();
+PhysGeomInfo* AllocSave_PhysGeomInfo();
 PhysGeomInfo** AllocLoad_PhysGeomInfoPtr();
+PhysGeomInfo** AllocSave_PhysGeomInfoPtr();
 PhysMass* AllocLoad_PhysMass();
+PhysMass* AllocSave_PhysMass();
 PhysMass** AllocLoad_PhysMassPtr();
+PhysMass** AllocSave_PhysMassPtr();
 PhysPreset* AllocLoad_PhysPreset();
+PhysPreset* AllocSave_PhysPreset();
 PhysPreset** AllocLoad_PhysPresetPtr();
+PhysPreset** AllocSave_PhysPresetPtr();
 Picmip* AllocLoad_Picmip();
+Picmip* AllocSave_Picmip();
 Picmip** AllocLoad_PicmipPtr();
+Picmip** AllocSave_PicmipPtr();
 RawFile* AllocLoad_RawFile();
+RawFile* AllocSave_RawFile();
 RawFile** AllocLoad_RawFilePtr();
+RawFile** AllocSave_RawFilePtr();
 SModelAabbNode* AllocLoad_SModelAabbNode();
+SModelAabbNode* AllocSave_SModelAabbNode();
 SModelAabbNode** AllocLoad_SModelAabbNodePtr();
+SModelAabbNode** AllocSave_SModelAabbNodePtr();
 ScriptStringList* AllocLoad_ScriptStringList();
+ScriptStringList* AllocSave_ScriptStringList();
 ScriptStringList** AllocLoad_ScriptStringListPtr();
+ScriptStringList** AllocSave_ScriptStringListPtr();
 SetLocalVarData* AllocLoad_SetLocalVarData();
+SetLocalVarData* AllocSave_SetLocalVarData();
 SetLocalVarData** AllocLoad_SetLocalVarDataPtr();
+SetLocalVarData** AllocSave_SetLocalVarDataPtr();
 SndCurve* AllocLoad_SndCurve();
+SndCurve* AllocSave_SndCurve();
 SndCurve** AllocLoad_SndCurvePtr();
+SndCurve** AllocSave_SndCurvePtr();
 SndDriverGlobals* AllocLoad_SndDriverGlobals();
+SndDriverGlobals* AllocSave_SndDriverGlobals();
 SndDriverGlobals** AllocLoad_SndDriverGlobalsPtr();
+SndDriverGlobals** AllocSave_SndDriverGlobalsPtr();
 SoundFile* AllocLoad_SoundFile();
+SoundFile* AllocSave_SoundFile();
 SoundFile** AllocLoad_SoundFilePtr();
+SoundFile** AllocSave_SoundFilePtr();
 SoundFileRef* AllocLoad_SoundFileRef();
+SoundFileRef* AllocSave_SoundFileRef();
 SoundFileRef** AllocLoad_SoundFileRefPtr();
+SoundFileRef** AllocSave_SoundFileRefPtr();
 SpeakerMap* AllocLoad_SpeakerMap();
+SpeakerMap* AllocSave_SpeakerMap();
 SpeakerMap** AllocLoad_SpeakerMapPtr();
+SpeakerMap** AllocSave_SpeakerMapPtr();
 Stage* AllocLoad_Stage();
+Stage* AllocSave_Stage();
 Stage** AllocLoad_StagePtr();
+Stage** AllocSave_StagePtr();
 Statement_s* AllocLoad_Statement_s();
+Statement_s* AllocSave_Statement_s();
 Statement_s** AllocLoad_Statement_sPtr();
+Statement_s** AllocSave_Statement_sPtr();
 StaticDvar* AllocLoad_StaticDvar();
+StaticDvar* AllocSave_StaticDvar();
 StaticDvar** AllocLoad_StaticDvarPtr();
+StaticDvar** AllocSave_StaticDvarPtr();
 StaticDvarList* AllocLoad_StaticDvarList();
+StaticDvarList* AllocSave_StaticDvarList();
 StaticDvarList** AllocLoad_StaticDvarListPtr();
+StaticDvarList** AllocSave_StaticDvarListPtr();
 StreamFileInfo* AllocLoad_StreamFileInfo();
+StreamFileInfo* AllocSave_StreamFileInfo();
 StreamFileInfo** AllocLoad_StreamFileInfoPtr();
+StreamFileInfo** AllocSave_StreamFileInfoPtr();
 StreamFileName* AllocLoad_StreamFileName();
+StreamFileName* AllocSave_StreamFileName();
 StreamFileName** AllocLoad_StreamFileNamePtr();
+StreamFileName** AllocSave_StreamFileNamePtr();
 StreamFileNameRaw* AllocLoad_StreamFileNameRaw();
+StreamFileNameRaw* AllocSave_StreamFileNameRaw();
 StreamFileNameRaw** AllocLoad_StreamFileNameRawPtr();
+StreamFileNameRaw** AllocSave_StreamFileNameRawPtr();
 StreamedSound* AllocLoad_StreamedSound();
+StreamedSound* AllocSave_StreamedSound();
 StreamedSound** AllocLoad_StreamedSoundPtr();
+StreamedSound** AllocSave_StreamedSoundPtr();
 StringList* AllocLoad_StringList();
+StringList* AllocSave_StringList();
 StringList** AllocLoad_StringListPtr();
+StringList** AllocSave_StringListPtr();
 StringTable* AllocLoad_StringTable();
+StringTable* AllocSave_StringTable();
 StringTable** AllocLoad_StringTablePtr();
+StringTable** AllocSave_StringTablePtr();
 StringTableCell* AllocLoad_StringTableCell();
+StringTableCell* AllocSave_StringTableCell();
 StringTableCell** AllocLoad_StringTableCellPtr();
+StringTableCell** AllocSave_StringTableCellPtr();
 StructuredDataDef* AllocLoad_StructuredDataDef();
+StructuredDataDef* AllocSave_StructuredDataDef();
 StructuredDataDef** AllocLoad_StructuredDataDefPtr();
+StructuredDataDef** AllocSave_StructuredDataDefPtr();
 StructuredDataDefSet* AllocLoad_StructuredDataDefSet();
+StructuredDataDefSet* AllocSave_StructuredDataDefSet();
 StructuredDataDefSet** AllocLoad_StructuredDataDefSetPtr();
+StructuredDataDefSet** AllocSave_StructuredDataDefSetPtr();
 StructuredDataEnum* AllocLoad_StructuredDataEnum();
+StructuredDataEnum* AllocSave_StructuredDataEnum();
 StructuredDataEnum** AllocLoad_StructuredDataEnumPtr();
+StructuredDataEnum** AllocSave_StructuredDataEnumPtr();
 StructuredDataEnumEntry* AllocLoad_StructuredDataEnumEntry();
+StructuredDataEnumEntry* AllocSave_StructuredDataEnumEntry();
 StructuredDataEnumEntry** AllocLoad_StructuredDataEnumEntryPtr();
+StructuredDataEnumEntry** AllocSave_StructuredDataEnumEntryPtr();
 StructuredDataEnumedArray* AllocLoad_StructuredDataEnumedArray();
+StructuredDataEnumedArray* AllocSave_StructuredDataEnumedArray();
 StructuredDataEnumedArray** AllocLoad_StructuredDataEnumedArrayPtr();
+StructuredDataEnumedArray** AllocSave_StructuredDataEnumedArrayPtr();
 StructuredDataIndexedArray* AllocLoad_StructuredDataIndexedArray();
+StructuredDataIndexedArray* AllocSave_StructuredDataIndexedArray();
 StructuredDataIndexedArray** AllocLoad_StructuredDataIndexedArrayPtr();
+StructuredDataIndexedArray** AllocSave_StructuredDataIndexedArrayPtr();
 StructuredDataStruct* AllocLoad_StructuredDataStruct();
+StructuredDataStruct* AllocSave_StructuredDataStruct();
 StructuredDataStruct** AllocLoad_StructuredDataStructPtr();
+StructuredDataStruct** AllocSave_StructuredDataStructPtr();
 StructuredDataStructProperty* AllocLoad_StructuredDataStructProperty();
+StructuredDataStructProperty* AllocSave_StructuredDataStructProperty();
 StructuredDataStructProperty** AllocLoad_StructuredDataStructPropertyPtr();
+StructuredDataStructProperty** AllocSave_StructuredDataStructPropertyPtr();
 StructuredDataType* AllocLoad_StructuredDataType();
+StructuredDataType* AllocSave_StructuredDataType();
 StructuredDataType** AllocLoad_StructuredDataTypePtr();
+StructuredDataType** AllocSave_StructuredDataTypePtr();
 StructuredDataTypeUnion* AllocLoad_StructuredDataTypeUnion();
+StructuredDataTypeUnion* AllocSave_StructuredDataTypeUnion();
 StructuredDataTypeUnion** AllocLoad_StructuredDataTypeUnionPtr();
+StructuredDataTypeUnion** AllocSave_StructuredDataTypeUnionPtr();
 TempString* AllocLoad_TempString();
+TempString* AllocSave_TempString();
 TempString** AllocLoad_TempStringPtr();
+TempString** AllocSave_TempStringPtr();
 TracerDef* AllocLoad_TracerDef();
+TracerDef* AllocSave_TracerDef();
 TracerDef** AllocLoad_TracerDefPtr();
+TracerDef** AllocSave_TracerDefPtr();
 TriIndice* AllocLoad_TriIndice();
+TriIndice* AllocSave_TriIndice();
 TriIndice** AllocLoad_TriIndicePtr();
+TriIndice** AllocSave_TriIndicePtr();
 TriggerHull* AllocLoad_TriggerHull();
+TriggerHull* AllocSave_TriggerHull();
 TriggerHull** AllocLoad_TriggerHullPtr();
+TriggerHull** AllocSave_TriggerHullPtr();
 TriggerModel* AllocLoad_TriggerModel();
+TriggerModel* AllocSave_TriggerModel();
 TriggerModel** AllocLoad_TriggerModelPtr();
+TriggerModel** AllocSave_TriggerModelPtr();
 TriggerSlab* AllocLoad_TriggerSlab();
+TriggerSlab* AllocSave_TriggerSlab();
 TriggerSlab** AllocLoad_TriggerSlabPtr();
+TriggerSlab** AllocSave_TriggerSlabPtr();
 UIFunctionList* AllocLoad_UIFunctionList();
+UIFunctionList* AllocSave_UIFunctionList();
 UIFunctionList** AllocLoad_UIFunctionListPtr();
+UIFunctionList** AllocSave_UIFunctionListPtr();
 WaterWritable* AllocLoad_WaterWritable();
+WaterWritable* AllocSave_WaterWritable();
 WaterWritable** AllocLoad_WaterWritablePtr();
+WaterWritable** AllocSave_WaterWritablePtr();
 XAnimDeltaPart* AllocLoad_XAnimDeltaPart();
+XAnimDeltaPart* AllocSave_XAnimDeltaPart();
 XAnimDeltaPart** AllocLoad_XAnimDeltaPartPtr();
+XAnimDeltaPart** AllocSave_XAnimDeltaPartPtr();
 XAnimDeltaPartQuat* AllocLoad_XAnimDeltaPartQuat();
+XAnimDeltaPartQuat* AllocSave_XAnimDeltaPartQuat();
 XAnimDeltaPartQuat** AllocLoad_XAnimDeltaPartQuatPtr();
+XAnimDeltaPartQuat** AllocSave_XAnimDeltaPartQuatPtr();
 XAnimDeltaPartQuat2* AllocLoad_XAnimDeltaPartQuat2();
+XAnimDeltaPartQuat2* AllocSave_XAnimDeltaPartQuat2();
 XAnimDeltaPartQuat2** AllocLoad_XAnimDeltaPartQuat2Ptr();
+XAnimDeltaPartQuat2** AllocSave_XAnimDeltaPartQuat2Ptr();
 XAnimDeltaPartQuatData* AllocLoad_XAnimDeltaPartQuatData();
+XAnimDeltaPartQuatData* AllocSave_XAnimDeltaPartQuatData();
 XAnimDeltaPartQuatData** AllocLoad_XAnimDeltaPartQuatDataPtr();
+XAnimDeltaPartQuatData** AllocSave_XAnimDeltaPartQuatDataPtr();
 XAnimDeltaPartQuatData2* AllocLoad_XAnimDeltaPartQuatData2();
+XAnimDeltaPartQuatData2* AllocSave_XAnimDeltaPartQuatData2();
 XAnimDeltaPartQuatData2** AllocLoad_XAnimDeltaPartQuatData2Ptr();
+XAnimDeltaPartQuatData2** AllocSave_XAnimDeltaPartQuatData2Ptr();
 XAnimDeltaPartQuatDataFrames* AllocLoad_XAnimDeltaPartQuatDataFrames();
+XAnimDeltaPartQuatDataFrames* AllocSave_XAnimDeltaPartQuatDataFrames();
 XAnimDeltaPartQuatDataFrames** AllocLoad_XAnimDeltaPartQuatDataFramesPtr();
+XAnimDeltaPartQuatDataFrames** AllocSave_XAnimDeltaPartQuatDataFramesPtr();
 XAnimDeltaPartQuatDataFrames2* AllocLoad_XAnimDeltaPartQuatDataFrames2();
+XAnimDeltaPartQuatDataFrames2* AllocSave_XAnimDeltaPartQuatDataFrames2();
 XAnimDeltaPartQuatDataFrames2** AllocLoad_XAnimDeltaPartQuatDataFrames2Ptr();
+XAnimDeltaPartQuatDataFrames2** AllocSave_XAnimDeltaPartQuatDataFrames2Ptr();
 XAnimDynamicFrames* AllocLoad_XAnimDynamicFrames();
+XAnimDynamicFrames* AllocSave_XAnimDynamicFrames();
 XAnimDynamicFrames** AllocLoad_XAnimDynamicFramesPtr();
+XAnimDynamicFrames** AllocSave_XAnimDynamicFramesPtr();
 XAnimDynamicIndices* AllocLoad_XAnimDynamicIndices();
+XAnimDynamicIndices* AllocSave_XAnimDynamicIndices();
 XAnimDynamicIndices** AllocLoad_XAnimDynamicIndicesPtr();
+XAnimDynamicIndices** AllocSave_XAnimDynamicIndicesPtr();
 XAnimIndices* AllocLoad_XAnimIndices();
+XAnimIndices* AllocSave_XAnimIndices();
 XAnimIndices** AllocLoad_XAnimIndicesPtr();
+XAnimIndices** AllocSave_XAnimIndicesPtr();
 XAnimNotifyInfo* AllocLoad_XAnimNotifyInfo();
+XAnimNotifyInfo* AllocSave_XAnimNotifyInfo();
 XAnimNotifyInfo** AllocLoad_XAnimNotifyInfoPtr();
+XAnimNotifyInfo** AllocSave_XAnimNotifyInfoPtr();
 XAnimPartTrans* AllocLoad_XAnimPartTrans();
+XAnimPartTrans* AllocSave_XAnimPartTrans();
 XAnimPartTrans** AllocLoad_XAnimPartTransPtr();
+XAnimPartTrans** AllocSave_XAnimPartTransPtr();
 XAnimPartTransData* AllocLoad_XAnimPartTransData();
+XAnimPartTransData* AllocSave_XAnimPartTransData();
 XAnimPartTransData** AllocLoad_XAnimPartTransDataPtr();
+XAnimPartTransData** AllocSave_XAnimPartTransDataPtr();
 XAnimPartTransFrames* AllocLoad_XAnimPartTransFrames();
+XAnimPartTransFrames* AllocSave_XAnimPartTransFrames();
 XAnimPartTransFrames** AllocLoad_XAnimPartTransFramesPtr();
+XAnimPartTransFrames** AllocSave_XAnimPartTransFramesPtr();
 XAnimParts* AllocLoad_XAnimParts();
+XAnimParts* AllocSave_XAnimParts();
 XAnimParts** AllocLoad_XAnimPartsPtr();
+XAnimParts** AllocSave_XAnimPartsPtr();
 XAsset* AllocLoad_XAsset();
+XAsset* AllocSave_XAsset();
 XAsset** AllocLoad_XAssetPtr();
+XAsset** AllocSave_XAssetPtr();
 XAssetHeader* AllocLoad_XAssetHeader();
+XAssetHeader* AllocSave_XAssetHeader();
 XAssetHeader** AllocLoad_XAssetHeaderPtr();
+XAssetHeader** AllocSave_XAssetHeaderPtr();
 XAssetList* AllocLoad_XAssetList();
+XAssetList* AllocSave_XAssetList();
 XAssetList** AllocLoad_XAssetListPtr();
+XAssetList** AllocSave_XAssetListPtr();
 XBoneInfo* AllocLoad_XBoneInfo();
+XBoneInfo* AllocSave_XBoneInfo();
 XBoneInfo** AllocLoad_XBoneInfoPtr();
+XBoneInfo** AllocSave_XBoneInfoPtr();
 XModel* AllocLoad_XModel();
+XModel* AllocSave_XModel();
 XModel** AllocLoad_XModelPtr();
+XModel** AllocSave_XModelPtr();
 XModelCollSurf_s* AllocLoad_XModelCollSurf_s();
+XModelCollSurf_s* AllocSave_XModelCollSurf_s();
 XModelCollSurf_s** AllocLoad_XModelCollSurf_sPtr();
+XModelCollSurf_s** AllocSave_XModelCollSurf_sPtr();
 XModelCollTri_s* AllocLoad_XModelCollTri_s();
+XModelCollTri_s* AllocSave_XModelCollTri_s();
 XModelCollTri_s** AllocLoad_XModelCollTri_sPtr();
+XModelCollTri_s** AllocSave_XModelCollTri_sPtr();
 XModelLodInfo* AllocLoad_XModelLodInfo();
+XModelLodInfo* AllocSave_XModelLodInfo();
 XModelLodInfo** AllocLoad_XModelLodInfoPtr();
+XModelLodInfo** AllocSave_XModelLodInfoPtr();
 XModelSurfs* AllocLoad_XModelSurfs();
+XModelSurfs* AllocSave_XModelSurfs();
 XModelSurfs** AllocLoad_XModelSurfsPtr();
+XModelSurfs** AllocSave_XModelSurfsPtr();
 XRigidVertList* AllocLoad_XRigidVertList();
+XRigidVertList* AllocSave_XRigidVertList();
 XRigidVertList** AllocLoad_XRigidVertListPtr();
+XRigidVertList** AllocSave_XRigidVertListPtr();
 XString* AllocLoad_XString();
+XString* AllocSave_XString();
 XString** AllocLoad_XStringPtr();
+XString** AllocSave_XStringPtr();
 XSurface* AllocLoad_XSurface();
+XSurface* AllocSave_XSurface();
 XSurface** AllocLoad_XSurfacePtr();
+XSurface** AllocSave_XSurfacePtr();
 XSurfaceCollisionAabb* AllocLoad_XSurfaceCollisionAabb();
+XSurfaceCollisionAabb* AllocSave_XSurfaceCollisionAabb();
 XSurfaceCollisionAabb** AllocLoad_XSurfaceCollisionAabbPtr();
+XSurfaceCollisionAabb** AllocSave_XSurfaceCollisionAabbPtr();
 XSurfaceCollisionLeaf* AllocLoad_XSurfaceCollisionLeaf();
+XSurfaceCollisionLeaf* AllocSave_XSurfaceCollisionLeaf();
 XSurfaceCollisionLeaf** AllocLoad_XSurfaceCollisionLeafPtr();
+XSurfaceCollisionLeaf** AllocSave_XSurfaceCollisionLeafPtr();
 XSurfaceCollisionNode* AllocLoad_XSurfaceCollisionNode();
+XSurfaceCollisionNode* AllocSave_XSurfaceCollisionNode();
 XSurfaceCollisionNode** AllocLoad_XSurfaceCollisionNodePtr();
+XSurfaceCollisionNode** AllocSave_XSurfaceCollisionNodePtr();
 XSurfaceCollisionTree* AllocLoad_XSurfaceCollisionTree();
+XSurfaceCollisionTree* AllocSave_XSurfaceCollisionTree();
 XSurfaceCollisionTree** AllocLoad_XSurfaceCollisionTreePtr();
+XSurfaceCollisionTree** AllocSave_XSurfaceCollisionTreePtr();
 XSurfaceVertexInfo* AllocLoad_XSurfaceVertexInfo();
+XSurfaceVertexInfo* AllocSave_XSurfaceVertexInfo();
 XSurfaceVertexInfo** AllocLoad_XSurfaceVertexInfoPtr();
+XSurfaceVertexInfo** AllocSave_XSurfaceVertexInfoPtr();
 _AILSOUNDINFO* AllocLoad__AILSOUNDINFO();
+_AILSOUNDINFO* AllocSave__AILSOUNDINFO();
 _AILSOUNDINFO** AllocLoad__AILSOUNDINFOPtr();
+_AILSOUNDINFO** AllocSave__AILSOUNDINFOPtr();
 bool* AllocLoad_bool();
+bool* AllocSave_bool();
 bool** AllocLoad_boolPtr();
+bool** AllocSave_boolPtr();
 cLeafBrushNodeChildren_t* AllocLoad_cLeafBrushNodeChildren_t();
+cLeafBrushNodeChildren_t* AllocSave_cLeafBrushNodeChildren_t();
 cLeafBrushNodeChildren_t** AllocLoad_cLeafBrushNodeChildren_tPtr();
+cLeafBrushNodeChildren_t** AllocSave_cLeafBrushNodeChildren_tPtr();
 cLeafBrushNodeData_t* AllocLoad_cLeafBrushNodeData_t();
+cLeafBrushNodeData_t* AllocSave_cLeafBrushNodeData_t();
 cLeafBrushNodeData_t** AllocLoad_cLeafBrushNodeData_tPtr();
+cLeafBrushNodeData_t** AllocSave_cLeafBrushNodeData_tPtr();
 cLeafBrushNodeLeaf_t* AllocLoad_cLeafBrushNodeLeaf_t();
+cLeafBrushNodeLeaf_t* AllocSave_cLeafBrushNodeLeaf_t();
 cLeafBrushNodeLeaf_t** AllocLoad_cLeafBrushNodeLeaf_tPtr();
+cLeafBrushNodeLeaf_t** AllocSave_cLeafBrushNodeLeaf_tPtr();
 cLeafBrushNode_s* AllocLoad_cLeafBrushNode_s();
+cLeafBrushNode_s* AllocSave_cLeafBrushNode_s();
 cLeafBrushNode_s** AllocLoad_cLeafBrushNode_sPtr();
+cLeafBrushNode_s** AllocSave_cLeafBrushNode_sPtr();
 cLeaf_t* AllocLoad_cLeaf_t();
+cLeaf_t* AllocSave_cLeaf_t();
 cLeaf_t** AllocLoad_cLeaf_tPtr();
+cLeaf_t** AllocSave_cLeaf_tPtr();
 cNode_t* AllocLoad_cNode_t();
+cNode_t* AllocSave_cNode_t();
 cNode_t** AllocLoad_cNode_tPtr();
+cNode_t** AllocSave_cNode_tPtr();
 cStaticModel_s* AllocLoad_cStaticModel_s();
+cStaticModel_s* AllocSave_cStaticModel_s();
 cStaticModel_s** AllocLoad_cStaticModel_sPtr();
+cStaticModel_s** AllocSave_cStaticModel_sPtr();
 cbrush_t* AllocLoad_cbrush_t();
+cbrush_t* AllocSave_cbrush_t();
 cbrush_t** AllocLoad_cbrush_tPtr();
+cbrush_t** AllocSave_cbrush_tPtr();
 cbrushside_t* AllocLoad_cbrushside_t();
+cbrushside_t* AllocSave_cbrushside_t();
 cbrushside_t** AllocLoad_cbrushside_tPtr();
+cbrushside_t** AllocSave_cbrushside_tPtr();
 char* AllocLoad_char();
+char* AllocSave_char();
 char** AllocLoad_charPtr();
+char** AllocSave_charPtr();
 char16* AllocLoad_char16();
+char16* AllocSave_char16();
 char16** AllocLoad_char16Ptr();
+char16** AllocSave_char16Ptr();
 clipMap_t* AllocLoad_clipMap_t();
+clipMap_t* AllocSave_clipMap_t();
 clipMap_t** AllocLoad_clipMap_tPtr();
+clipMap_t** AllocSave_clipMap_tPtr();
 cmodel_t* AllocLoad_cmodel_t();
+cmodel_t* AllocSave_cmodel_t();
 cmodel_t** AllocLoad_cmodel_tPtr();
+cmodel_t** AllocSave_cmodel_tPtr();
 columnInfo_s* AllocLoad_columnInfo_s();
+columnInfo_s* AllocSave_columnInfo_s();
 columnInfo_s** AllocLoad_columnInfo_sPtr();
+columnInfo_s** AllocSave_columnInfo_sPtr();
 complex_s* AllocLoad_complex_s();
+complex_s* AllocSave_complex_s();
 complex_s** AllocLoad_complex_sPtr();
+complex_s** AllocSave_complex_sPtr();
 const char *DB_ComWorldGetName(XAssetHeader* header);
 const char *DB_Font_sGetName(XAssetHeader* header);
 const char *DB_FxEffectDefGetName(XAssetHeader* header);
@@ -440,67 +838,129 @@ const char *DB_clipMap_tGetName(XAssetHeader* header);
 const char *DB_menuDef_tGetName(XAssetHeader* header);
 const char *DB_snd_alias_list_tGetName(XAssetHeader* header);
 cplane_s* AllocLoad_cplane_s();
+cplane_s* AllocSave_cplane_s();
 cplane_s** AllocLoad_cplane_sPtr();
+cplane_s** AllocSave_cplane_sPtr();
 double* AllocLoad_double();
+double* AllocSave_double();
 double** AllocLoad_doublePtr();
+double** AllocSave_doublePtr();
 editFieldDef_s* AllocLoad_editFieldDef_s();
+editFieldDef_s* AllocSave_editFieldDef_s();
 editFieldDef_s** AllocLoad_editFieldDef_sPtr();
+editFieldDef_s** AllocSave_editFieldDef_sPtr();
 entryInternalData* AllocLoad_entryInternalData();
+entryInternalData* AllocSave_entryInternalData();
 entryInternalData** AllocLoad_entryInternalDataPtr();
+entryInternalData** AllocSave_entryInternalDataPtr();
 expressionEntry* AllocLoad_expressionEntry();
+expressionEntry* AllocSave_expressionEntry();
 expressionEntry** AllocLoad_expressionEntryPtr();
+expressionEntry** AllocSave_expressionEntryPtr();
 float* AllocLoad_float();
+float* AllocSave_float();
 float** AllocLoad_floatPtr();
+float** AllocSave_floatPtr();
 float16* AllocLoad_float16();
+float16* AllocSave_float16();
 float16** AllocLoad_float16Ptr();
+float16** AllocSave_float16Ptr();
 int16* AllocLoad_int16();
+int16* AllocSave_int16();
 int16** AllocLoad_int16Ptr();
+int16** AllocSave_int16Ptr();
 int32* AllocLoad_int32();
+int32* AllocSave_int32();
 int32** AllocLoad_int32Ptr();
+int32** AllocSave_int32Ptr();
 int64* AllocLoad_int64();
+int64* AllocSave_int64();
 int64** AllocLoad_int64Ptr();
+int64** AllocSave_int64Ptr();
 int8* AllocLoad_int8();
+int8* AllocSave_int8();
 int8** AllocLoad_int8Ptr();
+int8** AllocSave_int8Ptr();
 itemDefData_t* AllocLoad_itemDefData_t();
+itemDefData_t* AllocSave_itemDefData_t();
 itemDefData_t** AllocLoad_itemDefData_tPtr();
+itemDefData_t** AllocSave_itemDefData_tPtr();
 itemDef_s* AllocLoad_itemDef_s();
+itemDef_s* AllocSave_itemDef_s();
 itemDef_s** AllocLoad_itemDef_sPtr();
+itemDef_s** AllocSave_itemDef_sPtr();
 listBoxDef_s* AllocLoad_listBoxDef_s();
+listBoxDef_s* AllocSave_listBoxDef_s();
 listBoxDef_s** AllocLoad_listBoxDef_sPtr();
+listBoxDef_s** AllocSave_listBoxDef_sPtr();
 menuDef_t* AllocLoad_menuDef_t();
+menuDef_t* AllocSave_menuDef_t();
 menuDef_t** AllocLoad_menuDef_tPtr();
+menuDef_t** AllocSave_menuDef_tPtr();
 menuTransition* AllocLoad_menuTransition();
+menuTransition* AllocSave_menuTransition();
 menuTransition** AllocLoad_menuTransitionPtr();
+menuTransition** AllocSave_menuTransitionPtr();
 multiDef_s* AllocLoad_multiDef_s();
+multiDef_s* AllocSave_multiDef_s();
 multiDef_s** AllocLoad_multiDef_sPtr();
+multiDef_s** AllocSave_multiDef_sPtr();
 newsTickerDef_s* AllocLoad_newsTickerDef_s();
+newsTickerDef_s* AllocSave_newsTickerDef_s();
 newsTickerDef_s** AllocLoad_newsTickerDef_sPtr();
+newsTickerDef_s** AllocSave_newsTickerDef_sPtr();
 operandInternalDataUnion* AllocLoad_operandInternalDataUnion();
+operandInternalDataUnion* AllocSave_operandInternalDataUnion();
 operandInternalDataUnion** AllocLoad_operandInternalDataUnionPtr();
+operandInternalDataUnion** AllocSave_operandInternalDataUnionPtr();
 rectDef_s* AllocLoad_rectDef_s();
+rectDef_s* AllocSave_rectDef_s();
 rectDef_s** AllocLoad_rectDef_sPtr();
+rectDef_s** AllocSave_rectDef_sPtr();
 snd_alias_list_t* AllocLoad_snd_alias_list_t();
+snd_alias_list_t* AllocSave_snd_alias_list_t();
 snd_alias_list_t** AllocLoad_snd_alias_list_tPtr();
+snd_alias_list_t** AllocSave_snd_alias_list_tPtr();
 snd_alias_t* AllocLoad_snd_alias_t();
+snd_alias_t* AllocSave_snd_alias_t();
 snd_alias_t** AllocLoad_snd_alias_tPtr();
+snd_alias_t** AllocSave_snd_alias_tPtr();
 textScrollDef_s* AllocLoad_textScrollDef_s();
+textScrollDef_s* AllocSave_textScrollDef_s();
 textScrollDef_s** AllocLoad_textScrollDef_sPtr();
+textScrollDef_s** AllocSave_textScrollDef_sPtr();
 uint16* AllocLoad_uint16();
+uint16* AllocSave_uint16();
 uint16** AllocLoad_uint16Ptr();
+uint16** AllocSave_uint16Ptr();
 uint32* AllocLoad_uint32();
+uint32* AllocSave_uint32();
 uint32** AllocLoad_uint32Ptr();
+uint32** AllocSave_uint32Ptr();
 uint64* AllocLoad_uint64();
+uint64* AllocSave_uint64();
 uint64** AllocLoad_uint64Ptr();
+uint64** AllocSave_uint64Ptr();
 uint8* AllocLoad_uint8();
+uint8* AllocSave_uint8();
 uint8** AllocLoad_uint8Ptr();
+uint8** AllocSave_uint8Ptr();
 vec1_t* AllocLoad_vec1_t();
+vec1_t* AllocSave_vec1_t();
 vec1_t** AllocLoad_vec1_tPtr();
+vec1_t** AllocSave_vec1_tPtr();
 vec2_t* AllocLoad_vec2_t();
+vec2_t* AllocSave_vec2_t();
 vec2_t** AllocLoad_vec2_tPtr();
+vec2_t** AllocSave_vec2_tPtr();
 vec3_t* AllocLoad_vec3_t();
+vec3_t* AllocSave_vec3_t();
 vec3_t** AllocLoad_vec3_tPtr();
+vec3_t** AllocSave_vec3_tPtr();
 vec4_t* AllocLoad_vec4_t();
+vec4_t* AllocSave_vec4_t();
 vec4_t** AllocLoad_vec4_tPtr();
+vec4_t** AllocSave_vec4_tPtr();
 void Load_$C8D87EB0090687D323381DFB7A82089C(bool atStreamStart);
 void Load_$C8D87EB0090687D323381DFB7A82089CArray(bool atStreamStart, int count);
 void Load_$C8D87EB0090687D323381DFB7A82089CPtr(bool atStreamStart);
@@ -1457,10 +1917,972 @@ void Load_windowDef_t(bool atStreamStart);
 void Load_windowDef_tArray(bool atStreamStart, int count);
 void Load_windowDef_tPtr(bool atStreamStart);
 void Load_windowDef_tPtrArray(bool atStreamStart, int count);
+void Save_$C8D87EB0090687D323381DFB7A82089C(bool atStreamStart);
+void Save_$C8D87EB0090687D323381DFB7A82089CArray(bool atStreamStart, int count);
+void Save_$C8D87EB0090687D323381DFB7A82089CPtr(bool atStreamStart);
+void Save_$C8D87EB0090687D323381DFB7A82089CPtrArray(bool atStreamStart, int count);
+void Save_$E43DBA5037697D705289B74D87E76C70(bool atStreamStart);
+void Save_$E43DBA5037697D705289B74D87E76C70Array(bool atStreamStart, int count);
+void Save_$E43DBA5037697D705289B74D87E76C70Ptr(bool atStreamStart);
+void Save_$E43DBA5037697D705289B74D87E76C70PtrArray(bool atStreamStart, int count);
+void Save_Bounds(bool atStreamStart);
+void Save_BoundsArray(bool atStreamStart, int count);
+void Save_BoundsPtr(bool atStreamStart);
+void Save_BoundsPtrArray(bool atStreamStart, int count);
+void Save_BrushWrapper(bool atStreamStart);
+void Save_BrushWrapperArray(bool atStreamStart, int count);
+void Save_BrushWrapperPtr(bool atStreamStart);
+void Save_BrushWrapperPtrArray(bool atStreamStart, int count);
+void Save_CardMemory(bool atStreamStart);
+void Save_CardMemoryArray(bool atStreamStart, int count);
+void Save_CardMemoryPtr(bool atStreamStart);
+void Save_CardMemoryPtrArray(bool atStreamStart, int count);
+void Save_ClipMaterial(bool atStreamStart);
+void Save_ClipMaterialArray(bool atStreamStart, int count);
+void Save_ClipMaterialPtr(bool atStreamStart);
+void Save_ClipMaterialPtrArray(bool atStreamStart, int count);
+void Save_CollisionAabbTree(bool atStreamStart);
+void Save_CollisionAabbTreeArray(bool atStreamStart, int count);
+void Save_CollisionAabbTreeIndex(bool atStreamStart);
+void Save_CollisionAabbTreeIndexArray(bool atStreamStart, int count);
+void Save_CollisionAabbTreeIndexPtr(bool atStreamStart);
+void Save_CollisionAabbTreeIndexPtrArray(bool atStreamStart, int count);
+void Save_CollisionAabbTreePtr(bool atStreamStart);
+void Save_CollisionAabbTreePtrArray(bool atStreamStart, int count);
+void Save_CollisionBorder(bool atStreamStart);
+void Save_CollisionBorderArray(bool atStreamStart, int count);
+void Save_CollisionBorderPtr(bool atStreamStart);
+void Save_CollisionBorderPtrArray(bool atStreamStart, int count);
+void Save_CollisionPartition(bool atStreamStart);
+void Save_CollisionPartitionArray(bool atStreamStart, int count);
+void Save_CollisionPartitionPtr(bool atStreamStart);
+void Save_CollisionPartitionPtrArray(bool atStreamStart, int count);
+void Save_ComPrimaryLight(bool atStreamStart);
+void Save_ComPrimaryLightArray(bool atStreamStart, int count);
+void Save_ComPrimaryLightPtr(bool atStreamStart);
+void Save_ComPrimaryLightPtrArray(bool atStreamStart, int count);
+void Save_ComWorld(bool atStreamStart);
+void Save_ComWorldArray(bool atStreamStart, int count);
+void Save_ComWorldAsset(ComWorld** asset);
+void Save_ComWorldPtr(bool atStreamStart);
+void Save_ComWorldPtrArray(bool atStreamStart, int count);
+void Save_ConditionalScript(bool atStreamStart);
+void Save_ConditionalScriptArray(bool atStreamStart, int count);
+void Save_ConditionalScriptPtr(bool atStreamStart);
+void Save_ConditionalScriptPtrArray(bool atStreamStart, int count);
+void Save_DObjAnimMat(bool atStreamStart);
+void Save_DObjAnimMatArray(bool atStreamStart, int count);
+void Save_DObjAnimMatPtr(bool atStreamStart);
+void Save_DObjAnimMatPtrArray(bool atStreamStart, int count);
+void Save_DynEntityClient(bool atStreamStart);
+void Save_DynEntityClientArray(bool atStreamStart, int count);
+void Save_DynEntityClientPtr(bool atStreamStart);
+void Save_DynEntityClientPtrArray(bool atStreamStart, int count);
+void Save_DynEntityColl(bool atStreamStart);
+void Save_DynEntityCollArray(bool atStreamStart, int count);
+void Save_DynEntityCollPtr(bool atStreamStart);
+void Save_DynEntityCollPtrArray(bool atStreamStart, int count);
+void Save_DynEntityDef(bool atStreamStart);
+void Save_DynEntityDefArray(bool atStreamStart, int count);
+void Save_DynEntityDefPtr(bool atStreamStart);
+void Save_DynEntityDefPtrArray(bool atStreamStart, int count);
+void Save_DynEntityPose(bool atStreamStart);
+void Save_DynEntityPoseArray(bool atStreamStart, int count);
+void Save_DynEntityPosePtr(bool atStreamStart);
+void Save_DynEntityPosePtrArray(bool atStreamStart, int count);
+void Save_EventData(bool atStreamStart);
+void Save_EventDataArray(bool atStreamStart, int count);
+void Save_EventDataPtr(bool atStreamStart);
+void Save_EventDataPtrArray(bool atStreamStart, int count);
+void Save_ExpressionString(bool atStreamStart);
+void Save_ExpressionStringArray(bool atStreamStart, int count);
+void Save_ExpressionStringPtr(bool atStreamStart);
+void Save_ExpressionStringPtrArray(bool atStreamStart, int count);
+void Save_ExpressionSupportingData(bool atStreamStart);
+void Save_ExpressionSupportingDataArray(bool atStreamStart, int count);
+void Save_ExpressionSupportingDataPtr(bool atStreamStart);
+void Save_ExpressionSupportingDataPtrArray(bool atStreamStart, int count);
+void Save_Font_s(bool atStreamStart);
+void Save_Font_sArray(bool atStreamStart, int count);
+void Save_Font_sAsset(Font_s** asset);
+void Save_Font_sPtr(bool atStreamStart);
+void Save_Font_sPtrArray(bool atStreamStart, int count);
+void Save_FxEffectDef(bool atStreamStart);
+void Save_FxEffectDefArray(bool atStreamStart, int count);
+void Save_FxEffectDefAsset(FxEffectDef** asset);
+void Save_FxEffectDefPtr(bool atStreamStart);
+void Save_FxEffectDefPtrArray(bool atStreamStart, int count);
+void Save_FxEffectDefRef(bool atStreamStart);
+void Save_FxEffectDefRefArray(bool atStreamStart, int count);
+void Save_FxEffectDefRefPtr(bool atStreamStart);
+void Save_FxEffectDefRefPtrArray(bool atStreamStart, int count);
+void Save_FxElemAtlas(bool atStreamStart);
+void Save_FxElemAtlasArray(bool atStreamStart, int count);
+void Save_FxElemAtlasPtr(bool atStreamStart);
+void Save_FxElemAtlasPtrArray(bool atStreamStart, int count);
+void Save_FxElemDef(bool atStreamStart);
+void Save_FxElemDefArray(bool atStreamStart, int count);
+void Save_FxElemDefPtr(bool atStreamStart);
+void Save_FxElemDefPtrArray(bool atStreamStart, int count);
+void Save_FxElemDefVisuals(bool atStreamStart);
+void Save_FxElemDefVisualsArray(bool atStreamStart, int count);
+void Save_FxElemDefVisualsPtr(bool atStreamStart);
+void Save_FxElemDefVisualsPtrArray(bool atStreamStart, int count);
+void Save_FxElemExtendedDefPtr(bool atStreamStart);
+void Save_FxElemExtendedDefPtrArray(bool atStreamStart, int count);
+void Save_FxElemExtendedDefPtrPtr(bool atStreamStart);
+void Save_FxElemExtendedDefPtrPtrArray(bool atStreamStart, int count);
+void Save_FxElemMarkVisuals(bool atStreamStart);
+void Save_FxElemMarkVisualsArray(bool atStreamStart, int count);
+void Save_FxElemMarkVisualsPtr(bool atStreamStart);
+void Save_FxElemMarkVisualsPtrArray(bool atStreamStart, int count);
+void Save_FxElemVec3Range(bool atStreamStart);
+void Save_FxElemVec3RangeArray(bool atStreamStart, int count);
+void Save_FxElemVec3RangePtr(bool atStreamStart);
+void Save_FxElemVec3RangePtrArray(bool atStreamStart, int count);
+void Save_FxElemVelStateInFrame(bool atStreamStart);
+void Save_FxElemVelStateInFrameArray(bool atStreamStart, int count);
+void Save_FxElemVelStateInFramePtr(bool atStreamStart);
+void Save_FxElemVelStateInFramePtrArray(bool atStreamStart, int count);
+void Save_FxElemVelStateSample(bool atStreamStart);
+void Save_FxElemVelStateSampleArray(bool atStreamStart, int count);
+void Save_FxElemVelStateSamplePtr(bool atStreamStart);
+void Save_FxElemVelStateSamplePtrArray(bool atStreamStart, int count);
+void Save_FxElemVisStateSample(bool atStreamStart);
+void Save_FxElemVisStateSampleArray(bool atStreamStart, int count);
+void Save_FxElemVisStateSamplePtr(bool atStreamStart);
+void Save_FxElemVisStateSamplePtrArray(bool atStreamStart, int count);
+void Save_FxElemVisualState(bool atStreamStart);
+void Save_FxElemVisualStateArray(bool atStreamStart, int count);
+void Save_FxElemVisualStatePtr(bool atStreamStart);
+void Save_FxElemVisualStatePtrArray(bool atStreamStart, int count);
+void Save_FxElemVisuals(bool atStreamStart);
+void Save_FxElemVisualsArray(bool atStreamStart, int count);
+void Save_FxElemVisualsPtr(bool atStreamStart);
+void Save_FxElemVisualsPtrArray(bool atStreamStart, int count);
+void Save_FxFloatRange(bool atStreamStart);
+void Save_FxFloatRangeArray(bool atStreamStart, int count);
+void Save_FxFloatRangePtr(bool atStreamStart);
+void Save_FxFloatRangePtrArray(bool atStreamStart, int count);
+void Save_FxGlassCrackHeader(bool atStreamStart);
+void Save_FxGlassCrackHeaderArray(bool atStreamStart, int count);
+void Save_FxGlassCrackHeaderPtr(bool atStreamStart);
+void Save_FxGlassCrackHeaderPtrArray(bool atStreamStart, int count);
+void Save_FxGlassDef(bool atStreamStart);
+void Save_FxGlassDefArray(bool atStreamStart, int count);
+void Save_FxGlassDefPtr(bool atStreamStart);
+void Save_FxGlassDefPtrArray(bool atStreamStart, int count);
+void Save_FxGlassGeometryData(bool atStreamStart);
+void Save_FxGlassGeometryDataArray(bool atStreamStart, int count);
+void Save_FxGlassGeometryDataPtr(bool atStreamStart);
+void Save_FxGlassGeometryDataPtrArray(bool atStreamStart, int count);
+void Save_FxGlassHoleHeader(bool atStreamStart);
+void Save_FxGlassHoleHeaderArray(bool atStreamStart, int count);
+void Save_FxGlassHoleHeaderPtr(bool atStreamStart);
+void Save_FxGlassHoleHeaderPtrArray(bool atStreamStart, int count);
+void Save_FxGlassInitPieceState(bool atStreamStart);
+void Save_FxGlassInitPieceStateArray(bool atStreamStart, int count);
+void Save_FxGlassInitPieceStatePtr(bool atStreamStart);
+void Save_FxGlassInitPieceStatePtrArray(bool atStreamStart, int count);
+void Save_FxGlassPieceDynamics(bool atStreamStart);
+void Save_FxGlassPieceDynamicsArray(bool atStreamStart, int count);
+void Save_FxGlassPieceDynamicsPtr(bool atStreamStart);
+void Save_FxGlassPieceDynamicsPtrArray(bool atStreamStart, int count);
+void Save_FxGlassPiecePlace(bool atStreamStart);
+void Save_FxGlassPiecePlaceArray(bool atStreamStart, int count);
+void Save_FxGlassPiecePlacePtr(bool atStreamStart);
+void Save_FxGlassPiecePlacePtrArray(bool atStreamStart, int count);
+void Save_FxGlassPieceState(bool atStreamStart);
+void Save_FxGlassPieceStateArray(bool atStreamStart, int count);
+void Save_FxGlassPieceStatePtr(bool atStreamStart);
+void Save_FxGlassPieceStatePtrArray(bool atStreamStart, int count);
+void Save_FxGlassSystem(bool atStreamStart);
+void Save_FxGlassSystemArray(bool atStreamStart, int count);
+void Save_FxGlassSystemPtr(bool atStreamStart);
+void Save_FxGlassSystemPtrArray(bool atStreamStart, int count);
+void Save_FxGlassVertex(bool atStreamStart);
+void Save_FxGlassVertexArray(bool atStreamStart, int count);
+void Save_FxGlassVertexPtr(bool atStreamStart);
+void Save_FxGlassVertexPtrArray(bool atStreamStart, int count);
+void Save_FxIntRange(bool atStreamStart);
+void Save_FxIntRangeArray(bool atStreamStart, int count);
+void Save_FxIntRangePtr(bool atStreamStart);
+void Save_FxIntRangePtrArray(bool atStreamStart, int count);
+void Save_FxSparkFountainDef(bool atStreamStart);
+void Save_FxSparkFountainDefArray(bool atStreamStart, int count);
+void Save_FxSparkFountainDefPtr(bool atStreamStart);
+void Save_FxSparkFountainDefPtrArray(bool atStreamStart, int count);
+void Save_FxSpatialFrame(bool atStreamStart);
+void Save_FxSpatialFrameArray(bool atStreamStart, int count);
+void Save_FxSpatialFramePtr(bool atStreamStart);
+void Save_FxSpatialFramePtrArray(bool atStreamStart, int count);
+void Save_FxSpawnDef(bool atStreamStart);
+void Save_FxSpawnDefArray(bool atStreamStart, int count);
+void Save_FxSpawnDefLooping(bool atStreamStart);
+void Save_FxSpawnDefLoopingArray(bool atStreamStart, int count);
+void Save_FxSpawnDefLoopingPtr(bool atStreamStart);
+void Save_FxSpawnDefLoopingPtrArray(bool atStreamStart, int count);
+void Save_FxSpawnDefOneShot(bool atStreamStart);
+void Save_FxSpawnDefOneShotArray(bool atStreamStart, int count);
+void Save_FxSpawnDefOneShotPtr(bool atStreamStart);
+void Save_FxSpawnDefOneShotPtrArray(bool atStreamStart, int count);
+void Save_FxSpawnDefPtr(bool atStreamStart);
+void Save_FxSpawnDefPtrArray(bool atStreamStart, int count);
+void Save_FxTrailDef(bool atStreamStart);
+void Save_FxTrailDefArray(bool atStreamStart, int count);
+void Save_FxTrailDefPtr(bool atStreamStart);
+void Save_FxTrailDefPtrArray(bool atStreamStart, int count);
+void Save_FxTrailVertex(bool atStreamStart);
+void Save_FxTrailVertexArray(bool atStreamStart, int count);
+void Save_FxTrailVertexPtr(bool atStreamStart);
+void Save_FxTrailVertexPtrArray(bool atStreamStart, int count);
+void Save_FxWorld(bool atStreamStart);
+void Save_FxWorldArray(bool atStreamStart, int count);
+void Save_FxWorldAsset(FxWorld** asset);
+void Save_FxWorldPtr(bool atStreamStart);
+void Save_FxWorldPtrArray(bool atStreamStart, int count);
+void Save_G_GlassData(bool atStreamStart);
+void Save_G_GlassDataArray(bool atStreamStart, int count);
+void Save_G_GlassDataPtr(bool atStreamStart);
+void Save_G_GlassDataPtrArray(bool atStreamStart, int count);
+void Save_G_GlassName(bool atStreamStart);
+void Save_G_GlassNameArray(bool atStreamStart, int count);
+void Save_G_GlassNamePtr(bool atStreamStart);
+void Save_G_GlassNamePtrArray(bool atStreamStart, int count);
+void Save_G_GlassPiece(bool atStreamStart);
+void Save_G_GlassPieceArray(bool atStreamStart, int count);
+void Save_G_GlassPiecePtr(bool atStreamStart);
+void Save_G_GlassPiecePtrArray(bool atStreamStart, int count);
+void Save_GameWorldMp(bool atStreamStart);
+void Save_GameWorldMpArray(bool atStreamStart, int count);
+void Save_GameWorldMpAsset(GameWorldMp** asset);
+void Save_GameWorldMpPtr(bool atStreamStart);
+void Save_GameWorldMpPtrArray(bool atStreamStart, int count);
+void Save_GfxColor(bool atStreamStart);
+void Save_GfxColorArray(bool atStreamStart, int count);
+void Save_GfxColorPtr(bool atStreamStart);
+void Save_GfxColorPtrArray(bool atStreamStart, int count);
+void Save_GfxDrawSurf(bool atStreamStart);
+void Save_GfxDrawSurfArray(bool atStreamStart, int count);
+void Save_GfxDrawSurfPtr(bool atStreamStart);
+void Save_GfxDrawSurfPtrArray(bool atStreamStart, int count);
+void Save_GfxImage(bool atStreamStart);
+void Save_GfxImageArray(bool atStreamStart, int count);
+void Save_GfxImageAsset(GfxImage** asset);
+void Save_GfxImageLoadDef(bool atStreamStart);
+void Save_GfxImageLoadDefArray(bool atStreamStart, int count);
+void Save_GfxImageLoadDefPtr(bool atStreamStart);
+void Save_GfxImageLoadDefPtrArray(bool atStreamStart, int count);
+void Save_GfxImagePtr(bool atStreamStart);
+void Save_GfxImagePtrArray(bool atStreamStart, int count);
+void Save_GfxLightDef(bool atStreamStart);
+void Save_GfxLightDefArray(bool atStreamStart, int count);
+void Save_GfxLightDefAsset(GfxLightDef** asset);
+void Save_GfxLightDefPtr(bool atStreamStart);
+void Save_GfxLightDefPtrArray(bool atStreamStart, int count);
+void Save_GfxLightImage(bool atStreamStart);
+void Save_GfxLightImageArray(bool atStreamStart, int count);
+void Save_GfxLightImagePtr(bool atStreamStart);
+void Save_GfxLightImagePtrArray(bool atStreamStart, int count);
+void Save_GfxPackedVertex(bool atStreamStart);
+void Save_GfxPackedVertexArray(bool atStreamStart, int count);
+void Save_GfxPackedVertexPtr(bool atStreamStart);
+void Save_GfxPackedVertexPtrArray(bool atStreamStart, int count);
+void Save_GfxPixelShaderLoadDef(bool atStreamStart);
+void Save_GfxPixelShaderLoadDefArray(bool atStreamStart, int count);
+void Save_GfxPixelShaderLoadDefPtr(bool atStreamStart);
+void Save_GfxPixelShaderLoadDefPtrArray(bool atStreamStart, int count);
+void Save_GfxPlacement(bool atStreamStart);
+void Save_GfxPlacementArray(bool atStreamStart, int count);
+void Save_GfxPlacementPtr(bool atStreamStart);
+void Save_GfxPlacementPtrArray(bool atStreamStart, int count);
+void Save_GfxStateBits(bool atStreamStart);
+void Save_GfxStateBitsArray(bool atStreamStart, int count);
+void Save_GfxStateBitsPtr(bool atStreamStart);
+void Save_GfxStateBitsPtrArray(bool atStreamStart, int count);
+void Save_GfxTexture(bool atStreamStart);
+void Save_GfxTextureArray(bool atStreamStart, int count);
+void Save_GfxTexturePtr(bool atStreamStart);
+void Save_GfxTexturePtrArray(bool atStreamStart, int count);
+void Save_GfxVertexShaderLoadDef(bool atStreamStart);
+void Save_GfxVertexShaderLoadDefArray(bool atStreamStart, int count);
+void Save_GfxVertexShaderLoadDefPtr(bool atStreamStart);
+void Save_GfxVertexShaderLoadDefPtrArray(bool atStreamStart, int count);
+void Save_Glyph(bool atStreamStart);
+void Save_GlyphArray(bool atStreamStart, int count);
+void Save_GlyphPtr(bool atStreamStart);
+void Save_GlyphPtrArray(bool atStreamStart, int count);
+void Save_ItemFloatExpression(bool atStreamStart);
+void Save_ItemFloatExpressionArray(bool atStreamStart, int count);
+void Save_ItemFloatExpressionPtr(bool atStreamStart);
+void Save_ItemFloatExpressionPtrArray(bool atStreamStart, int count);
+void Save_ItemKeyHandler(bool atStreamStart);
+void Save_ItemKeyHandlerArray(bool atStreamStart, int count);
+void Save_ItemKeyHandlerPtr(bool atStreamStart);
+void Save_ItemKeyHandlerPtrArray(bool atStreamStart, int count);
+void Save_LbColumnDef(bool atStreamStart);
+void Save_LbColumnDefArray(bool atStreamStart, int count);
+void Save_LbColumnDefPtr(bool atStreamStart);
+void Save_LbColumnDefPtrArray(bool atStreamStart, int count);
+void Save_LeaderboardDef(bool atStreamStart);
+void Save_LeaderboardDefArray(bool atStreamStart, int count);
+void Save_LeaderboardDefAsset(LeaderboardDef** asset);
+void Save_LeaderboardDefPtr(bool atStreamStart);
+void Save_LeaderboardDefPtrArray(bool atStreamStart, int count);
+void Save_LoadedSound(bool atStreamStart);
+void Save_LoadedSoundArray(bool atStreamStart, int count);
+void Save_LoadedSoundPtr(bool atStreamStart);
+void Save_LoadedSoundPtrArray(bool atStreamStart, int count);
+void Save_LocalizeEntry(bool atStreamStart);
+void Save_LocalizeEntryArray(bool atStreamStart, int count);
+void Save_LocalizeEntryAsset(LocalizeEntry** asset);
+void Save_LocalizeEntryPtr(bool atStreamStart);
+void Save_LocalizeEntryPtrArray(bool atStreamStart, int count);
+void Save_MSSChannelMap(bool atStreamStart);
+void Save_MSSChannelMapArray(bool atStreamStart, int count);
+void Save_MSSChannelMapPtr(bool atStreamStart);
+void Save_MSSChannelMapPtrArray(bool atStreamStart, int count);
+void Save_MSSSpeakerLevels(bool atStreamStart);
+void Save_MSSSpeakerLevelsArray(bool atStreamStart, int count);
+void Save_MSSSpeakerLevelsPtr(bool atStreamStart);
+void Save_MSSSpeakerLevelsPtrArray(bool atStreamStart, int count);
+void Save_MapEnts(bool atStreamStart);
+void Save_MapEntsArray(bool atStreamStart, int count);
+void Save_MapEntsAsset(MapEnts** asset);
+void Save_MapEntsPtr(bool atStreamStart);
+void Save_MapEntsPtrArray(bool atStreamStart, int count);
+void Save_MapTriggers(bool atStreamStart);
+void Save_MapTriggersArray(bool atStreamStart, int count);
+void Save_MapTriggersPtr(bool atStreamStart);
+void Save_MapTriggersPtrArray(bool atStreamStart, int count);
+void Save_Material(bool atStreamStart);
+void Save_MaterialArgumentCodeConst(bool atStreamStart);
+void Save_MaterialArgumentCodeConstArray(bool atStreamStart, int count);
+void Save_MaterialArgumentCodeConstPtr(bool atStreamStart);
+void Save_MaterialArgumentCodeConstPtrArray(bool atStreamStart, int count);
+void Save_MaterialArgumentDef(bool atStreamStart);
+void Save_MaterialArgumentDefArray(bool atStreamStart, int count);
+void Save_MaterialArgumentDefPtr(bool atStreamStart);
+void Save_MaterialArgumentDefPtrArray(bool atStreamStart, int count);
+void Save_MaterialArray(bool atStreamStart, int count);
+void Save_MaterialAsset(Material** asset);
+void Save_MaterialConstantDef(bool atStreamStart);
+void Save_MaterialConstantDefArray(bool atStreamStart, int count);
+void Save_MaterialConstantDefPtr(bool atStreamStart);
+void Save_MaterialConstantDefPtrArray(bool atStreamStart, int count);
+void Save_MaterialInfo(bool atStreamStart);
+void Save_MaterialInfoArray(bool atStreamStart, int count);
+void Save_MaterialInfoPtr(bool atStreamStart);
+void Save_MaterialInfoPtrArray(bool atStreamStart, int count);
+void Save_MaterialPass(bool atStreamStart);
+void Save_MaterialPassArray(bool atStreamStart, int count);
+void Save_MaterialPassPtr(bool atStreamStart);
+void Save_MaterialPassPtrArray(bool atStreamStart, int count);
+void Save_MaterialPixelShader(bool atStreamStart);
+void Save_MaterialPixelShaderArray(bool atStreamStart, int count);
+void Save_MaterialPixelShaderAsset(MaterialPixelShader** asset);
+void Save_MaterialPixelShaderProgram(bool atStreamStart);
+void Save_MaterialPixelShaderProgramArray(bool atStreamStart, int count);
+void Save_MaterialPixelShaderProgramPtr(bool atStreamStart);
+void Save_MaterialPixelShaderProgramPtrArray(bool atStreamStart, int count);
+void Save_MaterialPixelShaderPtr(bool atStreamStart);
+void Save_MaterialPixelShaderPtrArray(bool atStreamStart, int count);
+void Save_MaterialPtr(bool atStreamStart);
+void Save_MaterialPtrArray(bool atStreamStart, int count);
+void Save_MaterialShaderArgument(bool atStreamStart);
+void Save_MaterialShaderArgumentArray(bool atStreamStart, int count);
+void Save_MaterialShaderArgumentPtr(bool atStreamStart);
+void Save_MaterialShaderArgumentPtrArray(bool atStreamStart, int count);
+void Save_MaterialStreamRouting(bool atStreamStart);
+void Save_MaterialStreamRoutingArray(bool atStreamStart, int count);
+void Save_MaterialStreamRoutingPtr(bool atStreamStart);
+void Save_MaterialStreamRoutingPtrArray(bool atStreamStart, int count);
+void Save_MaterialTechnique(bool atStreamStart);
+void Save_MaterialTechniqueArray(bool atStreamStart, int count);
+void Save_MaterialTechniquePtr(bool atStreamStart);
+void Save_MaterialTechniquePtrArray(bool atStreamStart, int count);
+void Save_MaterialTechniqueSet(bool atStreamStart);
+void Save_MaterialTechniqueSetArray(bool atStreamStart, int count);
+void Save_MaterialTechniqueSetAsset(MaterialTechniqueSet** asset);
+void Save_MaterialTechniqueSetPtr(bool atStreamStart);
+void Save_MaterialTechniqueSetPtrArray(bool atStreamStart, int count);
+void Save_MaterialTextureDef(bool atStreamStart);
+void Save_MaterialTextureDefArray(bool atStreamStart, int count);
+void Save_MaterialTextureDefInfo(bool atStreamStart);
+void Save_MaterialTextureDefInfoArray(bool atStreamStart, int count);
+void Save_MaterialTextureDefInfoPtr(bool atStreamStart);
+void Save_MaterialTextureDefInfoPtrArray(bool atStreamStart, int count);
+void Save_MaterialTextureDefPtr(bool atStreamStart);
+void Save_MaterialTextureDefPtrArray(bool atStreamStart, int count);
+void Save_MaterialVertexDeclaration(bool atStreamStart);
+void Save_MaterialVertexDeclarationArray(bool atStreamStart, int count);
+void Save_MaterialVertexDeclarationAsset(MaterialVertexDeclaration** asset);
+void Save_MaterialVertexDeclarationPtr(bool atStreamStart);
+void Save_MaterialVertexDeclarationPtrArray(bool atStreamStart, int count);
+void Save_MaterialVertexShader(bool atStreamStart);
+void Save_MaterialVertexShaderArray(bool atStreamStart, int count);
+void Save_MaterialVertexShaderAsset(MaterialVertexShader** asset);
+void Save_MaterialVertexShaderProgram(bool atStreamStart);
+void Save_MaterialVertexShaderProgramArray(bool atStreamStart, int count);
+void Save_MaterialVertexShaderProgramPtr(bool atStreamStart);
+void Save_MaterialVertexShaderProgramPtrArray(bool atStreamStart, int count);
+void Save_MaterialVertexShaderPtr(bool atStreamStart);
+void Save_MaterialVertexShaderPtrArray(bool atStreamStart, int count);
+void Save_MaterialVertexStreamRouting(bool atStreamStart);
+void Save_MaterialVertexStreamRoutingArray(bool atStreamStart, int count);
+void Save_MaterialVertexStreamRoutingPtr(bool atStreamStart);
+void Save_MaterialVertexStreamRoutingPtrArray(bool atStreamStart, int count);
+void Save_MenuEventHandler(bool atStreamStart);
+void Save_MenuEventHandlerArray(bool atStreamStart, int count);
+void Save_MenuEventHandlerPtr(bool atStreamStart);
+void Save_MenuEventHandlerPtrArray(bool atStreamStart, int count);
+void Save_MenuEventHandlerSet(bool atStreamStart);
+void Save_MenuEventHandlerSetArray(bool atStreamStart, int count);
+void Save_MenuEventHandlerSetPtr(bool atStreamStart);
+void Save_MenuEventHandlerSetPtrArray(bool atStreamStart, int count);
+void Save_MenuList(bool atStreamStart);
+void Save_MenuListArray(bool atStreamStart, int count);
+void Save_MenuListAsset(MenuList** asset);
+void Save_MenuListPtr(bool atStreamStart);
+void Save_MenuListPtrArray(bool atStreamStart, int count);
+void Save_MssSound(bool atStreamStart);
+void Save_MssSoundArray(bool atStreamStart, int count);
+void Save_MssSoundPtr(bool atStreamStart);
+void Save_MssSoundPtrArray(bool atStreamStart, int count);
+void Save_Operand(bool atStreamStart);
+void Save_OperandArray(bool atStreamStart, int count);
+void Save_OperandPtr(bool atStreamStart);
+void Save_OperandPtrArray(bool atStreamStart, int count);
+void Save_PackedTexCoords(bool atStreamStart);
+void Save_PackedTexCoordsArray(bool atStreamStart, int count);
+void Save_PackedTexCoordsPtr(bool atStreamStart);
+void Save_PackedTexCoordsPtrArray(bool atStreamStart, int count);
+void Save_PackedUnitVec(bool atStreamStart);
+void Save_PackedUnitVecArray(bool atStreamStart, int count);
+void Save_PackedUnitVecPtr(bool atStreamStart);
+void Save_PackedUnitVecPtrArray(bool atStreamStart, int count);
+void Save_PhysCollmap(bool atStreamStart);
+void Save_PhysCollmapArray(bool atStreamStart, int count);
+void Save_PhysCollmapAsset(PhysCollmap** asset);
+void Save_PhysCollmapPtr(bool atStreamStart);
+void Save_PhysCollmapPtrArray(bool atStreamStart, int count);
+void Save_PhysGeomInfo(bool atStreamStart);
+void Save_PhysGeomInfoArray(bool atStreamStart, int count);
+void Save_PhysGeomInfoPtr(bool atStreamStart);
+void Save_PhysGeomInfoPtrArray(bool atStreamStart, int count);
+void Save_PhysMass(bool atStreamStart);
+void Save_PhysMassArray(bool atStreamStart, int count);
+void Save_PhysMassPtr(bool atStreamStart);
+void Save_PhysMassPtrArray(bool atStreamStart, int count);
+void Save_PhysPreset(bool atStreamStart);
+void Save_PhysPresetArray(bool atStreamStart, int count);
+void Save_PhysPresetAsset(PhysPreset** asset);
+void Save_PhysPresetPtr(bool atStreamStart);
+void Save_PhysPresetPtrArray(bool atStreamStart, int count);
+void Save_Picmip(bool atStreamStart);
+void Save_PicmipArray(bool atStreamStart, int count);
+void Save_PicmipPtr(bool atStreamStart);
+void Save_PicmipPtrArray(bool atStreamStart, int count);
+void Save_RawFile(bool atStreamStart);
+void Save_RawFileArray(bool atStreamStart, int count);
+void Save_RawFileAsset(RawFile** asset);
+void Save_RawFilePtr(bool atStreamStart);
+void Save_RawFilePtrArray(bool atStreamStart, int count);
+void Save_SModelAabbNode(bool atStreamStart);
+void Save_SModelAabbNodeArray(bool atStreamStart, int count);
+void Save_SModelAabbNodePtr(bool atStreamStart);
+void Save_SModelAabbNodePtrArray(bool atStreamStart, int count);
+void Save_ScriptStringList(bool atStreamStart);
+void Save_ScriptStringListArray(bool atStreamStart, int count);
+void Save_ScriptStringListPtr(bool atStreamStart);
+void Save_ScriptStringListPtrArray(bool atStreamStart, int count);
+void Save_SetLocalVarData(bool atStreamStart);
+void Save_SetLocalVarDataArray(bool atStreamStart, int count);
+void Save_SetLocalVarDataPtr(bool atStreamStart);
+void Save_SetLocalVarDataPtrArray(bool atStreamStart, int count);
+void Save_SndCurve(bool atStreamStart);
+void Save_SndCurveArray(bool atStreamStart, int count);
+void Save_SndCurveAsset(SndCurve** asset);
+void Save_SndCurvePtr(bool atStreamStart);
+void Save_SndCurvePtrArray(bool atStreamStart, int count);
+void Save_SndDriverGlobals(bool atStreamStart);
+void Save_SndDriverGlobalsArray(bool atStreamStart, int count);
+void Save_SndDriverGlobalsPtr(bool atStreamStart);
+void Save_SndDriverGlobalsPtrArray(bool atStreamStart, int count);
+void Save_SoundFile(bool atStreamStart);
+void Save_SoundFileArray(bool atStreamStart, int count);
+void Save_SoundFilePtr(bool atStreamStart);
+void Save_SoundFilePtrArray(bool atStreamStart, int count);
+void Save_SoundFileRef(bool atStreamStart);
+void Save_SoundFileRefArray(bool atStreamStart, int count);
+void Save_SoundFileRefPtr(bool atStreamStart);
+void Save_SoundFileRefPtrArray(bool atStreamStart, int count);
+void Save_SpeakerMap(bool atStreamStart);
+void Save_SpeakerMapArray(bool atStreamStart, int count);
+void Save_SpeakerMapPtr(bool atStreamStart);
+void Save_SpeakerMapPtrArray(bool atStreamStart, int count);
+void Save_Stage(bool atStreamStart);
+void Save_StageArray(bool atStreamStart, int count);
+void Save_StagePtr(bool atStreamStart);
+void Save_StagePtrArray(bool atStreamStart, int count);
+void Save_Statement_s(bool atStreamStart);
+void Save_Statement_sArray(bool atStreamStart, int count);
+void Save_Statement_sPtr(bool atStreamStart);
+void Save_Statement_sPtrArray(bool atStreamStart, int count);
+void Save_StaticDvar(bool atStreamStart);
+void Save_StaticDvarArray(bool atStreamStart, int count);
+void Save_StaticDvarList(bool atStreamStart);
+void Save_StaticDvarListArray(bool atStreamStart, int count);
+void Save_StaticDvarListPtr(bool atStreamStart);
+void Save_StaticDvarListPtrArray(bool atStreamStart, int count);
+void Save_StaticDvarPtr(bool atStreamStart);
+void Save_StaticDvarPtrArray(bool atStreamStart, int count);
+void Save_StreamFileInfo(bool atStreamStart);
+void Save_StreamFileInfoArray(bool atStreamStart, int count);
+void Save_StreamFileInfoPtr(bool atStreamStart);
+void Save_StreamFileInfoPtrArray(bool atStreamStart, int count);
+void Save_StreamFileName(bool atStreamStart);
+void Save_StreamFileNameArray(bool atStreamStart, int count);
+void Save_StreamFileNamePtr(bool atStreamStart);
+void Save_StreamFileNamePtrArray(bool atStreamStart, int count);
+void Save_StreamFileNameRaw(bool atStreamStart);
+void Save_StreamFileNameRawArray(bool atStreamStart, int count);
+void Save_StreamFileNameRawPtr(bool atStreamStart);
+void Save_StreamFileNameRawPtrArray(bool atStreamStart, int count);
+void Save_StreamedSound(bool atStreamStart);
+void Save_StreamedSoundArray(bool atStreamStart, int count);
+void Save_StreamedSoundPtr(bool atStreamStart);
+void Save_StreamedSoundPtrArray(bool atStreamStart, int count);
+void Save_StringList(bool atStreamStart);
+void Save_StringListArray(bool atStreamStart, int count);
+void Save_StringListPtr(bool atStreamStart);
+void Save_StringListPtrArray(bool atStreamStart, int count);
+void Save_StringTable(bool atStreamStart);
+void Save_StringTableArray(bool atStreamStart, int count);
+void Save_StringTableAsset(StringTable** asset);
+void Save_StringTableCell(bool atStreamStart);
+void Save_StringTableCellArray(bool atStreamStart, int count);
+void Save_StringTableCellPtr(bool atStreamStart);
+void Save_StringTableCellPtrArray(bool atStreamStart, int count);
+void Save_StringTablePtr(bool atStreamStart);
+void Save_StringTablePtrArray(bool atStreamStart, int count);
+void Save_StructuredDataDef(bool atStreamStart);
+void Save_StructuredDataDefArray(bool atStreamStart, int count);
+void Save_StructuredDataDefPtr(bool atStreamStart);
+void Save_StructuredDataDefPtrArray(bool atStreamStart, int count);
+void Save_StructuredDataDefSet(bool atStreamStart);
+void Save_StructuredDataDefSetArray(bool atStreamStart, int count);
+void Save_StructuredDataDefSetAsset(StructuredDataDefSet** asset);
+void Save_StructuredDataDefSetPtr(bool atStreamStart);
+void Save_StructuredDataDefSetPtrArray(bool atStreamStart, int count);
+void Save_StructuredDataEnum(bool atStreamStart);
+void Save_StructuredDataEnumArray(bool atStreamStart, int count);
+void Save_StructuredDataEnumEntry(bool atStreamStart);
+void Save_StructuredDataEnumEntryArray(bool atStreamStart, int count);
+void Save_StructuredDataEnumEntryPtr(bool atStreamStart);
+void Save_StructuredDataEnumEntryPtrArray(bool atStreamStart, int count);
+void Save_StructuredDataEnumPtr(bool atStreamStart);
+void Save_StructuredDataEnumPtrArray(bool atStreamStart, int count);
+void Save_StructuredDataEnumedArray(bool atStreamStart);
+void Save_StructuredDataEnumedArrayArray(bool atStreamStart, int count);
+void Save_StructuredDataEnumedArrayPtr(bool atStreamStart);
+void Save_StructuredDataEnumedArrayPtrArray(bool atStreamStart, int count);
+void Save_StructuredDataIndexedArray(bool atStreamStart);
+void Save_StructuredDataIndexedArrayArray(bool atStreamStart, int count);
+void Save_StructuredDataIndexedArrayPtr(bool atStreamStart);
+void Save_StructuredDataIndexedArrayPtrArray(bool atStreamStart, int count);
+void Save_StructuredDataStruct(bool atStreamStart);
+void Save_StructuredDataStructArray(bool atStreamStart, int count);
+void Save_StructuredDataStructProperty(bool atStreamStart);
+void Save_StructuredDataStructPropertyArray(bool atStreamStart, int count);
+void Save_StructuredDataStructPropertyPtr(bool atStreamStart);
+void Save_StructuredDataStructPropertyPtrArray(bool atStreamStart, int count);
+void Save_StructuredDataStructPtr(bool atStreamStart);
+void Save_StructuredDataStructPtrArray(bool atStreamStart, int count);
+void Save_StructuredDataType(bool atStreamStart);
+void Save_StructuredDataTypeArray(bool atStreamStart, int count);
+void Save_StructuredDataTypePtr(bool atStreamStart);
+void Save_StructuredDataTypePtrArray(bool atStreamStart, int count);
+void Save_StructuredDataTypeUnion(bool atStreamStart);
+void Save_StructuredDataTypeUnionArray(bool atStreamStart, int count);
+void Save_StructuredDataTypeUnionPtr(bool atStreamStart);
+void Save_StructuredDataTypeUnionPtrArray(bool atStreamStart, int count);
+void Save_TempString(bool atStreamStart);
+void Save_TempStringArray(bool atStreamStart, int count);
+void Save_TempStringPtr(bool atStreamStart);
+void Save_TempStringPtrArray(bool atStreamStart, int count);
+void Save_TracerDef(bool atStreamStart);
+void Save_TracerDefArray(bool atStreamStart, int count);
+void Save_TracerDefAsset(TracerDef** asset);
+void Save_TracerDefPtr(bool atStreamStart);
+void Save_TracerDefPtrArray(bool atStreamStart, int count);
+void Save_TriIndice(bool atStreamStart);
+void Save_TriIndiceArray(bool atStreamStart, int count);
+void Save_TriIndicePtr(bool atStreamStart);
+void Save_TriIndicePtrArray(bool atStreamStart, int count);
+void Save_TriggerHull(bool atStreamStart);
+void Save_TriggerHullArray(bool atStreamStart, int count);
+void Save_TriggerHullPtr(bool atStreamStart);
+void Save_TriggerHullPtrArray(bool atStreamStart, int count);
+void Save_TriggerModel(bool atStreamStart);
+void Save_TriggerModelArray(bool atStreamStart, int count);
+void Save_TriggerModelPtr(bool atStreamStart);
+void Save_TriggerModelPtrArray(bool atStreamStart, int count);
+void Save_TriggerSlab(bool atStreamStart);
+void Save_TriggerSlabArray(bool atStreamStart, int count);
+void Save_TriggerSlabPtr(bool atStreamStart);
+void Save_TriggerSlabPtrArray(bool atStreamStart, int count);
+void Save_UIFunctionList(bool atStreamStart);
+void Save_UIFunctionListArray(bool atStreamStart, int count);
+void Save_UIFunctionListPtr(bool atStreamStart);
+void Save_UIFunctionListPtrArray(bool atStreamStart, int count);
+void Save_WaterWritable(bool atStreamStart);
+void Save_WaterWritableArray(bool atStreamStart, int count);
+void Save_WaterWritablePtr(bool atStreamStart);
+void Save_WaterWritablePtrArray(bool atStreamStart, int count);
+void Save_XAnimDeltaPart(bool atStreamStart);
+void Save_XAnimDeltaPartArray(bool atStreamStart, int count);
+void Save_XAnimDeltaPartPtr(bool atStreamStart);
+void Save_XAnimDeltaPartPtrArray(bool atStreamStart, int count);
+void Save_XAnimDeltaPartQuat(bool atStreamStart);
+void Save_XAnimDeltaPartQuat2(bool atStreamStart);
+void Save_XAnimDeltaPartQuat2Array(bool atStreamStart, int count);
+void Save_XAnimDeltaPartQuat2Ptr(bool atStreamStart);
+void Save_XAnimDeltaPartQuat2PtrArray(bool atStreamStart, int count);
+void Save_XAnimDeltaPartQuatArray(bool atStreamStart, int count);
+void Save_XAnimDeltaPartQuatData(bool atStreamStart);
+void Save_XAnimDeltaPartQuatData2(bool atStreamStart);
+void Save_XAnimDeltaPartQuatData2Array(bool atStreamStart, int count);
+void Save_XAnimDeltaPartQuatData2Ptr(bool atStreamStart);
+void Save_XAnimDeltaPartQuatData2PtrArray(bool atStreamStart, int count);
+void Save_XAnimDeltaPartQuatDataArray(bool atStreamStart, int count);
+void Save_XAnimDeltaPartQuatDataFrames(bool atStreamStart);
+void Save_XAnimDeltaPartQuatDataFrames2(bool atStreamStart);
+void Save_XAnimDeltaPartQuatDataFrames2Array(bool atStreamStart, int count);
+void Save_XAnimDeltaPartQuatDataFrames2Ptr(bool atStreamStart);
+void Save_XAnimDeltaPartQuatDataFrames2PtrArray(bool atStreamStart, int count);
+void Save_XAnimDeltaPartQuatDataFramesArray(bool atStreamStart, int count);
+void Save_XAnimDeltaPartQuatDataFramesPtr(bool atStreamStart);
+void Save_XAnimDeltaPartQuatDataFramesPtrArray(bool atStreamStart, int count);
+void Save_XAnimDeltaPartQuatDataPtr(bool atStreamStart);
+void Save_XAnimDeltaPartQuatDataPtrArray(bool atStreamStart, int count);
+void Save_XAnimDeltaPartQuatPtr(bool atStreamStart);
+void Save_XAnimDeltaPartQuatPtrArray(bool atStreamStart, int count);
+void Save_XAnimDynamicFrames(bool atStreamStart);
+void Save_XAnimDynamicFramesArray(bool atStreamStart, int count);
+void Save_XAnimDynamicFramesPtr(bool atStreamStart);
+void Save_XAnimDynamicFramesPtrArray(bool atStreamStart, int count);
+void Save_XAnimDynamicIndices(bool atStreamStart);
+void Save_XAnimDynamicIndicesArray(bool atStreamStart, int count);
+void Save_XAnimDynamicIndicesPtr(bool atStreamStart);
+void Save_XAnimDynamicIndicesPtrArray(bool atStreamStart, int count);
+void Save_XAnimIndices(bool atStreamStart);
+void Save_XAnimIndicesArray(bool atStreamStart, int count);
+void Save_XAnimIndicesPtr(bool atStreamStart);
+void Save_XAnimIndicesPtrArray(bool atStreamStart, int count);
+void Save_XAnimNotifyInfo(bool atStreamStart);
+void Save_XAnimNotifyInfoArray(bool atStreamStart, int count);
+void Save_XAnimNotifyInfoPtr(bool atStreamStart);
+void Save_XAnimNotifyInfoPtrArray(bool atStreamStart, int count);
+void Save_XAnimPartTrans(bool atStreamStart);
+void Save_XAnimPartTransArray(bool atStreamStart, int count);
+void Save_XAnimPartTransData(bool atStreamStart);
+void Save_XAnimPartTransDataArray(bool atStreamStart, int count);
+void Save_XAnimPartTransDataPtr(bool atStreamStart);
+void Save_XAnimPartTransDataPtrArray(bool atStreamStart, int count);
+void Save_XAnimPartTransFrames(bool atStreamStart);
+void Save_XAnimPartTransFramesArray(bool atStreamStart, int count);
+void Save_XAnimPartTransFramesPtr(bool atStreamStart);
+void Save_XAnimPartTransFramesPtrArray(bool atStreamStart, int count);
+void Save_XAnimPartTransPtr(bool atStreamStart);
+void Save_XAnimPartTransPtrArray(bool atStreamStart, int count);
+void Save_XAnimParts(bool atStreamStart);
+void Save_XAnimPartsArray(bool atStreamStart, int count);
+void Save_XAnimPartsAsset(XAnimParts** asset);
+void Save_XAnimPartsPtr(bool atStreamStart);
+void Save_XAnimPartsPtrArray(bool atStreamStart, int count);
+void Save_XAsset(bool atStreamStart);
+void Save_XAssetArray(bool atStreamStart, int count);
+void Save_XAssetHeader(bool atStreamStart);
+void Save_XAssetHeaderArray(bool atStreamStart, int count);
+void Save_XAssetHeaderPtr(bool atStreamStart);
+void Save_XAssetHeaderPtrArray(bool atStreamStart, int count);
+void Save_XAssetList(bool atStreamStart);
+void Save_XAssetListArray(bool atStreamStart, int count);
+void Save_XAssetListAsset(XAssetList** asset);
+void Save_XAssetListPtr(bool atStreamStart);
+void Save_XAssetListPtrArray(bool atStreamStart, int count);
+void Save_XAssetPtr(bool atStreamStart);
+void Save_XAssetPtrArray(bool atStreamStart, int count);
+void Save_XBoneInfo(bool atStreamStart);
+void Save_XBoneInfoArray(bool atStreamStart, int count);
+void Save_XBoneInfoPtr(bool atStreamStart);
+void Save_XBoneInfoPtrArray(bool atStreamStart, int count);
+void Save_XModel(bool atStreamStart);
+void Save_XModelArray(bool atStreamStart, int count);
+void Save_XModelAsset(XModel** asset);
+void Save_XModelCollSurf_s(bool atStreamStart);
+void Save_XModelCollSurf_sArray(bool atStreamStart, int count);
+void Save_XModelCollSurf_sPtr(bool atStreamStart);
+void Save_XModelCollSurf_sPtrArray(bool atStreamStart, int count);
+void Save_XModelCollTri_s(bool atStreamStart);
+void Save_XModelCollTri_sArray(bool atStreamStart, int count);
+void Save_XModelCollTri_sPtr(bool atStreamStart);
+void Save_XModelCollTri_sPtrArray(bool atStreamStart, int count);
+void Save_XModelLodInfo(bool atStreamStart);
+void Save_XModelLodInfoArray(bool atStreamStart, int count);
+void Save_XModelLodInfoPtr(bool atStreamStart);
+void Save_XModelLodInfoPtrArray(bool atStreamStart, int count);
+void Save_XModelPtr(bool atStreamStart);
+void Save_XModelPtrArray(bool atStreamStart, int count);
+void Save_XModelSurfs(bool atStreamStart);
+void Save_XModelSurfsArray(bool atStreamStart, int count);
+void Save_XModelSurfsAsset(XModelSurfs** asset);
+void Save_XModelSurfsPtr(bool atStreamStart);
+void Save_XModelSurfsPtrArray(bool atStreamStart, int count);
+void Save_XRigidVertList(bool atStreamStart);
+void Save_XRigidVertListArray(bool atStreamStart, int count);
+void Save_XRigidVertListPtr(bool atStreamStart);
+void Save_XRigidVertListPtrArray(bool atStreamStart, int count);
+void Save_XString(bool atStreamStart);
+void Save_XStringArray(bool atStreamStart, int count);
+void Save_XStringPtr(bool atStreamStart);
+void Save_XStringPtrArray(bool atStreamStart, int count);
+void Save_XSurface(bool atStreamStart);
+void Save_XSurfaceArray(bool atStreamStart, int count);
+void Save_XSurfaceCollisionAabb(bool atStreamStart);
+void Save_XSurfaceCollisionAabbArray(bool atStreamStart, int count);
+void Save_XSurfaceCollisionAabbPtr(bool atStreamStart);
+void Save_XSurfaceCollisionAabbPtrArray(bool atStreamStart, int count);
+void Save_XSurfaceCollisionLeaf(bool atStreamStart);
+void Save_XSurfaceCollisionLeafArray(bool atStreamStart, int count);
+void Save_XSurfaceCollisionLeafPtr(bool atStreamStart);
+void Save_XSurfaceCollisionLeafPtrArray(bool atStreamStart, int count);
+void Save_XSurfaceCollisionNode(bool atStreamStart);
+void Save_XSurfaceCollisionNodeArray(bool atStreamStart, int count);
+void Save_XSurfaceCollisionNodePtr(bool atStreamStart);
+void Save_XSurfaceCollisionNodePtrArray(bool atStreamStart, int count);
+void Save_XSurfaceCollisionTree(bool atStreamStart);
+void Save_XSurfaceCollisionTreeArray(bool atStreamStart, int count);
+void Save_XSurfaceCollisionTreePtr(bool atStreamStart);
+void Save_XSurfaceCollisionTreePtrArray(bool atStreamStart, int count);
+void Save_XSurfacePtr(bool atStreamStart);
+void Save_XSurfacePtrArray(bool atStreamStart, int count);
+void Save_XSurfaceVertexInfo(bool atStreamStart);
+void Save_XSurfaceVertexInfoArray(bool atStreamStart, int count);
+void Save_XSurfaceVertexInfoPtr(bool atStreamStart);
+void Save_XSurfaceVertexInfoPtrArray(bool atStreamStart, int count);
+void Save__AILSOUNDINFO(bool atStreamStart);
+void Save__AILSOUNDINFOArray(bool atStreamStart, int count);
+void Save__AILSOUNDINFOPtr(bool atStreamStart);
+void Save__AILSOUNDINFOPtrArray(bool atStreamStart, int count);
+void Save_bool(bool atStreamStart);
+void Save_boolArray(bool atStreamStart, int count);
+void Save_boolPtr(bool atStreamStart);
+void Save_boolPtrArray(bool atStreamStart, int count);
+void Save_cLeafBrushNodeChildren_t(bool atStreamStart);
+void Save_cLeafBrushNodeChildren_tArray(bool atStreamStart, int count);
+void Save_cLeafBrushNodeChildren_tPtr(bool atStreamStart);
+void Save_cLeafBrushNodeChildren_tPtrArray(bool atStreamStart, int count);
+void Save_cLeafBrushNodeData_t(bool atStreamStart);
+void Save_cLeafBrushNodeData_tArray(bool atStreamStart, int count);
+void Save_cLeafBrushNodeData_tPtr(bool atStreamStart);
+void Save_cLeafBrushNodeData_tPtrArray(bool atStreamStart, int count);
+void Save_cLeafBrushNodeLeaf_t(bool atStreamStart);
+void Save_cLeafBrushNodeLeaf_tArray(bool atStreamStart, int count);
+void Save_cLeafBrushNodeLeaf_tPtr(bool atStreamStart);
+void Save_cLeafBrushNodeLeaf_tPtrArray(bool atStreamStart, int count);
+void Save_cLeafBrushNode_s(bool atStreamStart);
+void Save_cLeafBrushNode_sArray(bool atStreamStart, int count);
+void Save_cLeafBrushNode_sPtr(bool atStreamStart);
+void Save_cLeafBrushNode_sPtrArray(bool atStreamStart, int count);
+void Save_cLeaf_t(bool atStreamStart);
+void Save_cLeaf_tArray(bool atStreamStart, int count);
+void Save_cLeaf_tPtr(bool atStreamStart);
+void Save_cLeaf_tPtrArray(bool atStreamStart, int count);
+void Save_cNode_t(bool atStreamStart);
+void Save_cNode_tArray(bool atStreamStart, int count);
+void Save_cNode_tPtr(bool atStreamStart);
+void Save_cNode_tPtrArray(bool atStreamStart, int count);
+void Save_cStaticModel_s(bool atStreamStart);
+void Save_cStaticModel_sArray(bool atStreamStart, int count);
+void Save_cStaticModel_sPtr(bool atStreamStart);
+void Save_cStaticModel_sPtrArray(bool atStreamStart, int count);
+void Save_cbrush_t(bool atStreamStart);
+void Save_cbrush_tArray(bool atStreamStart, int count);
+void Save_cbrush_tPtr(bool atStreamStart);
+void Save_cbrush_tPtrArray(bool atStreamStart, int count);
+void Save_cbrushside_t(bool atStreamStart);
+void Save_cbrushside_tArray(bool atStreamStart, int count);
+void Save_cbrushside_tPtr(bool atStreamStart);
+void Save_cbrushside_tPtrArray(bool atStreamStart, int count);
+void Save_char(bool atStreamStart);
+void Save_char16(bool atStreamStart);
+void Save_char16Array(bool atStreamStart, int count);
+void Save_char16Ptr(bool atStreamStart);
+void Save_char16PtrArray(bool atStreamStart, int count);
+void Save_charArray(bool atStreamStart, int count);
+void Save_charPtr(bool atStreamStart);
+void Save_charPtrArray(bool atStreamStart, int count);
+void Save_clipMap_t(bool atStreamStart);
+void Save_clipMap_tArray(bool atStreamStart, int count);
+void Save_clipMap_tAsset(clipMap_t** asset);
+void Save_clipMap_tPtr(bool atStreamStart);
+void Save_clipMap_tPtrArray(bool atStreamStart, int count);
+void Save_cmodel_t(bool atStreamStart);
+void Save_cmodel_tArray(bool atStreamStart, int count);
+void Save_cmodel_tPtr(bool atStreamStart);
+void Save_cmodel_tPtrArray(bool atStreamStart, int count);
+void Save_columnInfo_s(bool atStreamStart);
+void Save_columnInfo_sArray(bool atStreamStart, int count);
+void Save_columnInfo_sPtr(bool atStreamStart);
+void Save_columnInfo_sPtrArray(bool atStreamStart, int count);
+void Save_complex_s(bool atStreamStart);
+void Save_complex_sArray(bool atStreamStart, int count);
+void Save_complex_sPtr(bool atStreamStart);
+void Save_complex_sPtrArray(bool atStreamStart, int count);
+void Save_cplane_s(bool atStreamStart);
+void Save_cplane_sArray(bool atStreamStart, int count);
+void Save_cplane_sPtr(bool atStreamStart);
+void Save_cplane_sPtrArray(bool atStreamStart, int count);
+void Save_double(bool atStreamStart);
+void Save_doubleArray(bool atStreamStart, int count);
+void Save_doublePtr(bool atStreamStart);
+void Save_doublePtrArray(bool atStreamStart, int count);
+void Save_editFieldDef_s(bool atStreamStart);
+void Save_editFieldDef_sArray(bool atStreamStart, int count);
+void Save_editFieldDef_sPtr(bool atStreamStart);
+void Save_editFieldDef_sPtrArray(bool atStreamStart, int count);
+void Save_entryInternalData(bool atStreamStart);
+void Save_entryInternalDataArray(bool atStreamStart, int count);
+void Save_entryInternalDataPtr(bool atStreamStart);
+void Save_entryInternalDataPtrArray(bool atStreamStart, int count);
+void Save_expressionEntry(bool atStreamStart);
+void Save_expressionEntryArray(bool atStreamStart, int count);
+void Save_expressionEntryPtr(bool atStreamStart);
+void Save_expressionEntryPtrArray(bool atStreamStart, int count);
+void Save_float(bool atStreamStart);
+void Save_float16(bool atStreamStart);
+void Save_float16Array(bool atStreamStart, int count);
+void Save_float16Ptr(bool atStreamStart);
+void Save_float16PtrArray(bool atStreamStart, int count);
+void Save_floatArray(bool atStreamStart, int count);
+void Save_floatPtr(bool atStreamStart);
+void Save_floatPtrArray(bool atStreamStart, int count);
+void Save_int16(bool atStreamStart);
+void Save_int16Array(bool atStreamStart, int count);
+void Save_int16Ptr(bool atStreamStart);
+void Save_int16PtrArray(bool atStreamStart, int count);
+void Save_int32(bool atStreamStart);
+void Save_int32Array(bool atStreamStart, int count);
+void Save_int32Ptr(bool atStreamStart);
+void Save_int32PtrArray(bool atStreamStart, int count);
+void Save_int64(bool atStreamStart);
+void Save_int64Array(bool atStreamStart, int count);
+void Save_int64Ptr(bool atStreamStart);
+void Save_int64PtrArray(bool atStreamStart, int count);
+void Save_int8(bool atStreamStart);
+void Save_int8Array(bool atStreamStart, int count);
+void Save_int8Ptr(bool atStreamStart);
+void Save_int8PtrArray(bool atStreamStart, int count);
+void Save_itemDefData_t(bool atStreamStart);
+void Save_itemDefData_tArray(bool atStreamStart, int count);
+void Save_itemDefData_tPtr(bool atStreamStart);
+void Save_itemDefData_tPtrArray(bool atStreamStart, int count);
+void Save_itemDef_s(bool atStreamStart);
+void Save_itemDef_sArray(bool atStreamStart, int count);
+void Save_itemDef_sPtr(bool atStreamStart);
+void Save_itemDef_sPtrArray(bool atStreamStart, int count);
+void Save_listBoxDef_s(bool atStreamStart);
+void Save_listBoxDef_sArray(bool atStreamStart, int count);
+void Save_listBoxDef_sPtr(bool atStreamStart);
+void Save_listBoxDef_sPtrArray(bool atStreamStart, int count);
+void Save_menuDef_t(bool atStreamStart);
+void Save_menuDef_tArray(bool atStreamStart, int count);
+void Save_menuDef_tAsset(menuDef_t** asset);
+void Save_menuDef_tPtr(bool atStreamStart);
+void Save_menuDef_tPtrArray(bool atStreamStart, int count);
+void Save_menuTransition(bool atStreamStart);
+void Save_menuTransitionArray(bool atStreamStart, int count);
+void Save_menuTransitionPtr(bool atStreamStart);
+void Save_menuTransitionPtrArray(bool atStreamStart, int count);
+void Save_multiDef_s(bool atStreamStart);
+void Save_multiDef_sArray(bool atStreamStart, int count);
+void Save_multiDef_sPtr(bool atStreamStart);
+void Save_multiDef_sPtrArray(bool atStreamStart, int count);
+void Save_newsTickerDef_s(bool atStreamStart);
+void Save_newsTickerDef_sArray(bool atStreamStart, int count);
+void Save_newsTickerDef_sPtr(bool atStreamStart);
+void Save_newsTickerDef_sPtrArray(bool atStreamStart, int count);
+void Save_operandInternalDataUnion(bool atStreamStart);
+void Save_operandInternalDataUnionArray(bool atStreamStart, int count);
+void Save_operandInternalDataUnionPtr(bool atStreamStart);
+void Save_operandInternalDataUnionPtrArray(bool atStreamStart, int count);
+void Save_rectDef_s(bool atStreamStart);
+void Save_rectDef_sArray(bool atStreamStart, int count);
+void Save_rectDef_sPtr(bool atStreamStart);
+void Save_rectDef_sPtrArray(bool atStreamStart, int count);
+void Save_snd_alias_list_t(bool atStreamStart);
+void Save_snd_alias_list_tArray(bool atStreamStart, int count);
+void Save_snd_alias_list_tAsset(snd_alias_list_t** asset);
+void Save_snd_alias_list_tPtr(bool atStreamStart);
+void Save_snd_alias_list_tPtrArray(bool atStreamStart, int count);
+void Save_snd_alias_t(bool atStreamStart);
+void Save_snd_alias_tArray(bool atStreamStart, int count);
+void Save_snd_alias_tPtr(bool atStreamStart);
+void Save_snd_alias_tPtrArray(bool atStreamStart, int count);
+void Save_textScrollDef_s(bool atStreamStart);
+void Save_textScrollDef_sArray(bool atStreamStart, int count);
+void Save_textScrollDef_sPtr(bool atStreamStart);
+void Save_textScrollDef_sPtrArray(bool atStreamStart, int count);
+void Save_uint16(bool atStreamStart);
+void Save_uint16Array(bool atStreamStart, int count);
+void Save_uint16Ptr(bool atStreamStart);
+void Save_uint16PtrArray(bool atStreamStart, int count);
+void Save_uint32(bool atStreamStart);
+void Save_uint32Array(bool atStreamStart, int count);
+void Save_uint32Ptr(bool atStreamStart);
+void Save_uint32PtrArray(bool atStreamStart, int count);
+void Save_uint64(bool atStreamStart);
+void Save_uint64Array(bool atStreamStart, int count);
+void Save_uint64Ptr(bool atStreamStart);
+void Save_uint64PtrArray(bool atStreamStart, int count);
+void Save_uint8(bool atStreamStart);
+void Save_uint8Array(bool atStreamStart, int count);
+void Save_uint8Ptr(bool atStreamStart);
+void Save_uint8PtrArray(bool atStreamStart, int count);
+void Save_vec1_t(bool atStreamStart);
+void Save_vec1_tArray(bool atStreamStart, int count);
+void Save_vec1_tPtr(bool atStreamStart);
+void Save_vec1_tPtrArray(bool atStreamStart, int count);
+void Save_vec2_t(bool atStreamStart);
+void Save_vec2_tArray(bool atStreamStart, int count);
+void Save_vec2_tPtr(bool atStreamStart);
+void Save_vec2_tPtrArray(bool atStreamStart, int count);
+void Save_vec3_t(bool atStreamStart);
+void Save_vec3_tArray(bool atStreamStart, int count);
+void Save_vec3_tPtr(bool atStreamStart);
+void Save_vec3_tPtrArray(bool atStreamStart, int count);
+void Save_vec4_t(bool atStreamStart);
+void Save_vec4_tArray(bool atStreamStart, int count);
+void Save_vec4_tPtr(bool atStreamStart);
+void Save_vec4_tPtrArray(bool atStreamStart, int count);
+void Save_water_t(bool atStreamStart);
+void Save_water_tArray(bool atStreamStart, int count);
+void Save_water_tPtr(bool atStreamStart);
+void Save_water_tPtrArray(bool atStreamStart, int count);
+void Save_windowDef_t(bool atStreamStart);
+void Save_windowDef_tArray(bool atStreamStart, int count);
+void Save_windowDef_tPtr(bool atStreamStart);
+void Save_windowDef_tPtrArray(bool atStreamStart, int count);
 water_t* AllocLoad_water_t();
+water_t* AllocSave_water_t();
 water_t** AllocLoad_water_tPtr();
+water_t** AllocSave_water_tPtr();
 windowDef_t* AllocLoad_windowDef_t();
+windowDef_t* AllocSave_windowDef_t();
 windowDef_t** AllocLoad_windowDef_tPtr();
+windowDef_t** AllocSave_windowDef_tPtr();
 
 int64* varint64;
 int64** varint64Ptr;
@@ -2912,7 +4334,17 @@ $C8D87EB0090687D323381DFB7A82089C* AllocLoad_$C8D87EB0090687D323381DFB7A82089C()
 	return ($C8D87EB0090687D323381DFB7A82089C*)DB_AllocStreamPos(3);
 }
 
+$C8D87EB0090687D323381DFB7A82089C* AllocSave_$C8D87EB0090687D323381DFB7A82089C()
+{
+	return ($C8D87EB0090687D323381DFB7A82089C*)DB_AllocStreamPos(3);
+}
+
 $C8D87EB0090687D323381DFB7A82089C** AllocLoad_$C8D87EB0090687D323381DFB7A82089CPtr()
+{
+	return ($C8D87EB0090687D323381DFB7A82089C**)DB_AllocStreamPos(3);
+}
+
+$C8D87EB0090687D323381DFB7A82089C** AllocSave_$C8D87EB0090687D323381DFB7A82089CPtr()
 {
 	return ($C8D87EB0090687D323381DFB7A82089C**)DB_AllocStreamPos(3);
 }
@@ -2922,7 +4354,17 @@ $E43DBA5037697D705289B74D87E76C70* AllocLoad_$E43DBA5037697D705289B74D87E76C70()
 	return ($E43DBA5037697D705289B74D87E76C70*)DB_AllocStreamPos(3);
 }
 
+$E43DBA5037697D705289B74D87E76C70* AllocSave_$E43DBA5037697D705289B74D87E76C70()
+{
+	return ($E43DBA5037697D705289B74D87E76C70*)DB_AllocStreamPos(3);
+}
+
 $E43DBA5037697D705289B74D87E76C70** AllocLoad_$E43DBA5037697D705289B74D87E76C70Ptr()
+{
+	return ($E43DBA5037697D705289B74D87E76C70**)DB_AllocStreamPos(3);
+}
+
+$E43DBA5037697D705289B74D87E76C70** AllocSave_$E43DBA5037697D705289B74D87E76C70Ptr()
 {
 	return ($E43DBA5037697D705289B74D87E76C70**)DB_AllocStreamPos(3);
 }
@@ -2932,7 +4374,17 @@ Bounds* AllocLoad_Bounds()
 	return (Bounds*)DB_AllocStreamPos(3);
 }
 
+Bounds* AllocSave_Bounds()
+{
+	return (Bounds*)DB_AllocStreamPos(3);
+}
+
 Bounds** AllocLoad_BoundsPtr()
+{
+	return (Bounds**)DB_AllocStreamPos(3);
+}
+
+Bounds** AllocSave_BoundsPtr()
 {
 	return (Bounds**)DB_AllocStreamPos(3);
 }
@@ -2942,7 +4394,17 @@ BrushWrapper* AllocLoad_BrushWrapper()
 	return (BrushWrapper*)DB_AllocStreamPos(3);
 }
 
+BrushWrapper* AllocSave_BrushWrapper()
+{
+	return (BrushWrapper*)DB_AllocStreamPos(3);
+}
+
 BrushWrapper** AllocLoad_BrushWrapperPtr()
+{
+	return (BrushWrapper**)DB_AllocStreamPos(3);
+}
+
+BrushWrapper** AllocSave_BrushWrapperPtr()
 {
 	return (BrushWrapper**)DB_AllocStreamPos(3);
 }
@@ -2952,7 +4414,17 @@ CardMemory* AllocLoad_CardMemory()
 	return (CardMemory*)DB_AllocStreamPos(3);
 }
 
+CardMemory* AllocSave_CardMemory()
+{
+	return (CardMemory*)DB_AllocStreamPos(3);
+}
+
 CardMemory** AllocLoad_CardMemoryPtr()
+{
+	return (CardMemory**)DB_AllocStreamPos(3);
+}
+
+CardMemory** AllocSave_CardMemoryPtr()
 {
 	return (CardMemory**)DB_AllocStreamPos(3);
 }
@@ -2962,7 +4434,17 @@ ClipMaterial* AllocLoad_ClipMaterial()
 	return (ClipMaterial*)DB_AllocStreamPos(3);
 }
 
+ClipMaterial* AllocSave_ClipMaterial()
+{
+	return (ClipMaterial*)DB_AllocStreamPos(3);
+}
+
 ClipMaterial** AllocLoad_ClipMaterialPtr()
+{
+	return (ClipMaterial**)DB_AllocStreamPos(3);
+}
+
+ClipMaterial** AllocSave_ClipMaterialPtr()
 {
 	return (ClipMaterial**)DB_AllocStreamPos(3);
 }
@@ -2972,7 +4454,17 @@ CollisionAabbTree* AllocLoad_CollisionAabbTree()
 	return (CollisionAabbTree*)DB_AllocStreamPos(15);
 }
 
+CollisionAabbTree* AllocSave_CollisionAabbTree()
+{
+	return (CollisionAabbTree*)DB_AllocStreamPos(15);
+}
+
 CollisionAabbTree** AllocLoad_CollisionAabbTreePtr()
+{
+	return (CollisionAabbTree**)DB_AllocStreamPos(15);
+}
+
+CollisionAabbTree** AllocSave_CollisionAabbTreePtr()
 {
 	return (CollisionAabbTree**)DB_AllocStreamPos(15);
 }
@@ -2982,7 +4474,17 @@ CollisionAabbTreeIndex* AllocLoad_CollisionAabbTreeIndex()
 	return (CollisionAabbTreeIndex*)DB_AllocStreamPos(3);
 }
 
+CollisionAabbTreeIndex* AllocSave_CollisionAabbTreeIndex()
+{
+	return (CollisionAabbTreeIndex*)DB_AllocStreamPos(3);
+}
+
 CollisionAabbTreeIndex** AllocLoad_CollisionAabbTreeIndexPtr()
+{
+	return (CollisionAabbTreeIndex**)DB_AllocStreamPos(3);
+}
+
+CollisionAabbTreeIndex** AllocSave_CollisionAabbTreeIndexPtr()
 {
 	return (CollisionAabbTreeIndex**)DB_AllocStreamPos(3);
 }
@@ -2992,7 +4494,17 @@ CollisionBorder* AllocLoad_CollisionBorder()
 	return (CollisionBorder*)DB_AllocStreamPos(3);
 }
 
+CollisionBorder* AllocSave_CollisionBorder()
+{
+	return (CollisionBorder*)DB_AllocStreamPos(3);
+}
+
 CollisionBorder** AllocLoad_CollisionBorderPtr()
+{
+	return (CollisionBorder**)DB_AllocStreamPos(3);
+}
+
+CollisionBorder** AllocSave_CollisionBorderPtr()
 {
 	return (CollisionBorder**)DB_AllocStreamPos(3);
 }
@@ -3002,7 +4514,17 @@ CollisionPartition* AllocLoad_CollisionPartition()
 	return (CollisionPartition*)DB_AllocStreamPos(3);
 }
 
+CollisionPartition* AllocSave_CollisionPartition()
+{
+	return (CollisionPartition*)DB_AllocStreamPos(3);
+}
+
 CollisionPartition** AllocLoad_CollisionPartitionPtr()
+{
+	return (CollisionPartition**)DB_AllocStreamPos(3);
+}
+
+CollisionPartition** AllocSave_CollisionPartitionPtr()
 {
 	return (CollisionPartition**)DB_AllocStreamPos(3);
 }
@@ -3012,7 +4534,17 @@ ComPrimaryLight* AllocLoad_ComPrimaryLight()
 	return (ComPrimaryLight*)DB_AllocStreamPos(3);
 }
 
+ComPrimaryLight* AllocSave_ComPrimaryLight()
+{
+	return (ComPrimaryLight*)DB_AllocStreamPos(3);
+}
+
 ComPrimaryLight** AllocLoad_ComPrimaryLightPtr()
+{
+	return (ComPrimaryLight**)DB_AllocStreamPos(3);
+}
+
+ComPrimaryLight** AllocSave_ComPrimaryLightPtr()
 {
 	return (ComPrimaryLight**)DB_AllocStreamPos(3);
 }
@@ -3022,7 +4554,17 @@ ComWorld* AllocLoad_ComWorld()
 	return (ComWorld*)DB_AllocStreamPos(3);
 }
 
+ComWorld* AllocSave_ComWorld()
+{
+	return (ComWorld*)DB_AllocStreamPos(3);
+}
+
 ComWorld** AllocLoad_ComWorldPtr()
+{
+	return (ComWorld**)DB_AllocStreamPos(3);
+}
+
+ComWorld** AllocSave_ComWorldPtr()
 {
 	return (ComWorld**)DB_AllocStreamPos(3);
 }
@@ -3032,7 +4574,17 @@ ConditionalScript* AllocLoad_ConditionalScript()
 	return (ConditionalScript*)DB_AllocStreamPos(3);
 }
 
+ConditionalScript* AllocSave_ConditionalScript()
+{
+	return (ConditionalScript*)DB_AllocStreamPos(3);
+}
+
 ConditionalScript** AllocLoad_ConditionalScriptPtr()
+{
+	return (ConditionalScript**)DB_AllocStreamPos(3);
+}
+
+ConditionalScript** AllocSave_ConditionalScriptPtr()
 {
 	return (ConditionalScript**)DB_AllocStreamPos(3);
 }
@@ -3042,7 +4594,17 @@ DObjAnimMat* AllocLoad_DObjAnimMat()
 	return (DObjAnimMat*)DB_AllocStreamPos(3);
 }
 
+DObjAnimMat* AllocSave_DObjAnimMat()
+{
+	return (DObjAnimMat*)DB_AllocStreamPos(3);
+}
+
 DObjAnimMat** AllocLoad_DObjAnimMatPtr()
+{
+	return (DObjAnimMat**)DB_AllocStreamPos(3);
+}
+
+DObjAnimMat** AllocSave_DObjAnimMatPtr()
 {
 	return (DObjAnimMat**)DB_AllocStreamPos(3);
 }
@@ -3052,7 +4614,17 @@ DynEntityClient* AllocLoad_DynEntityClient()
 	return (DynEntityClient*)DB_AllocStreamPos(3);
 }
 
+DynEntityClient* AllocSave_DynEntityClient()
+{
+	return (DynEntityClient*)DB_AllocStreamPos(3);
+}
+
 DynEntityClient** AllocLoad_DynEntityClientPtr()
+{
+	return (DynEntityClient**)DB_AllocStreamPos(3);
+}
+
+DynEntityClient** AllocSave_DynEntityClientPtr()
 {
 	return (DynEntityClient**)DB_AllocStreamPos(3);
 }
@@ -3062,7 +4634,17 @@ DynEntityColl* AllocLoad_DynEntityColl()
 	return (DynEntityColl*)DB_AllocStreamPos(3);
 }
 
+DynEntityColl* AllocSave_DynEntityColl()
+{
+	return (DynEntityColl*)DB_AllocStreamPos(3);
+}
+
 DynEntityColl** AllocLoad_DynEntityCollPtr()
+{
+	return (DynEntityColl**)DB_AllocStreamPos(3);
+}
+
+DynEntityColl** AllocSave_DynEntityCollPtr()
 {
 	return (DynEntityColl**)DB_AllocStreamPos(3);
 }
@@ -3072,7 +4654,17 @@ DynEntityDef* AllocLoad_DynEntityDef()
 	return (DynEntityDef*)DB_AllocStreamPos(3);
 }
 
+DynEntityDef* AllocSave_DynEntityDef()
+{
+	return (DynEntityDef*)DB_AllocStreamPos(3);
+}
+
 DynEntityDef** AllocLoad_DynEntityDefPtr()
+{
+	return (DynEntityDef**)DB_AllocStreamPos(3);
+}
+
+DynEntityDef** AllocSave_DynEntityDefPtr()
 {
 	return (DynEntityDef**)DB_AllocStreamPos(3);
 }
@@ -3082,7 +4674,17 @@ DynEntityPose* AllocLoad_DynEntityPose()
 	return (DynEntityPose*)DB_AllocStreamPos(3);
 }
 
+DynEntityPose* AllocSave_DynEntityPose()
+{
+	return (DynEntityPose*)DB_AllocStreamPos(3);
+}
+
 DynEntityPose** AllocLoad_DynEntityPosePtr()
+{
+	return (DynEntityPose**)DB_AllocStreamPos(3);
+}
+
+DynEntityPose** AllocSave_DynEntityPosePtr()
 {
 	return (DynEntityPose**)DB_AllocStreamPos(3);
 }
@@ -3092,7 +4694,17 @@ EventData* AllocLoad_EventData()
 	return (EventData*)DB_AllocStreamPos(3);
 }
 
+EventData* AllocSave_EventData()
+{
+	return (EventData*)DB_AllocStreamPos(3);
+}
+
 EventData** AllocLoad_EventDataPtr()
+{
+	return (EventData**)DB_AllocStreamPos(3);
+}
+
+EventData** AllocSave_EventDataPtr()
 {
 	return (EventData**)DB_AllocStreamPos(3);
 }
@@ -3102,7 +4714,17 @@ ExpressionString* AllocLoad_ExpressionString()
 	return (ExpressionString*)DB_AllocStreamPos(3);
 }
 
+ExpressionString* AllocSave_ExpressionString()
+{
+	return (ExpressionString*)DB_AllocStreamPos(3);
+}
+
 ExpressionString** AllocLoad_ExpressionStringPtr()
+{
+	return (ExpressionString**)DB_AllocStreamPos(3);
+}
+
+ExpressionString** AllocSave_ExpressionStringPtr()
 {
 	return (ExpressionString**)DB_AllocStreamPos(3);
 }
@@ -3112,7 +4734,17 @@ ExpressionSupportingData* AllocLoad_ExpressionSupportingData()
 	return (ExpressionSupportingData*)DB_AllocStreamPos(3);
 }
 
+ExpressionSupportingData* AllocSave_ExpressionSupportingData()
+{
+	return (ExpressionSupportingData*)DB_AllocStreamPos(3);
+}
+
 ExpressionSupportingData** AllocLoad_ExpressionSupportingDataPtr()
+{
+	return (ExpressionSupportingData**)DB_AllocStreamPos(3);
+}
+
+ExpressionSupportingData** AllocSave_ExpressionSupportingDataPtr()
 {
 	return (ExpressionSupportingData**)DB_AllocStreamPos(3);
 }
@@ -3122,7 +4754,17 @@ Font_s* AllocLoad_Font_s()
 	return (Font_s*)DB_AllocStreamPos(3);
 }
 
+Font_s* AllocSave_Font_s()
+{
+	return (Font_s*)DB_AllocStreamPos(3);
+}
+
 Font_s** AllocLoad_Font_sPtr()
+{
+	return (Font_s**)DB_AllocStreamPos(3);
+}
+
+Font_s** AllocSave_Font_sPtr()
 {
 	return (Font_s**)DB_AllocStreamPos(3);
 }
@@ -3132,7 +4774,17 @@ FxEffectDef* AllocLoad_FxEffectDef()
 	return (FxEffectDef*)DB_AllocStreamPos(3);
 }
 
+FxEffectDef* AllocSave_FxEffectDef()
+{
+	return (FxEffectDef*)DB_AllocStreamPos(3);
+}
+
 FxEffectDef** AllocLoad_FxEffectDefPtr()
+{
+	return (FxEffectDef**)DB_AllocStreamPos(3);
+}
+
+FxEffectDef** AllocSave_FxEffectDefPtr()
 {
 	return (FxEffectDef**)DB_AllocStreamPos(3);
 }
@@ -3142,7 +4794,17 @@ FxEffectDefRef* AllocLoad_FxEffectDefRef()
 	return (FxEffectDefRef*)DB_AllocStreamPos(3);
 }
 
+FxEffectDefRef* AllocSave_FxEffectDefRef()
+{
+	return (FxEffectDefRef*)DB_AllocStreamPos(3);
+}
+
 FxEffectDefRef** AllocLoad_FxEffectDefRefPtr()
+{
+	return (FxEffectDefRef**)DB_AllocStreamPos(3);
+}
+
+FxEffectDefRef** AllocSave_FxEffectDefRefPtr()
 {
 	return (FxEffectDefRef**)DB_AllocStreamPos(3);
 }
@@ -3152,7 +4814,17 @@ FxElemAtlas* AllocLoad_FxElemAtlas()
 	return (FxElemAtlas*)DB_AllocStreamPos(3);
 }
 
+FxElemAtlas* AllocSave_FxElemAtlas()
+{
+	return (FxElemAtlas*)DB_AllocStreamPos(3);
+}
+
 FxElemAtlas** AllocLoad_FxElemAtlasPtr()
+{
+	return (FxElemAtlas**)DB_AllocStreamPos(3);
+}
+
+FxElemAtlas** AllocSave_FxElemAtlasPtr()
 {
 	return (FxElemAtlas**)DB_AllocStreamPos(3);
 }
@@ -3162,7 +4834,17 @@ FxElemDef* AllocLoad_FxElemDef()
 	return (FxElemDef*)DB_AllocStreamPos(3);
 }
 
+FxElemDef* AllocSave_FxElemDef()
+{
+	return (FxElemDef*)DB_AllocStreamPos(3);
+}
+
 FxElemDef** AllocLoad_FxElemDefPtr()
+{
+	return (FxElemDef**)DB_AllocStreamPos(3);
+}
+
+FxElemDef** AllocSave_FxElemDefPtr()
 {
 	return (FxElemDef**)DB_AllocStreamPos(3);
 }
@@ -3172,7 +4854,17 @@ FxElemDefVisuals* AllocLoad_FxElemDefVisuals()
 	return (FxElemDefVisuals*)DB_AllocStreamPos(3);
 }
 
+FxElemDefVisuals* AllocSave_FxElemDefVisuals()
+{
+	return (FxElemDefVisuals*)DB_AllocStreamPos(3);
+}
+
 FxElemDefVisuals** AllocLoad_FxElemDefVisualsPtr()
+{
+	return (FxElemDefVisuals**)DB_AllocStreamPos(3);
+}
+
+FxElemDefVisuals** AllocSave_FxElemDefVisualsPtr()
 {
 	return (FxElemDefVisuals**)DB_AllocStreamPos(3);
 }
@@ -3182,7 +4874,17 @@ FxElemExtendedDefPtr* AllocLoad_FxElemExtendedDefPtr()
 	return (FxElemExtendedDefPtr*)DB_AllocStreamPos(3);
 }
 
+FxElemExtendedDefPtr* AllocSave_FxElemExtendedDefPtr()
+{
+	return (FxElemExtendedDefPtr*)DB_AllocStreamPos(3);
+}
+
 FxElemExtendedDefPtr** AllocLoad_FxElemExtendedDefPtrPtr()
+{
+	return (FxElemExtendedDefPtr**)DB_AllocStreamPos(3);
+}
+
+FxElemExtendedDefPtr** AllocSave_FxElemExtendedDefPtrPtr()
 {
 	return (FxElemExtendedDefPtr**)DB_AllocStreamPos(3);
 }
@@ -3192,7 +4894,17 @@ FxElemMarkVisuals* AllocLoad_FxElemMarkVisuals()
 	return (FxElemMarkVisuals*)DB_AllocStreamPos(3);
 }
 
+FxElemMarkVisuals* AllocSave_FxElemMarkVisuals()
+{
+	return (FxElemMarkVisuals*)DB_AllocStreamPos(3);
+}
+
 FxElemMarkVisuals** AllocLoad_FxElemMarkVisualsPtr()
+{
+	return (FxElemMarkVisuals**)DB_AllocStreamPos(3);
+}
+
+FxElemMarkVisuals** AllocSave_FxElemMarkVisualsPtr()
 {
 	return (FxElemMarkVisuals**)DB_AllocStreamPos(3);
 }
@@ -3202,7 +4914,17 @@ FxElemVec3Range* AllocLoad_FxElemVec3Range()
 	return (FxElemVec3Range*)DB_AllocStreamPos(3);
 }
 
+FxElemVec3Range* AllocSave_FxElemVec3Range()
+{
+	return (FxElemVec3Range*)DB_AllocStreamPos(3);
+}
+
 FxElemVec3Range** AllocLoad_FxElemVec3RangePtr()
+{
+	return (FxElemVec3Range**)DB_AllocStreamPos(3);
+}
+
+FxElemVec3Range** AllocSave_FxElemVec3RangePtr()
 {
 	return (FxElemVec3Range**)DB_AllocStreamPos(3);
 }
@@ -3212,7 +4934,17 @@ FxElemVelStateInFrame* AllocLoad_FxElemVelStateInFrame()
 	return (FxElemVelStateInFrame*)DB_AllocStreamPos(3);
 }
 
+FxElemVelStateInFrame* AllocSave_FxElemVelStateInFrame()
+{
+	return (FxElemVelStateInFrame*)DB_AllocStreamPos(3);
+}
+
 FxElemVelStateInFrame** AllocLoad_FxElemVelStateInFramePtr()
+{
+	return (FxElemVelStateInFrame**)DB_AllocStreamPos(3);
+}
+
+FxElemVelStateInFrame** AllocSave_FxElemVelStateInFramePtr()
 {
 	return (FxElemVelStateInFrame**)DB_AllocStreamPos(3);
 }
@@ -3222,7 +4954,17 @@ FxElemVelStateSample* AllocLoad_FxElemVelStateSample()
 	return (FxElemVelStateSample*)DB_AllocStreamPos(3);
 }
 
+FxElemVelStateSample* AllocSave_FxElemVelStateSample()
+{
+	return (FxElemVelStateSample*)DB_AllocStreamPos(3);
+}
+
 FxElemVelStateSample** AllocLoad_FxElemVelStateSamplePtr()
+{
+	return (FxElemVelStateSample**)DB_AllocStreamPos(3);
+}
+
+FxElemVelStateSample** AllocSave_FxElemVelStateSamplePtr()
 {
 	return (FxElemVelStateSample**)DB_AllocStreamPos(3);
 }
@@ -3232,7 +4974,17 @@ FxElemVisStateSample* AllocLoad_FxElemVisStateSample()
 	return (FxElemVisStateSample*)DB_AllocStreamPos(3);
 }
 
+FxElemVisStateSample* AllocSave_FxElemVisStateSample()
+{
+	return (FxElemVisStateSample*)DB_AllocStreamPos(3);
+}
+
 FxElemVisStateSample** AllocLoad_FxElemVisStateSamplePtr()
+{
+	return (FxElemVisStateSample**)DB_AllocStreamPos(3);
+}
+
+FxElemVisStateSample** AllocSave_FxElemVisStateSamplePtr()
 {
 	return (FxElemVisStateSample**)DB_AllocStreamPos(3);
 }
@@ -3242,7 +4994,17 @@ FxElemVisualState* AllocLoad_FxElemVisualState()
 	return (FxElemVisualState*)DB_AllocStreamPos(3);
 }
 
+FxElemVisualState* AllocSave_FxElemVisualState()
+{
+	return (FxElemVisualState*)DB_AllocStreamPos(3);
+}
+
 FxElemVisualState** AllocLoad_FxElemVisualStatePtr()
+{
+	return (FxElemVisualState**)DB_AllocStreamPos(3);
+}
+
+FxElemVisualState** AllocSave_FxElemVisualStatePtr()
 {
 	return (FxElemVisualState**)DB_AllocStreamPos(3);
 }
@@ -3252,7 +5014,17 @@ FxElemVisuals* AllocLoad_FxElemVisuals()
 	return (FxElemVisuals*)DB_AllocStreamPos(3);
 }
 
+FxElemVisuals* AllocSave_FxElemVisuals()
+{
+	return (FxElemVisuals*)DB_AllocStreamPos(3);
+}
+
 FxElemVisuals** AllocLoad_FxElemVisualsPtr()
+{
+	return (FxElemVisuals**)DB_AllocStreamPos(3);
+}
+
+FxElemVisuals** AllocSave_FxElemVisualsPtr()
 {
 	return (FxElemVisuals**)DB_AllocStreamPos(3);
 }
@@ -3262,7 +5034,17 @@ FxFloatRange* AllocLoad_FxFloatRange()
 	return (FxFloatRange*)DB_AllocStreamPos(3);
 }
 
+FxFloatRange* AllocSave_FxFloatRange()
+{
+	return (FxFloatRange*)DB_AllocStreamPos(3);
+}
+
 FxFloatRange** AllocLoad_FxFloatRangePtr()
+{
+	return (FxFloatRange**)DB_AllocStreamPos(3);
+}
+
+FxFloatRange** AllocSave_FxFloatRangePtr()
 {
 	return (FxFloatRange**)DB_AllocStreamPos(3);
 }
@@ -3272,7 +5054,17 @@ FxGlassCrackHeader* AllocLoad_FxGlassCrackHeader()
 	return (FxGlassCrackHeader*)DB_AllocStreamPos(3);
 }
 
+FxGlassCrackHeader* AllocSave_FxGlassCrackHeader()
+{
+	return (FxGlassCrackHeader*)DB_AllocStreamPos(3);
+}
+
 FxGlassCrackHeader** AllocLoad_FxGlassCrackHeaderPtr()
+{
+	return (FxGlassCrackHeader**)DB_AllocStreamPos(3);
+}
+
+FxGlassCrackHeader** AllocSave_FxGlassCrackHeaderPtr()
 {
 	return (FxGlassCrackHeader**)DB_AllocStreamPos(3);
 }
@@ -3282,7 +5074,17 @@ FxGlassDef* AllocLoad_FxGlassDef()
 	return (FxGlassDef*)DB_AllocStreamPos(3);
 }
 
+FxGlassDef* AllocSave_FxGlassDef()
+{
+	return (FxGlassDef*)DB_AllocStreamPos(3);
+}
+
 FxGlassDef** AllocLoad_FxGlassDefPtr()
+{
+	return (FxGlassDef**)DB_AllocStreamPos(3);
+}
+
+FxGlassDef** AllocSave_FxGlassDefPtr()
 {
 	return (FxGlassDef**)DB_AllocStreamPos(3);
 }
@@ -3292,7 +5094,17 @@ FxGlassGeometryData* AllocLoad_FxGlassGeometryData()
 	return (FxGlassGeometryData*)DB_AllocStreamPos(3);
 }
 
+FxGlassGeometryData* AllocSave_FxGlassGeometryData()
+{
+	return (FxGlassGeometryData*)DB_AllocStreamPos(3);
+}
+
 FxGlassGeometryData** AllocLoad_FxGlassGeometryDataPtr()
+{
+	return (FxGlassGeometryData**)DB_AllocStreamPos(3);
+}
+
+FxGlassGeometryData** AllocSave_FxGlassGeometryDataPtr()
 {
 	return (FxGlassGeometryData**)DB_AllocStreamPos(3);
 }
@@ -3302,7 +5114,17 @@ FxGlassHoleHeader* AllocLoad_FxGlassHoleHeader()
 	return (FxGlassHoleHeader*)DB_AllocStreamPos(3);
 }
 
+FxGlassHoleHeader* AllocSave_FxGlassHoleHeader()
+{
+	return (FxGlassHoleHeader*)DB_AllocStreamPos(3);
+}
+
 FxGlassHoleHeader** AllocLoad_FxGlassHoleHeaderPtr()
+{
+	return (FxGlassHoleHeader**)DB_AllocStreamPos(3);
+}
+
+FxGlassHoleHeader** AllocSave_FxGlassHoleHeaderPtr()
 {
 	return (FxGlassHoleHeader**)DB_AllocStreamPos(3);
 }
@@ -3312,7 +5134,17 @@ FxGlassInitPieceState* AllocLoad_FxGlassInitPieceState()
 	return (FxGlassInitPieceState*)DB_AllocStreamPos(3);
 }
 
+FxGlassInitPieceState* AllocSave_FxGlassInitPieceState()
+{
+	return (FxGlassInitPieceState*)DB_AllocStreamPos(3);
+}
+
 FxGlassInitPieceState** AllocLoad_FxGlassInitPieceStatePtr()
+{
+	return (FxGlassInitPieceState**)DB_AllocStreamPos(3);
+}
+
+FxGlassInitPieceState** AllocSave_FxGlassInitPieceStatePtr()
 {
 	return (FxGlassInitPieceState**)DB_AllocStreamPos(3);
 }
@@ -3322,7 +5154,17 @@ FxGlassPieceDynamics* AllocLoad_FxGlassPieceDynamics()
 	return (FxGlassPieceDynamics*)DB_AllocStreamPos(3);
 }
 
+FxGlassPieceDynamics* AllocSave_FxGlassPieceDynamics()
+{
+	return (FxGlassPieceDynamics*)DB_AllocStreamPos(3);
+}
+
 FxGlassPieceDynamics** AllocLoad_FxGlassPieceDynamicsPtr()
+{
+	return (FxGlassPieceDynamics**)DB_AllocStreamPos(3);
+}
+
+FxGlassPieceDynamics** AllocSave_FxGlassPieceDynamicsPtr()
 {
 	return (FxGlassPieceDynamics**)DB_AllocStreamPos(3);
 }
@@ -3332,7 +5174,17 @@ FxGlassPiecePlace* AllocLoad_FxGlassPiecePlace()
 	return (FxGlassPiecePlace*)DB_AllocStreamPos(3);
 }
 
+FxGlassPiecePlace* AllocSave_FxGlassPiecePlace()
+{
+	return (FxGlassPiecePlace*)DB_AllocStreamPos(3);
+}
+
 FxGlassPiecePlace** AllocLoad_FxGlassPiecePlacePtr()
+{
+	return (FxGlassPiecePlace**)DB_AllocStreamPos(3);
+}
+
+FxGlassPiecePlace** AllocSave_FxGlassPiecePlacePtr()
 {
 	return (FxGlassPiecePlace**)DB_AllocStreamPos(3);
 }
@@ -3342,7 +5194,17 @@ FxGlassPieceState* AllocLoad_FxGlassPieceState()
 	return (FxGlassPieceState*)DB_AllocStreamPos(3);
 }
 
+FxGlassPieceState* AllocSave_FxGlassPieceState()
+{
+	return (FxGlassPieceState*)DB_AllocStreamPos(3);
+}
+
 FxGlassPieceState** AllocLoad_FxGlassPieceStatePtr()
+{
+	return (FxGlassPieceState**)DB_AllocStreamPos(3);
+}
+
+FxGlassPieceState** AllocSave_FxGlassPieceStatePtr()
 {
 	return (FxGlassPieceState**)DB_AllocStreamPos(3);
 }
@@ -3352,7 +5214,17 @@ FxGlassSystem* AllocLoad_FxGlassSystem()
 	return (FxGlassSystem*)DB_AllocStreamPos(3);
 }
 
+FxGlassSystem* AllocSave_FxGlassSystem()
+{
+	return (FxGlassSystem*)DB_AllocStreamPos(3);
+}
+
 FxGlassSystem** AllocLoad_FxGlassSystemPtr()
+{
+	return (FxGlassSystem**)DB_AllocStreamPos(3);
+}
+
+FxGlassSystem** AllocSave_FxGlassSystemPtr()
 {
 	return (FxGlassSystem**)DB_AllocStreamPos(3);
 }
@@ -3362,7 +5234,17 @@ FxGlassVertex* AllocLoad_FxGlassVertex()
 	return (FxGlassVertex*)DB_AllocStreamPos(3);
 }
 
+FxGlassVertex* AllocSave_FxGlassVertex()
+{
+	return (FxGlassVertex*)DB_AllocStreamPos(3);
+}
+
 FxGlassVertex** AllocLoad_FxGlassVertexPtr()
+{
+	return (FxGlassVertex**)DB_AllocStreamPos(3);
+}
+
+FxGlassVertex** AllocSave_FxGlassVertexPtr()
 {
 	return (FxGlassVertex**)DB_AllocStreamPos(3);
 }
@@ -3372,7 +5254,17 @@ FxIntRange* AllocLoad_FxIntRange()
 	return (FxIntRange*)DB_AllocStreamPos(3);
 }
 
+FxIntRange* AllocSave_FxIntRange()
+{
+	return (FxIntRange*)DB_AllocStreamPos(3);
+}
+
 FxIntRange** AllocLoad_FxIntRangePtr()
+{
+	return (FxIntRange**)DB_AllocStreamPos(3);
+}
+
+FxIntRange** AllocSave_FxIntRangePtr()
 {
 	return (FxIntRange**)DB_AllocStreamPos(3);
 }
@@ -3382,7 +5274,17 @@ FxSparkFountainDef* AllocLoad_FxSparkFountainDef()
 	return (FxSparkFountainDef*)DB_AllocStreamPos(3);
 }
 
+FxSparkFountainDef* AllocSave_FxSparkFountainDef()
+{
+	return (FxSparkFountainDef*)DB_AllocStreamPos(3);
+}
+
 FxSparkFountainDef** AllocLoad_FxSparkFountainDefPtr()
+{
+	return (FxSparkFountainDef**)DB_AllocStreamPos(3);
+}
+
+FxSparkFountainDef** AllocSave_FxSparkFountainDefPtr()
 {
 	return (FxSparkFountainDef**)DB_AllocStreamPos(3);
 }
@@ -3392,7 +5294,17 @@ FxSpatialFrame* AllocLoad_FxSpatialFrame()
 	return (FxSpatialFrame*)DB_AllocStreamPos(3);
 }
 
+FxSpatialFrame* AllocSave_FxSpatialFrame()
+{
+	return (FxSpatialFrame*)DB_AllocStreamPos(3);
+}
+
 FxSpatialFrame** AllocLoad_FxSpatialFramePtr()
+{
+	return (FxSpatialFrame**)DB_AllocStreamPos(3);
+}
+
+FxSpatialFrame** AllocSave_FxSpatialFramePtr()
 {
 	return (FxSpatialFrame**)DB_AllocStreamPos(3);
 }
@@ -3402,7 +5314,17 @@ FxSpawnDef* AllocLoad_FxSpawnDef()
 	return (FxSpawnDef*)DB_AllocStreamPos(3);
 }
 
+FxSpawnDef* AllocSave_FxSpawnDef()
+{
+	return (FxSpawnDef*)DB_AllocStreamPos(3);
+}
+
 FxSpawnDef** AllocLoad_FxSpawnDefPtr()
+{
+	return (FxSpawnDef**)DB_AllocStreamPos(3);
+}
+
+FxSpawnDef** AllocSave_FxSpawnDefPtr()
 {
 	return (FxSpawnDef**)DB_AllocStreamPos(3);
 }
@@ -3412,7 +5334,17 @@ FxSpawnDefLooping* AllocLoad_FxSpawnDefLooping()
 	return (FxSpawnDefLooping*)DB_AllocStreamPos(3);
 }
 
+FxSpawnDefLooping* AllocSave_FxSpawnDefLooping()
+{
+	return (FxSpawnDefLooping*)DB_AllocStreamPos(3);
+}
+
 FxSpawnDefLooping** AllocLoad_FxSpawnDefLoopingPtr()
+{
+	return (FxSpawnDefLooping**)DB_AllocStreamPos(3);
+}
+
+FxSpawnDefLooping** AllocSave_FxSpawnDefLoopingPtr()
 {
 	return (FxSpawnDefLooping**)DB_AllocStreamPos(3);
 }
@@ -3422,7 +5354,17 @@ FxSpawnDefOneShot* AllocLoad_FxSpawnDefOneShot()
 	return (FxSpawnDefOneShot*)DB_AllocStreamPos(3);
 }
 
+FxSpawnDefOneShot* AllocSave_FxSpawnDefOneShot()
+{
+	return (FxSpawnDefOneShot*)DB_AllocStreamPos(3);
+}
+
 FxSpawnDefOneShot** AllocLoad_FxSpawnDefOneShotPtr()
+{
+	return (FxSpawnDefOneShot**)DB_AllocStreamPos(3);
+}
+
+FxSpawnDefOneShot** AllocSave_FxSpawnDefOneShotPtr()
 {
 	return (FxSpawnDefOneShot**)DB_AllocStreamPos(3);
 }
@@ -3432,7 +5374,17 @@ FxTrailDef* AllocLoad_FxTrailDef()
 	return (FxTrailDef*)DB_AllocStreamPos(3);
 }
 
+FxTrailDef* AllocSave_FxTrailDef()
+{
+	return (FxTrailDef*)DB_AllocStreamPos(3);
+}
+
 FxTrailDef** AllocLoad_FxTrailDefPtr()
+{
+	return (FxTrailDef**)DB_AllocStreamPos(3);
+}
+
+FxTrailDef** AllocSave_FxTrailDefPtr()
 {
 	return (FxTrailDef**)DB_AllocStreamPos(3);
 }
@@ -3442,7 +5394,17 @@ FxTrailVertex* AllocLoad_FxTrailVertex()
 	return (FxTrailVertex*)DB_AllocStreamPos(3);
 }
 
+FxTrailVertex* AllocSave_FxTrailVertex()
+{
+	return (FxTrailVertex*)DB_AllocStreamPos(3);
+}
+
 FxTrailVertex** AllocLoad_FxTrailVertexPtr()
+{
+	return (FxTrailVertex**)DB_AllocStreamPos(3);
+}
+
+FxTrailVertex** AllocSave_FxTrailVertexPtr()
 {
 	return (FxTrailVertex**)DB_AllocStreamPos(3);
 }
@@ -3452,7 +5414,17 @@ FxWorld* AllocLoad_FxWorld()
 	return (FxWorld*)DB_AllocStreamPos(3);
 }
 
+FxWorld* AllocSave_FxWorld()
+{
+	return (FxWorld*)DB_AllocStreamPos(3);
+}
+
 FxWorld** AllocLoad_FxWorldPtr()
+{
+	return (FxWorld**)DB_AllocStreamPos(3);
+}
+
+FxWorld** AllocSave_FxWorldPtr()
 {
 	return (FxWorld**)DB_AllocStreamPos(3);
 }
@@ -3462,7 +5434,17 @@ G_GlassData* AllocLoad_G_GlassData()
 	return (G_GlassData*)DB_AllocStreamPos(3);
 }
 
+G_GlassData* AllocSave_G_GlassData()
+{
+	return (G_GlassData*)DB_AllocStreamPos(3);
+}
+
 G_GlassData** AllocLoad_G_GlassDataPtr()
+{
+	return (G_GlassData**)DB_AllocStreamPos(3);
+}
+
+G_GlassData** AllocSave_G_GlassDataPtr()
 {
 	return (G_GlassData**)DB_AllocStreamPos(3);
 }
@@ -3472,7 +5454,17 @@ G_GlassName* AllocLoad_G_GlassName()
 	return (G_GlassName*)DB_AllocStreamPos(3);
 }
 
+G_GlassName* AllocSave_G_GlassName()
+{
+	return (G_GlassName*)DB_AllocStreamPos(3);
+}
+
 G_GlassName** AllocLoad_G_GlassNamePtr()
+{
+	return (G_GlassName**)DB_AllocStreamPos(3);
+}
+
+G_GlassName** AllocSave_G_GlassNamePtr()
 {
 	return (G_GlassName**)DB_AllocStreamPos(3);
 }
@@ -3482,7 +5474,17 @@ G_GlassPiece* AllocLoad_G_GlassPiece()
 	return (G_GlassPiece*)DB_AllocStreamPos(1);
 }
 
+G_GlassPiece* AllocSave_G_GlassPiece()
+{
+	return (G_GlassPiece*)DB_AllocStreamPos(1);
+}
+
 G_GlassPiece** AllocLoad_G_GlassPiecePtr()
+{
+	return (G_GlassPiece**)DB_AllocStreamPos(1);
+}
+
+G_GlassPiece** AllocSave_G_GlassPiecePtr()
 {
 	return (G_GlassPiece**)DB_AllocStreamPos(1);
 }
@@ -3492,7 +5494,17 @@ GameWorldMp* AllocLoad_GameWorldMp()
 	return (GameWorldMp*)DB_AllocStreamPos(3);
 }
 
+GameWorldMp* AllocSave_GameWorldMp()
+{
+	return (GameWorldMp*)DB_AllocStreamPos(3);
+}
+
 GameWorldMp** AllocLoad_GameWorldMpPtr()
+{
+	return (GameWorldMp**)DB_AllocStreamPos(3);
+}
+
+GameWorldMp** AllocSave_GameWorldMpPtr()
 {
 	return (GameWorldMp**)DB_AllocStreamPos(3);
 }
@@ -3502,7 +5514,17 @@ GfxColor* AllocLoad_GfxColor()
 	return (GfxColor*)DB_AllocStreamPos(3);
 }
 
+GfxColor* AllocSave_GfxColor()
+{
+	return (GfxColor*)DB_AllocStreamPos(3);
+}
+
 GfxColor** AllocLoad_GfxColorPtr()
+{
+	return (GfxColor**)DB_AllocStreamPos(3);
+}
+
+GfxColor** AllocSave_GfxColorPtr()
 {
 	return (GfxColor**)DB_AllocStreamPos(3);
 }
@@ -3512,7 +5534,17 @@ GfxDrawSurf* AllocLoad_GfxDrawSurf()
 	return (GfxDrawSurf*)DB_AllocStreamPos(3);
 }
 
+GfxDrawSurf* AllocSave_GfxDrawSurf()
+{
+	return (GfxDrawSurf*)DB_AllocStreamPos(3);
+}
+
 GfxDrawSurf** AllocLoad_GfxDrawSurfPtr()
+{
+	return (GfxDrawSurf**)DB_AllocStreamPos(3);
+}
+
+GfxDrawSurf** AllocSave_GfxDrawSurfPtr()
 {
 	return (GfxDrawSurf**)DB_AllocStreamPos(3);
 }
@@ -3522,7 +5554,17 @@ GfxImage* AllocLoad_GfxImage()
 	return (GfxImage*)DB_AllocStreamPos(3);
 }
 
+GfxImage* AllocSave_GfxImage()
+{
+	return (GfxImage*)DB_AllocStreamPos(3);
+}
+
 GfxImage** AllocLoad_GfxImagePtr()
+{
+	return (GfxImage**)DB_AllocStreamPos(3);
+}
+
+GfxImage** AllocSave_GfxImagePtr()
 {
 	return (GfxImage**)DB_AllocStreamPos(3);
 }
@@ -3532,7 +5574,17 @@ GfxImageLoadDef* AllocLoad_GfxImageLoadDef()
 	return (GfxImageLoadDef*)DB_AllocStreamPos(3);
 }
 
+GfxImageLoadDef* AllocSave_GfxImageLoadDef()
+{
+	return (GfxImageLoadDef*)DB_AllocStreamPos(3);
+}
+
 GfxImageLoadDef** AllocLoad_GfxImageLoadDefPtr()
+{
+	return (GfxImageLoadDef**)DB_AllocStreamPos(3);
+}
+
+GfxImageLoadDef** AllocSave_GfxImageLoadDefPtr()
 {
 	return (GfxImageLoadDef**)DB_AllocStreamPos(3);
 }
@@ -3542,7 +5594,17 @@ GfxLightDef* AllocLoad_GfxLightDef()
 	return (GfxLightDef*)DB_AllocStreamPos(3);
 }
 
+GfxLightDef* AllocSave_GfxLightDef()
+{
+	return (GfxLightDef*)DB_AllocStreamPos(3);
+}
+
 GfxLightDef** AllocLoad_GfxLightDefPtr()
+{
+	return (GfxLightDef**)DB_AllocStreamPos(3);
+}
+
+GfxLightDef** AllocSave_GfxLightDefPtr()
 {
 	return (GfxLightDef**)DB_AllocStreamPos(3);
 }
@@ -3552,7 +5614,17 @@ GfxLightImage* AllocLoad_GfxLightImage()
 	return (GfxLightImage*)DB_AllocStreamPos(3);
 }
 
+GfxLightImage* AllocSave_GfxLightImage()
+{
+	return (GfxLightImage*)DB_AllocStreamPos(3);
+}
+
 GfxLightImage** AllocLoad_GfxLightImagePtr()
+{
+	return (GfxLightImage**)DB_AllocStreamPos(3);
+}
+
+GfxLightImage** AllocSave_GfxLightImagePtr()
 {
 	return (GfxLightImage**)DB_AllocStreamPos(3);
 }
@@ -3562,7 +5634,17 @@ GfxPackedVertex* AllocLoad_GfxPackedVertex()
 	return (GfxPackedVertex*)DB_AllocStreamPos(15);
 }
 
+GfxPackedVertex* AllocSave_GfxPackedVertex()
+{
+	return (GfxPackedVertex*)DB_AllocStreamPos(15);
+}
+
 GfxPackedVertex** AllocLoad_GfxPackedVertexPtr()
+{
+	return (GfxPackedVertex**)DB_AllocStreamPos(15);
+}
+
+GfxPackedVertex** AllocSave_GfxPackedVertexPtr()
 {
 	return (GfxPackedVertex**)DB_AllocStreamPos(15);
 }
@@ -3572,7 +5654,17 @@ GfxPixelShaderLoadDef* AllocLoad_GfxPixelShaderLoadDef()
 	return (GfxPixelShaderLoadDef*)DB_AllocStreamPos(3);
 }
 
+GfxPixelShaderLoadDef* AllocSave_GfxPixelShaderLoadDef()
+{
+	return (GfxPixelShaderLoadDef*)DB_AllocStreamPos(3);
+}
+
 GfxPixelShaderLoadDef** AllocLoad_GfxPixelShaderLoadDefPtr()
+{
+	return (GfxPixelShaderLoadDef**)DB_AllocStreamPos(3);
+}
+
+GfxPixelShaderLoadDef** AllocSave_GfxPixelShaderLoadDefPtr()
 {
 	return (GfxPixelShaderLoadDef**)DB_AllocStreamPos(3);
 }
@@ -3582,7 +5674,17 @@ GfxPlacement* AllocLoad_GfxPlacement()
 	return (GfxPlacement*)DB_AllocStreamPos(3);
 }
 
+GfxPlacement* AllocSave_GfxPlacement()
+{
+	return (GfxPlacement*)DB_AllocStreamPos(3);
+}
+
 GfxPlacement** AllocLoad_GfxPlacementPtr()
+{
+	return (GfxPlacement**)DB_AllocStreamPos(3);
+}
+
+GfxPlacement** AllocSave_GfxPlacementPtr()
 {
 	return (GfxPlacement**)DB_AllocStreamPos(3);
 }
@@ -3592,7 +5694,17 @@ GfxStateBits* AllocLoad_GfxStateBits()
 	return (GfxStateBits*)DB_AllocStreamPos(3);
 }
 
+GfxStateBits* AllocSave_GfxStateBits()
+{
+	return (GfxStateBits*)DB_AllocStreamPos(3);
+}
+
 GfxStateBits** AllocLoad_GfxStateBitsPtr()
+{
+	return (GfxStateBits**)DB_AllocStreamPos(3);
+}
+
+GfxStateBits** AllocSave_GfxStateBitsPtr()
 {
 	return (GfxStateBits**)DB_AllocStreamPos(3);
 }
@@ -3602,7 +5714,17 @@ GfxTexture* AllocLoad_GfxTexture()
 	return (GfxTexture*)DB_AllocStreamPos(3);
 }
 
+GfxTexture* AllocSave_GfxTexture()
+{
+	return (GfxTexture*)DB_AllocStreamPos(3);
+}
+
 GfxTexture** AllocLoad_GfxTexturePtr()
+{
+	return (GfxTexture**)DB_AllocStreamPos(3);
+}
+
+GfxTexture** AllocSave_GfxTexturePtr()
 {
 	return (GfxTexture**)DB_AllocStreamPos(3);
 }
@@ -3612,7 +5734,17 @@ GfxVertexShaderLoadDef* AllocLoad_GfxVertexShaderLoadDef()
 	return (GfxVertexShaderLoadDef*)DB_AllocStreamPos(3);
 }
 
+GfxVertexShaderLoadDef* AllocSave_GfxVertexShaderLoadDef()
+{
+	return (GfxVertexShaderLoadDef*)DB_AllocStreamPos(3);
+}
+
 GfxVertexShaderLoadDef** AllocLoad_GfxVertexShaderLoadDefPtr()
+{
+	return (GfxVertexShaderLoadDef**)DB_AllocStreamPos(3);
+}
+
+GfxVertexShaderLoadDef** AllocSave_GfxVertexShaderLoadDefPtr()
 {
 	return (GfxVertexShaderLoadDef**)DB_AllocStreamPos(3);
 }
@@ -3622,7 +5754,17 @@ Glyph* AllocLoad_Glyph()
 	return (Glyph*)DB_AllocStreamPos(3);
 }
 
+Glyph* AllocSave_Glyph()
+{
+	return (Glyph*)DB_AllocStreamPos(3);
+}
+
 Glyph** AllocLoad_GlyphPtr()
+{
+	return (Glyph**)DB_AllocStreamPos(3);
+}
+
+Glyph** AllocSave_GlyphPtr()
 {
 	return (Glyph**)DB_AllocStreamPos(3);
 }
@@ -3632,7 +5774,17 @@ ItemFloatExpression* AllocLoad_ItemFloatExpression()
 	return (ItemFloatExpression*)DB_AllocStreamPos(3);
 }
 
+ItemFloatExpression* AllocSave_ItemFloatExpression()
+{
+	return (ItemFloatExpression*)DB_AllocStreamPos(3);
+}
+
 ItemFloatExpression** AllocLoad_ItemFloatExpressionPtr()
+{
+	return (ItemFloatExpression**)DB_AllocStreamPos(3);
+}
+
+ItemFloatExpression** AllocSave_ItemFloatExpressionPtr()
 {
 	return (ItemFloatExpression**)DB_AllocStreamPos(3);
 }
@@ -3642,7 +5794,17 @@ ItemKeyHandler* AllocLoad_ItemKeyHandler()
 	return (ItemKeyHandler*)DB_AllocStreamPos(3);
 }
 
+ItemKeyHandler* AllocSave_ItemKeyHandler()
+{
+	return (ItemKeyHandler*)DB_AllocStreamPos(3);
+}
+
 ItemKeyHandler** AllocLoad_ItemKeyHandlerPtr()
+{
+	return (ItemKeyHandler**)DB_AllocStreamPos(3);
+}
+
+ItemKeyHandler** AllocSave_ItemKeyHandlerPtr()
 {
 	return (ItemKeyHandler**)DB_AllocStreamPos(3);
 }
@@ -3652,7 +5814,17 @@ LbColumnDef* AllocLoad_LbColumnDef()
 	return (LbColumnDef*)DB_AllocStreamPos(3);
 }
 
+LbColumnDef* AllocSave_LbColumnDef()
+{
+	return (LbColumnDef*)DB_AllocStreamPos(3);
+}
+
 LbColumnDef** AllocLoad_LbColumnDefPtr()
+{
+	return (LbColumnDef**)DB_AllocStreamPos(3);
+}
+
+LbColumnDef** AllocSave_LbColumnDefPtr()
 {
 	return (LbColumnDef**)DB_AllocStreamPos(3);
 }
@@ -3662,7 +5834,17 @@ LeaderboardDef* AllocLoad_LeaderboardDef()
 	return (LeaderboardDef*)DB_AllocStreamPos(3);
 }
 
+LeaderboardDef* AllocSave_LeaderboardDef()
+{
+	return (LeaderboardDef*)DB_AllocStreamPos(3);
+}
+
 LeaderboardDef** AllocLoad_LeaderboardDefPtr()
+{
+	return (LeaderboardDef**)DB_AllocStreamPos(3);
+}
+
+LeaderboardDef** AllocSave_LeaderboardDefPtr()
 {
 	return (LeaderboardDef**)DB_AllocStreamPos(3);
 }
@@ -3672,7 +5854,17 @@ LoadedSound* AllocLoad_LoadedSound()
 	return (LoadedSound*)DB_AllocStreamPos(3);
 }
 
+LoadedSound* AllocSave_LoadedSound()
+{
+	return (LoadedSound*)DB_AllocStreamPos(3);
+}
+
 LoadedSound** AllocLoad_LoadedSoundPtr()
+{
+	return (LoadedSound**)DB_AllocStreamPos(3);
+}
+
+LoadedSound** AllocSave_LoadedSoundPtr()
 {
 	return (LoadedSound**)DB_AllocStreamPos(3);
 }
@@ -3682,7 +5874,17 @@ LocalizeEntry* AllocLoad_LocalizeEntry()
 	return (LocalizeEntry*)DB_AllocStreamPos(3);
 }
 
+LocalizeEntry* AllocSave_LocalizeEntry()
+{
+	return (LocalizeEntry*)DB_AllocStreamPos(3);
+}
+
 LocalizeEntry** AllocLoad_LocalizeEntryPtr()
+{
+	return (LocalizeEntry**)DB_AllocStreamPos(3);
+}
+
+LocalizeEntry** AllocSave_LocalizeEntryPtr()
 {
 	return (LocalizeEntry**)DB_AllocStreamPos(3);
 }
@@ -3692,7 +5894,17 @@ MSSChannelMap* AllocLoad_MSSChannelMap()
 	return (MSSChannelMap*)DB_AllocStreamPos(3);
 }
 
+MSSChannelMap* AllocSave_MSSChannelMap()
+{
+	return (MSSChannelMap*)DB_AllocStreamPos(3);
+}
+
 MSSChannelMap** AllocLoad_MSSChannelMapPtr()
+{
+	return (MSSChannelMap**)DB_AllocStreamPos(3);
+}
+
+MSSChannelMap** AllocSave_MSSChannelMapPtr()
 {
 	return (MSSChannelMap**)DB_AllocStreamPos(3);
 }
@@ -3702,7 +5914,17 @@ MSSSpeakerLevels* AllocLoad_MSSSpeakerLevels()
 	return (MSSSpeakerLevels*)DB_AllocStreamPos(3);
 }
 
+MSSSpeakerLevels* AllocSave_MSSSpeakerLevels()
+{
+	return (MSSSpeakerLevels*)DB_AllocStreamPos(3);
+}
+
 MSSSpeakerLevels** AllocLoad_MSSSpeakerLevelsPtr()
+{
+	return (MSSSpeakerLevels**)DB_AllocStreamPos(3);
+}
+
+MSSSpeakerLevels** AllocSave_MSSSpeakerLevelsPtr()
 {
 	return (MSSSpeakerLevels**)DB_AllocStreamPos(3);
 }
@@ -3712,7 +5934,17 @@ MapEnts* AllocLoad_MapEnts()
 	return (MapEnts*)DB_AllocStreamPos(3);
 }
 
+MapEnts* AllocSave_MapEnts()
+{
+	return (MapEnts*)DB_AllocStreamPos(3);
+}
+
 MapEnts** AllocLoad_MapEntsPtr()
+{
+	return (MapEnts**)DB_AllocStreamPos(3);
+}
+
+MapEnts** AllocSave_MapEntsPtr()
 {
 	return (MapEnts**)DB_AllocStreamPos(3);
 }
@@ -3722,7 +5954,17 @@ MapTriggers* AllocLoad_MapTriggers()
 	return (MapTriggers*)DB_AllocStreamPos(3);
 }
 
+MapTriggers* AllocSave_MapTriggers()
+{
+	return (MapTriggers*)DB_AllocStreamPos(3);
+}
+
 MapTriggers** AllocLoad_MapTriggersPtr()
+{
+	return (MapTriggers**)DB_AllocStreamPos(3);
+}
+
+MapTriggers** AllocSave_MapTriggersPtr()
 {
 	return (MapTriggers**)DB_AllocStreamPos(3);
 }
@@ -3732,7 +5974,17 @@ Material* AllocLoad_Material()
 	return (Material*)DB_AllocStreamPos(3);
 }
 
+Material* AllocSave_Material()
+{
+	return (Material*)DB_AllocStreamPos(3);
+}
+
 Material** AllocLoad_MaterialPtr()
+{
+	return (Material**)DB_AllocStreamPos(3);
+}
+
+Material** AllocSave_MaterialPtr()
 {
 	return (Material**)DB_AllocStreamPos(3);
 }
@@ -3742,7 +5994,17 @@ MaterialArgumentCodeConst* AllocLoad_MaterialArgumentCodeConst()
 	return (MaterialArgumentCodeConst*)DB_AllocStreamPos(3);
 }
 
+MaterialArgumentCodeConst* AllocSave_MaterialArgumentCodeConst()
+{
+	return (MaterialArgumentCodeConst*)DB_AllocStreamPos(3);
+}
+
 MaterialArgumentCodeConst** AllocLoad_MaterialArgumentCodeConstPtr()
+{
+	return (MaterialArgumentCodeConst**)DB_AllocStreamPos(3);
+}
+
+MaterialArgumentCodeConst** AllocSave_MaterialArgumentCodeConstPtr()
 {
 	return (MaterialArgumentCodeConst**)DB_AllocStreamPos(3);
 }
@@ -3752,7 +6014,17 @@ MaterialArgumentDef* AllocLoad_MaterialArgumentDef()
 	return (MaterialArgumentDef*)DB_AllocStreamPos(3);
 }
 
+MaterialArgumentDef* AllocSave_MaterialArgumentDef()
+{
+	return (MaterialArgumentDef*)DB_AllocStreamPos(3);
+}
+
 MaterialArgumentDef** AllocLoad_MaterialArgumentDefPtr()
+{
+	return (MaterialArgumentDef**)DB_AllocStreamPos(3);
+}
+
+MaterialArgumentDef** AllocSave_MaterialArgumentDefPtr()
 {
 	return (MaterialArgumentDef**)DB_AllocStreamPos(3);
 }
@@ -3762,7 +6034,17 @@ MaterialConstantDef* AllocLoad_MaterialConstantDef()
 	return (MaterialConstantDef*)DB_AllocStreamPos(15);
 }
 
+MaterialConstantDef* AllocSave_MaterialConstantDef()
+{
+	return (MaterialConstantDef*)DB_AllocStreamPos(15);
+}
+
 MaterialConstantDef** AllocLoad_MaterialConstantDefPtr()
+{
+	return (MaterialConstantDef**)DB_AllocStreamPos(15);
+}
+
+MaterialConstantDef** AllocSave_MaterialConstantDefPtr()
 {
 	return (MaterialConstantDef**)DB_AllocStreamPos(15);
 }
@@ -3772,7 +6054,17 @@ MaterialInfo* AllocLoad_MaterialInfo()
 	return (MaterialInfo*)DB_AllocStreamPos(3);
 }
 
+MaterialInfo* AllocSave_MaterialInfo()
+{
+	return (MaterialInfo*)DB_AllocStreamPos(3);
+}
+
 MaterialInfo** AllocLoad_MaterialInfoPtr()
+{
+	return (MaterialInfo**)DB_AllocStreamPos(3);
+}
+
+MaterialInfo** AllocSave_MaterialInfoPtr()
 {
 	return (MaterialInfo**)DB_AllocStreamPos(3);
 }
@@ -3782,7 +6074,17 @@ MaterialPass* AllocLoad_MaterialPass()
 	return (MaterialPass*)DB_AllocStreamPos(3);
 }
 
+MaterialPass* AllocSave_MaterialPass()
+{
+	return (MaterialPass*)DB_AllocStreamPos(3);
+}
+
 MaterialPass** AllocLoad_MaterialPassPtr()
+{
+	return (MaterialPass**)DB_AllocStreamPos(3);
+}
+
+MaterialPass** AllocSave_MaterialPassPtr()
 {
 	return (MaterialPass**)DB_AllocStreamPos(3);
 }
@@ -3792,7 +6094,17 @@ MaterialPixelShader* AllocLoad_MaterialPixelShader()
 	return (MaterialPixelShader*)DB_AllocStreamPos(3);
 }
 
+MaterialPixelShader* AllocSave_MaterialPixelShader()
+{
+	return (MaterialPixelShader*)DB_AllocStreamPos(3);
+}
+
 MaterialPixelShader** AllocLoad_MaterialPixelShaderPtr()
+{
+	return (MaterialPixelShader**)DB_AllocStreamPos(3);
+}
+
+MaterialPixelShader** AllocSave_MaterialPixelShaderPtr()
 {
 	return (MaterialPixelShader**)DB_AllocStreamPos(3);
 }
@@ -3802,7 +6114,17 @@ MaterialPixelShaderProgram* AllocLoad_MaterialPixelShaderProgram()
 	return (MaterialPixelShaderProgram*)DB_AllocStreamPos(3);
 }
 
+MaterialPixelShaderProgram* AllocSave_MaterialPixelShaderProgram()
+{
+	return (MaterialPixelShaderProgram*)DB_AllocStreamPos(3);
+}
+
 MaterialPixelShaderProgram** AllocLoad_MaterialPixelShaderProgramPtr()
+{
+	return (MaterialPixelShaderProgram**)DB_AllocStreamPos(3);
+}
+
+MaterialPixelShaderProgram** AllocSave_MaterialPixelShaderProgramPtr()
 {
 	return (MaterialPixelShaderProgram**)DB_AllocStreamPos(3);
 }
@@ -3812,7 +6134,17 @@ MaterialShaderArgument* AllocLoad_MaterialShaderArgument()
 	return (MaterialShaderArgument*)DB_AllocStreamPos(3);
 }
 
+MaterialShaderArgument* AllocSave_MaterialShaderArgument()
+{
+	return (MaterialShaderArgument*)DB_AllocStreamPos(3);
+}
+
 MaterialShaderArgument** AllocLoad_MaterialShaderArgumentPtr()
+{
+	return (MaterialShaderArgument**)DB_AllocStreamPos(3);
+}
+
+MaterialShaderArgument** AllocSave_MaterialShaderArgumentPtr()
 {
 	return (MaterialShaderArgument**)DB_AllocStreamPos(3);
 }
@@ -3822,7 +6154,17 @@ MaterialStreamRouting* AllocLoad_MaterialStreamRouting()
 	return (MaterialStreamRouting*)DB_AllocStreamPos(1);
 }
 
+MaterialStreamRouting* AllocSave_MaterialStreamRouting()
+{
+	return (MaterialStreamRouting*)DB_AllocStreamPos(1);
+}
+
 MaterialStreamRouting** AllocLoad_MaterialStreamRoutingPtr()
+{
+	return (MaterialStreamRouting**)DB_AllocStreamPos(1);
+}
+
+MaterialStreamRouting** AllocSave_MaterialStreamRoutingPtr()
 {
 	return (MaterialStreamRouting**)DB_AllocStreamPos(1);
 }
@@ -3832,7 +6174,17 @@ MaterialTechnique* AllocLoad_MaterialTechnique()
 	return (MaterialTechnique*)DB_AllocStreamPos(3);
 }
 
+MaterialTechnique* AllocSave_MaterialTechnique()
+{
+	return (MaterialTechnique*)DB_AllocStreamPos(3);
+}
+
 MaterialTechnique** AllocLoad_MaterialTechniquePtr()
+{
+	return (MaterialTechnique**)DB_AllocStreamPos(3);
+}
+
+MaterialTechnique** AllocSave_MaterialTechniquePtr()
 {
 	return (MaterialTechnique**)DB_AllocStreamPos(3);
 }
@@ -3842,7 +6194,17 @@ MaterialTechniqueSet* AllocLoad_MaterialTechniqueSet()
 	return (MaterialTechniqueSet*)DB_AllocStreamPos(3);
 }
 
+MaterialTechniqueSet* AllocSave_MaterialTechniqueSet()
+{
+	return (MaterialTechniqueSet*)DB_AllocStreamPos(3);
+}
+
 MaterialTechniqueSet** AllocLoad_MaterialTechniqueSetPtr()
+{
+	return (MaterialTechniqueSet**)DB_AllocStreamPos(3);
+}
+
+MaterialTechniqueSet** AllocSave_MaterialTechniqueSetPtr()
 {
 	return (MaterialTechniqueSet**)DB_AllocStreamPos(3);
 }
@@ -3852,7 +6214,17 @@ MaterialTextureDef* AllocLoad_MaterialTextureDef()
 	return (MaterialTextureDef*)DB_AllocStreamPos(3);
 }
 
+MaterialTextureDef* AllocSave_MaterialTextureDef()
+{
+	return (MaterialTextureDef*)DB_AllocStreamPos(3);
+}
+
 MaterialTextureDef** AllocLoad_MaterialTextureDefPtr()
+{
+	return (MaterialTextureDef**)DB_AllocStreamPos(3);
+}
+
+MaterialTextureDef** AllocSave_MaterialTextureDefPtr()
 {
 	return (MaterialTextureDef**)DB_AllocStreamPos(3);
 }
@@ -3862,7 +6234,17 @@ MaterialTextureDefInfo* AllocLoad_MaterialTextureDefInfo()
 	return (MaterialTextureDefInfo*)DB_AllocStreamPos(3);
 }
 
+MaterialTextureDefInfo* AllocSave_MaterialTextureDefInfo()
+{
+	return (MaterialTextureDefInfo*)DB_AllocStreamPos(3);
+}
+
 MaterialTextureDefInfo** AllocLoad_MaterialTextureDefInfoPtr()
+{
+	return (MaterialTextureDefInfo**)DB_AllocStreamPos(3);
+}
+
+MaterialTextureDefInfo** AllocSave_MaterialTextureDefInfoPtr()
 {
 	return (MaterialTextureDefInfo**)DB_AllocStreamPos(3);
 }
@@ -3872,7 +6254,17 @@ MaterialVertexDeclaration* AllocLoad_MaterialVertexDeclaration()
 	return (MaterialVertexDeclaration*)DB_AllocStreamPos(3);
 }
 
+MaterialVertexDeclaration* AllocSave_MaterialVertexDeclaration()
+{
+	return (MaterialVertexDeclaration*)DB_AllocStreamPos(3);
+}
+
 MaterialVertexDeclaration** AllocLoad_MaterialVertexDeclarationPtr()
+{
+	return (MaterialVertexDeclaration**)DB_AllocStreamPos(3);
+}
+
+MaterialVertexDeclaration** AllocSave_MaterialVertexDeclarationPtr()
 {
 	return (MaterialVertexDeclaration**)DB_AllocStreamPos(3);
 }
@@ -3882,7 +6274,17 @@ MaterialVertexShader* AllocLoad_MaterialVertexShader()
 	return (MaterialVertexShader*)DB_AllocStreamPos(3);
 }
 
+MaterialVertexShader* AllocSave_MaterialVertexShader()
+{
+	return (MaterialVertexShader*)DB_AllocStreamPos(3);
+}
+
 MaterialVertexShader** AllocLoad_MaterialVertexShaderPtr()
+{
+	return (MaterialVertexShader**)DB_AllocStreamPos(3);
+}
+
+MaterialVertexShader** AllocSave_MaterialVertexShaderPtr()
 {
 	return (MaterialVertexShader**)DB_AllocStreamPos(3);
 }
@@ -3892,7 +6294,17 @@ MaterialVertexShaderProgram* AllocLoad_MaterialVertexShaderProgram()
 	return (MaterialVertexShaderProgram*)DB_AllocStreamPos(3);
 }
 
+MaterialVertexShaderProgram* AllocSave_MaterialVertexShaderProgram()
+{
+	return (MaterialVertexShaderProgram*)DB_AllocStreamPos(3);
+}
+
 MaterialVertexShaderProgram** AllocLoad_MaterialVertexShaderProgramPtr()
+{
+	return (MaterialVertexShaderProgram**)DB_AllocStreamPos(3);
+}
+
+MaterialVertexShaderProgram** AllocSave_MaterialVertexShaderProgramPtr()
 {
 	return (MaterialVertexShaderProgram**)DB_AllocStreamPos(3);
 }
@@ -3902,7 +6314,17 @@ MaterialVertexStreamRouting* AllocLoad_MaterialVertexStreamRouting()
 	return (MaterialVertexStreamRouting*)DB_AllocStreamPos(3);
 }
 
+MaterialVertexStreamRouting* AllocSave_MaterialVertexStreamRouting()
+{
+	return (MaterialVertexStreamRouting*)DB_AllocStreamPos(3);
+}
+
 MaterialVertexStreamRouting** AllocLoad_MaterialVertexStreamRoutingPtr()
+{
+	return (MaterialVertexStreamRouting**)DB_AllocStreamPos(3);
+}
+
+MaterialVertexStreamRouting** AllocSave_MaterialVertexStreamRoutingPtr()
 {
 	return (MaterialVertexStreamRouting**)DB_AllocStreamPos(3);
 }
@@ -3912,7 +6334,17 @@ MenuEventHandler* AllocLoad_MenuEventHandler()
 	return (MenuEventHandler*)DB_AllocStreamPos(3);
 }
 
+MenuEventHandler* AllocSave_MenuEventHandler()
+{
+	return (MenuEventHandler*)DB_AllocStreamPos(3);
+}
+
 MenuEventHandler** AllocLoad_MenuEventHandlerPtr()
+{
+	return (MenuEventHandler**)DB_AllocStreamPos(3);
+}
+
+MenuEventHandler** AllocSave_MenuEventHandlerPtr()
 {
 	return (MenuEventHandler**)DB_AllocStreamPos(3);
 }
@@ -3922,7 +6354,17 @@ MenuEventHandlerSet* AllocLoad_MenuEventHandlerSet()
 	return (MenuEventHandlerSet*)DB_AllocStreamPos(3);
 }
 
+MenuEventHandlerSet* AllocSave_MenuEventHandlerSet()
+{
+	return (MenuEventHandlerSet*)DB_AllocStreamPos(3);
+}
+
 MenuEventHandlerSet** AllocLoad_MenuEventHandlerSetPtr()
+{
+	return (MenuEventHandlerSet**)DB_AllocStreamPos(3);
+}
+
+MenuEventHandlerSet** AllocSave_MenuEventHandlerSetPtr()
 {
 	return (MenuEventHandlerSet**)DB_AllocStreamPos(3);
 }
@@ -3932,7 +6374,17 @@ MenuList* AllocLoad_MenuList()
 	return (MenuList*)DB_AllocStreamPos(3);
 }
 
+MenuList* AllocSave_MenuList()
+{
+	return (MenuList*)DB_AllocStreamPos(3);
+}
+
 MenuList** AllocLoad_MenuListPtr()
+{
+	return (MenuList**)DB_AllocStreamPos(3);
+}
+
+MenuList** AllocSave_MenuListPtr()
 {
 	return (MenuList**)DB_AllocStreamPos(3);
 }
@@ -3942,7 +6394,17 @@ MssSound* AllocLoad_MssSound()
 	return (MssSound*)DB_AllocStreamPos(3);
 }
 
+MssSound* AllocSave_MssSound()
+{
+	return (MssSound*)DB_AllocStreamPos(3);
+}
+
 MssSound** AllocLoad_MssSoundPtr()
+{
+	return (MssSound**)DB_AllocStreamPos(3);
+}
+
+MssSound** AllocSave_MssSoundPtr()
 {
 	return (MssSound**)DB_AllocStreamPos(3);
 }
@@ -3952,7 +6414,17 @@ Operand* AllocLoad_Operand()
 	return (Operand*)DB_AllocStreamPos(3);
 }
 
+Operand* AllocSave_Operand()
+{
+	return (Operand*)DB_AllocStreamPos(3);
+}
+
 Operand** AllocLoad_OperandPtr()
+{
+	return (Operand**)DB_AllocStreamPos(3);
+}
+
+Operand** AllocSave_OperandPtr()
 {
 	return (Operand**)DB_AllocStreamPos(3);
 }
@@ -3962,7 +6434,17 @@ PackedTexCoords* AllocLoad_PackedTexCoords()
 	return (PackedTexCoords*)DB_AllocStreamPos(3);
 }
 
+PackedTexCoords* AllocSave_PackedTexCoords()
+{
+	return (PackedTexCoords*)DB_AllocStreamPos(3);
+}
+
 PackedTexCoords** AllocLoad_PackedTexCoordsPtr()
+{
+	return (PackedTexCoords**)DB_AllocStreamPos(3);
+}
+
+PackedTexCoords** AllocSave_PackedTexCoordsPtr()
 {
 	return (PackedTexCoords**)DB_AllocStreamPos(3);
 }
@@ -3972,7 +6454,17 @@ PackedUnitVec* AllocLoad_PackedUnitVec()
 	return (PackedUnitVec*)DB_AllocStreamPos(3);
 }
 
+PackedUnitVec* AllocSave_PackedUnitVec()
+{
+	return (PackedUnitVec*)DB_AllocStreamPos(3);
+}
+
 PackedUnitVec** AllocLoad_PackedUnitVecPtr()
+{
+	return (PackedUnitVec**)DB_AllocStreamPos(3);
+}
+
+PackedUnitVec** AllocSave_PackedUnitVecPtr()
 {
 	return (PackedUnitVec**)DB_AllocStreamPos(3);
 }
@@ -3982,7 +6474,17 @@ PhysCollmap* AllocLoad_PhysCollmap()
 	return (PhysCollmap*)DB_AllocStreamPos(3);
 }
 
+PhysCollmap* AllocSave_PhysCollmap()
+{
+	return (PhysCollmap*)DB_AllocStreamPos(3);
+}
+
 PhysCollmap** AllocLoad_PhysCollmapPtr()
+{
+	return (PhysCollmap**)DB_AllocStreamPos(3);
+}
+
+PhysCollmap** AllocSave_PhysCollmapPtr()
 {
 	return (PhysCollmap**)DB_AllocStreamPos(3);
 }
@@ -3992,7 +6494,17 @@ PhysGeomInfo* AllocLoad_PhysGeomInfo()
 	return (PhysGeomInfo*)DB_AllocStreamPos(3);
 }
 
+PhysGeomInfo* AllocSave_PhysGeomInfo()
+{
+	return (PhysGeomInfo*)DB_AllocStreamPos(3);
+}
+
 PhysGeomInfo** AllocLoad_PhysGeomInfoPtr()
+{
+	return (PhysGeomInfo**)DB_AllocStreamPos(3);
+}
+
+PhysGeomInfo** AllocSave_PhysGeomInfoPtr()
 {
 	return (PhysGeomInfo**)DB_AllocStreamPos(3);
 }
@@ -4002,7 +6514,17 @@ PhysMass* AllocLoad_PhysMass()
 	return (PhysMass*)DB_AllocStreamPos(3);
 }
 
+PhysMass* AllocSave_PhysMass()
+{
+	return (PhysMass*)DB_AllocStreamPos(3);
+}
+
 PhysMass** AllocLoad_PhysMassPtr()
+{
+	return (PhysMass**)DB_AllocStreamPos(3);
+}
+
+PhysMass** AllocSave_PhysMassPtr()
 {
 	return (PhysMass**)DB_AllocStreamPos(3);
 }
@@ -4012,7 +6534,17 @@ PhysPreset* AllocLoad_PhysPreset()
 	return (PhysPreset*)DB_AllocStreamPos(3);
 }
 
+PhysPreset* AllocSave_PhysPreset()
+{
+	return (PhysPreset*)DB_AllocStreamPos(3);
+}
+
 PhysPreset** AllocLoad_PhysPresetPtr()
+{
+	return (PhysPreset**)DB_AllocStreamPos(3);
+}
+
+PhysPreset** AllocSave_PhysPresetPtr()
 {
 	return (PhysPreset**)DB_AllocStreamPos(3);
 }
@@ -4022,7 +6554,17 @@ Picmip* AllocLoad_Picmip()
 	return (Picmip*)DB_AllocStreamPos(3);
 }
 
+Picmip* AllocSave_Picmip()
+{
+	return (Picmip*)DB_AllocStreamPos(3);
+}
+
 Picmip** AllocLoad_PicmipPtr()
+{
+	return (Picmip**)DB_AllocStreamPos(3);
+}
+
+Picmip** AllocSave_PicmipPtr()
 {
 	return (Picmip**)DB_AllocStreamPos(3);
 }
@@ -4032,7 +6574,17 @@ RawFile* AllocLoad_RawFile()
 	return (RawFile*)DB_AllocStreamPos(3);
 }
 
+RawFile* AllocSave_RawFile()
+{
+	return (RawFile*)DB_AllocStreamPos(3);
+}
+
 RawFile** AllocLoad_RawFilePtr()
+{
+	return (RawFile**)DB_AllocStreamPos(3);
+}
+
+RawFile** AllocSave_RawFilePtr()
 {
 	return (RawFile**)DB_AllocStreamPos(3);
 }
@@ -4042,7 +6594,17 @@ SModelAabbNode* AllocLoad_SModelAabbNode()
 	return (SModelAabbNode*)DB_AllocStreamPos(3);
 }
 
+SModelAabbNode* AllocSave_SModelAabbNode()
+{
+	return (SModelAabbNode*)DB_AllocStreamPos(3);
+}
+
 SModelAabbNode** AllocLoad_SModelAabbNodePtr()
+{
+	return (SModelAabbNode**)DB_AllocStreamPos(3);
+}
+
+SModelAabbNode** AllocSave_SModelAabbNodePtr()
 {
 	return (SModelAabbNode**)DB_AllocStreamPos(3);
 }
@@ -4052,7 +6614,17 @@ ScriptStringList* AllocLoad_ScriptStringList()
 	return (ScriptStringList*)DB_AllocStreamPos(3);
 }
 
+ScriptStringList* AllocSave_ScriptStringList()
+{
+	return (ScriptStringList*)DB_AllocStreamPos(3);
+}
+
 ScriptStringList** AllocLoad_ScriptStringListPtr()
+{
+	return (ScriptStringList**)DB_AllocStreamPos(3);
+}
+
+ScriptStringList** AllocSave_ScriptStringListPtr()
 {
 	return (ScriptStringList**)DB_AllocStreamPos(3);
 }
@@ -4062,7 +6634,17 @@ SetLocalVarData* AllocLoad_SetLocalVarData()
 	return (SetLocalVarData*)DB_AllocStreamPos(3);
 }
 
+SetLocalVarData* AllocSave_SetLocalVarData()
+{
+	return (SetLocalVarData*)DB_AllocStreamPos(3);
+}
+
 SetLocalVarData** AllocLoad_SetLocalVarDataPtr()
+{
+	return (SetLocalVarData**)DB_AllocStreamPos(3);
+}
+
+SetLocalVarData** AllocSave_SetLocalVarDataPtr()
 {
 	return (SetLocalVarData**)DB_AllocStreamPos(3);
 }
@@ -4072,7 +6654,17 @@ SndCurve* AllocLoad_SndCurve()
 	return (SndCurve*)DB_AllocStreamPos(3);
 }
 
+SndCurve* AllocSave_SndCurve()
+{
+	return (SndCurve*)DB_AllocStreamPos(3);
+}
+
 SndCurve** AllocLoad_SndCurvePtr()
+{
+	return (SndCurve**)DB_AllocStreamPos(3);
+}
+
+SndCurve** AllocSave_SndCurvePtr()
 {
 	return (SndCurve**)DB_AllocStreamPos(3);
 }
@@ -4082,7 +6674,17 @@ SndDriverGlobals* AllocLoad_SndDriverGlobals()
 	return (SndDriverGlobals*)DB_AllocStreamPos(3);
 }
 
+SndDriverGlobals* AllocSave_SndDriverGlobals()
+{
+	return (SndDriverGlobals*)DB_AllocStreamPos(3);
+}
+
 SndDriverGlobals** AllocLoad_SndDriverGlobalsPtr()
+{
+	return (SndDriverGlobals**)DB_AllocStreamPos(3);
+}
+
+SndDriverGlobals** AllocSave_SndDriverGlobalsPtr()
 {
 	return (SndDriverGlobals**)DB_AllocStreamPos(3);
 }
@@ -4092,7 +6694,17 @@ SoundFile* AllocLoad_SoundFile()
 	return (SoundFile*)DB_AllocStreamPos(3);
 }
 
+SoundFile* AllocSave_SoundFile()
+{
+	return (SoundFile*)DB_AllocStreamPos(3);
+}
+
 SoundFile** AllocLoad_SoundFilePtr()
+{
+	return (SoundFile**)DB_AllocStreamPos(3);
+}
+
+SoundFile** AllocSave_SoundFilePtr()
 {
 	return (SoundFile**)DB_AllocStreamPos(3);
 }
@@ -4102,7 +6714,17 @@ SoundFileRef* AllocLoad_SoundFileRef()
 	return (SoundFileRef*)DB_AllocStreamPos(3);
 }
 
+SoundFileRef* AllocSave_SoundFileRef()
+{
+	return (SoundFileRef*)DB_AllocStreamPos(3);
+}
+
 SoundFileRef** AllocLoad_SoundFileRefPtr()
+{
+	return (SoundFileRef**)DB_AllocStreamPos(3);
+}
+
+SoundFileRef** AllocSave_SoundFileRefPtr()
 {
 	return (SoundFileRef**)DB_AllocStreamPos(3);
 }
@@ -4112,7 +6734,17 @@ SpeakerMap* AllocLoad_SpeakerMap()
 	return (SpeakerMap*)DB_AllocStreamPos(3);
 }
 
+SpeakerMap* AllocSave_SpeakerMap()
+{
+	return (SpeakerMap*)DB_AllocStreamPos(3);
+}
+
 SpeakerMap** AllocLoad_SpeakerMapPtr()
+{
+	return (SpeakerMap**)DB_AllocStreamPos(3);
+}
+
+SpeakerMap** AllocSave_SpeakerMapPtr()
 {
 	return (SpeakerMap**)DB_AllocStreamPos(3);
 }
@@ -4122,7 +6754,17 @@ Stage* AllocLoad_Stage()
 	return (Stage*)DB_AllocStreamPos(1);
 }
 
+Stage* AllocSave_Stage()
+{
+	return (Stage*)DB_AllocStreamPos(1);
+}
+
 Stage** AllocLoad_StagePtr()
+{
+	return (Stage**)DB_AllocStreamPos(1);
+}
+
+Stage** AllocSave_StagePtr()
 {
 	return (Stage**)DB_AllocStreamPos(1);
 }
@@ -4132,7 +6774,17 @@ Statement_s* AllocLoad_Statement_s()
 	return (Statement_s*)DB_AllocStreamPos(3);
 }
 
+Statement_s* AllocSave_Statement_s()
+{
+	return (Statement_s*)DB_AllocStreamPos(3);
+}
+
 Statement_s** AllocLoad_Statement_sPtr()
+{
+	return (Statement_s**)DB_AllocStreamPos(3);
+}
+
+Statement_s** AllocSave_Statement_sPtr()
 {
 	return (Statement_s**)DB_AllocStreamPos(3);
 }
@@ -4142,7 +6794,17 @@ StaticDvar* AllocLoad_StaticDvar()
 	return (StaticDvar*)DB_AllocStreamPos(3);
 }
 
+StaticDvar* AllocSave_StaticDvar()
+{
+	return (StaticDvar*)DB_AllocStreamPos(3);
+}
+
 StaticDvar** AllocLoad_StaticDvarPtr()
+{
+	return (StaticDvar**)DB_AllocStreamPos(3);
+}
+
+StaticDvar** AllocSave_StaticDvarPtr()
 {
 	return (StaticDvar**)DB_AllocStreamPos(3);
 }
@@ -4152,7 +6814,17 @@ StaticDvarList* AllocLoad_StaticDvarList()
 	return (StaticDvarList*)DB_AllocStreamPos(3);
 }
 
+StaticDvarList* AllocSave_StaticDvarList()
+{
+	return (StaticDvarList*)DB_AllocStreamPos(3);
+}
+
 StaticDvarList** AllocLoad_StaticDvarListPtr()
+{
+	return (StaticDvarList**)DB_AllocStreamPos(3);
+}
+
+StaticDvarList** AllocSave_StaticDvarListPtr()
 {
 	return (StaticDvarList**)DB_AllocStreamPos(3);
 }
@@ -4162,7 +6834,17 @@ StreamFileInfo* AllocLoad_StreamFileInfo()
 	return (StreamFileInfo*)DB_AllocStreamPos(3);
 }
 
+StreamFileInfo* AllocSave_StreamFileInfo()
+{
+	return (StreamFileInfo*)DB_AllocStreamPos(3);
+}
+
 StreamFileInfo** AllocLoad_StreamFileInfoPtr()
+{
+	return (StreamFileInfo**)DB_AllocStreamPos(3);
+}
+
+StreamFileInfo** AllocSave_StreamFileInfoPtr()
 {
 	return (StreamFileInfo**)DB_AllocStreamPos(3);
 }
@@ -4172,7 +6854,17 @@ StreamFileName* AllocLoad_StreamFileName()
 	return (StreamFileName*)DB_AllocStreamPos(3);
 }
 
+StreamFileName* AllocSave_StreamFileName()
+{
+	return (StreamFileName*)DB_AllocStreamPos(3);
+}
+
 StreamFileName** AllocLoad_StreamFileNamePtr()
+{
+	return (StreamFileName**)DB_AllocStreamPos(3);
+}
+
+StreamFileName** AllocSave_StreamFileNamePtr()
 {
 	return (StreamFileName**)DB_AllocStreamPos(3);
 }
@@ -4182,7 +6874,17 @@ StreamFileNameRaw* AllocLoad_StreamFileNameRaw()
 	return (StreamFileNameRaw*)DB_AllocStreamPos(3);
 }
 
+StreamFileNameRaw* AllocSave_StreamFileNameRaw()
+{
+	return (StreamFileNameRaw*)DB_AllocStreamPos(3);
+}
+
 StreamFileNameRaw** AllocLoad_StreamFileNameRawPtr()
+{
+	return (StreamFileNameRaw**)DB_AllocStreamPos(3);
+}
+
+StreamFileNameRaw** AllocSave_StreamFileNameRawPtr()
 {
 	return (StreamFileNameRaw**)DB_AllocStreamPos(3);
 }
@@ -4192,7 +6894,17 @@ StreamedSound* AllocLoad_StreamedSound()
 	return (StreamedSound*)DB_AllocStreamPos(3);
 }
 
+StreamedSound* AllocSave_StreamedSound()
+{
+	return (StreamedSound*)DB_AllocStreamPos(3);
+}
+
 StreamedSound** AllocLoad_StreamedSoundPtr()
+{
+	return (StreamedSound**)DB_AllocStreamPos(3);
+}
+
+StreamedSound** AllocSave_StreamedSoundPtr()
 {
 	return (StreamedSound**)DB_AllocStreamPos(3);
 }
@@ -4202,7 +6914,17 @@ StringList* AllocLoad_StringList()
 	return (StringList*)DB_AllocStreamPos(3);
 }
 
+StringList* AllocSave_StringList()
+{
+	return (StringList*)DB_AllocStreamPos(3);
+}
+
 StringList** AllocLoad_StringListPtr()
+{
+	return (StringList**)DB_AllocStreamPos(3);
+}
+
+StringList** AllocSave_StringListPtr()
 {
 	return (StringList**)DB_AllocStreamPos(3);
 }
@@ -4212,7 +6934,17 @@ StringTable* AllocLoad_StringTable()
 	return (StringTable*)DB_AllocStreamPos(3);
 }
 
+StringTable* AllocSave_StringTable()
+{
+	return (StringTable*)DB_AllocStreamPos(3);
+}
+
 StringTable** AllocLoad_StringTablePtr()
+{
+	return (StringTable**)DB_AllocStreamPos(3);
+}
+
+StringTable** AllocSave_StringTablePtr()
 {
 	return (StringTable**)DB_AllocStreamPos(3);
 }
@@ -4222,7 +6954,17 @@ StringTableCell* AllocLoad_StringTableCell()
 	return (StringTableCell*)DB_AllocStreamPos(3);
 }
 
+StringTableCell* AllocSave_StringTableCell()
+{
+	return (StringTableCell*)DB_AllocStreamPos(3);
+}
+
 StringTableCell** AllocLoad_StringTableCellPtr()
+{
+	return (StringTableCell**)DB_AllocStreamPos(3);
+}
+
+StringTableCell** AllocSave_StringTableCellPtr()
 {
 	return (StringTableCell**)DB_AllocStreamPos(3);
 }
@@ -4232,7 +6974,17 @@ StructuredDataDef* AllocLoad_StructuredDataDef()
 	return (StructuredDataDef*)DB_AllocStreamPos(3);
 }
 
+StructuredDataDef* AllocSave_StructuredDataDef()
+{
+	return (StructuredDataDef*)DB_AllocStreamPos(3);
+}
+
 StructuredDataDef** AllocLoad_StructuredDataDefPtr()
+{
+	return (StructuredDataDef**)DB_AllocStreamPos(3);
+}
+
+StructuredDataDef** AllocSave_StructuredDataDefPtr()
 {
 	return (StructuredDataDef**)DB_AllocStreamPos(3);
 }
@@ -4242,7 +6994,17 @@ StructuredDataDefSet* AllocLoad_StructuredDataDefSet()
 	return (StructuredDataDefSet*)DB_AllocStreamPos(3);
 }
 
+StructuredDataDefSet* AllocSave_StructuredDataDefSet()
+{
+	return (StructuredDataDefSet*)DB_AllocStreamPos(3);
+}
+
 StructuredDataDefSet** AllocLoad_StructuredDataDefSetPtr()
+{
+	return (StructuredDataDefSet**)DB_AllocStreamPos(3);
+}
+
+StructuredDataDefSet** AllocSave_StructuredDataDefSetPtr()
 {
 	return (StructuredDataDefSet**)DB_AllocStreamPos(3);
 }
@@ -4252,7 +7014,17 @@ StructuredDataEnum* AllocLoad_StructuredDataEnum()
 	return (StructuredDataEnum*)DB_AllocStreamPos(3);
 }
 
+StructuredDataEnum* AllocSave_StructuredDataEnum()
+{
+	return (StructuredDataEnum*)DB_AllocStreamPos(3);
+}
+
 StructuredDataEnum** AllocLoad_StructuredDataEnumPtr()
+{
+	return (StructuredDataEnum**)DB_AllocStreamPos(3);
+}
+
+StructuredDataEnum** AllocSave_StructuredDataEnumPtr()
 {
 	return (StructuredDataEnum**)DB_AllocStreamPos(3);
 }
@@ -4262,7 +7034,17 @@ StructuredDataEnumEntry* AllocLoad_StructuredDataEnumEntry()
 	return (StructuredDataEnumEntry*)DB_AllocStreamPos(3);
 }
 
+StructuredDataEnumEntry* AllocSave_StructuredDataEnumEntry()
+{
+	return (StructuredDataEnumEntry*)DB_AllocStreamPos(3);
+}
+
 StructuredDataEnumEntry** AllocLoad_StructuredDataEnumEntryPtr()
+{
+	return (StructuredDataEnumEntry**)DB_AllocStreamPos(3);
+}
+
+StructuredDataEnumEntry** AllocSave_StructuredDataEnumEntryPtr()
 {
 	return (StructuredDataEnumEntry**)DB_AllocStreamPos(3);
 }
@@ -4272,7 +7054,17 @@ StructuredDataEnumedArray* AllocLoad_StructuredDataEnumedArray()
 	return (StructuredDataEnumedArray*)DB_AllocStreamPos(3);
 }
 
+StructuredDataEnumedArray* AllocSave_StructuredDataEnumedArray()
+{
+	return (StructuredDataEnumedArray*)DB_AllocStreamPos(3);
+}
+
 StructuredDataEnumedArray** AllocLoad_StructuredDataEnumedArrayPtr()
+{
+	return (StructuredDataEnumedArray**)DB_AllocStreamPos(3);
+}
+
+StructuredDataEnumedArray** AllocSave_StructuredDataEnumedArrayPtr()
 {
 	return (StructuredDataEnumedArray**)DB_AllocStreamPos(3);
 }
@@ -4282,7 +7074,17 @@ StructuredDataIndexedArray* AllocLoad_StructuredDataIndexedArray()
 	return (StructuredDataIndexedArray*)DB_AllocStreamPos(3);
 }
 
+StructuredDataIndexedArray* AllocSave_StructuredDataIndexedArray()
+{
+	return (StructuredDataIndexedArray*)DB_AllocStreamPos(3);
+}
+
 StructuredDataIndexedArray** AllocLoad_StructuredDataIndexedArrayPtr()
+{
+	return (StructuredDataIndexedArray**)DB_AllocStreamPos(3);
+}
+
+StructuredDataIndexedArray** AllocSave_StructuredDataIndexedArrayPtr()
 {
 	return (StructuredDataIndexedArray**)DB_AllocStreamPos(3);
 }
@@ -4292,7 +7094,17 @@ StructuredDataStruct* AllocLoad_StructuredDataStruct()
 	return (StructuredDataStruct*)DB_AllocStreamPos(3);
 }
 
+StructuredDataStruct* AllocSave_StructuredDataStruct()
+{
+	return (StructuredDataStruct*)DB_AllocStreamPos(3);
+}
+
 StructuredDataStruct** AllocLoad_StructuredDataStructPtr()
+{
+	return (StructuredDataStruct**)DB_AllocStreamPos(3);
+}
+
+StructuredDataStruct** AllocSave_StructuredDataStructPtr()
 {
 	return (StructuredDataStruct**)DB_AllocStreamPos(3);
 }
@@ -4302,7 +7114,17 @@ StructuredDataStructProperty* AllocLoad_StructuredDataStructProperty()
 	return (StructuredDataStructProperty*)DB_AllocStreamPos(3);
 }
 
+StructuredDataStructProperty* AllocSave_StructuredDataStructProperty()
+{
+	return (StructuredDataStructProperty*)DB_AllocStreamPos(3);
+}
+
 StructuredDataStructProperty** AllocLoad_StructuredDataStructPropertyPtr()
+{
+	return (StructuredDataStructProperty**)DB_AllocStreamPos(3);
+}
+
+StructuredDataStructProperty** AllocSave_StructuredDataStructPropertyPtr()
 {
 	return (StructuredDataStructProperty**)DB_AllocStreamPos(3);
 }
@@ -4312,7 +7134,17 @@ StructuredDataType* AllocLoad_StructuredDataType()
 	return (StructuredDataType*)DB_AllocStreamPos(3);
 }
 
+StructuredDataType* AllocSave_StructuredDataType()
+{
+	return (StructuredDataType*)DB_AllocStreamPos(3);
+}
+
 StructuredDataType** AllocLoad_StructuredDataTypePtr()
+{
+	return (StructuredDataType**)DB_AllocStreamPos(3);
+}
+
+StructuredDataType** AllocSave_StructuredDataTypePtr()
 {
 	return (StructuredDataType**)DB_AllocStreamPos(3);
 }
@@ -4322,7 +7154,17 @@ StructuredDataTypeUnion* AllocLoad_StructuredDataTypeUnion()
 	return (StructuredDataTypeUnion*)DB_AllocStreamPos(3);
 }
 
+StructuredDataTypeUnion* AllocSave_StructuredDataTypeUnion()
+{
+	return (StructuredDataTypeUnion*)DB_AllocStreamPos(3);
+}
+
 StructuredDataTypeUnion** AllocLoad_StructuredDataTypeUnionPtr()
+{
+	return (StructuredDataTypeUnion**)DB_AllocStreamPos(3);
+}
+
+StructuredDataTypeUnion** AllocSave_StructuredDataTypeUnionPtr()
 {
 	return (StructuredDataTypeUnion**)DB_AllocStreamPos(3);
 }
@@ -4332,7 +7174,17 @@ TempString* AllocLoad_TempString()
 	return (TempString*)DB_AllocStreamPos(0);
 }
 
+TempString* AllocSave_TempString()
+{
+	return (TempString*)DB_AllocStreamPos(0);
+}
+
 TempString** AllocLoad_TempStringPtr()
+{
+	return (TempString**)DB_AllocStreamPos(0);
+}
+
+TempString** AllocSave_TempStringPtr()
 {
 	return (TempString**)DB_AllocStreamPos(0);
 }
@@ -4342,7 +7194,17 @@ TracerDef* AllocLoad_TracerDef()
 	return (TracerDef*)DB_AllocStreamPos(3);
 }
 
+TracerDef* AllocSave_TracerDef()
+{
+	return (TracerDef*)DB_AllocStreamPos(3);
+}
+
 TracerDef** AllocLoad_TracerDefPtr()
+{
+	return (TracerDef**)DB_AllocStreamPos(3);
+}
+
+TracerDef** AllocSave_TracerDefPtr()
 {
 	return (TracerDef**)DB_AllocStreamPos(3);
 }
@@ -4352,7 +7214,17 @@ TriIndice* AllocLoad_TriIndice()
 	return (TriIndice*)DB_AllocStreamPos(15);
 }
 
+TriIndice* AllocSave_TriIndice()
+{
+	return (TriIndice*)DB_AllocStreamPos(15);
+}
+
 TriIndice** AllocLoad_TriIndicePtr()
+{
+	return (TriIndice**)DB_AllocStreamPos(15);
+}
+
+TriIndice** AllocSave_TriIndicePtr()
 {
 	return (TriIndice**)DB_AllocStreamPos(15);
 }
@@ -4362,7 +7234,17 @@ TriggerHull* AllocLoad_TriggerHull()
 	return (TriggerHull*)DB_AllocStreamPos(3);
 }
 
+TriggerHull* AllocSave_TriggerHull()
+{
+	return (TriggerHull*)DB_AllocStreamPos(3);
+}
+
 TriggerHull** AllocLoad_TriggerHullPtr()
+{
+	return (TriggerHull**)DB_AllocStreamPos(3);
+}
+
+TriggerHull** AllocSave_TriggerHullPtr()
 {
 	return (TriggerHull**)DB_AllocStreamPos(3);
 }
@@ -4372,7 +7254,17 @@ TriggerModel* AllocLoad_TriggerModel()
 	return (TriggerModel*)DB_AllocStreamPos(3);
 }
 
+TriggerModel* AllocSave_TriggerModel()
+{
+	return (TriggerModel*)DB_AllocStreamPos(3);
+}
+
 TriggerModel** AllocLoad_TriggerModelPtr()
+{
+	return (TriggerModel**)DB_AllocStreamPos(3);
+}
+
+TriggerModel** AllocSave_TriggerModelPtr()
 {
 	return (TriggerModel**)DB_AllocStreamPos(3);
 }
@@ -4382,7 +7274,17 @@ TriggerSlab* AllocLoad_TriggerSlab()
 	return (TriggerSlab*)DB_AllocStreamPos(3);
 }
 
+TriggerSlab* AllocSave_TriggerSlab()
+{
+	return (TriggerSlab*)DB_AllocStreamPos(3);
+}
+
 TriggerSlab** AllocLoad_TriggerSlabPtr()
+{
+	return (TriggerSlab**)DB_AllocStreamPos(3);
+}
+
+TriggerSlab** AllocSave_TriggerSlabPtr()
 {
 	return (TriggerSlab**)DB_AllocStreamPos(3);
 }
@@ -4392,7 +7294,17 @@ UIFunctionList* AllocLoad_UIFunctionList()
 	return (UIFunctionList*)DB_AllocStreamPos(3);
 }
 
+UIFunctionList* AllocSave_UIFunctionList()
+{
+	return (UIFunctionList*)DB_AllocStreamPos(3);
+}
+
 UIFunctionList** AllocLoad_UIFunctionListPtr()
+{
+	return (UIFunctionList**)DB_AllocStreamPos(3);
+}
+
+UIFunctionList** AllocSave_UIFunctionListPtr()
 {
 	return (UIFunctionList**)DB_AllocStreamPos(3);
 }
@@ -4402,7 +7314,17 @@ WaterWritable* AllocLoad_WaterWritable()
 	return (WaterWritable*)DB_AllocStreamPos(3);
 }
 
+WaterWritable* AllocSave_WaterWritable()
+{
+	return (WaterWritable*)DB_AllocStreamPos(3);
+}
+
 WaterWritable** AllocLoad_WaterWritablePtr()
+{
+	return (WaterWritable**)DB_AllocStreamPos(3);
+}
+
+WaterWritable** AllocSave_WaterWritablePtr()
 {
 	return (WaterWritable**)DB_AllocStreamPos(3);
 }
@@ -4412,7 +7334,17 @@ XAnimDeltaPart* AllocLoad_XAnimDeltaPart()
 	return (XAnimDeltaPart*)DB_AllocStreamPos(3);
 }
 
+XAnimDeltaPart* AllocSave_XAnimDeltaPart()
+{
+	return (XAnimDeltaPart*)DB_AllocStreamPos(3);
+}
+
 XAnimDeltaPart** AllocLoad_XAnimDeltaPartPtr()
+{
+	return (XAnimDeltaPart**)DB_AllocStreamPos(3);
+}
+
+XAnimDeltaPart** AllocSave_XAnimDeltaPartPtr()
 {
 	return (XAnimDeltaPart**)DB_AllocStreamPos(3);
 }
@@ -4422,7 +7354,17 @@ XAnimDeltaPartQuat* AllocLoad_XAnimDeltaPartQuat()
 	return (XAnimDeltaPartQuat*)DB_AllocStreamPos(3);
 }
 
+XAnimDeltaPartQuat* AllocSave_XAnimDeltaPartQuat()
+{
+	return (XAnimDeltaPartQuat*)DB_AllocStreamPos(3);
+}
+
 XAnimDeltaPartQuat** AllocLoad_XAnimDeltaPartQuatPtr()
+{
+	return (XAnimDeltaPartQuat**)DB_AllocStreamPos(3);
+}
+
+XAnimDeltaPartQuat** AllocSave_XAnimDeltaPartQuatPtr()
 {
 	return (XAnimDeltaPartQuat**)DB_AllocStreamPos(3);
 }
@@ -4432,7 +7374,17 @@ XAnimDeltaPartQuat2* AllocLoad_XAnimDeltaPartQuat2()
 	return (XAnimDeltaPartQuat2*)DB_AllocStreamPos(3);
 }
 
+XAnimDeltaPartQuat2* AllocSave_XAnimDeltaPartQuat2()
+{
+	return (XAnimDeltaPartQuat2*)DB_AllocStreamPos(3);
+}
+
 XAnimDeltaPartQuat2** AllocLoad_XAnimDeltaPartQuat2Ptr()
+{
+	return (XAnimDeltaPartQuat2**)DB_AllocStreamPos(3);
+}
+
+XAnimDeltaPartQuat2** AllocSave_XAnimDeltaPartQuat2Ptr()
 {
 	return (XAnimDeltaPartQuat2**)DB_AllocStreamPos(3);
 }
@@ -4442,7 +7394,17 @@ XAnimDeltaPartQuatData* AllocLoad_XAnimDeltaPartQuatData()
 	return (XAnimDeltaPartQuatData*)DB_AllocStreamPos(3);
 }
 
+XAnimDeltaPartQuatData* AllocSave_XAnimDeltaPartQuatData()
+{
+	return (XAnimDeltaPartQuatData*)DB_AllocStreamPos(3);
+}
+
 XAnimDeltaPartQuatData** AllocLoad_XAnimDeltaPartQuatDataPtr()
+{
+	return (XAnimDeltaPartQuatData**)DB_AllocStreamPos(3);
+}
+
+XAnimDeltaPartQuatData** AllocSave_XAnimDeltaPartQuatDataPtr()
 {
 	return (XAnimDeltaPartQuatData**)DB_AllocStreamPos(3);
 }
@@ -4452,7 +7414,17 @@ XAnimDeltaPartQuatData2* AllocLoad_XAnimDeltaPartQuatData2()
 	return (XAnimDeltaPartQuatData2*)DB_AllocStreamPos(3);
 }
 
+XAnimDeltaPartQuatData2* AllocSave_XAnimDeltaPartQuatData2()
+{
+	return (XAnimDeltaPartQuatData2*)DB_AllocStreamPos(3);
+}
+
 XAnimDeltaPartQuatData2** AllocLoad_XAnimDeltaPartQuatData2Ptr()
+{
+	return (XAnimDeltaPartQuatData2**)DB_AllocStreamPos(3);
+}
+
+XAnimDeltaPartQuatData2** AllocSave_XAnimDeltaPartQuatData2Ptr()
 {
 	return (XAnimDeltaPartQuatData2**)DB_AllocStreamPos(3);
 }
@@ -4462,7 +7434,17 @@ XAnimDeltaPartQuatDataFrames* AllocLoad_XAnimDeltaPartQuatDataFrames()
 	return (XAnimDeltaPartQuatDataFrames*)DB_AllocStreamPos(3);
 }
 
+XAnimDeltaPartQuatDataFrames* AllocSave_XAnimDeltaPartQuatDataFrames()
+{
+	return (XAnimDeltaPartQuatDataFrames*)DB_AllocStreamPos(3);
+}
+
 XAnimDeltaPartQuatDataFrames** AllocLoad_XAnimDeltaPartQuatDataFramesPtr()
+{
+	return (XAnimDeltaPartQuatDataFrames**)DB_AllocStreamPos(3);
+}
+
+XAnimDeltaPartQuatDataFrames** AllocSave_XAnimDeltaPartQuatDataFramesPtr()
 {
 	return (XAnimDeltaPartQuatDataFrames**)DB_AllocStreamPos(3);
 }
@@ -4472,7 +7454,17 @@ XAnimDeltaPartQuatDataFrames2* AllocLoad_XAnimDeltaPartQuatDataFrames2()
 	return (XAnimDeltaPartQuatDataFrames2*)DB_AllocStreamPos(3);
 }
 
+XAnimDeltaPartQuatDataFrames2* AllocSave_XAnimDeltaPartQuatDataFrames2()
+{
+	return (XAnimDeltaPartQuatDataFrames2*)DB_AllocStreamPos(3);
+}
+
 XAnimDeltaPartQuatDataFrames2** AllocLoad_XAnimDeltaPartQuatDataFrames2Ptr()
+{
+	return (XAnimDeltaPartQuatDataFrames2**)DB_AllocStreamPos(3);
+}
+
+XAnimDeltaPartQuatDataFrames2** AllocSave_XAnimDeltaPartQuatDataFrames2Ptr()
 {
 	return (XAnimDeltaPartQuatDataFrames2**)DB_AllocStreamPos(3);
 }
@@ -4482,7 +7474,17 @@ XAnimDynamicFrames* AllocLoad_XAnimDynamicFrames()
 	return (XAnimDynamicFrames*)DB_AllocStreamPos(3);
 }
 
+XAnimDynamicFrames* AllocSave_XAnimDynamicFrames()
+{
+	return (XAnimDynamicFrames*)DB_AllocStreamPos(3);
+}
+
 XAnimDynamicFrames** AllocLoad_XAnimDynamicFramesPtr()
+{
+	return (XAnimDynamicFrames**)DB_AllocStreamPos(3);
+}
+
+XAnimDynamicFrames** AllocSave_XAnimDynamicFramesPtr()
 {
 	return (XAnimDynamicFrames**)DB_AllocStreamPos(3);
 }
@@ -4492,7 +7494,17 @@ XAnimDynamicIndices* AllocLoad_XAnimDynamicIndices()
 	return (XAnimDynamicIndices*)DB_AllocStreamPos(3);
 }
 
+XAnimDynamicIndices* AllocSave_XAnimDynamicIndices()
+{
+	return (XAnimDynamicIndices*)DB_AllocStreamPos(3);
+}
+
 XAnimDynamicIndices** AllocLoad_XAnimDynamicIndicesPtr()
+{
+	return (XAnimDynamicIndices**)DB_AllocStreamPos(3);
+}
+
+XAnimDynamicIndices** AllocSave_XAnimDynamicIndicesPtr()
 {
 	return (XAnimDynamicIndices**)DB_AllocStreamPos(3);
 }
@@ -4502,7 +7514,17 @@ XAnimIndices* AllocLoad_XAnimIndices()
 	return (XAnimIndices*)DB_AllocStreamPos(3);
 }
 
+XAnimIndices* AllocSave_XAnimIndices()
+{
+	return (XAnimIndices*)DB_AllocStreamPos(3);
+}
+
 XAnimIndices** AllocLoad_XAnimIndicesPtr()
+{
+	return (XAnimIndices**)DB_AllocStreamPos(3);
+}
+
+XAnimIndices** AllocSave_XAnimIndicesPtr()
 {
 	return (XAnimIndices**)DB_AllocStreamPos(3);
 }
@@ -4512,7 +7534,17 @@ XAnimNotifyInfo* AllocLoad_XAnimNotifyInfo()
 	return (XAnimNotifyInfo*)DB_AllocStreamPos(3);
 }
 
+XAnimNotifyInfo* AllocSave_XAnimNotifyInfo()
+{
+	return (XAnimNotifyInfo*)DB_AllocStreamPos(3);
+}
+
 XAnimNotifyInfo** AllocLoad_XAnimNotifyInfoPtr()
+{
+	return (XAnimNotifyInfo**)DB_AllocStreamPos(3);
+}
+
+XAnimNotifyInfo** AllocSave_XAnimNotifyInfoPtr()
 {
 	return (XAnimNotifyInfo**)DB_AllocStreamPos(3);
 }
@@ -4522,7 +7554,17 @@ XAnimPartTrans* AllocLoad_XAnimPartTrans()
 	return (XAnimPartTrans*)DB_AllocStreamPos(3);
 }
 
+XAnimPartTrans* AllocSave_XAnimPartTrans()
+{
+	return (XAnimPartTrans*)DB_AllocStreamPos(3);
+}
+
 XAnimPartTrans** AllocLoad_XAnimPartTransPtr()
+{
+	return (XAnimPartTrans**)DB_AllocStreamPos(3);
+}
+
+XAnimPartTrans** AllocSave_XAnimPartTransPtr()
 {
 	return (XAnimPartTrans**)DB_AllocStreamPos(3);
 }
@@ -4532,7 +7574,17 @@ XAnimPartTransData* AllocLoad_XAnimPartTransData()
 	return (XAnimPartTransData*)DB_AllocStreamPos(3);
 }
 
+XAnimPartTransData* AllocSave_XAnimPartTransData()
+{
+	return (XAnimPartTransData*)DB_AllocStreamPos(3);
+}
+
 XAnimPartTransData** AllocLoad_XAnimPartTransDataPtr()
+{
+	return (XAnimPartTransData**)DB_AllocStreamPos(3);
+}
+
+XAnimPartTransData** AllocSave_XAnimPartTransDataPtr()
 {
 	return (XAnimPartTransData**)DB_AllocStreamPos(3);
 }
@@ -4542,7 +7594,17 @@ XAnimPartTransFrames* AllocLoad_XAnimPartTransFrames()
 	return (XAnimPartTransFrames*)DB_AllocStreamPos(3);
 }
 
+XAnimPartTransFrames* AllocSave_XAnimPartTransFrames()
+{
+	return (XAnimPartTransFrames*)DB_AllocStreamPos(3);
+}
+
 XAnimPartTransFrames** AllocLoad_XAnimPartTransFramesPtr()
+{
+	return (XAnimPartTransFrames**)DB_AllocStreamPos(3);
+}
+
+XAnimPartTransFrames** AllocSave_XAnimPartTransFramesPtr()
 {
 	return (XAnimPartTransFrames**)DB_AllocStreamPos(3);
 }
@@ -4552,7 +7614,17 @@ XAnimParts* AllocLoad_XAnimParts()
 	return (XAnimParts*)DB_AllocStreamPos(3);
 }
 
+XAnimParts* AllocSave_XAnimParts()
+{
+	return (XAnimParts*)DB_AllocStreamPos(3);
+}
+
 XAnimParts** AllocLoad_XAnimPartsPtr()
+{
+	return (XAnimParts**)DB_AllocStreamPos(3);
+}
+
+XAnimParts** AllocSave_XAnimPartsPtr()
 {
 	return (XAnimParts**)DB_AllocStreamPos(3);
 }
@@ -4562,7 +7634,17 @@ XAsset* AllocLoad_XAsset()
 	return (XAsset*)DB_AllocStreamPos(3);
 }
 
+XAsset* AllocSave_XAsset()
+{
+	return (XAsset*)DB_AllocStreamPos(3);
+}
+
 XAsset** AllocLoad_XAssetPtr()
+{
+	return (XAsset**)DB_AllocStreamPos(3);
+}
+
+XAsset** AllocSave_XAssetPtr()
 {
 	return (XAsset**)DB_AllocStreamPos(3);
 }
@@ -4572,7 +7654,17 @@ XAssetHeader* AllocLoad_XAssetHeader()
 	return (XAssetHeader*)DB_AllocStreamPos(3);
 }
 
+XAssetHeader* AllocSave_XAssetHeader()
+{
+	return (XAssetHeader*)DB_AllocStreamPos(3);
+}
+
 XAssetHeader** AllocLoad_XAssetHeaderPtr()
+{
+	return (XAssetHeader**)DB_AllocStreamPos(3);
+}
+
+XAssetHeader** AllocSave_XAssetHeaderPtr()
 {
 	return (XAssetHeader**)DB_AllocStreamPos(3);
 }
@@ -4582,7 +7674,17 @@ XAssetList* AllocLoad_XAssetList()
 	return (XAssetList*)DB_AllocStreamPos(3);
 }
 
+XAssetList* AllocSave_XAssetList()
+{
+	return (XAssetList*)DB_AllocStreamPos(3);
+}
+
 XAssetList** AllocLoad_XAssetListPtr()
+{
+	return (XAssetList**)DB_AllocStreamPos(3);
+}
+
+XAssetList** AllocSave_XAssetListPtr()
 {
 	return (XAssetList**)DB_AllocStreamPos(3);
 }
@@ -4592,7 +7694,17 @@ XBoneInfo* AllocLoad_XBoneInfo()
 	return (XBoneInfo*)DB_AllocStreamPos(3);
 }
 
+XBoneInfo* AllocSave_XBoneInfo()
+{
+	return (XBoneInfo*)DB_AllocStreamPos(3);
+}
+
 XBoneInfo** AllocLoad_XBoneInfoPtr()
+{
+	return (XBoneInfo**)DB_AllocStreamPos(3);
+}
+
+XBoneInfo** AllocSave_XBoneInfoPtr()
 {
 	return (XBoneInfo**)DB_AllocStreamPos(3);
 }
@@ -4602,7 +7714,17 @@ XModel* AllocLoad_XModel()
 	return (XModel*)DB_AllocStreamPos(3);
 }
 
+XModel* AllocSave_XModel()
+{
+	return (XModel*)DB_AllocStreamPos(3);
+}
+
 XModel** AllocLoad_XModelPtr()
+{
+	return (XModel**)DB_AllocStreamPos(3);
+}
+
+XModel** AllocSave_XModelPtr()
 {
 	return (XModel**)DB_AllocStreamPos(3);
 }
@@ -4612,7 +7734,17 @@ XModelCollSurf_s* AllocLoad_XModelCollSurf_s()
 	return (XModelCollSurf_s*)DB_AllocStreamPos(3);
 }
 
+XModelCollSurf_s* AllocSave_XModelCollSurf_s()
+{
+	return (XModelCollSurf_s*)DB_AllocStreamPos(3);
+}
+
 XModelCollSurf_s** AllocLoad_XModelCollSurf_sPtr()
+{
+	return (XModelCollSurf_s**)DB_AllocStreamPos(3);
+}
+
+XModelCollSurf_s** AllocSave_XModelCollSurf_sPtr()
 {
 	return (XModelCollSurf_s**)DB_AllocStreamPos(3);
 }
@@ -4622,7 +7754,17 @@ XModelCollTri_s* AllocLoad_XModelCollTri_s()
 	return (XModelCollTri_s*)DB_AllocStreamPos(3);
 }
 
+XModelCollTri_s* AllocSave_XModelCollTri_s()
+{
+	return (XModelCollTri_s*)DB_AllocStreamPos(3);
+}
+
 XModelCollTri_s** AllocLoad_XModelCollTri_sPtr()
+{
+	return (XModelCollTri_s**)DB_AllocStreamPos(3);
+}
+
+XModelCollTri_s** AllocSave_XModelCollTri_sPtr()
 {
 	return (XModelCollTri_s**)DB_AllocStreamPos(3);
 }
@@ -4632,7 +7774,17 @@ XModelLodInfo* AllocLoad_XModelLodInfo()
 	return (XModelLodInfo*)DB_AllocStreamPos(3);
 }
 
+XModelLodInfo* AllocSave_XModelLodInfo()
+{
+	return (XModelLodInfo*)DB_AllocStreamPos(3);
+}
+
 XModelLodInfo** AllocLoad_XModelLodInfoPtr()
+{
+	return (XModelLodInfo**)DB_AllocStreamPos(3);
+}
+
+XModelLodInfo** AllocSave_XModelLodInfoPtr()
 {
 	return (XModelLodInfo**)DB_AllocStreamPos(3);
 }
@@ -4642,7 +7794,17 @@ XModelSurfs* AllocLoad_XModelSurfs()
 	return (XModelSurfs*)DB_AllocStreamPos(3);
 }
 
+XModelSurfs* AllocSave_XModelSurfs()
+{
+	return (XModelSurfs*)DB_AllocStreamPos(3);
+}
+
 XModelSurfs** AllocLoad_XModelSurfsPtr()
+{
+	return (XModelSurfs**)DB_AllocStreamPos(3);
+}
+
+XModelSurfs** AllocSave_XModelSurfsPtr()
 {
 	return (XModelSurfs**)DB_AllocStreamPos(3);
 }
@@ -4652,7 +7814,17 @@ XRigidVertList* AllocLoad_XRigidVertList()
 	return (XRigidVertList*)DB_AllocStreamPos(3);
 }
 
+XRigidVertList* AllocSave_XRigidVertList()
+{
+	return (XRigidVertList*)DB_AllocStreamPos(3);
+}
+
 XRigidVertList** AllocLoad_XRigidVertListPtr()
+{
+	return (XRigidVertList**)DB_AllocStreamPos(3);
+}
+
+XRigidVertList** AllocSave_XRigidVertListPtr()
 {
 	return (XRigidVertList**)DB_AllocStreamPos(3);
 }
@@ -4662,7 +7834,17 @@ XString* AllocLoad_XString()
 	return (XString*)DB_AllocStreamPos(0);
 }
 
+XString* AllocSave_XString()
+{
+	return (XString*)DB_AllocStreamPos(0);
+}
+
 XString** AllocLoad_XStringPtr()
+{
+	return (XString**)DB_AllocStreamPos(0);
+}
+
+XString** AllocSave_XStringPtr()
 {
 	return (XString**)DB_AllocStreamPos(0);
 }
@@ -4672,7 +7854,17 @@ XSurface* AllocLoad_XSurface()
 	return (XSurface*)DB_AllocStreamPos(3);
 }
 
+XSurface* AllocSave_XSurface()
+{
+	return (XSurface*)DB_AllocStreamPos(3);
+}
+
 XSurface** AllocLoad_XSurfacePtr()
+{
+	return (XSurface**)DB_AllocStreamPos(3);
+}
+
+XSurface** AllocSave_XSurfacePtr()
 {
 	return (XSurface**)DB_AllocStreamPos(3);
 }
@@ -4682,7 +7874,17 @@ XSurfaceCollisionAabb* AllocLoad_XSurfaceCollisionAabb()
 	return (XSurfaceCollisionAabb*)DB_AllocStreamPos(3);
 }
 
+XSurfaceCollisionAabb* AllocSave_XSurfaceCollisionAabb()
+{
+	return (XSurfaceCollisionAabb*)DB_AllocStreamPos(3);
+}
+
 XSurfaceCollisionAabb** AllocLoad_XSurfaceCollisionAabbPtr()
+{
+	return (XSurfaceCollisionAabb**)DB_AllocStreamPos(3);
+}
+
+XSurfaceCollisionAabb** AllocSave_XSurfaceCollisionAabbPtr()
 {
 	return (XSurfaceCollisionAabb**)DB_AllocStreamPos(3);
 }
@@ -4692,7 +7894,17 @@ XSurfaceCollisionLeaf* AllocLoad_XSurfaceCollisionLeaf()
 	return (XSurfaceCollisionLeaf*)DB_AllocStreamPos(1);
 }
 
+XSurfaceCollisionLeaf* AllocSave_XSurfaceCollisionLeaf()
+{
+	return (XSurfaceCollisionLeaf*)DB_AllocStreamPos(1);
+}
+
 XSurfaceCollisionLeaf** AllocLoad_XSurfaceCollisionLeafPtr()
+{
+	return (XSurfaceCollisionLeaf**)DB_AllocStreamPos(1);
+}
+
+XSurfaceCollisionLeaf** AllocSave_XSurfaceCollisionLeafPtr()
 {
 	return (XSurfaceCollisionLeaf**)DB_AllocStreamPos(1);
 }
@@ -4702,7 +7914,17 @@ XSurfaceCollisionNode* AllocLoad_XSurfaceCollisionNode()
 	return (XSurfaceCollisionNode*)DB_AllocStreamPos(15);
 }
 
+XSurfaceCollisionNode* AllocSave_XSurfaceCollisionNode()
+{
+	return (XSurfaceCollisionNode*)DB_AllocStreamPos(15);
+}
+
 XSurfaceCollisionNode** AllocLoad_XSurfaceCollisionNodePtr()
+{
+	return (XSurfaceCollisionNode**)DB_AllocStreamPos(15);
+}
+
+XSurfaceCollisionNode** AllocSave_XSurfaceCollisionNodePtr()
 {
 	return (XSurfaceCollisionNode**)DB_AllocStreamPos(15);
 }
@@ -4712,7 +7934,17 @@ XSurfaceCollisionTree* AllocLoad_XSurfaceCollisionTree()
 	return (XSurfaceCollisionTree*)DB_AllocStreamPos(3);
 }
 
+XSurfaceCollisionTree* AllocSave_XSurfaceCollisionTree()
+{
+	return (XSurfaceCollisionTree*)DB_AllocStreamPos(3);
+}
+
 XSurfaceCollisionTree** AllocLoad_XSurfaceCollisionTreePtr()
+{
+	return (XSurfaceCollisionTree**)DB_AllocStreamPos(3);
+}
+
+XSurfaceCollisionTree** AllocSave_XSurfaceCollisionTreePtr()
 {
 	return (XSurfaceCollisionTree**)DB_AllocStreamPos(3);
 }
@@ -4722,7 +7954,17 @@ XSurfaceVertexInfo* AllocLoad_XSurfaceVertexInfo()
 	return (XSurfaceVertexInfo*)DB_AllocStreamPos(3);
 }
 
+XSurfaceVertexInfo* AllocSave_XSurfaceVertexInfo()
+{
+	return (XSurfaceVertexInfo*)DB_AllocStreamPos(3);
+}
+
 XSurfaceVertexInfo** AllocLoad_XSurfaceVertexInfoPtr()
+{
+	return (XSurfaceVertexInfo**)DB_AllocStreamPos(3);
+}
+
+XSurfaceVertexInfo** AllocSave_XSurfaceVertexInfoPtr()
 {
 	return (XSurfaceVertexInfo**)DB_AllocStreamPos(3);
 }
@@ -4732,7 +7974,17 @@ _AILSOUNDINFO* AllocLoad__AILSOUNDINFO()
 	return (_AILSOUNDINFO*)DB_AllocStreamPos(3);
 }
 
+_AILSOUNDINFO* AllocSave__AILSOUNDINFO()
+{
+	return (_AILSOUNDINFO*)DB_AllocStreamPos(3);
+}
+
 _AILSOUNDINFO** AllocLoad__AILSOUNDINFOPtr()
+{
+	return (_AILSOUNDINFO**)DB_AllocStreamPos(3);
+}
+
+_AILSOUNDINFO** AllocSave__AILSOUNDINFOPtr()
 {
 	return (_AILSOUNDINFO**)DB_AllocStreamPos(3);
 }
@@ -4742,7 +7994,17 @@ bool* AllocLoad_bool()
 	return (bool*)DB_AllocStreamPos(0);
 }
 
+bool* AllocSave_bool()
+{
+	return (bool*)DB_AllocStreamPos(0);
+}
+
 bool** AllocLoad_boolPtr()
+{
+	return (bool**)DB_AllocStreamPos(0);
+}
+
+bool** AllocSave_boolPtr()
 {
 	return (bool**)DB_AllocStreamPos(0);
 }
@@ -4752,7 +8014,17 @@ cLeafBrushNodeChildren_t* AllocLoad_cLeafBrushNodeChildren_t()
 	return (cLeafBrushNodeChildren_t*)DB_AllocStreamPos(3);
 }
 
+cLeafBrushNodeChildren_t* AllocSave_cLeafBrushNodeChildren_t()
+{
+	return (cLeafBrushNodeChildren_t*)DB_AllocStreamPos(3);
+}
+
 cLeafBrushNodeChildren_t** AllocLoad_cLeafBrushNodeChildren_tPtr()
+{
+	return (cLeafBrushNodeChildren_t**)DB_AllocStreamPos(3);
+}
+
+cLeafBrushNodeChildren_t** AllocSave_cLeafBrushNodeChildren_tPtr()
 {
 	return (cLeafBrushNodeChildren_t**)DB_AllocStreamPos(3);
 }
@@ -4762,7 +8034,17 @@ cLeafBrushNodeData_t* AllocLoad_cLeafBrushNodeData_t()
 	return (cLeafBrushNodeData_t*)DB_AllocStreamPos(3);
 }
 
+cLeafBrushNodeData_t* AllocSave_cLeafBrushNodeData_t()
+{
+	return (cLeafBrushNodeData_t*)DB_AllocStreamPos(3);
+}
+
 cLeafBrushNodeData_t** AllocLoad_cLeafBrushNodeData_tPtr()
+{
+	return (cLeafBrushNodeData_t**)DB_AllocStreamPos(3);
+}
+
+cLeafBrushNodeData_t** AllocSave_cLeafBrushNodeData_tPtr()
 {
 	return (cLeafBrushNodeData_t**)DB_AllocStreamPos(3);
 }
@@ -4772,7 +8054,17 @@ cLeafBrushNodeLeaf_t* AllocLoad_cLeafBrushNodeLeaf_t()
 	return (cLeafBrushNodeLeaf_t*)DB_AllocStreamPos(3);
 }
 
+cLeafBrushNodeLeaf_t* AllocSave_cLeafBrushNodeLeaf_t()
+{
+	return (cLeafBrushNodeLeaf_t*)DB_AllocStreamPos(3);
+}
+
 cLeafBrushNodeLeaf_t** AllocLoad_cLeafBrushNodeLeaf_tPtr()
+{
+	return (cLeafBrushNodeLeaf_t**)DB_AllocStreamPos(3);
+}
+
+cLeafBrushNodeLeaf_t** AllocSave_cLeafBrushNodeLeaf_tPtr()
 {
 	return (cLeafBrushNodeLeaf_t**)DB_AllocStreamPos(3);
 }
@@ -4782,7 +8074,17 @@ cLeafBrushNode_s* AllocLoad_cLeafBrushNode_s()
 	return (cLeafBrushNode_s*)DB_AllocStreamPos(3);
 }
 
+cLeafBrushNode_s* AllocSave_cLeafBrushNode_s()
+{
+	return (cLeafBrushNode_s*)DB_AllocStreamPos(3);
+}
+
 cLeafBrushNode_s** AllocLoad_cLeafBrushNode_sPtr()
+{
+	return (cLeafBrushNode_s**)DB_AllocStreamPos(3);
+}
+
+cLeafBrushNode_s** AllocSave_cLeafBrushNode_sPtr()
 {
 	return (cLeafBrushNode_s**)DB_AllocStreamPos(3);
 }
@@ -4792,7 +8094,17 @@ cLeaf_t* AllocLoad_cLeaf_t()
 	return (cLeaf_t*)DB_AllocStreamPos(3);
 }
 
+cLeaf_t* AllocSave_cLeaf_t()
+{
+	return (cLeaf_t*)DB_AllocStreamPos(3);
+}
+
 cLeaf_t** AllocLoad_cLeaf_tPtr()
+{
+	return (cLeaf_t**)DB_AllocStreamPos(3);
+}
+
+cLeaf_t** AllocSave_cLeaf_tPtr()
 {
 	return (cLeaf_t**)DB_AllocStreamPos(3);
 }
@@ -4802,7 +8114,17 @@ cNode_t* AllocLoad_cNode_t()
 	return (cNode_t*)DB_AllocStreamPos(3);
 }
 
+cNode_t* AllocSave_cNode_t()
+{
+	return (cNode_t*)DB_AllocStreamPos(3);
+}
+
 cNode_t** AllocLoad_cNode_tPtr()
+{
+	return (cNode_t**)DB_AllocStreamPos(3);
+}
+
+cNode_t** AllocSave_cNode_tPtr()
 {
 	return (cNode_t**)DB_AllocStreamPos(3);
 }
@@ -4812,7 +8134,17 @@ cStaticModel_s* AllocLoad_cStaticModel_s()
 	return (cStaticModel_s*)DB_AllocStreamPos(3);
 }
 
+cStaticModel_s* AllocSave_cStaticModel_s()
+{
+	return (cStaticModel_s*)DB_AllocStreamPos(3);
+}
+
 cStaticModel_s** AllocLoad_cStaticModel_sPtr()
+{
+	return (cStaticModel_s**)DB_AllocStreamPos(3);
+}
+
+cStaticModel_s** AllocSave_cStaticModel_sPtr()
 {
 	return (cStaticModel_s**)DB_AllocStreamPos(3);
 }
@@ -4822,7 +8154,17 @@ cbrush_t* AllocLoad_cbrush_t()
 	return (cbrush_t*)DB_AllocStreamPos(3);
 }
 
+cbrush_t* AllocSave_cbrush_t()
+{
+	return (cbrush_t*)DB_AllocStreamPos(3);
+}
+
 cbrush_t** AllocLoad_cbrush_tPtr()
+{
+	return (cbrush_t**)DB_AllocStreamPos(3);
+}
+
+cbrush_t** AllocSave_cbrush_tPtr()
 {
 	return (cbrush_t**)DB_AllocStreamPos(3);
 }
@@ -4832,7 +8174,17 @@ cbrushside_t* AllocLoad_cbrushside_t()
 	return (cbrushside_t*)DB_AllocStreamPos(3);
 }
 
+cbrushside_t* AllocSave_cbrushside_t()
+{
+	return (cbrushside_t*)DB_AllocStreamPos(3);
+}
+
 cbrushside_t** AllocLoad_cbrushside_tPtr()
+{
+	return (cbrushside_t**)DB_AllocStreamPos(3);
+}
+
+cbrushside_t** AllocSave_cbrushside_tPtr()
 {
 	return (cbrushside_t**)DB_AllocStreamPos(3);
 }
@@ -4842,7 +8194,17 @@ char* AllocLoad_char()
 	return (char*)DB_AllocStreamPos(0);
 }
 
+char* AllocSave_char()
+{
+	return (char*)DB_AllocStreamPos(0);
+}
+
 char** AllocLoad_charPtr()
+{
+	return (char**)DB_AllocStreamPos(0);
+}
+
+char** AllocSave_charPtr()
 {
 	return (char**)DB_AllocStreamPos(0);
 }
@@ -4852,7 +8214,17 @@ char16* AllocLoad_char16()
 	return (char16*)DB_AllocStreamPos(15);
 }
 
+char16* AllocSave_char16()
+{
+	return (char16*)DB_AllocStreamPos(15);
+}
+
 char16** AllocLoad_char16Ptr()
+{
+	return (char16**)DB_AllocStreamPos(15);
+}
+
+char16** AllocSave_char16Ptr()
 {
 	return (char16**)DB_AllocStreamPos(15);
 }
@@ -4862,7 +8234,17 @@ clipMap_t* AllocLoad_clipMap_t()
 	return (clipMap_t*)DB_AllocStreamPos(63);
 }
 
+clipMap_t* AllocSave_clipMap_t()
+{
+	return (clipMap_t*)DB_AllocStreamPos(63);
+}
+
 clipMap_t** AllocLoad_clipMap_tPtr()
+{
+	return (clipMap_t**)DB_AllocStreamPos(63);
+}
+
+clipMap_t** AllocSave_clipMap_tPtr()
 {
 	return (clipMap_t**)DB_AllocStreamPos(63);
 }
@@ -4872,7 +8254,17 @@ cmodel_t* AllocLoad_cmodel_t()
 	return (cmodel_t*)DB_AllocStreamPos(3);
 }
 
+cmodel_t* AllocSave_cmodel_t()
+{
+	return (cmodel_t*)DB_AllocStreamPos(3);
+}
+
 cmodel_t** AllocLoad_cmodel_tPtr()
+{
+	return (cmodel_t**)DB_AllocStreamPos(3);
+}
+
+cmodel_t** AllocSave_cmodel_tPtr()
 {
 	return (cmodel_t**)DB_AllocStreamPos(3);
 }
@@ -4882,7 +8274,17 @@ columnInfo_s* AllocLoad_columnInfo_s()
 	return (columnInfo_s*)DB_AllocStreamPos(3);
 }
 
+columnInfo_s* AllocSave_columnInfo_s()
+{
+	return (columnInfo_s*)DB_AllocStreamPos(3);
+}
+
 columnInfo_s** AllocLoad_columnInfo_sPtr()
+{
+	return (columnInfo_s**)DB_AllocStreamPos(3);
+}
+
+columnInfo_s** AllocSave_columnInfo_sPtr()
 {
 	return (columnInfo_s**)DB_AllocStreamPos(3);
 }
@@ -4892,7 +8294,17 @@ complex_s* AllocLoad_complex_s()
 	return (complex_s*)DB_AllocStreamPos(3);
 }
 
+complex_s* AllocSave_complex_s()
+{
+	return (complex_s*)DB_AllocStreamPos(3);
+}
+
 complex_s** AllocLoad_complex_sPtr()
+{
+	return (complex_s**)DB_AllocStreamPos(3);
+}
+
+complex_s** AllocSave_complex_sPtr()
 {
 	return (complex_s**)DB_AllocStreamPos(3);
 }
@@ -5047,7 +8459,17 @@ cplane_s* AllocLoad_cplane_s()
 	return (cplane_s*)DB_AllocStreamPos(3);
 }
 
+cplane_s* AllocSave_cplane_s()
+{
+	return (cplane_s*)DB_AllocStreamPos(3);
+}
+
 cplane_s** AllocLoad_cplane_sPtr()
+{
+	return (cplane_s**)DB_AllocStreamPos(3);
+}
+
+cplane_s** AllocSave_cplane_sPtr()
 {
 	return (cplane_s**)DB_AllocStreamPos(3);
 }
@@ -5057,7 +8479,17 @@ double* AllocLoad_double()
 	return (double*)DB_AllocStreamPos(3);
 }
 
+double* AllocSave_double()
+{
+	return (double*)DB_AllocStreamPos(3);
+}
+
 double** AllocLoad_doublePtr()
+{
+	return (double**)DB_AllocStreamPos(3);
+}
+
+double** AllocSave_doublePtr()
 {
 	return (double**)DB_AllocStreamPos(3);
 }
@@ -5067,7 +8499,17 @@ editFieldDef_s* AllocLoad_editFieldDef_s()
 	return (editFieldDef_s*)DB_AllocStreamPos(3);
 }
 
+editFieldDef_s* AllocSave_editFieldDef_s()
+{
+	return (editFieldDef_s*)DB_AllocStreamPos(3);
+}
+
 editFieldDef_s** AllocLoad_editFieldDef_sPtr()
+{
+	return (editFieldDef_s**)DB_AllocStreamPos(3);
+}
+
+editFieldDef_s** AllocSave_editFieldDef_sPtr()
 {
 	return (editFieldDef_s**)DB_AllocStreamPos(3);
 }
@@ -5077,7 +8519,17 @@ entryInternalData* AllocLoad_entryInternalData()
 	return (entryInternalData*)DB_AllocStreamPos(3);
 }
 
+entryInternalData* AllocSave_entryInternalData()
+{
+	return (entryInternalData*)DB_AllocStreamPos(3);
+}
+
 entryInternalData** AllocLoad_entryInternalDataPtr()
+{
+	return (entryInternalData**)DB_AllocStreamPos(3);
+}
+
+entryInternalData** AllocSave_entryInternalDataPtr()
 {
 	return (entryInternalData**)DB_AllocStreamPos(3);
 }
@@ -5087,7 +8539,17 @@ expressionEntry* AllocLoad_expressionEntry()
 	return (expressionEntry*)DB_AllocStreamPos(3);
 }
 
+expressionEntry* AllocSave_expressionEntry()
+{
+	return (expressionEntry*)DB_AllocStreamPos(3);
+}
+
 expressionEntry** AllocLoad_expressionEntryPtr()
+{
+	return (expressionEntry**)DB_AllocStreamPos(3);
+}
+
+expressionEntry** AllocSave_expressionEntryPtr()
 {
 	return (expressionEntry**)DB_AllocStreamPos(3);
 }
@@ -5097,7 +8559,17 @@ float* AllocLoad_float()
 	return (float*)DB_AllocStreamPos(3);
 }
 
+float* AllocSave_float()
+{
+	return (float*)DB_AllocStreamPos(3);
+}
+
 float** AllocLoad_floatPtr()
+{
+	return (float**)DB_AllocStreamPos(3);
+}
+
+float** AllocSave_floatPtr()
 {
 	return (float**)DB_AllocStreamPos(3);
 }
@@ -5107,7 +8579,17 @@ float16* AllocLoad_float16()
 	return (float16*)DB_AllocStreamPos(15);
 }
 
+float16* AllocSave_float16()
+{
+	return (float16*)DB_AllocStreamPos(15);
+}
+
 float16** AllocLoad_float16Ptr()
+{
+	return (float16**)DB_AllocStreamPos(15);
+}
+
+float16** AllocSave_float16Ptr()
 {
 	return (float16**)DB_AllocStreamPos(15);
 }
@@ -5117,7 +8599,17 @@ int16* AllocLoad_int16()
 	return (int16*)DB_AllocStreamPos(1);
 }
 
+int16* AllocSave_int16()
+{
+	return (int16*)DB_AllocStreamPos(1);
+}
+
 int16** AllocLoad_int16Ptr()
+{
+	return (int16**)DB_AllocStreamPos(1);
+}
+
+int16** AllocSave_int16Ptr()
 {
 	return (int16**)DB_AllocStreamPos(1);
 }
@@ -5127,7 +8619,17 @@ int32* AllocLoad_int32()
 	return (int32*)DB_AllocStreamPos(3);
 }
 
+int32* AllocSave_int32()
+{
+	return (int32*)DB_AllocStreamPos(3);
+}
+
 int32** AllocLoad_int32Ptr()
+{
+	return (int32**)DB_AllocStreamPos(3);
+}
+
+int32** AllocSave_int32Ptr()
 {
 	return (int32**)DB_AllocStreamPos(3);
 }
@@ -5137,7 +8639,17 @@ int64* AllocLoad_int64()
 	return (int64*)DB_AllocStreamPos(3);
 }
 
+int64* AllocSave_int64()
+{
+	return (int64*)DB_AllocStreamPos(3);
+}
+
 int64** AllocLoad_int64Ptr()
+{
+	return (int64**)DB_AllocStreamPos(3);
+}
+
+int64** AllocSave_int64Ptr()
 {
 	return (int64**)DB_AllocStreamPos(3);
 }
@@ -5147,7 +8659,17 @@ int8* AllocLoad_int8()
 	return (int8*)DB_AllocStreamPos(0);
 }
 
+int8* AllocSave_int8()
+{
+	return (int8*)DB_AllocStreamPos(0);
+}
+
 int8** AllocLoad_int8Ptr()
+{
+	return (int8**)DB_AllocStreamPos(0);
+}
+
+int8** AllocSave_int8Ptr()
 {
 	return (int8**)DB_AllocStreamPos(0);
 }
@@ -5157,7 +8679,17 @@ itemDefData_t* AllocLoad_itemDefData_t()
 	return (itemDefData_t*)DB_AllocStreamPos(3);
 }
 
+itemDefData_t* AllocSave_itemDefData_t()
+{
+	return (itemDefData_t*)DB_AllocStreamPos(3);
+}
+
 itemDefData_t** AllocLoad_itemDefData_tPtr()
+{
+	return (itemDefData_t**)DB_AllocStreamPos(3);
+}
+
+itemDefData_t** AllocSave_itemDefData_tPtr()
 {
 	return (itemDefData_t**)DB_AllocStreamPos(3);
 }
@@ -5167,7 +8699,17 @@ itemDef_s* AllocLoad_itemDef_s()
 	return (itemDef_s*)DB_AllocStreamPos(3);
 }
 
+itemDef_s* AllocSave_itemDef_s()
+{
+	return (itemDef_s*)DB_AllocStreamPos(3);
+}
+
 itemDef_s** AllocLoad_itemDef_sPtr()
+{
+	return (itemDef_s**)DB_AllocStreamPos(3);
+}
+
+itemDef_s** AllocSave_itemDef_sPtr()
 {
 	return (itemDef_s**)DB_AllocStreamPos(3);
 }
@@ -5177,7 +8719,17 @@ listBoxDef_s* AllocLoad_listBoxDef_s()
 	return (listBoxDef_s*)DB_AllocStreamPos(3);
 }
 
+listBoxDef_s* AllocSave_listBoxDef_s()
+{
+	return (listBoxDef_s*)DB_AllocStreamPos(3);
+}
+
 listBoxDef_s** AllocLoad_listBoxDef_sPtr()
+{
+	return (listBoxDef_s**)DB_AllocStreamPos(3);
+}
+
+listBoxDef_s** AllocSave_listBoxDef_sPtr()
 {
 	return (listBoxDef_s**)DB_AllocStreamPos(3);
 }
@@ -5187,7 +8739,17 @@ menuDef_t* AllocLoad_menuDef_t()
 	return (menuDef_t*)DB_AllocStreamPos(3);
 }
 
+menuDef_t* AllocSave_menuDef_t()
+{
+	return (menuDef_t*)DB_AllocStreamPos(3);
+}
+
 menuDef_t** AllocLoad_menuDef_tPtr()
+{
+	return (menuDef_t**)DB_AllocStreamPos(3);
+}
+
+menuDef_t** AllocSave_menuDef_tPtr()
 {
 	return (menuDef_t**)DB_AllocStreamPos(3);
 }
@@ -5197,7 +8759,17 @@ menuTransition* AllocLoad_menuTransition()
 	return (menuTransition*)DB_AllocStreamPos(3);
 }
 
+menuTransition* AllocSave_menuTransition()
+{
+	return (menuTransition*)DB_AllocStreamPos(3);
+}
+
 menuTransition** AllocLoad_menuTransitionPtr()
+{
+	return (menuTransition**)DB_AllocStreamPos(3);
+}
+
+menuTransition** AllocSave_menuTransitionPtr()
 {
 	return (menuTransition**)DB_AllocStreamPos(3);
 }
@@ -5207,7 +8779,17 @@ multiDef_s* AllocLoad_multiDef_s()
 	return (multiDef_s*)DB_AllocStreamPos(3);
 }
 
+multiDef_s* AllocSave_multiDef_s()
+{
+	return (multiDef_s*)DB_AllocStreamPos(3);
+}
+
 multiDef_s** AllocLoad_multiDef_sPtr()
+{
+	return (multiDef_s**)DB_AllocStreamPos(3);
+}
+
+multiDef_s** AllocSave_multiDef_sPtr()
 {
 	return (multiDef_s**)DB_AllocStreamPos(3);
 }
@@ -5217,7 +8799,17 @@ newsTickerDef_s* AllocLoad_newsTickerDef_s()
 	return (newsTickerDef_s*)DB_AllocStreamPos(3);
 }
 
+newsTickerDef_s* AllocSave_newsTickerDef_s()
+{
+	return (newsTickerDef_s*)DB_AllocStreamPos(3);
+}
+
 newsTickerDef_s** AllocLoad_newsTickerDef_sPtr()
+{
+	return (newsTickerDef_s**)DB_AllocStreamPos(3);
+}
+
+newsTickerDef_s** AllocSave_newsTickerDef_sPtr()
 {
 	return (newsTickerDef_s**)DB_AllocStreamPos(3);
 }
@@ -5227,7 +8819,17 @@ operandInternalDataUnion* AllocLoad_operandInternalDataUnion()
 	return (operandInternalDataUnion*)DB_AllocStreamPos(3);
 }
 
+operandInternalDataUnion* AllocSave_operandInternalDataUnion()
+{
+	return (operandInternalDataUnion*)DB_AllocStreamPos(3);
+}
+
 operandInternalDataUnion** AllocLoad_operandInternalDataUnionPtr()
+{
+	return (operandInternalDataUnion**)DB_AllocStreamPos(3);
+}
+
+operandInternalDataUnion** AllocSave_operandInternalDataUnionPtr()
 {
 	return (operandInternalDataUnion**)DB_AllocStreamPos(3);
 }
@@ -5237,7 +8839,17 @@ rectDef_s* AllocLoad_rectDef_s()
 	return (rectDef_s*)DB_AllocStreamPos(3);
 }
 
+rectDef_s* AllocSave_rectDef_s()
+{
+	return (rectDef_s*)DB_AllocStreamPos(3);
+}
+
 rectDef_s** AllocLoad_rectDef_sPtr()
+{
+	return (rectDef_s**)DB_AllocStreamPos(3);
+}
+
+rectDef_s** AllocSave_rectDef_sPtr()
 {
 	return (rectDef_s**)DB_AllocStreamPos(3);
 }
@@ -5247,7 +8859,17 @@ snd_alias_list_t* AllocLoad_snd_alias_list_t()
 	return (snd_alias_list_t*)DB_AllocStreamPos(3);
 }
 
+snd_alias_list_t* AllocSave_snd_alias_list_t()
+{
+	return (snd_alias_list_t*)DB_AllocStreamPos(3);
+}
+
 snd_alias_list_t** AllocLoad_snd_alias_list_tPtr()
+{
+	return (snd_alias_list_t**)DB_AllocStreamPos(3);
+}
+
+snd_alias_list_t** AllocSave_snd_alias_list_tPtr()
 {
 	return (snd_alias_list_t**)DB_AllocStreamPos(3);
 }
@@ -5257,7 +8879,17 @@ snd_alias_t* AllocLoad_snd_alias_t()
 	return (snd_alias_t*)DB_AllocStreamPos(3);
 }
 
+snd_alias_t* AllocSave_snd_alias_t()
+{
+	return (snd_alias_t*)DB_AllocStreamPos(3);
+}
+
 snd_alias_t** AllocLoad_snd_alias_tPtr()
+{
+	return (snd_alias_t**)DB_AllocStreamPos(3);
+}
+
+snd_alias_t** AllocSave_snd_alias_tPtr()
 {
 	return (snd_alias_t**)DB_AllocStreamPos(3);
 }
@@ -5267,7 +8899,17 @@ textScrollDef_s* AllocLoad_textScrollDef_s()
 	return (textScrollDef_s*)DB_AllocStreamPos(3);
 }
 
+textScrollDef_s* AllocSave_textScrollDef_s()
+{
+	return (textScrollDef_s*)DB_AllocStreamPos(3);
+}
+
 textScrollDef_s** AllocLoad_textScrollDef_sPtr()
+{
+	return (textScrollDef_s**)DB_AllocStreamPos(3);
+}
+
+textScrollDef_s** AllocSave_textScrollDef_sPtr()
 {
 	return (textScrollDef_s**)DB_AllocStreamPos(3);
 }
@@ -5277,7 +8919,17 @@ uint16* AllocLoad_uint16()
 	return (uint16*)DB_AllocStreamPos(1);
 }
 
+uint16* AllocSave_uint16()
+{
+	return (uint16*)DB_AllocStreamPos(1);
+}
+
 uint16** AllocLoad_uint16Ptr()
+{
+	return (uint16**)DB_AllocStreamPos(1);
+}
+
+uint16** AllocSave_uint16Ptr()
 {
 	return (uint16**)DB_AllocStreamPos(1);
 }
@@ -5287,7 +8939,17 @@ uint32* AllocLoad_uint32()
 	return (uint32*)DB_AllocStreamPos(3);
 }
 
+uint32* AllocSave_uint32()
+{
+	return (uint32*)DB_AllocStreamPos(3);
+}
+
 uint32** AllocLoad_uint32Ptr()
+{
+	return (uint32**)DB_AllocStreamPos(3);
+}
+
+uint32** AllocSave_uint32Ptr()
 {
 	return (uint32**)DB_AllocStreamPos(3);
 }
@@ -5297,7 +8959,17 @@ uint64* AllocLoad_uint64()
 	return (uint64*)DB_AllocStreamPos(3);
 }
 
+uint64* AllocSave_uint64()
+{
+	return (uint64*)DB_AllocStreamPos(3);
+}
+
 uint64** AllocLoad_uint64Ptr()
+{
+	return (uint64**)DB_AllocStreamPos(3);
+}
+
+uint64** AllocSave_uint64Ptr()
 {
 	return (uint64**)DB_AllocStreamPos(3);
 }
@@ -5307,7 +8979,17 @@ uint8* AllocLoad_uint8()
 	return (uint8*)DB_AllocStreamPos(0);
 }
 
+uint8* AllocSave_uint8()
+{
+	return (uint8*)DB_AllocStreamPos(0);
+}
+
 uint8** AllocLoad_uint8Ptr()
+{
+	return (uint8**)DB_AllocStreamPos(0);
+}
+
+uint8** AllocSave_uint8Ptr()
 {
 	return (uint8**)DB_AllocStreamPos(0);
 }
@@ -5317,7 +8999,17 @@ vec1_t* AllocLoad_vec1_t()
 	return (vec1_t*)DB_AllocStreamPos(3);
 }
 
+vec1_t* AllocSave_vec1_t()
+{
+	return (vec1_t*)DB_AllocStreamPos(3);
+}
+
 vec1_t** AllocLoad_vec1_tPtr()
+{
+	return (vec1_t**)DB_AllocStreamPos(3);
+}
+
+vec1_t** AllocSave_vec1_tPtr()
 {
 	return (vec1_t**)DB_AllocStreamPos(3);
 }
@@ -5327,7 +9019,17 @@ vec2_t* AllocLoad_vec2_t()
 	return (vec2_t*)DB_AllocStreamPos(3);
 }
 
+vec2_t* AllocSave_vec2_t()
+{
+	return (vec2_t*)DB_AllocStreamPos(3);
+}
+
 vec2_t** AllocLoad_vec2_tPtr()
+{
+	return (vec2_t**)DB_AllocStreamPos(3);
+}
+
+vec2_t** AllocSave_vec2_tPtr()
 {
 	return (vec2_t**)DB_AllocStreamPos(3);
 }
@@ -5337,7 +9039,17 @@ vec3_t* AllocLoad_vec3_t()
 	return (vec3_t*)DB_AllocStreamPos(3);
 }
 
+vec3_t* AllocSave_vec3_t()
+{
+	return (vec3_t*)DB_AllocStreamPos(3);
+}
+
 vec3_t** AllocLoad_vec3_tPtr()
+{
+	return (vec3_t**)DB_AllocStreamPos(3);
+}
+
+vec3_t** AllocSave_vec3_tPtr()
 {
 	return (vec3_t**)DB_AllocStreamPos(3);
 }
@@ -5347,7 +9059,17 @@ vec4_t* AllocLoad_vec4_t()
 	return (vec4_t*)DB_AllocStreamPos(3);
 }
 
+vec4_t* AllocSave_vec4_t()
+{
+	return (vec4_t*)DB_AllocStreamPos(3);
+}
+
 vec4_t** AllocLoad_vec4_tPtr()
+{
+	return (vec4_t**)DB_AllocStreamPos(3);
+}
+
+vec4_t** AllocSave_vec4_tPtr()
 {
 	return (vec4_t**)DB_AllocStreamPos(3);
 }
@@ -19459,7 +23181,11358 @@ void Load_windowDef_tPtrArray(bool atStreamStart, int count)
 	}
 }
 
+void Save_$C8D87EB0090687D323381DFB7A82089C(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_$C8D87EB0090687D323381DFB7A82089CArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, var$C8D87EB0090687D323381DFB7A82089C, sizeof($C8D87EB0090687D323381DFB7A82089C) * count, (void**)&out$C8D87EB0090687D323381DFB7A82089C);
+	for (int i = 0; i < count; i++)
+	{
+		Save_$C8D87EB0090687D323381DFB7A82089C(false);
+		var$C8D87EB0090687D323381DFB7A82089C++;
+		out$C8D87EB0090687D323381DFB7A82089C++;
+		stream$C8D87EB0090687D323381DFB7A82089C++;
+	}
+}
+
+void Save_$C8D87EB0090687D323381DFB7A82089CPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, var$C8D87EB0090687D323381DFB7A82089CPtr, sizeof($C8D87EB0090687D323381DFB7A82089C*), (void**)&out$C8D87EB0090687D323381DFB7A82089CPtr);
+	if (*var$C8D87EB0090687D323381DFB7A82089CPtr)
+	{
+		*out$C8D87EB0090687D323381DFB7A82089CPtr = ($C8D87EB0090687D323381DFB7A82089C*)DB_FindStreamData(*var$C8D87EB0090687D323381DFB7A82089CPtr);
+		assert(*out$C8D87EB0090687D323381DFB7A82089CPtr != ($C8D87EB0090687D323381DFB7A82089C*)0xFFFFFFFF);
+		if (!*out$C8D87EB0090687D323381DFB7A82089CPtr)
+		{
+			*out$C8D87EB0090687D323381DFB7A82089CPtr = AllocSave_$C8D87EB0090687D323381DFB7A82089C();
+			var$C8D87EB0090687D323381DFB7A82089C = *var$C8D87EB0090687D323381DFB7A82089CPtr;
+			stream$C8D87EB0090687D323381DFB7A82089C = *out$C8D87EB0090687D323381DFB7A82089CPtr;
+			auto v1 = sub_44AF80((void**)stream$C8D87EB0090687D323381DFB7A82089CPtr, (void**)out$C8D87EB0090687D323381DFB7A82089CPtr);
+			DB_FindStreamDataOrInsert((void*)*var$C8D87EB0090687D323381DFB7A82089CPtr, v1);
+			Save_$C8D87EB0090687D323381DFB7A82089C(true);
+		}
+	}
+}
+
+void Save_$C8D87EB0090687D323381DFB7A82089CPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, var$C8D87EB0090687D323381DFB7A82089CPtr, sizeof($C8D87EB0090687D323381DFB7A82089C*) * count, (void**)&out$C8D87EB0090687D323381DFB7A82089CPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_$C8D87EB0090687D323381DFB7A82089CPtr(false);
+		var$C8D87EB0090687D323381DFB7A82089CPtr++;
+		out$C8D87EB0090687D323381DFB7A82089CPtr++;
+		stream$C8D87EB0090687D323381DFB7A82089CPtr++;
+	}
+}
+
+void Save_$E43DBA5037697D705289B74D87E76C70(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_$E43DBA5037697D705289B74D87E76C70Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, var$E43DBA5037697D705289B74D87E76C70, sizeof($E43DBA5037697D705289B74D87E76C70) * count, (void**)&out$E43DBA5037697D705289B74D87E76C70);
+	for (int i = 0; i < count; i++)
+	{
+		Save_$E43DBA5037697D705289B74D87E76C70(false);
+		var$E43DBA5037697D705289B74D87E76C70++;
+		out$E43DBA5037697D705289B74D87E76C70++;
+		stream$E43DBA5037697D705289B74D87E76C70++;
+	}
+}
+
+void Save_$E43DBA5037697D705289B74D87E76C70Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, var$E43DBA5037697D705289B74D87E76C70Ptr, sizeof($E43DBA5037697D705289B74D87E76C70*), (void**)&out$E43DBA5037697D705289B74D87E76C70Ptr);
+	if (*var$E43DBA5037697D705289B74D87E76C70Ptr)
+	{
+		*out$E43DBA5037697D705289B74D87E76C70Ptr = ($E43DBA5037697D705289B74D87E76C70*)DB_FindStreamData(*var$E43DBA5037697D705289B74D87E76C70Ptr);
+		assert(*out$E43DBA5037697D705289B74D87E76C70Ptr != ($E43DBA5037697D705289B74D87E76C70*)0xFFFFFFFF);
+		if (!*out$E43DBA5037697D705289B74D87E76C70Ptr)
+		{
+			*out$E43DBA5037697D705289B74D87E76C70Ptr = AllocSave_$E43DBA5037697D705289B74D87E76C70();
+			var$E43DBA5037697D705289B74D87E76C70 = *var$E43DBA5037697D705289B74D87E76C70Ptr;
+			stream$E43DBA5037697D705289B74D87E76C70 = *out$E43DBA5037697D705289B74D87E76C70Ptr;
+			auto v1 = sub_44AF80((void**)stream$E43DBA5037697D705289B74D87E76C70Ptr, (void**)out$E43DBA5037697D705289B74D87E76C70Ptr);
+			DB_FindStreamDataOrInsert((void*)*var$E43DBA5037697D705289B74D87E76C70Ptr, v1);
+			Save_$E43DBA5037697D705289B74D87E76C70(true);
+		}
+	}
+}
+
+void Save_$E43DBA5037697D705289B74D87E76C70PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, var$E43DBA5037697D705289B74D87E76C70Ptr, sizeof($E43DBA5037697D705289B74D87E76C70*) * count, (void**)&out$E43DBA5037697D705289B74D87E76C70Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_$E43DBA5037697D705289B74D87E76C70Ptr(false);
+		var$E43DBA5037697D705289B74D87E76C70Ptr++;
+		out$E43DBA5037697D705289B74D87E76C70Ptr++;
+		stream$E43DBA5037697D705289B74D87E76C70Ptr++;
+	}
+}
+
+void Save_Bounds(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_BoundsArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varBounds, sizeof(Bounds) * count, (void**)&outBounds);
+	for (int i = 0; i < count; i++)
+	{
+		Save_Bounds(false);
+		varBounds++;
+		outBounds++;
+		streamBounds++;
+	}
+}
+
+void Save_BoundsPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varBoundsPtr, sizeof(Bounds*), (void**)&outBoundsPtr);
+	if (*varBoundsPtr)
+	{
+		*outBoundsPtr = (Bounds*)DB_FindStreamData(*varBoundsPtr);
+		assert(*outBoundsPtr != (Bounds*)0xFFFFFFFF);
+		if (!*outBoundsPtr)
+		{
+			*outBoundsPtr = AllocSave_Bounds();
+			varBounds = *varBoundsPtr;
+			streamBounds = *outBoundsPtr;
+			auto v1 = sub_44AF80((void**)streamBoundsPtr, (void**)outBoundsPtr);
+			DB_FindStreamDataOrInsert((void*)*varBoundsPtr, v1);
+			Save_Bounds(true);
+		}
+	}
+}
+
+void Save_BoundsPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varBoundsPtr, sizeof(Bounds*) * count, (void**)&outBoundsPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_BoundsPtr(false);
+		varBoundsPtr++;
+		outBoundsPtr++;
+		streamBoundsPtr++;
+	}
+}
+
+void Save_BrushWrapper(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_BrushWrapperArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varBrushWrapper, sizeof(BrushWrapper) * count, (void**)&outBrushWrapper);
+	for (int i = 0; i < count; i++)
+	{
+		Save_BrushWrapper(false);
+		varBrushWrapper++;
+		outBrushWrapper++;
+		streamBrushWrapper++;
+	}
+}
+
+void Save_BrushWrapperPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varBrushWrapperPtr, sizeof(BrushWrapper*), (void**)&outBrushWrapperPtr);
+	if (*varBrushWrapperPtr)
+	{
+		*outBrushWrapperPtr = (BrushWrapper*)DB_FindStreamData(*varBrushWrapperPtr);
+		assert(*outBrushWrapperPtr != (BrushWrapper*)0xFFFFFFFF);
+		if (!*outBrushWrapperPtr)
+		{
+			*outBrushWrapperPtr = AllocSave_BrushWrapper();
+			varBrushWrapper = *varBrushWrapperPtr;
+			streamBrushWrapper = *outBrushWrapperPtr;
+			auto v1 = sub_44AF80((void**)streamBrushWrapperPtr, (void**)outBrushWrapperPtr);
+			DB_FindStreamDataOrInsert((void*)*varBrushWrapperPtr, v1);
+			Save_BrushWrapper(true);
+		}
+	}
+}
+
+void Save_BrushWrapperPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varBrushWrapperPtr, sizeof(BrushWrapper*) * count, (void**)&outBrushWrapperPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_BrushWrapperPtr(false);
+		varBrushWrapperPtr++;
+		outBrushWrapperPtr++;
+		streamBrushWrapperPtr++;
+	}
+}
+
+void Save_CardMemory(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_CardMemoryArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varCardMemory, sizeof(CardMemory) * count, (void**)&outCardMemory);
+	for (int i = 0; i < count; i++)
+	{
+		Save_CardMemory(false);
+		varCardMemory++;
+		outCardMemory++;
+		streamCardMemory++;
+	}
+}
+
+void Save_CardMemoryPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varCardMemoryPtr, sizeof(CardMemory*), (void**)&outCardMemoryPtr);
+	if (*varCardMemoryPtr)
+	{
+		*outCardMemoryPtr = (CardMemory*)DB_FindStreamData(*varCardMemoryPtr);
+		assert(*outCardMemoryPtr != (CardMemory*)0xFFFFFFFF);
+		if (!*outCardMemoryPtr)
+		{
+			*outCardMemoryPtr = AllocSave_CardMemory();
+			varCardMemory = *varCardMemoryPtr;
+			streamCardMemory = *outCardMemoryPtr;
+			auto v1 = sub_44AF80((void**)streamCardMemoryPtr, (void**)outCardMemoryPtr);
+			DB_FindStreamDataOrInsert((void*)*varCardMemoryPtr, v1);
+			Save_CardMemory(true);
+		}
+	}
+}
+
+void Save_CardMemoryPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varCardMemoryPtr, sizeof(CardMemory*) * count, (void**)&outCardMemoryPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_CardMemoryPtr(false);
+		varCardMemoryPtr++;
+		outCardMemoryPtr++;
+		streamCardMemoryPtr++;
+	}
+}
+
+void Save_ClipMaterial(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_ClipMaterialArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varClipMaterial, sizeof(ClipMaterial) * count, (void**)&outClipMaterial);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ClipMaterial(false);
+		varClipMaterial++;
+		outClipMaterial++;
+		streamClipMaterial++;
+	}
+}
+
+void Save_ClipMaterialPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varClipMaterialPtr, sizeof(ClipMaterial*), (void**)&outClipMaterialPtr);
+	if (*varClipMaterialPtr)
+	{
+		*outClipMaterialPtr = (ClipMaterial*)DB_FindStreamData(*varClipMaterialPtr);
+		assert(*outClipMaterialPtr != (ClipMaterial*)0xFFFFFFFF);
+		if (!*outClipMaterialPtr)
+		{
+			*outClipMaterialPtr = AllocSave_ClipMaterial();
+			varClipMaterial = *varClipMaterialPtr;
+			streamClipMaterial = *outClipMaterialPtr;
+			auto v1 = sub_44AF80((void**)streamClipMaterialPtr, (void**)outClipMaterialPtr);
+			DB_FindStreamDataOrInsert((void*)*varClipMaterialPtr, v1);
+			Save_ClipMaterial(true);
+		}
+	}
+}
+
+void Save_ClipMaterialPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varClipMaterialPtr, sizeof(ClipMaterial*) * count, (void**)&outClipMaterialPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ClipMaterialPtr(false);
+		varClipMaterialPtr++;
+		outClipMaterialPtr++;
+		streamClipMaterialPtr++;
+	}
+}
+
+void Save_CollisionAabbTree(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_CollisionAabbTreeArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varCollisionAabbTree, sizeof(CollisionAabbTree) * count, (void**)&outCollisionAabbTree);
+	for (int i = 0; i < count; i++)
+	{
+		Save_CollisionAabbTree(false);
+		varCollisionAabbTree++;
+		outCollisionAabbTree++;
+		streamCollisionAabbTree++;
+	}
+}
+
+void Save_CollisionAabbTreeIndex(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_CollisionAabbTreeIndexArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varCollisionAabbTreeIndex, sizeof(CollisionAabbTreeIndex) * count, (void**)&outCollisionAabbTreeIndex);
+	for (int i = 0; i < count; i++)
+	{
+		Save_CollisionAabbTreeIndex(false);
+		varCollisionAabbTreeIndex++;
+		outCollisionAabbTreeIndex++;
+		streamCollisionAabbTreeIndex++;
+	}
+}
+
+void Save_CollisionAabbTreeIndexPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varCollisionAabbTreeIndexPtr, sizeof(CollisionAabbTreeIndex*), (void**)&outCollisionAabbTreeIndexPtr);
+	if (*varCollisionAabbTreeIndexPtr)
+	{
+		*outCollisionAabbTreeIndexPtr = (CollisionAabbTreeIndex*)DB_FindStreamData(*varCollisionAabbTreeIndexPtr);
+		assert(*outCollisionAabbTreeIndexPtr != (CollisionAabbTreeIndex*)0xFFFFFFFF);
+		if (!*outCollisionAabbTreeIndexPtr)
+		{
+			*outCollisionAabbTreeIndexPtr = AllocSave_CollisionAabbTreeIndex();
+			varCollisionAabbTreeIndex = *varCollisionAabbTreeIndexPtr;
+			streamCollisionAabbTreeIndex = *outCollisionAabbTreeIndexPtr;
+			auto v1 = sub_44AF80((void**)streamCollisionAabbTreeIndexPtr, (void**)outCollisionAabbTreeIndexPtr);
+			DB_FindStreamDataOrInsert((void*)*varCollisionAabbTreeIndexPtr, v1);
+			Save_CollisionAabbTreeIndex(true);
+		}
+	}
+}
+
+void Save_CollisionAabbTreeIndexPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varCollisionAabbTreeIndexPtr, sizeof(CollisionAabbTreeIndex*) * count, (void**)&outCollisionAabbTreeIndexPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_CollisionAabbTreeIndexPtr(false);
+		varCollisionAabbTreeIndexPtr++;
+		outCollisionAabbTreeIndexPtr++;
+		streamCollisionAabbTreeIndexPtr++;
+	}
+}
+
+void Save_CollisionAabbTreePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varCollisionAabbTreePtr, sizeof(CollisionAabbTree*), (void**)&outCollisionAabbTreePtr);
+	if (*varCollisionAabbTreePtr)
+	{
+		*outCollisionAabbTreePtr = (CollisionAabbTree*)DB_FindStreamData(*varCollisionAabbTreePtr);
+		assert(*outCollisionAabbTreePtr != (CollisionAabbTree*)0xFFFFFFFF);
+		if (!*outCollisionAabbTreePtr)
+		{
+			*outCollisionAabbTreePtr = AllocSave_CollisionAabbTree();
+			varCollisionAabbTree = *varCollisionAabbTreePtr;
+			streamCollisionAabbTree = *outCollisionAabbTreePtr;
+			auto v1 = sub_44AF80((void**)streamCollisionAabbTreePtr, (void**)outCollisionAabbTreePtr);
+			DB_FindStreamDataOrInsert((void*)*varCollisionAabbTreePtr, v1);
+			Save_CollisionAabbTree(true);
+		}
+	}
+}
+
+void Save_CollisionAabbTreePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varCollisionAabbTreePtr, sizeof(CollisionAabbTree*) * count, (void**)&outCollisionAabbTreePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_CollisionAabbTreePtr(false);
+		varCollisionAabbTreePtr++;
+		outCollisionAabbTreePtr++;
+		streamCollisionAabbTreePtr++;
+	}
+}
+
+void Save_CollisionBorder(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_CollisionBorderArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varCollisionBorder, sizeof(CollisionBorder) * count, (void**)&outCollisionBorder);
+	for (int i = 0; i < count; i++)
+	{
+		Save_CollisionBorder(false);
+		varCollisionBorder++;
+		outCollisionBorder++;
+		streamCollisionBorder++;
+	}
+}
+
+void Save_CollisionBorderPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varCollisionBorderPtr, sizeof(CollisionBorder*), (void**)&outCollisionBorderPtr);
+	if (*varCollisionBorderPtr)
+	{
+		*outCollisionBorderPtr = (CollisionBorder*)DB_FindStreamData(*varCollisionBorderPtr);
+		assert(*outCollisionBorderPtr != (CollisionBorder*)0xFFFFFFFF);
+		if (!*outCollisionBorderPtr)
+		{
+			*outCollisionBorderPtr = AllocSave_CollisionBorder();
+			varCollisionBorder = *varCollisionBorderPtr;
+			streamCollisionBorder = *outCollisionBorderPtr;
+			auto v1 = sub_44AF80((void**)streamCollisionBorderPtr, (void**)outCollisionBorderPtr);
+			DB_FindStreamDataOrInsert((void*)*varCollisionBorderPtr, v1);
+			Save_CollisionBorder(true);
+		}
+	}
+}
+
+void Save_CollisionBorderPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varCollisionBorderPtr, sizeof(CollisionBorder*) * count, (void**)&outCollisionBorderPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_CollisionBorderPtr(false);
+		varCollisionBorderPtr++;
+		outCollisionBorderPtr++;
+		streamCollisionBorderPtr++;
+	}
+}
+
+void Save_CollisionPartition(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_CollisionPartitionArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varCollisionPartition, sizeof(CollisionPartition) * count, (void**)&outCollisionPartition);
+	for (int i = 0; i < count; i++)
+	{
+		Save_CollisionPartition(false);
+		varCollisionPartition++;
+		outCollisionPartition++;
+		streamCollisionPartition++;
+	}
+}
+
+void Save_CollisionPartitionPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varCollisionPartitionPtr, sizeof(CollisionPartition*), (void**)&outCollisionPartitionPtr);
+	if (*varCollisionPartitionPtr)
+	{
+		*outCollisionPartitionPtr = (CollisionPartition*)DB_FindStreamData(*varCollisionPartitionPtr);
+		assert(*outCollisionPartitionPtr != (CollisionPartition*)0xFFFFFFFF);
+		if (!*outCollisionPartitionPtr)
+		{
+			*outCollisionPartitionPtr = AllocSave_CollisionPartition();
+			varCollisionPartition = *varCollisionPartitionPtr;
+			streamCollisionPartition = *outCollisionPartitionPtr;
+			auto v1 = sub_44AF80((void**)streamCollisionPartitionPtr, (void**)outCollisionPartitionPtr);
+			DB_FindStreamDataOrInsert((void*)*varCollisionPartitionPtr, v1);
+			Save_CollisionPartition(true);
+		}
+	}
+}
+
+void Save_CollisionPartitionPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varCollisionPartitionPtr, sizeof(CollisionPartition*) * count, (void**)&outCollisionPartitionPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_CollisionPartitionPtr(false);
+		varCollisionPartitionPtr++;
+		outCollisionPartitionPtr++;
+		streamCollisionPartitionPtr++;
+	}
+}
+
+void Save_ComPrimaryLight(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_ComPrimaryLightArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varComPrimaryLight, sizeof(ComPrimaryLight) * count, (void**)&outComPrimaryLight);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ComPrimaryLight(false);
+		varComPrimaryLight++;
+		outComPrimaryLight++;
+		streamComPrimaryLight++;
+	}
+}
+
+void Save_ComPrimaryLightPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varComPrimaryLightPtr, sizeof(ComPrimaryLight*), (void**)&outComPrimaryLightPtr);
+	if (*varComPrimaryLightPtr)
+	{
+		*outComPrimaryLightPtr = (ComPrimaryLight*)DB_FindStreamData(*varComPrimaryLightPtr);
+		assert(*outComPrimaryLightPtr != (ComPrimaryLight*)0xFFFFFFFF);
+		if (!*outComPrimaryLightPtr)
+		{
+			*outComPrimaryLightPtr = AllocSave_ComPrimaryLight();
+			varComPrimaryLight = *varComPrimaryLightPtr;
+			streamComPrimaryLight = *outComPrimaryLightPtr;
+			auto v1 = sub_44AF80((void**)streamComPrimaryLightPtr, (void**)outComPrimaryLightPtr);
+			DB_FindStreamDataOrInsert((void*)*varComPrimaryLightPtr, v1);
+			Save_ComPrimaryLight(true);
+		}
+	}
+}
+
+void Save_ComPrimaryLightPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varComPrimaryLightPtr, sizeof(ComPrimaryLight*) * count, (void**)&outComPrimaryLightPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ComPrimaryLightPtr(false);
+		varComPrimaryLightPtr++;
+		outComPrimaryLightPtr++;
+		streamComPrimaryLightPtr++;
+	}
+}
+
+void Save_ComWorld(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_ComWorldArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varComWorld, sizeof(ComWorld) * count, (void**)&outComWorld);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ComWorld(false);
+		varComWorld++;
+		outComWorld++;
+		streamComWorld++;
+	}
+}
+
+void Save_ComWorldAsset(ComWorld** asset)
+{
+	// todo!
+}
+
+void Save_ComWorldPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varComWorldPtr, sizeof(ComWorld*), (void**)&outComWorldPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varComWorldPtr)
+	{
+		*outComWorldPtr = (ComWorld*)DB_FindStreamData(*varComWorldPtr);
+		assert(*outComWorldPtr != (ComWorld*)0xFFFFFFFF);
+		if (!*outComWorldPtr)
+		{
+			*outComWorldPtr = AllocSave_ComWorld();
+			varComWorld = *varComWorldPtr;
+			streamComWorld = *outComWorldPtr;
+			auto v1 = sub_44AF80((void**)streamComWorldPtr, (void**)outComWorldPtr);
+			DB_FindStreamDataOrInsert((void*)*varComWorldPtr, v1);
+			Save_ComWorld(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_ComWorldPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varComWorldPtr, sizeof(ComWorld*) * count, (void**)&outComWorldPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ComWorldPtr(false);
+		varComWorldPtr++;
+		outComWorldPtr++;
+		streamComWorldPtr++;
+	}
+}
+
+void Save_ConditionalScript(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_ConditionalScriptArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varConditionalScript, sizeof(ConditionalScript) * count, (void**)&outConditionalScript);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ConditionalScript(false);
+		varConditionalScript++;
+		outConditionalScript++;
+		streamConditionalScript++;
+	}
+}
+
+void Save_ConditionalScriptPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varConditionalScriptPtr, sizeof(ConditionalScript*), (void**)&outConditionalScriptPtr);
+	if (*varConditionalScriptPtr)
+	{
+		*outConditionalScriptPtr = (ConditionalScript*)DB_FindStreamData(*varConditionalScriptPtr);
+		assert(*outConditionalScriptPtr != (ConditionalScript*)0xFFFFFFFF);
+		if (!*outConditionalScriptPtr)
+		{
+			*outConditionalScriptPtr = AllocSave_ConditionalScript();
+			varConditionalScript = *varConditionalScriptPtr;
+			streamConditionalScript = *outConditionalScriptPtr;
+			auto v1 = sub_44AF80((void**)streamConditionalScriptPtr, (void**)outConditionalScriptPtr);
+			DB_FindStreamDataOrInsert((void*)*varConditionalScriptPtr, v1);
+			Save_ConditionalScript(true);
+		}
+	}
+}
+
+void Save_ConditionalScriptPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varConditionalScriptPtr, sizeof(ConditionalScript*) * count, (void**)&outConditionalScriptPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ConditionalScriptPtr(false);
+		varConditionalScriptPtr++;
+		outConditionalScriptPtr++;
+		streamConditionalScriptPtr++;
+	}
+}
+
+void Save_DObjAnimMat(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_DObjAnimMatArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varDObjAnimMat, sizeof(DObjAnimMat) * count, (void**)&outDObjAnimMat);
+	for (int i = 0; i < count; i++)
+	{
+		Save_DObjAnimMat(false);
+		varDObjAnimMat++;
+		outDObjAnimMat++;
+		streamDObjAnimMat++;
+	}
+}
+
+void Save_DObjAnimMatPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varDObjAnimMatPtr, sizeof(DObjAnimMat*), (void**)&outDObjAnimMatPtr);
+	if (*varDObjAnimMatPtr)
+	{
+		*outDObjAnimMatPtr = (DObjAnimMat*)DB_FindStreamData(*varDObjAnimMatPtr);
+		assert(*outDObjAnimMatPtr != (DObjAnimMat*)0xFFFFFFFF);
+		if (!*outDObjAnimMatPtr)
+		{
+			*outDObjAnimMatPtr = AllocSave_DObjAnimMat();
+			varDObjAnimMat = *varDObjAnimMatPtr;
+			streamDObjAnimMat = *outDObjAnimMatPtr;
+			auto v1 = sub_44AF80((void**)streamDObjAnimMatPtr, (void**)outDObjAnimMatPtr);
+			DB_FindStreamDataOrInsert((void*)*varDObjAnimMatPtr, v1);
+			Save_DObjAnimMat(true);
+		}
+	}
+}
+
+void Save_DObjAnimMatPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varDObjAnimMatPtr, sizeof(DObjAnimMat*) * count, (void**)&outDObjAnimMatPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_DObjAnimMatPtr(false);
+		varDObjAnimMatPtr++;
+		outDObjAnimMatPtr++;
+		streamDObjAnimMatPtr++;
+	}
+}
+
+void Save_DynEntityClient(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_DynEntityClientArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varDynEntityClient, sizeof(DynEntityClient) * count, (void**)&outDynEntityClient);
+	for (int i = 0; i < count; i++)
+	{
+		Save_DynEntityClient(false);
+		varDynEntityClient++;
+		outDynEntityClient++;
+		streamDynEntityClient++;
+	}
+}
+
+void Save_DynEntityClientPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varDynEntityClientPtr, sizeof(DynEntityClient*), (void**)&outDynEntityClientPtr);
+	if (*varDynEntityClientPtr)
+	{
+		*outDynEntityClientPtr = (DynEntityClient*)DB_FindStreamData(*varDynEntityClientPtr);
+		assert(*outDynEntityClientPtr != (DynEntityClient*)0xFFFFFFFF);
+		if (!*outDynEntityClientPtr)
+		{
+			*outDynEntityClientPtr = AllocSave_DynEntityClient();
+			varDynEntityClient = *varDynEntityClientPtr;
+			streamDynEntityClient = *outDynEntityClientPtr;
+			auto v1 = sub_44AF80((void**)streamDynEntityClientPtr, (void**)outDynEntityClientPtr);
+			DB_FindStreamDataOrInsert((void*)*varDynEntityClientPtr, v1);
+			Save_DynEntityClient(true);
+		}
+	}
+}
+
+void Save_DynEntityClientPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varDynEntityClientPtr, sizeof(DynEntityClient*) * count, (void**)&outDynEntityClientPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_DynEntityClientPtr(false);
+		varDynEntityClientPtr++;
+		outDynEntityClientPtr++;
+		streamDynEntityClientPtr++;
+	}
+}
+
+void Save_DynEntityColl(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_DynEntityCollArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varDynEntityColl, sizeof(DynEntityColl) * count, (void**)&outDynEntityColl);
+	for (int i = 0; i < count; i++)
+	{
+		Save_DynEntityColl(false);
+		varDynEntityColl++;
+		outDynEntityColl++;
+		streamDynEntityColl++;
+	}
+}
+
+void Save_DynEntityCollPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varDynEntityCollPtr, sizeof(DynEntityColl*), (void**)&outDynEntityCollPtr);
+	if (*varDynEntityCollPtr)
+	{
+		*outDynEntityCollPtr = (DynEntityColl*)DB_FindStreamData(*varDynEntityCollPtr);
+		assert(*outDynEntityCollPtr != (DynEntityColl*)0xFFFFFFFF);
+		if (!*outDynEntityCollPtr)
+		{
+			*outDynEntityCollPtr = AllocSave_DynEntityColl();
+			varDynEntityColl = *varDynEntityCollPtr;
+			streamDynEntityColl = *outDynEntityCollPtr;
+			auto v1 = sub_44AF80((void**)streamDynEntityCollPtr, (void**)outDynEntityCollPtr);
+			DB_FindStreamDataOrInsert((void*)*varDynEntityCollPtr, v1);
+			Save_DynEntityColl(true);
+		}
+	}
+}
+
+void Save_DynEntityCollPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varDynEntityCollPtr, sizeof(DynEntityColl*) * count, (void**)&outDynEntityCollPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_DynEntityCollPtr(false);
+		varDynEntityCollPtr++;
+		outDynEntityCollPtr++;
+		streamDynEntityCollPtr++;
+	}
+}
+
+void Save_DynEntityDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_DynEntityDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varDynEntityDef, sizeof(DynEntityDef) * count, (void**)&outDynEntityDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_DynEntityDef(false);
+		varDynEntityDef++;
+		outDynEntityDef++;
+		streamDynEntityDef++;
+	}
+}
+
+void Save_DynEntityDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varDynEntityDefPtr, sizeof(DynEntityDef*), (void**)&outDynEntityDefPtr);
+	if (*varDynEntityDefPtr)
+	{
+		*outDynEntityDefPtr = (DynEntityDef*)DB_FindStreamData(*varDynEntityDefPtr);
+		assert(*outDynEntityDefPtr != (DynEntityDef*)0xFFFFFFFF);
+		if (!*outDynEntityDefPtr)
+		{
+			*outDynEntityDefPtr = AllocSave_DynEntityDef();
+			varDynEntityDef = *varDynEntityDefPtr;
+			streamDynEntityDef = *outDynEntityDefPtr;
+			auto v1 = sub_44AF80((void**)streamDynEntityDefPtr, (void**)outDynEntityDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varDynEntityDefPtr, v1);
+			Save_DynEntityDef(true);
+		}
+	}
+}
+
+void Save_DynEntityDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varDynEntityDefPtr, sizeof(DynEntityDef*) * count, (void**)&outDynEntityDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_DynEntityDefPtr(false);
+		varDynEntityDefPtr++;
+		outDynEntityDefPtr++;
+		streamDynEntityDefPtr++;
+	}
+}
+
+void Save_DynEntityPose(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_DynEntityPoseArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varDynEntityPose, sizeof(DynEntityPose) * count, (void**)&outDynEntityPose);
+	for (int i = 0; i < count; i++)
+	{
+		Save_DynEntityPose(false);
+		varDynEntityPose++;
+		outDynEntityPose++;
+		streamDynEntityPose++;
+	}
+}
+
+void Save_DynEntityPosePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varDynEntityPosePtr, sizeof(DynEntityPose*), (void**)&outDynEntityPosePtr);
+	if (*varDynEntityPosePtr)
+	{
+		*outDynEntityPosePtr = (DynEntityPose*)DB_FindStreamData(*varDynEntityPosePtr);
+		assert(*outDynEntityPosePtr != (DynEntityPose*)0xFFFFFFFF);
+		if (!*outDynEntityPosePtr)
+		{
+			*outDynEntityPosePtr = AllocSave_DynEntityPose();
+			varDynEntityPose = *varDynEntityPosePtr;
+			streamDynEntityPose = *outDynEntityPosePtr;
+			auto v1 = sub_44AF80((void**)streamDynEntityPosePtr, (void**)outDynEntityPosePtr);
+			DB_FindStreamDataOrInsert((void*)*varDynEntityPosePtr, v1);
+			Save_DynEntityPose(true);
+		}
+	}
+}
+
+void Save_DynEntityPosePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varDynEntityPosePtr, sizeof(DynEntityPose*) * count, (void**)&outDynEntityPosePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_DynEntityPosePtr(false);
+		varDynEntityPosePtr++;
+		outDynEntityPosePtr++;
+		streamDynEntityPosePtr++;
+	}
+}
+
+void Save_EventData(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_EventDataArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varEventData, sizeof(EventData) * count, (void**)&outEventData);
+	for (int i = 0; i < count; i++)
+	{
+		Save_EventData(false);
+		varEventData++;
+		outEventData++;
+		streamEventData++;
+	}
+}
+
+void Save_EventDataPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varEventDataPtr, sizeof(EventData*), (void**)&outEventDataPtr);
+	if (*varEventDataPtr)
+	{
+		*outEventDataPtr = (EventData*)DB_FindStreamData(*varEventDataPtr);
+		assert(*outEventDataPtr != (EventData*)0xFFFFFFFF);
+		if (!*outEventDataPtr)
+		{
+			*outEventDataPtr = AllocSave_EventData();
+			varEventData = *varEventDataPtr;
+			streamEventData = *outEventDataPtr;
+			auto v1 = sub_44AF80((void**)streamEventDataPtr, (void**)outEventDataPtr);
+			DB_FindStreamDataOrInsert((void*)*varEventDataPtr, v1);
+			Save_EventData(true);
+		}
+	}
+}
+
+void Save_EventDataPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varEventDataPtr, sizeof(EventData*) * count, (void**)&outEventDataPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_EventDataPtr(false);
+		varEventDataPtr++;
+		outEventDataPtr++;
+		streamEventDataPtr++;
+	}
+}
+
+void Save_ExpressionString(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_ExpressionStringArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varExpressionString, sizeof(ExpressionString) * count, (void**)&outExpressionString);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ExpressionString(false);
+		varExpressionString++;
+		outExpressionString++;
+		streamExpressionString++;
+	}
+}
+
+void Save_ExpressionStringPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varExpressionStringPtr, sizeof(ExpressionString*), (void**)&outExpressionStringPtr);
+	if (*varExpressionStringPtr)
+	{
+		*outExpressionStringPtr = (ExpressionString*)DB_FindStreamData(*varExpressionStringPtr);
+		assert(*outExpressionStringPtr != (ExpressionString*)0xFFFFFFFF);
+		if (!*outExpressionStringPtr)
+		{
+			*outExpressionStringPtr = AllocSave_ExpressionString();
+			varExpressionString = *varExpressionStringPtr;
+			streamExpressionString = *outExpressionStringPtr;
+			auto v1 = sub_44AF80((void**)streamExpressionStringPtr, (void**)outExpressionStringPtr);
+			DB_FindStreamDataOrInsert((void*)*varExpressionStringPtr, v1);
+			Save_ExpressionString(true);
+		}
+	}
+}
+
+void Save_ExpressionStringPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varExpressionStringPtr, sizeof(ExpressionString*) * count, (void**)&outExpressionStringPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ExpressionStringPtr(false);
+		varExpressionStringPtr++;
+		outExpressionStringPtr++;
+		streamExpressionStringPtr++;
+	}
+}
+
+void Save_ExpressionSupportingData(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_ExpressionSupportingDataArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varExpressionSupportingData, sizeof(ExpressionSupportingData) * count, (void**)&outExpressionSupportingData);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ExpressionSupportingData(false);
+		varExpressionSupportingData++;
+		outExpressionSupportingData++;
+		streamExpressionSupportingData++;
+	}
+}
+
+void Save_ExpressionSupportingDataPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varExpressionSupportingDataPtr, sizeof(ExpressionSupportingData*), (void**)&outExpressionSupportingDataPtr);
+	if (*varExpressionSupportingDataPtr)
+	{
+		*outExpressionSupportingDataPtr = (ExpressionSupportingData*)DB_FindStreamData(*varExpressionSupportingDataPtr);
+		assert(*outExpressionSupportingDataPtr != (ExpressionSupportingData*)0xFFFFFFFF);
+		if (!*outExpressionSupportingDataPtr)
+		{
+			*outExpressionSupportingDataPtr = AllocSave_ExpressionSupportingData();
+			varExpressionSupportingData = *varExpressionSupportingDataPtr;
+			streamExpressionSupportingData = *outExpressionSupportingDataPtr;
+			auto v1 = sub_44AF80((void**)streamExpressionSupportingDataPtr, (void**)outExpressionSupportingDataPtr);
+			DB_FindStreamDataOrInsert((void*)*varExpressionSupportingDataPtr, v1);
+			Save_ExpressionSupportingData(true);
+		}
+	}
+}
+
+void Save_ExpressionSupportingDataPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varExpressionSupportingDataPtr, sizeof(ExpressionSupportingData*) * count, (void**)&outExpressionSupportingDataPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ExpressionSupportingDataPtr(false);
+		varExpressionSupportingDataPtr++;
+		outExpressionSupportingDataPtr++;
+		streamExpressionSupportingDataPtr++;
+	}
+}
+
+void Save_Font_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_Font_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFont_s, sizeof(Font_s) * count, (void**)&outFont_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_Font_s(false);
+		varFont_s++;
+		outFont_s++;
+		streamFont_s++;
+	}
+}
+
+void Save_Font_sAsset(Font_s** asset)
+{
+	// todo!
+}
+
+void Save_Font_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFont_sPtr, sizeof(Font_s*), (void**)&outFont_sPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varFont_sPtr)
+	{
+		*outFont_sPtr = (Font_s*)DB_FindStreamData(*varFont_sPtr);
+		assert(*outFont_sPtr != (Font_s*)0xFFFFFFFF);
+		if (!*outFont_sPtr)
+		{
+			*outFont_sPtr = AllocSave_Font_s();
+			varFont_s = *varFont_sPtr;
+			streamFont_s = *outFont_sPtr;
+			auto v1 = sub_44AF80((void**)streamFont_sPtr, (void**)outFont_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varFont_sPtr, v1);
+			Save_Font_s(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_Font_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFont_sPtr, sizeof(Font_s*) * count, (void**)&outFont_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_Font_sPtr(false);
+		varFont_sPtr++;
+		outFont_sPtr++;
+		streamFont_sPtr++;
+	}
+}
+
+void Save_FxEffectDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxEffectDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxEffectDef, sizeof(FxEffectDef) * count, (void**)&outFxEffectDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxEffectDef(false);
+		varFxEffectDef++;
+		outFxEffectDef++;
+		streamFxEffectDef++;
+	}
+}
+
+void Save_FxEffectDefAsset(FxEffectDef** asset)
+{
+	// todo!
+}
+
+void Save_FxEffectDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxEffectDefPtr, sizeof(FxEffectDef*), (void**)&outFxEffectDefPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varFxEffectDefPtr)
+	{
+		*outFxEffectDefPtr = (FxEffectDef*)DB_FindStreamData(*varFxEffectDefPtr);
+		assert(*outFxEffectDefPtr != (FxEffectDef*)0xFFFFFFFF);
+		if (!*outFxEffectDefPtr)
+		{
+			*outFxEffectDefPtr = AllocSave_FxEffectDef();
+			varFxEffectDef = *varFxEffectDefPtr;
+			streamFxEffectDef = *outFxEffectDefPtr;
+			auto v1 = sub_44AF80((void**)streamFxEffectDefPtr, (void**)outFxEffectDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxEffectDefPtr, v1);
+			Save_FxEffectDef(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_FxEffectDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxEffectDefPtr, sizeof(FxEffectDef*) * count, (void**)&outFxEffectDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxEffectDefPtr(false);
+		varFxEffectDefPtr++;
+		outFxEffectDefPtr++;
+		streamFxEffectDefPtr++;
+	}
+}
+
+void Save_FxEffectDefRef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxEffectDefRefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxEffectDefRef, sizeof(FxEffectDefRef) * count, (void**)&outFxEffectDefRef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxEffectDefRef(false);
+		varFxEffectDefRef++;
+		outFxEffectDefRef++;
+		streamFxEffectDefRef++;
+	}
+}
+
+void Save_FxEffectDefRefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxEffectDefRefPtr, sizeof(FxEffectDefRef*), (void**)&outFxEffectDefRefPtr);
+	if (*varFxEffectDefRefPtr)
+	{
+		*outFxEffectDefRefPtr = (FxEffectDefRef*)DB_FindStreamData(*varFxEffectDefRefPtr);
+		assert(*outFxEffectDefRefPtr != (FxEffectDefRef*)0xFFFFFFFF);
+		if (!*outFxEffectDefRefPtr)
+		{
+			*outFxEffectDefRefPtr = AllocSave_FxEffectDefRef();
+			varFxEffectDefRef = *varFxEffectDefRefPtr;
+			streamFxEffectDefRef = *outFxEffectDefRefPtr;
+			auto v1 = sub_44AF80((void**)streamFxEffectDefRefPtr, (void**)outFxEffectDefRefPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxEffectDefRefPtr, v1);
+			Save_FxEffectDefRef(true);
+		}
+	}
+}
+
+void Save_FxEffectDefRefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxEffectDefRefPtr, sizeof(FxEffectDefRef*) * count, (void**)&outFxEffectDefRefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxEffectDefRefPtr(false);
+		varFxEffectDefRefPtr++;
+		outFxEffectDefRefPtr++;
+		streamFxEffectDefRefPtr++;
+	}
+}
+
+void Save_FxElemAtlas(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxElemAtlasArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemAtlas, sizeof(FxElemAtlas) * count, (void**)&outFxElemAtlas);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemAtlas(false);
+		varFxElemAtlas++;
+		outFxElemAtlas++;
+		streamFxElemAtlas++;
+	}
+}
+
+void Save_FxElemAtlasPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxElemAtlasPtr, sizeof(FxElemAtlas*), (void**)&outFxElemAtlasPtr);
+	if (*varFxElemAtlasPtr)
+	{
+		*outFxElemAtlasPtr = (FxElemAtlas*)DB_FindStreamData(*varFxElemAtlasPtr);
+		assert(*outFxElemAtlasPtr != (FxElemAtlas*)0xFFFFFFFF);
+		if (!*outFxElemAtlasPtr)
+		{
+			*outFxElemAtlasPtr = AllocSave_FxElemAtlas();
+			varFxElemAtlas = *varFxElemAtlasPtr;
+			streamFxElemAtlas = *outFxElemAtlasPtr;
+			auto v1 = sub_44AF80((void**)streamFxElemAtlasPtr, (void**)outFxElemAtlasPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxElemAtlasPtr, v1);
+			Save_FxElemAtlas(true);
+		}
+	}
+}
+
+void Save_FxElemAtlasPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemAtlasPtr, sizeof(FxElemAtlas*) * count, (void**)&outFxElemAtlasPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemAtlasPtr(false);
+		varFxElemAtlasPtr++;
+		outFxElemAtlasPtr++;
+		streamFxElemAtlasPtr++;
+	}
+}
+
+void Save_FxElemDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxElemDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemDef, sizeof(FxElemDef) * count, (void**)&outFxElemDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemDef(false);
+		varFxElemDef++;
+		outFxElemDef++;
+		streamFxElemDef++;
+	}
+}
+
+void Save_FxElemDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxElemDefPtr, sizeof(FxElemDef*), (void**)&outFxElemDefPtr);
+	if (*varFxElemDefPtr)
+	{
+		*outFxElemDefPtr = (FxElemDef*)DB_FindStreamData(*varFxElemDefPtr);
+		assert(*outFxElemDefPtr != (FxElemDef*)0xFFFFFFFF);
+		if (!*outFxElemDefPtr)
+		{
+			*outFxElemDefPtr = AllocSave_FxElemDef();
+			varFxElemDef = *varFxElemDefPtr;
+			streamFxElemDef = *outFxElemDefPtr;
+			auto v1 = sub_44AF80((void**)streamFxElemDefPtr, (void**)outFxElemDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxElemDefPtr, v1);
+			Save_FxElemDef(true);
+		}
+	}
+}
+
+void Save_FxElemDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemDefPtr, sizeof(FxElemDef*) * count, (void**)&outFxElemDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemDefPtr(false);
+		varFxElemDefPtr++;
+		outFxElemDefPtr++;
+		streamFxElemDefPtr++;
+	}
+}
+
+void Save_FxElemDefVisuals(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxElemDefVisualsArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemDefVisuals, sizeof(FxElemDefVisuals) * count, (void**)&outFxElemDefVisuals);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemDefVisuals(false);
+		varFxElemDefVisuals++;
+		outFxElemDefVisuals++;
+		streamFxElemDefVisuals++;
+	}
+}
+
+void Save_FxElemDefVisualsPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxElemDefVisualsPtr, sizeof(FxElemDefVisuals*), (void**)&outFxElemDefVisualsPtr);
+	if (*varFxElemDefVisualsPtr)
+	{
+		*outFxElemDefVisualsPtr = (FxElemDefVisuals*)DB_FindStreamData(*varFxElemDefVisualsPtr);
+		assert(*outFxElemDefVisualsPtr != (FxElemDefVisuals*)0xFFFFFFFF);
+		if (!*outFxElemDefVisualsPtr)
+		{
+			*outFxElemDefVisualsPtr = AllocSave_FxElemDefVisuals();
+			varFxElemDefVisuals = *varFxElemDefVisualsPtr;
+			streamFxElemDefVisuals = *outFxElemDefVisualsPtr;
+			auto v1 = sub_44AF80((void**)streamFxElemDefVisualsPtr, (void**)outFxElemDefVisualsPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxElemDefVisualsPtr, v1);
+			Save_FxElemDefVisuals(true);
+		}
+	}
+}
+
+void Save_FxElemDefVisualsPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemDefVisualsPtr, sizeof(FxElemDefVisuals*) * count, (void**)&outFxElemDefVisualsPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemDefVisualsPtr(false);
+		varFxElemDefVisualsPtr++;
+		outFxElemDefVisualsPtr++;
+		streamFxElemDefVisualsPtr++;
+	}
+}
+
+void Save_FxElemExtendedDefPtr(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxElemExtendedDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemExtendedDefPtr, sizeof(FxElemExtendedDefPtr) * count, (void**)&outFxElemExtendedDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemExtendedDefPtr(false);
+		varFxElemExtendedDefPtr++;
+		outFxElemExtendedDefPtr++;
+		streamFxElemExtendedDefPtr++;
+	}
+}
+
+void Save_FxElemExtendedDefPtrPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxElemExtendedDefPtrPtr, sizeof(FxElemExtendedDefPtr*), (void**)&outFxElemExtendedDefPtrPtr);
+	if (*varFxElemExtendedDefPtrPtr)
+	{
+		*outFxElemExtendedDefPtrPtr = (FxElemExtendedDefPtr*)DB_FindStreamData(*varFxElemExtendedDefPtrPtr);
+		assert(*outFxElemExtendedDefPtrPtr != (FxElemExtendedDefPtr*)0xFFFFFFFF);
+		if (!*outFxElemExtendedDefPtrPtr)
+		{
+			*outFxElemExtendedDefPtrPtr = AllocSave_FxElemExtendedDefPtr();
+			varFxElemExtendedDefPtr = *varFxElemExtendedDefPtrPtr;
+			streamFxElemExtendedDefPtr = *outFxElemExtendedDefPtrPtr;
+			auto v1 = sub_44AF80((void**)streamFxElemExtendedDefPtrPtr, (void**)outFxElemExtendedDefPtrPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxElemExtendedDefPtrPtr, v1);
+			Save_FxElemExtendedDefPtr(true);
+		}
+	}
+}
+
+void Save_FxElemExtendedDefPtrPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemExtendedDefPtrPtr, sizeof(FxElemExtendedDefPtr*) * count, (void**)&outFxElemExtendedDefPtrPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemExtendedDefPtrPtr(false);
+		varFxElemExtendedDefPtrPtr++;
+		outFxElemExtendedDefPtrPtr++;
+		streamFxElemExtendedDefPtrPtr++;
+	}
+}
+
+void Save_FxElemMarkVisuals(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxElemMarkVisualsArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemMarkVisuals, sizeof(FxElemMarkVisuals) * count, (void**)&outFxElemMarkVisuals);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemMarkVisuals(false);
+		varFxElemMarkVisuals++;
+		outFxElemMarkVisuals++;
+		streamFxElemMarkVisuals++;
+	}
+}
+
+void Save_FxElemMarkVisualsPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxElemMarkVisualsPtr, sizeof(FxElemMarkVisuals*), (void**)&outFxElemMarkVisualsPtr);
+	if (*varFxElemMarkVisualsPtr)
+	{
+		*outFxElemMarkVisualsPtr = (FxElemMarkVisuals*)DB_FindStreamData(*varFxElemMarkVisualsPtr);
+		assert(*outFxElemMarkVisualsPtr != (FxElemMarkVisuals*)0xFFFFFFFF);
+		if (!*outFxElemMarkVisualsPtr)
+		{
+			*outFxElemMarkVisualsPtr = AllocSave_FxElemMarkVisuals();
+			varFxElemMarkVisuals = *varFxElemMarkVisualsPtr;
+			streamFxElemMarkVisuals = *outFxElemMarkVisualsPtr;
+			auto v1 = sub_44AF80((void**)streamFxElemMarkVisualsPtr, (void**)outFxElemMarkVisualsPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxElemMarkVisualsPtr, v1);
+			Save_FxElemMarkVisuals(true);
+		}
+	}
+}
+
+void Save_FxElemMarkVisualsPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemMarkVisualsPtr, sizeof(FxElemMarkVisuals*) * count, (void**)&outFxElemMarkVisualsPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemMarkVisualsPtr(false);
+		varFxElemMarkVisualsPtr++;
+		outFxElemMarkVisualsPtr++;
+		streamFxElemMarkVisualsPtr++;
+	}
+}
+
+void Save_FxElemVec3Range(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxElemVec3RangeArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemVec3Range, sizeof(FxElemVec3Range) * count, (void**)&outFxElemVec3Range);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemVec3Range(false);
+		varFxElemVec3Range++;
+		outFxElemVec3Range++;
+		streamFxElemVec3Range++;
+	}
+}
+
+void Save_FxElemVec3RangePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxElemVec3RangePtr, sizeof(FxElemVec3Range*), (void**)&outFxElemVec3RangePtr);
+	if (*varFxElemVec3RangePtr)
+	{
+		*outFxElemVec3RangePtr = (FxElemVec3Range*)DB_FindStreamData(*varFxElemVec3RangePtr);
+		assert(*outFxElemVec3RangePtr != (FxElemVec3Range*)0xFFFFFFFF);
+		if (!*outFxElemVec3RangePtr)
+		{
+			*outFxElemVec3RangePtr = AllocSave_FxElemVec3Range();
+			varFxElemVec3Range = *varFxElemVec3RangePtr;
+			streamFxElemVec3Range = *outFxElemVec3RangePtr;
+			auto v1 = sub_44AF80((void**)streamFxElemVec3RangePtr, (void**)outFxElemVec3RangePtr);
+			DB_FindStreamDataOrInsert((void*)*varFxElemVec3RangePtr, v1);
+			Save_FxElemVec3Range(true);
+		}
+	}
+}
+
+void Save_FxElemVec3RangePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemVec3RangePtr, sizeof(FxElemVec3Range*) * count, (void**)&outFxElemVec3RangePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemVec3RangePtr(false);
+		varFxElemVec3RangePtr++;
+		outFxElemVec3RangePtr++;
+		streamFxElemVec3RangePtr++;
+	}
+}
+
+void Save_FxElemVelStateInFrame(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxElemVelStateInFrameArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemVelStateInFrame, sizeof(FxElemVelStateInFrame) * count, (void**)&outFxElemVelStateInFrame);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemVelStateInFrame(false);
+		varFxElemVelStateInFrame++;
+		outFxElemVelStateInFrame++;
+		streamFxElemVelStateInFrame++;
+	}
+}
+
+void Save_FxElemVelStateInFramePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxElemVelStateInFramePtr, sizeof(FxElemVelStateInFrame*), (void**)&outFxElemVelStateInFramePtr);
+	if (*varFxElemVelStateInFramePtr)
+	{
+		*outFxElemVelStateInFramePtr = (FxElemVelStateInFrame*)DB_FindStreamData(*varFxElemVelStateInFramePtr);
+		assert(*outFxElemVelStateInFramePtr != (FxElemVelStateInFrame*)0xFFFFFFFF);
+		if (!*outFxElemVelStateInFramePtr)
+		{
+			*outFxElemVelStateInFramePtr = AllocSave_FxElemVelStateInFrame();
+			varFxElemVelStateInFrame = *varFxElemVelStateInFramePtr;
+			streamFxElemVelStateInFrame = *outFxElemVelStateInFramePtr;
+			auto v1 = sub_44AF80((void**)streamFxElemVelStateInFramePtr, (void**)outFxElemVelStateInFramePtr);
+			DB_FindStreamDataOrInsert((void*)*varFxElemVelStateInFramePtr, v1);
+			Save_FxElemVelStateInFrame(true);
+		}
+	}
+}
+
+void Save_FxElemVelStateInFramePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemVelStateInFramePtr, sizeof(FxElemVelStateInFrame*) * count, (void**)&outFxElemVelStateInFramePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemVelStateInFramePtr(false);
+		varFxElemVelStateInFramePtr++;
+		outFxElemVelStateInFramePtr++;
+		streamFxElemVelStateInFramePtr++;
+	}
+}
+
+void Save_FxElemVelStateSample(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxElemVelStateSampleArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemVelStateSample, sizeof(FxElemVelStateSample) * count, (void**)&outFxElemVelStateSample);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemVelStateSample(false);
+		varFxElemVelStateSample++;
+		outFxElemVelStateSample++;
+		streamFxElemVelStateSample++;
+	}
+}
+
+void Save_FxElemVelStateSamplePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxElemVelStateSamplePtr, sizeof(FxElemVelStateSample*), (void**)&outFxElemVelStateSamplePtr);
+	if (*varFxElemVelStateSamplePtr)
+	{
+		*outFxElemVelStateSamplePtr = (FxElemVelStateSample*)DB_FindStreamData(*varFxElemVelStateSamplePtr);
+		assert(*outFxElemVelStateSamplePtr != (FxElemVelStateSample*)0xFFFFFFFF);
+		if (!*outFxElemVelStateSamplePtr)
+		{
+			*outFxElemVelStateSamplePtr = AllocSave_FxElemVelStateSample();
+			varFxElemVelStateSample = *varFxElemVelStateSamplePtr;
+			streamFxElemVelStateSample = *outFxElemVelStateSamplePtr;
+			auto v1 = sub_44AF80((void**)streamFxElemVelStateSamplePtr, (void**)outFxElemVelStateSamplePtr);
+			DB_FindStreamDataOrInsert((void*)*varFxElemVelStateSamplePtr, v1);
+			Save_FxElemVelStateSample(true);
+		}
+	}
+}
+
+void Save_FxElemVelStateSamplePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemVelStateSamplePtr, sizeof(FxElemVelStateSample*) * count, (void**)&outFxElemVelStateSamplePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemVelStateSamplePtr(false);
+		varFxElemVelStateSamplePtr++;
+		outFxElemVelStateSamplePtr++;
+		streamFxElemVelStateSamplePtr++;
+	}
+}
+
+void Save_FxElemVisStateSample(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxElemVisStateSampleArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemVisStateSample, sizeof(FxElemVisStateSample) * count, (void**)&outFxElemVisStateSample);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemVisStateSample(false);
+		varFxElemVisStateSample++;
+		outFxElemVisStateSample++;
+		streamFxElemVisStateSample++;
+	}
+}
+
+void Save_FxElemVisStateSamplePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxElemVisStateSamplePtr, sizeof(FxElemVisStateSample*), (void**)&outFxElemVisStateSamplePtr);
+	if (*varFxElemVisStateSamplePtr)
+	{
+		*outFxElemVisStateSamplePtr = (FxElemVisStateSample*)DB_FindStreamData(*varFxElemVisStateSamplePtr);
+		assert(*outFxElemVisStateSamplePtr != (FxElemVisStateSample*)0xFFFFFFFF);
+		if (!*outFxElemVisStateSamplePtr)
+		{
+			*outFxElemVisStateSamplePtr = AllocSave_FxElemVisStateSample();
+			varFxElemVisStateSample = *varFxElemVisStateSamplePtr;
+			streamFxElemVisStateSample = *outFxElemVisStateSamplePtr;
+			auto v1 = sub_44AF80((void**)streamFxElemVisStateSamplePtr, (void**)outFxElemVisStateSamplePtr);
+			DB_FindStreamDataOrInsert((void*)*varFxElemVisStateSamplePtr, v1);
+			Save_FxElemVisStateSample(true);
+		}
+	}
+}
+
+void Save_FxElemVisStateSamplePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemVisStateSamplePtr, sizeof(FxElemVisStateSample*) * count, (void**)&outFxElemVisStateSamplePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemVisStateSamplePtr(false);
+		varFxElemVisStateSamplePtr++;
+		outFxElemVisStateSamplePtr++;
+		streamFxElemVisStateSamplePtr++;
+	}
+}
+
+void Save_FxElemVisualState(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxElemVisualStateArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemVisualState, sizeof(FxElemVisualState) * count, (void**)&outFxElemVisualState);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemVisualState(false);
+		varFxElemVisualState++;
+		outFxElemVisualState++;
+		streamFxElemVisualState++;
+	}
+}
+
+void Save_FxElemVisualStatePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxElemVisualStatePtr, sizeof(FxElemVisualState*), (void**)&outFxElemVisualStatePtr);
+	if (*varFxElemVisualStatePtr)
+	{
+		*outFxElemVisualStatePtr = (FxElemVisualState*)DB_FindStreamData(*varFxElemVisualStatePtr);
+		assert(*outFxElemVisualStatePtr != (FxElemVisualState*)0xFFFFFFFF);
+		if (!*outFxElemVisualStatePtr)
+		{
+			*outFxElemVisualStatePtr = AllocSave_FxElemVisualState();
+			varFxElemVisualState = *varFxElemVisualStatePtr;
+			streamFxElemVisualState = *outFxElemVisualStatePtr;
+			auto v1 = sub_44AF80((void**)streamFxElemVisualStatePtr, (void**)outFxElemVisualStatePtr);
+			DB_FindStreamDataOrInsert((void*)*varFxElemVisualStatePtr, v1);
+			Save_FxElemVisualState(true);
+		}
+	}
+}
+
+void Save_FxElemVisualStatePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemVisualStatePtr, sizeof(FxElemVisualState*) * count, (void**)&outFxElemVisualStatePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemVisualStatePtr(false);
+		varFxElemVisualStatePtr++;
+		outFxElemVisualStatePtr++;
+		streamFxElemVisualStatePtr++;
+	}
+}
+
+void Save_FxElemVisuals(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxElemVisualsArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemVisuals, sizeof(FxElemVisuals) * count, (void**)&outFxElemVisuals);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemVisuals(false);
+		varFxElemVisuals++;
+		outFxElemVisuals++;
+		streamFxElemVisuals++;
+	}
+}
+
+void Save_FxElemVisualsPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxElemVisualsPtr, sizeof(FxElemVisuals*), (void**)&outFxElemVisualsPtr);
+	if (*varFxElemVisualsPtr)
+	{
+		*outFxElemVisualsPtr = (FxElemVisuals*)DB_FindStreamData(*varFxElemVisualsPtr);
+		assert(*outFxElemVisualsPtr != (FxElemVisuals*)0xFFFFFFFF);
+		if (!*outFxElemVisualsPtr)
+		{
+			*outFxElemVisualsPtr = AllocSave_FxElemVisuals();
+			varFxElemVisuals = *varFxElemVisualsPtr;
+			streamFxElemVisuals = *outFxElemVisualsPtr;
+			auto v1 = sub_44AF80((void**)streamFxElemVisualsPtr, (void**)outFxElemVisualsPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxElemVisualsPtr, v1);
+			Save_FxElemVisuals(true);
+		}
+	}
+}
+
+void Save_FxElemVisualsPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxElemVisualsPtr, sizeof(FxElemVisuals*) * count, (void**)&outFxElemVisualsPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxElemVisualsPtr(false);
+		varFxElemVisualsPtr++;
+		outFxElemVisualsPtr++;
+		streamFxElemVisualsPtr++;
+	}
+}
+
+void Save_FxFloatRange(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxFloatRangeArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxFloatRange, sizeof(FxFloatRange) * count, (void**)&outFxFloatRange);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxFloatRange(false);
+		varFxFloatRange++;
+		outFxFloatRange++;
+		streamFxFloatRange++;
+	}
+}
+
+void Save_FxFloatRangePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxFloatRangePtr, sizeof(FxFloatRange*), (void**)&outFxFloatRangePtr);
+	if (*varFxFloatRangePtr)
+	{
+		*outFxFloatRangePtr = (FxFloatRange*)DB_FindStreamData(*varFxFloatRangePtr);
+		assert(*outFxFloatRangePtr != (FxFloatRange*)0xFFFFFFFF);
+		if (!*outFxFloatRangePtr)
+		{
+			*outFxFloatRangePtr = AllocSave_FxFloatRange();
+			varFxFloatRange = *varFxFloatRangePtr;
+			streamFxFloatRange = *outFxFloatRangePtr;
+			auto v1 = sub_44AF80((void**)streamFxFloatRangePtr, (void**)outFxFloatRangePtr);
+			DB_FindStreamDataOrInsert((void*)*varFxFloatRangePtr, v1);
+			Save_FxFloatRange(true);
+		}
+	}
+}
+
+void Save_FxFloatRangePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxFloatRangePtr, sizeof(FxFloatRange*) * count, (void**)&outFxFloatRangePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxFloatRangePtr(false);
+		varFxFloatRangePtr++;
+		outFxFloatRangePtr++;
+		streamFxFloatRangePtr++;
+	}
+}
+
+void Save_FxGlassCrackHeader(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxGlassCrackHeaderArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassCrackHeader, sizeof(FxGlassCrackHeader) * count, (void**)&outFxGlassCrackHeader);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassCrackHeader(false);
+		varFxGlassCrackHeader++;
+		outFxGlassCrackHeader++;
+		streamFxGlassCrackHeader++;
+	}
+}
+
+void Save_FxGlassCrackHeaderPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxGlassCrackHeaderPtr, sizeof(FxGlassCrackHeader*), (void**)&outFxGlassCrackHeaderPtr);
+	if (*varFxGlassCrackHeaderPtr)
+	{
+		*outFxGlassCrackHeaderPtr = (FxGlassCrackHeader*)DB_FindStreamData(*varFxGlassCrackHeaderPtr);
+		assert(*outFxGlassCrackHeaderPtr != (FxGlassCrackHeader*)0xFFFFFFFF);
+		if (!*outFxGlassCrackHeaderPtr)
+		{
+			*outFxGlassCrackHeaderPtr = AllocSave_FxGlassCrackHeader();
+			varFxGlassCrackHeader = *varFxGlassCrackHeaderPtr;
+			streamFxGlassCrackHeader = *outFxGlassCrackHeaderPtr;
+			auto v1 = sub_44AF80((void**)streamFxGlassCrackHeaderPtr, (void**)outFxGlassCrackHeaderPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxGlassCrackHeaderPtr, v1);
+			Save_FxGlassCrackHeader(true);
+		}
+	}
+}
+
+void Save_FxGlassCrackHeaderPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassCrackHeaderPtr, sizeof(FxGlassCrackHeader*) * count, (void**)&outFxGlassCrackHeaderPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassCrackHeaderPtr(false);
+		varFxGlassCrackHeaderPtr++;
+		outFxGlassCrackHeaderPtr++;
+		streamFxGlassCrackHeaderPtr++;
+	}
+}
+
+void Save_FxGlassDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxGlassDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassDef, sizeof(FxGlassDef) * count, (void**)&outFxGlassDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassDef(false);
+		varFxGlassDef++;
+		outFxGlassDef++;
+		streamFxGlassDef++;
+	}
+}
+
+void Save_FxGlassDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxGlassDefPtr, sizeof(FxGlassDef*), (void**)&outFxGlassDefPtr);
+	if (*varFxGlassDefPtr)
+	{
+		*outFxGlassDefPtr = (FxGlassDef*)DB_FindStreamData(*varFxGlassDefPtr);
+		assert(*outFxGlassDefPtr != (FxGlassDef*)0xFFFFFFFF);
+		if (!*outFxGlassDefPtr)
+		{
+			*outFxGlassDefPtr = AllocSave_FxGlassDef();
+			varFxGlassDef = *varFxGlassDefPtr;
+			streamFxGlassDef = *outFxGlassDefPtr;
+			auto v1 = sub_44AF80((void**)streamFxGlassDefPtr, (void**)outFxGlassDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxGlassDefPtr, v1);
+			Save_FxGlassDef(true);
+		}
+	}
+}
+
+void Save_FxGlassDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassDefPtr, sizeof(FxGlassDef*) * count, (void**)&outFxGlassDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassDefPtr(false);
+		varFxGlassDefPtr++;
+		outFxGlassDefPtr++;
+		streamFxGlassDefPtr++;
+	}
+}
+
+void Save_FxGlassGeometryData(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxGlassGeometryDataArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassGeometryData, sizeof(FxGlassGeometryData) * count, (void**)&outFxGlassGeometryData);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassGeometryData(false);
+		varFxGlassGeometryData++;
+		outFxGlassGeometryData++;
+		streamFxGlassGeometryData++;
+	}
+}
+
+void Save_FxGlassGeometryDataPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxGlassGeometryDataPtr, sizeof(FxGlassGeometryData*), (void**)&outFxGlassGeometryDataPtr);
+	if (*varFxGlassGeometryDataPtr)
+	{
+		*outFxGlassGeometryDataPtr = (FxGlassGeometryData*)DB_FindStreamData(*varFxGlassGeometryDataPtr);
+		assert(*outFxGlassGeometryDataPtr != (FxGlassGeometryData*)0xFFFFFFFF);
+		if (!*outFxGlassGeometryDataPtr)
+		{
+			*outFxGlassGeometryDataPtr = AllocSave_FxGlassGeometryData();
+			varFxGlassGeometryData = *varFxGlassGeometryDataPtr;
+			streamFxGlassGeometryData = *outFxGlassGeometryDataPtr;
+			auto v1 = sub_44AF80((void**)streamFxGlassGeometryDataPtr, (void**)outFxGlassGeometryDataPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxGlassGeometryDataPtr, v1);
+			Save_FxGlassGeometryData(true);
+		}
+	}
+}
+
+void Save_FxGlassGeometryDataPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassGeometryDataPtr, sizeof(FxGlassGeometryData*) * count, (void**)&outFxGlassGeometryDataPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassGeometryDataPtr(false);
+		varFxGlassGeometryDataPtr++;
+		outFxGlassGeometryDataPtr++;
+		streamFxGlassGeometryDataPtr++;
+	}
+}
+
+void Save_FxGlassHoleHeader(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxGlassHoleHeaderArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassHoleHeader, sizeof(FxGlassHoleHeader) * count, (void**)&outFxGlassHoleHeader);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassHoleHeader(false);
+		varFxGlassHoleHeader++;
+		outFxGlassHoleHeader++;
+		streamFxGlassHoleHeader++;
+	}
+}
+
+void Save_FxGlassHoleHeaderPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxGlassHoleHeaderPtr, sizeof(FxGlassHoleHeader*), (void**)&outFxGlassHoleHeaderPtr);
+	if (*varFxGlassHoleHeaderPtr)
+	{
+		*outFxGlassHoleHeaderPtr = (FxGlassHoleHeader*)DB_FindStreamData(*varFxGlassHoleHeaderPtr);
+		assert(*outFxGlassHoleHeaderPtr != (FxGlassHoleHeader*)0xFFFFFFFF);
+		if (!*outFxGlassHoleHeaderPtr)
+		{
+			*outFxGlassHoleHeaderPtr = AllocSave_FxGlassHoleHeader();
+			varFxGlassHoleHeader = *varFxGlassHoleHeaderPtr;
+			streamFxGlassHoleHeader = *outFxGlassHoleHeaderPtr;
+			auto v1 = sub_44AF80((void**)streamFxGlassHoleHeaderPtr, (void**)outFxGlassHoleHeaderPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxGlassHoleHeaderPtr, v1);
+			Save_FxGlassHoleHeader(true);
+		}
+	}
+}
+
+void Save_FxGlassHoleHeaderPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassHoleHeaderPtr, sizeof(FxGlassHoleHeader*) * count, (void**)&outFxGlassHoleHeaderPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassHoleHeaderPtr(false);
+		varFxGlassHoleHeaderPtr++;
+		outFxGlassHoleHeaderPtr++;
+		streamFxGlassHoleHeaderPtr++;
+	}
+}
+
+void Save_FxGlassInitPieceState(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxGlassInitPieceStateArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassInitPieceState, sizeof(FxGlassInitPieceState) * count, (void**)&outFxGlassInitPieceState);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassInitPieceState(false);
+		varFxGlassInitPieceState++;
+		outFxGlassInitPieceState++;
+		streamFxGlassInitPieceState++;
+	}
+}
+
+void Save_FxGlassInitPieceStatePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxGlassInitPieceStatePtr, sizeof(FxGlassInitPieceState*), (void**)&outFxGlassInitPieceStatePtr);
+	if (*varFxGlassInitPieceStatePtr)
+	{
+		*outFxGlassInitPieceStatePtr = (FxGlassInitPieceState*)DB_FindStreamData(*varFxGlassInitPieceStatePtr);
+		assert(*outFxGlassInitPieceStatePtr != (FxGlassInitPieceState*)0xFFFFFFFF);
+		if (!*outFxGlassInitPieceStatePtr)
+		{
+			*outFxGlassInitPieceStatePtr = AllocSave_FxGlassInitPieceState();
+			varFxGlassInitPieceState = *varFxGlassInitPieceStatePtr;
+			streamFxGlassInitPieceState = *outFxGlassInitPieceStatePtr;
+			auto v1 = sub_44AF80((void**)streamFxGlassInitPieceStatePtr, (void**)outFxGlassInitPieceStatePtr);
+			DB_FindStreamDataOrInsert((void*)*varFxGlassInitPieceStatePtr, v1);
+			Save_FxGlassInitPieceState(true);
+		}
+	}
+}
+
+void Save_FxGlassInitPieceStatePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassInitPieceStatePtr, sizeof(FxGlassInitPieceState*) * count, (void**)&outFxGlassInitPieceStatePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassInitPieceStatePtr(false);
+		varFxGlassInitPieceStatePtr++;
+		outFxGlassInitPieceStatePtr++;
+		streamFxGlassInitPieceStatePtr++;
+	}
+}
+
+void Save_FxGlassPieceDynamics(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxGlassPieceDynamicsArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassPieceDynamics, sizeof(FxGlassPieceDynamics) * count, (void**)&outFxGlassPieceDynamics);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassPieceDynamics(false);
+		varFxGlassPieceDynamics++;
+		outFxGlassPieceDynamics++;
+		streamFxGlassPieceDynamics++;
+	}
+}
+
+void Save_FxGlassPieceDynamicsPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxGlassPieceDynamicsPtr, sizeof(FxGlassPieceDynamics*), (void**)&outFxGlassPieceDynamicsPtr);
+	if (*varFxGlassPieceDynamicsPtr)
+	{
+		*outFxGlassPieceDynamicsPtr = (FxGlassPieceDynamics*)DB_FindStreamData(*varFxGlassPieceDynamicsPtr);
+		assert(*outFxGlassPieceDynamicsPtr != (FxGlassPieceDynamics*)0xFFFFFFFF);
+		if (!*outFxGlassPieceDynamicsPtr)
+		{
+			*outFxGlassPieceDynamicsPtr = AllocSave_FxGlassPieceDynamics();
+			varFxGlassPieceDynamics = *varFxGlassPieceDynamicsPtr;
+			streamFxGlassPieceDynamics = *outFxGlassPieceDynamicsPtr;
+			auto v1 = sub_44AF80((void**)streamFxGlassPieceDynamicsPtr, (void**)outFxGlassPieceDynamicsPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxGlassPieceDynamicsPtr, v1);
+			Save_FxGlassPieceDynamics(true);
+		}
+	}
+}
+
+void Save_FxGlassPieceDynamicsPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassPieceDynamicsPtr, sizeof(FxGlassPieceDynamics*) * count, (void**)&outFxGlassPieceDynamicsPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassPieceDynamicsPtr(false);
+		varFxGlassPieceDynamicsPtr++;
+		outFxGlassPieceDynamicsPtr++;
+		streamFxGlassPieceDynamicsPtr++;
+	}
+}
+
+void Save_FxGlassPiecePlace(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxGlassPiecePlaceArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassPiecePlace, sizeof(FxGlassPiecePlace) * count, (void**)&outFxGlassPiecePlace);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassPiecePlace(false);
+		varFxGlassPiecePlace++;
+		outFxGlassPiecePlace++;
+		streamFxGlassPiecePlace++;
+	}
+}
+
+void Save_FxGlassPiecePlacePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxGlassPiecePlacePtr, sizeof(FxGlassPiecePlace*), (void**)&outFxGlassPiecePlacePtr);
+	if (*varFxGlassPiecePlacePtr)
+	{
+		*outFxGlassPiecePlacePtr = (FxGlassPiecePlace*)DB_FindStreamData(*varFxGlassPiecePlacePtr);
+		assert(*outFxGlassPiecePlacePtr != (FxGlassPiecePlace*)0xFFFFFFFF);
+		if (!*outFxGlassPiecePlacePtr)
+		{
+			*outFxGlassPiecePlacePtr = AllocSave_FxGlassPiecePlace();
+			varFxGlassPiecePlace = *varFxGlassPiecePlacePtr;
+			streamFxGlassPiecePlace = *outFxGlassPiecePlacePtr;
+			auto v1 = sub_44AF80((void**)streamFxGlassPiecePlacePtr, (void**)outFxGlassPiecePlacePtr);
+			DB_FindStreamDataOrInsert((void*)*varFxGlassPiecePlacePtr, v1);
+			Save_FxGlassPiecePlace(true);
+		}
+	}
+}
+
+void Save_FxGlassPiecePlacePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassPiecePlacePtr, sizeof(FxGlassPiecePlace*) * count, (void**)&outFxGlassPiecePlacePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassPiecePlacePtr(false);
+		varFxGlassPiecePlacePtr++;
+		outFxGlassPiecePlacePtr++;
+		streamFxGlassPiecePlacePtr++;
+	}
+}
+
+void Save_FxGlassPieceState(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxGlassPieceStateArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassPieceState, sizeof(FxGlassPieceState) * count, (void**)&outFxGlassPieceState);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassPieceState(false);
+		varFxGlassPieceState++;
+		outFxGlassPieceState++;
+		streamFxGlassPieceState++;
+	}
+}
+
+void Save_FxGlassPieceStatePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxGlassPieceStatePtr, sizeof(FxGlassPieceState*), (void**)&outFxGlassPieceStatePtr);
+	if (*varFxGlassPieceStatePtr)
+	{
+		*outFxGlassPieceStatePtr = (FxGlassPieceState*)DB_FindStreamData(*varFxGlassPieceStatePtr);
+		assert(*outFxGlassPieceStatePtr != (FxGlassPieceState*)0xFFFFFFFF);
+		if (!*outFxGlassPieceStatePtr)
+		{
+			*outFxGlassPieceStatePtr = AllocSave_FxGlassPieceState();
+			varFxGlassPieceState = *varFxGlassPieceStatePtr;
+			streamFxGlassPieceState = *outFxGlassPieceStatePtr;
+			auto v1 = sub_44AF80((void**)streamFxGlassPieceStatePtr, (void**)outFxGlassPieceStatePtr);
+			DB_FindStreamDataOrInsert((void*)*varFxGlassPieceStatePtr, v1);
+			Save_FxGlassPieceState(true);
+		}
+	}
+}
+
+void Save_FxGlassPieceStatePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassPieceStatePtr, sizeof(FxGlassPieceState*) * count, (void**)&outFxGlassPieceStatePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassPieceStatePtr(false);
+		varFxGlassPieceStatePtr++;
+		outFxGlassPieceStatePtr++;
+		streamFxGlassPieceStatePtr++;
+	}
+}
+
+void Save_FxGlassSystem(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxGlassSystemArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassSystem, sizeof(FxGlassSystem) * count, (void**)&outFxGlassSystem);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassSystem(false);
+		varFxGlassSystem++;
+		outFxGlassSystem++;
+		streamFxGlassSystem++;
+	}
+}
+
+void Save_FxGlassSystemPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxGlassSystemPtr, sizeof(FxGlassSystem*), (void**)&outFxGlassSystemPtr);
+	if (*varFxGlassSystemPtr)
+	{
+		*outFxGlassSystemPtr = (FxGlassSystem*)DB_FindStreamData(*varFxGlassSystemPtr);
+		assert(*outFxGlassSystemPtr != (FxGlassSystem*)0xFFFFFFFF);
+		if (!*outFxGlassSystemPtr)
+		{
+			*outFxGlassSystemPtr = AllocSave_FxGlassSystem();
+			varFxGlassSystem = *varFxGlassSystemPtr;
+			streamFxGlassSystem = *outFxGlassSystemPtr;
+			auto v1 = sub_44AF80((void**)streamFxGlassSystemPtr, (void**)outFxGlassSystemPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxGlassSystemPtr, v1);
+			Save_FxGlassSystem(true);
+		}
+	}
+}
+
+void Save_FxGlassSystemPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassSystemPtr, sizeof(FxGlassSystem*) * count, (void**)&outFxGlassSystemPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassSystemPtr(false);
+		varFxGlassSystemPtr++;
+		outFxGlassSystemPtr++;
+		streamFxGlassSystemPtr++;
+	}
+}
+
+void Save_FxGlassVertex(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxGlassVertexArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassVertex, sizeof(FxGlassVertex) * count, (void**)&outFxGlassVertex);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassVertex(false);
+		varFxGlassVertex++;
+		outFxGlassVertex++;
+		streamFxGlassVertex++;
+	}
+}
+
+void Save_FxGlassVertexPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxGlassVertexPtr, sizeof(FxGlassVertex*), (void**)&outFxGlassVertexPtr);
+	if (*varFxGlassVertexPtr)
+	{
+		*outFxGlassVertexPtr = (FxGlassVertex*)DB_FindStreamData(*varFxGlassVertexPtr);
+		assert(*outFxGlassVertexPtr != (FxGlassVertex*)0xFFFFFFFF);
+		if (!*outFxGlassVertexPtr)
+		{
+			*outFxGlassVertexPtr = AllocSave_FxGlassVertex();
+			varFxGlassVertex = *varFxGlassVertexPtr;
+			streamFxGlassVertex = *outFxGlassVertexPtr;
+			auto v1 = sub_44AF80((void**)streamFxGlassVertexPtr, (void**)outFxGlassVertexPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxGlassVertexPtr, v1);
+			Save_FxGlassVertex(true);
+		}
+	}
+}
+
+void Save_FxGlassVertexPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxGlassVertexPtr, sizeof(FxGlassVertex*) * count, (void**)&outFxGlassVertexPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxGlassVertexPtr(false);
+		varFxGlassVertexPtr++;
+		outFxGlassVertexPtr++;
+		streamFxGlassVertexPtr++;
+	}
+}
+
+void Save_FxIntRange(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxIntRangeArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxIntRange, sizeof(FxIntRange) * count, (void**)&outFxIntRange);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxIntRange(false);
+		varFxIntRange++;
+		outFxIntRange++;
+		streamFxIntRange++;
+	}
+}
+
+void Save_FxIntRangePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxIntRangePtr, sizeof(FxIntRange*), (void**)&outFxIntRangePtr);
+	if (*varFxIntRangePtr)
+	{
+		*outFxIntRangePtr = (FxIntRange*)DB_FindStreamData(*varFxIntRangePtr);
+		assert(*outFxIntRangePtr != (FxIntRange*)0xFFFFFFFF);
+		if (!*outFxIntRangePtr)
+		{
+			*outFxIntRangePtr = AllocSave_FxIntRange();
+			varFxIntRange = *varFxIntRangePtr;
+			streamFxIntRange = *outFxIntRangePtr;
+			auto v1 = sub_44AF80((void**)streamFxIntRangePtr, (void**)outFxIntRangePtr);
+			DB_FindStreamDataOrInsert((void*)*varFxIntRangePtr, v1);
+			Save_FxIntRange(true);
+		}
+	}
+}
+
+void Save_FxIntRangePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxIntRangePtr, sizeof(FxIntRange*) * count, (void**)&outFxIntRangePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxIntRangePtr(false);
+		varFxIntRangePtr++;
+		outFxIntRangePtr++;
+		streamFxIntRangePtr++;
+	}
+}
+
+void Save_FxSparkFountainDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxSparkFountainDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxSparkFountainDef, sizeof(FxSparkFountainDef) * count, (void**)&outFxSparkFountainDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxSparkFountainDef(false);
+		varFxSparkFountainDef++;
+		outFxSparkFountainDef++;
+		streamFxSparkFountainDef++;
+	}
+}
+
+void Save_FxSparkFountainDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxSparkFountainDefPtr, sizeof(FxSparkFountainDef*), (void**)&outFxSparkFountainDefPtr);
+	if (*varFxSparkFountainDefPtr)
+	{
+		*outFxSparkFountainDefPtr = (FxSparkFountainDef*)DB_FindStreamData(*varFxSparkFountainDefPtr);
+		assert(*outFxSparkFountainDefPtr != (FxSparkFountainDef*)0xFFFFFFFF);
+		if (!*outFxSparkFountainDefPtr)
+		{
+			*outFxSparkFountainDefPtr = AllocSave_FxSparkFountainDef();
+			varFxSparkFountainDef = *varFxSparkFountainDefPtr;
+			streamFxSparkFountainDef = *outFxSparkFountainDefPtr;
+			auto v1 = sub_44AF80((void**)streamFxSparkFountainDefPtr, (void**)outFxSparkFountainDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxSparkFountainDefPtr, v1);
+			Save_FxSparkFountainDef(true);
+		}
+	}
+}
+
+void Save_FxSparkFountainDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxSparkFountainDefPtr, sizeof(FxSparkFountainDef*) * count, (void**)&outFxSparkFountainDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxSparkFountainDefPtr(false);
+		varFxSparkFountainDefPtr++;
+		outFxSparkFountainDefPtr++;
+		streamFxSparkFountainDefPtr++;
+	}
+}
+
+void Save_FxSpatialFrame(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxSpatialFrameArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxSpatialFrame, sizeof(FxSpatialFrame) * count, (void**)&outFxSpatialFrame);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxSpatialFrame(false);
+		varFxSpatialFrame++;
+		outFxSpatialFrame++;
+		streamFxSpatialFrame++;
+	}
+}
+
+void Save_FxSpatialFramePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxSpatialFramePtr, sizeof(FxSpatialFrame*), (void**)&outFxSpatialFramePtr);
+	if (*varFxSpatialFramePtr)
+	{
+		*outFxSpatialFramePtr = (FxSpatialFrame*)DB_FindStreamData(*varFxSpatialFramePtr);
+		assert(*outFxSpatialFramePtr != (FxSpatialFrame*)0xFFFFFFFF);
+		if (!*outFxSpatialFramePtr)
+		{
+			*outFxSpatialFramePtr = AllocSave_FxSpatialFrame();
+			varFxSpatialFrame = *varFxSpatialFramePtr;
+			streamFxSpatialFrame = *outFxSpatialFramePtr;
+			auto v1 = sub_44AF80((void**)streamFxSpatialFramePtr, (void**)outFxSpatialFramePtr);
+			DB_FindStreamDataOrInsert((void*)*varFxSpatialFramePtr, v1);
+			Save_FxSpatialFrame(true);
+		}
+	}
+}
+
+void Save_FxSpatialFramePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxSpatialFramePtr, sizeof(FxSpatialFrame*) * count, (void**)&outFxSpatialFramePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxSpatialFramePtr(false);
+		varFxSpatialFramePtr++;
+		outFxSpatialFramePtr++;
+		streamFxSpatialFramePtr++;
+	}
+}
+
+void Save_FxSpawnDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxSpawnDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxSpawnDef, sizeof(FxSpawnDef) * count, (void**)&outFxSpawnDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxSpawnDef(false);
+		varFxSpawnDef++;
+		outFxSpawnDef++;
+		streamFxSpawnDef++;
+	}
+}
+
+void Save_FxSpawnDefLooping(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxSpawnDefLoopingArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxSpawnDefLooping, sizeof(FxSpawnDefLooping) * count, (void**)&outFxSpawnDefLooping);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxSpawnDefLooping(false);
+		varFxSpawnDefLooping++;
+		outFxSpawnDefLooping++;
+		streamFxSpawnDefLooping++;
+	}
+}
+
+void Save_FxSpawnDefLoopingPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxSpawnDefLoopingPtr, sizeof(FxSpawnDefLooping*), (void**)&outFxSpawnDefLoopingPtr);
+	if (*varFxSpawnDefLoopingPtr)
+	{
+		*outFxSpawnDefLoopingPtr = (FxSpawnDefLooping*)DB_FindStreamData(*varFxSpawnDefLoopingPtr);
+		assert(*outFxSpawnDefLoopingPtr != (FxSpawnDefLooping*)0xFFFFFFFF);
+		if (!*outFxSpawnDefLoopingPtr)
+		{
+			*outFxSpawnDefLoopingPtr = AllocSave_FxSpawnDefLooping();
+			varFxSpawnDefLooping = *varFxSpawnDefLoopingPtr;
+			streamFxSpawnDefLooping = *outFxSpawnDefLoopingPtr;
+			auto v1 = sub_44AF80((void**)streamFxSpawnDefLoopingPtr, (void**)outFxSpawnDefLoopingPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxSpawnDefLoopingPtr, v1);
+			Save_FxSpawnDefLooping(true);
+		}
+	}
+}
+
+void Save_FxSpawnDefLoopingPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxSpawnDefLoopingPtr, sizeof(FxSpawnDefLooping*) * count, (void**)&outFxSpawnDefLoopingPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxSpawnDefLoopingPtr(false);
+		varFxSpawnDefLoopingPtr++;
+		outFxSpawnDefLoopingPtr++;
+		streamFxSpawnDefLoopingPtr++;
+	}
+}
+
+void Save_FxSpawnDefOneShot(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxSpawnDefOneShotArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxSpawnDefOneShot, sizeof(FxSpawnDefOneShot) * count, (void**)&outFxSpawnDefOneShot);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxSpawnDefOneShot(false);
+		varFxSpawnDefOneShot++;
+		outFxSpawnDefOneShot++;
+		streamFxSpawnDefOneShot++;
+	}
+}
+
+void Save_FxSpawnDefOneShotPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxSpawnDefOneShotPtr, sizeof(FxSpawnDefOneShot*), (void**)&outFxSpawnDefOneShotPtr);
+	if (*varFxSpawnDefOneShotPtr)
+	{
+		*outFxSpawnDefOneShotPtr = (FxSpawnDefOneShot*)DB_FindStreamData(*varFxSpawnDefOneShotPtr);
+		assert(*outFxSpawnDefOneShotPtr != (FxSpawnDefOneShot*)0xFFFFFFFF);
+		if (!*outFxSpawnDefOneShotPtr)
+		{
+			*outFxSpawnDefOneShotPtr = AllocSave_FxSpawnDefOneShot();
+			varFxSpawnDefOneShot = *varFxSpawnDefOneShotPtr;
+			streamFxSpawnDefOneShot = *outFxSpawnDefOneShotPtr;
+			auto v1 = sub_44AF80((void**)streamFxSpawnDefOneShotPtr, (void**)outFxSpawnDefOneShotPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxSpawnDefOneShotPtr, v1);
+			Save_FxSpawnDefOneShot(true);
+		}
+	}
+}
+
+void Save_FxSpawnDefOneShotPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxSpawnDefOneShotPtr, sizeof(FxSpawnDefOneShot*) * count, (void**)&outFxSpawnDefOneShotPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxSpawnDefOneShotPtr(false);
+		varFxSpawnDefOneShotPtr++;
+		outFxSpawnDefOneShotPtr++;
+		streamFxSpawnDefOneShotPtr++;
+	}
+}
+
+void Save_FxSpawnDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxSpawnDefPtr, sizeof(FxSpawnDef*), (void**)&outFxSpawnDefPtr);
+	if (*varFxSpawnDefPtr)
+	{
+		*outFxSpawnDefPtr = (FxSpawnDef*)DB_FindStreamData(*varFxSpawnDefPtr);
+		assert(*outFxSpawnDefPtr != (FxSpawnDef*)0xFFFFFFFF);
+		if (!*outFxSpawnDefPtr)
+		{
+			*outFxSpawnDefPtr = AllocSave_FxSpawnDef();
+			varFxSpawnDef = *varFxSpawnDefPtr;
+			streamFxSpawnDef = *outFxSpawnDefPtr;
+			auto v1 = sub_44AF80((void**)streamFxSpawnDefPtr, (void**)outFxSpawnDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxSpawnDefPtr, v1);
+			Save_FxSpawnDef(true);
+		}
+	}
+}
+
+void Save_FxSpawnDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxSpawnDefPtr, sizeof(FxSpawnDef*) * count, (void**)&outFxSpawnDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxSpawnDefPtr(false);
+		varFxSpawnDefPtr++;
+		outFxSpawnDefPtr++;
+		streamFxSpawnDefPtr++;
+	}
+}
+
+void Save_FxTrailDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxTrailDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxTrailDef, sizeof(FxTrailDef) * count, (void**)&outFxTrailDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxTrailDef(false);
+		varFxTrailDef++;
+		outFxTrailDef++;
+		streamFxTrailDef++;
+	}
+}
+
+void Save_FxTrailDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxTrailDefPtr, sizeof(FxTrailDef*), (void**)&outFxTrailDefPtr);
+	if (*varFxTrailDefPtr)
+	{
+		*outFxTrailDefPtr = (FxTrailDef*)DB_FindStreamData(*varFxTrailDefPtr);
+		assert(*outFxTrailDefPtr != (FxTrailDef*)0xFFFFFFFF);
+		if (!*outFxTrailDefPtr)
+		{
+			*outFxTrailDefPtr = AllocSave_FxTrailDef();
+			varFxTrailDef = *varFxTrailDefPtr;
+			streamFxTrailDef = *outFxTrailDefPtr;
+			auto v1 = sub_44AF80((void**)streamFxTrailDefPtr, (void**)outFxTrailDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxTrailDefPtr, v1);
+			Save_FxTrailDef(true);
+		}
+	}
+}
+
+void Save_FxTrailDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxTrailDefPtr, sizeof(FxTrailDef*) * count, (void**)&outFxTrailDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxTrailDefPtr(false);
+		varFxTrailDefPtr++;
+		outFxTrailDefPtr++;
+		streamFxTrailDefPtr++;
+	}
+}
+
+void Save_FxTrailVertex(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxTrailVertexArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxTrailVertex, sizeof(FxTrailVertex) * count, (void**)&outFxTrailVertex);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxTrailVertex(false);
+		varFxTrailVertex++;
+		outFxTrailVertex++;
+		streamFxTrailVertex++;
+	}
+}
+
+void Save_FxTrailVertexPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxTrailVertexPtr, sizeof(FxTrailVertex*), (void**)&outFxTrailVertexPtr);
+	if (*varFxTrailVertexPtr)
+	{
+		*outFxTrailVertexPtr = (FxTrailVertex*)DB_FindStreamData(*varFxTrailVertexPtr);
+		assert(*outFxTrailVertexPtr != (FxTrailVertex*)0xFFFFFFFF);
+		if (!*outFxTrailVertexPtr)
+		{
+			*outFxTrailVertexPtr = AllocSave_FxTrailVertex();
+			varFxTrailVertex = *varFxTrailVertexPtr;
+			streamFxTrailVertex = *outFxTrailVertexPtr;
+			auto v1 = sub_44AF80((void**)streamFxTrailVertexPtr, (void**)outFxTrailVertexPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxTrailVertexPtr, v1);
+			Save_FxTrailVertex(true);
+		}
+	}
+}
+
+void Save_FxTrailVertexPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxTrailVertexPtr, sizeof(FxTrailVertex*) * count, (void**)&outFxTrailVertexPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxTrailVertexPtr(false);
+		varFxTrailVertexPtr++;
+		outFxTrailVertexPtr++;
+		streamFxTrailVertexPtr++;
+	}
+}
+
+void Save_FxWorld(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_FxWorldArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxWorld, sizeof(FxWorld) * count, (void**)&outFxWorld);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxWorld(false);
+		varFxWorld++;
+		outFxWorld++;
+		streamFxWorld++;
+	}
+}
+
+void Save_FxWorldAsset(FxWorld** asset)
+{
+	// todo!
+}
+
+void Save_FxWorldPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varFxWorldPtr, sizeof(FxWorld*), (void**)&outFxWorldPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varFxWorldPtr)
+	{
+		*outFxWorldPtr = (FxWorld*)DB_FindStreamData(*varFxWorldPtr);
+		assert(*outFxWorldPtr != (FxWorld*)0xFFFFFFFF);
+		if (!*outFxWorldPtr)
+		{
+			*outFxWorldPtr = AllocSave_FxWorld();
+			varFxWorld = *varFxWorldPtr;
+			streamFxWorld = *outFxWorldPtr;
+			auto v1 = sub_44AF80((void**)streamFxWorldPtr, (void**)outFxWorldPtr);
+			DB_FindStreamDataOrInsert((void*)*varFxWorldPtr, v1);
+			Save_FxWorld(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_FxWorldPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varFxWorldPtr, sizeof(FxWorld*) * count, (void**)&outFxWorldPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_FxWorldPtr(false);
+		varFxWorldPtr++;
+		outFxWorldPtr++;
+		streamFxWorldPtr++;
+	}
+}
+
+void Save_G_GlassData(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_G_GlassDataArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varG_GlassData, sizeof(G_GlassData) * count, (void**)&outG_GlassData);
+	for (int i = 0; i < count; i++)
+	{
+		Save_G_GlassData(false);
+		varG_GlassData++;
+		outG_GlassData++;
+		streamG_GlassData++;
+	}
+}
+
+void Save_G_GlassDataPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varG_GlassDataPtr, sizeof(G_GlassData*), (void**)&outG_GlassDataPtr);
+	if (*varG_GlassDataPtr)
+	{
+		*outG_GlassDataPtr = (G_GlassData*)DB_FindStreamData(*varG_GlassDataPtr);
+		assert(*outG_GlassDataPtr != (G_GlassData*)0xFFFFFFFF);
+		if (!*outG_GlassDataPtr)
+		{
+			*outG_GlassDataPtr = AllocSave_G_GlassData();
+			varG_GlassData = *varG_GlassDataPtr;
+			streamG_GlassData = *outG_GlassDataPtr;
+			auto v1 = sub_44AF80((void**)streamG_GlassDataPtr, (void**)outG_GlassDataPtr);
+			DB_FindStreamDataOrInsert((void*)*varG_GlassDataPtr, v1);
+			Save_G_GlassData(true);
+		}
+	}
+}
+
+void Save_G_GlassDataPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varG_GlassDataPtr, sizeof(G_GlassData*) * count, (void**)&outG_GlassDataPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_G_GlassDataPtr(false);
+		varG_GlassDataPtr++;
+		outG_GlassDataPtr++;
+		streamG_GlassDataPtr++;
+	}
+}
+
+void Save_G_GlassName(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_G_GlassNameArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varG_GlassName, sizeof(G_GlassName) * count, (void**)&outG_GlassName);
+	for (int i = 0; i < count; i++)
+	{
+		Save_G_GlassName(false);
+		varG_GlassName++;
+		outG_GlassName++;
+		streamG_GlassName++;
+	}
+}
+
+void Save_G_GlassNamePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varG_GlassNamePtr, sizeof(G_GlassName*), (void**)&outG_GlassNamePtr);
+	if (*varG_GlassNamePtr)
+	{
+		*outG_GlassNamePtr = (G_GlassName*)DB_FindStreamData(*varG_GlassNamePtr);
+		assert(*outG_GlassNamePtr != (G_GlassName*)0xFFFFFFFF);
+		if (!*outG_GlassNamePtr)
+		{
+			*outG_GlassNamePtr = AllocSave_G_GlassName();
+			varG_GlassName = *varG_GlassNamePtr;
+			streamG_GlassName = *outG_GlassNamePtr;
+			auto v1 = sub_44AF80((void**)streamG_GlassNamePtr, (void**)outG_GlassNamePtr);
+			DB_FindStreamDataOrInsert((void*)*varG_GlassNamePtr, v1);
+			Save_G_GlassName(true);
+		}
+	}
+}
+
+void Save_G_GlassNamePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varG_GlassNamePtr, sizeof(G_GlassName*) * count, (void**)&outG_GlassNamePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_G_GlassNamePtr(false);
+		varG_GlassNamePtr++;
+		outG_GlassNamePtr++;
+		streamG_GlassNamePtr++;
+	}
+}
+
+void Save_G_GlassPiece(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_G_GlassPieceArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varG_GlassPiece, sizeof(G_GlassPiece) * count, (void**)&outG_GlassPiece);
+	for (int i = 0; i < count; i++)
+	{
+		Save_G_GlassPiece(false);
+		varG_GlassPiece++;
+		outG_GlassPiece++;
+		streamG_GlassPiece++;
+	}
+}
+
+void Save_G_GlassPiecePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varG_GlassPiecePtr, sizeof(G_GlassPiece*), (void**)&outG_GlassPiecePtr);
+	if (*varG_GlassPiecePtr)
+	{
+		*outG_GlassPiecePtr = (G_GlassPiece*)DB_FindStreamData(*varG_GlassPiecePtr);
+		assert(*outG_GlassPiecePtr != (G_GlassPiece*)0xFFFFFFFF);
+		if (!*outG_GlassPiecePtr)
+		{
+			*outG_GlassPiecePtr = AllocSave_G_GlassPiece();
+			varG_GlassPiece = *varG_GlassPiecePtr;
+			streamG_GlassPiece = *outG_GlassPiecePtr;
+			auto v1 = sub_44AF80((void**)streamG_GlassPiecePtr, (void**)outG_GlassPiecePtr);
+			DB_FindStreamDataOrInsert((void*)*varG_GlassPiecePtr, v1);
+			Save_G_GlassPiece(true);
+		}
+	}
+}
+
+void Save_G_GlassPiecePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varG_GlassPiecePtr, sizeof(G_GlassPiece*) * count, (void**)&outG_GlassPiecePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_G_GlassPiecePtr(false);
+		varG_GlassPiecePtr++;
+		outG_GlassPiecePtr++;
+		streamG_GlassPiecePtr++;
+	}
+}
+
+void Save_GameWorldMp(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GameWorldMpArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGameWorldMp, sizeof(GameWorldMp) * count, (void**)&outGameWorldMp);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GameWorldMp(false);
+		varGameWorldMp++;
+		outGameWorldMp++;
+		streamGameWorldMp++;
+	}
+}
+
+void Save_GameWorldMpAsset(GameWorldMp** asset)
+{
+	// todo!
+}
+
+void Save_GameWorldMpPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGameWorldMpPtr, sizeof(GameWorldMp*), (void**)&outGameWorldMpPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varGameWorldMpPtr)
+	{
+		*outGameWorldMpPtr = (GameWorldMp*)DB_FindStreamData(*varGameWorldMpPtr);
+		assert(*outGameWorldMpPtr != (GameWorldMp*)0xFFFFFFFF);
+		if (!*outGameWorldMpPtr)
+		{
+			*outGameWorldMpPtr = AllocSave_GameWorldMp();
+			varGameWorldMp = *varGameWorldMpPtr;
+			streamGameWorldMp = *outGameWorldMpPtr;
+			auto v1 = sub_44AF80((void**)streamGameWorldMpPtr, (void**)outGameWorldMpPtr);
+			DB_FindStreamDataOrInsert((void*)*varGameWorldMpPtr, v1);
+			Save_GameWorldMp(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_GameWorldMpPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGameWorldMpPtr, sizeof(GameWorldMp*) * count, (void**)&outGameWorldMpPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GameWorldMpPtr(false);
+		varGameWorldMpPtr++;
+		outGameWorldMpPtr++;
+		streamGameWorldMpPtr++;
+	}
+}
+
+void Save_GfxColor(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GfxColorArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxColor, sizeof(GfxColor) * count, (void**)&outGfxColor);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxColor(false);
+		varGfxColor++;
+		outGfxColor++;
+		streamGfxColor++;
+	}
+}
+
+void Save_GfxColorPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGfxColorPtr, sizeof(GfxColor*), (void**)&outGfxColorPtr);
+	if (*varGfxColorPtr)
+	{
+		*outGfxColorPtr = (GfxColor*)DB_FindStreamData(*varGfxColorPtr);
+		assert(*outGfxColorPtr != (GfxColor*)0xFFFFFFFF);
+		if (!*outGfxColorPtr)
+		{
+			*outGfxColorPtr = AllocSave_GfxColor();
+			varGfxColor = *varGfxColorPtr;
+			streamGfxColor = *outGfxColorPtr;
+			auto v1 = sub_44AF80((void**)streamGfxColorPtr, (void**)outGfxColorPtr);
+			DB_FindStreamDataOrInsert((void*)*varGfxColorPtr, v1);
+			Save_GfxColor(true);
+		}
+	}
+}
+
+void Save_GfxColorPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxColorPtr, sizeof(GfxColor*) * count, (void**)&outGfxColorPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxColorPtr(false);
+		varGfxColorPtr++;
+		outGfxColorPtr++;
+		streamGfxColorPtr++;
+	}
+}
+
+void Save_GfxDrawSurf(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GfxDrawSurfArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxDrawSurf, sizeof(GfxDrawSurf) * count, (void**)&outGfxDrawSurf);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxDrawSurf(false);
+		varGfxDrawSurf++;
+		outGfxDrawSurf++;
+		streamGfxDrawSurf++;
+	}
+}
+
+void Save_GfxDrawSurfPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGfxDrawSurfPtr, sizeof(GfxDrawSurf*), (void**)&outGfxDrawSurfPtr);
+	if (*varGfxDrawSurfPtr)
+	{
+		*outGfxDrawSurfPtr = (GfxDrawSurf*)DB_FindStreamData(*varGfxDrawSurfPtr);
+		assert(*outGfxDrawSurfPtr != (GfxDrawSurf*)0xFFFFFFFF);
+		if (!*outGfxDrawSurfPtr)
+		{
+			*outGfxDrawSurfPtr = AllocSave_GfxDrawSurf();
+			varGfxDrawSurf = *varGfxDrawSurfPtr;
+			streamGfxDrawSurf = *outGfxDrawSurfPtr;
+			auto v1 = sub_44AF80((void**)streamGfxDrawSurfPtr, (void**)outGfxDrawSurfPtr);
+			DB_FindStreamDataOrInsert((void*)*varGfxDrawSurfPtr, v1);
+			Save_GfxDrawSurf(true);
+		}
+	}
+}
+
+void Save_GfxDrawSurfPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxDrawSurfPtr, sizeof(GfxDrawSurf*) * count, (void**)&outGfxDrawSurfPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxDrawSurfPtr(false);
+		varGfxDrawSurfPtr++;
+		outGfxDrawSurfPtr++;
+		streamGfxDrawSurfPtr++;
+	}
+}
+
+void Save_GfxImage(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GfxImageArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxImage, sizeof(GfxImage) * count, (void**)&outGfxImage);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxImage(false);
+		varGfxImage++;
+		outGfxImage++;
+		streamGfxImage++;
+	}
+}
+
+void Save_GfxImageAsset(GfxImage** asset)
+{
+	// todo!
+}
+
+void Save_GfxImageLoadDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GfxImageLoadDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxImageLoadDef, sizeof(GfxImageLoadDef) * count, (void**)&outGfxImageLoadDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxImageLoadDef(false);
+		varGfxImageLoadDef++;
+		outGfxImageLoadDef++;
+		streamGfxImageLoadDef++;
+	}
+}
+
+void Save_GfxImageLoadDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGfxImageLoadDefPtr, sizeof(GfxImageLoadDef*), (void**)&outGfxImageLoadDefPtr);
+	if (*varGfxImageLoadDefPtr)
+	{
+		*outGfxImageLoadDefPtr = (GfxImageLoadDef*)DB_FindStreamData(*varGfxImageLoadDefPtr);
+		assert(*outGfxImageLoadDefPtr != (GfxImageLoadDef*)0xFFFFFFFF);
+		if (!*outGfxImageLoadDefPtr)
+		{
+			*outGfxImageLoadDefPtr = AllocSave_GfxImageLoadDef();
+			varGfxImageLoadDef = *varGfxImageLoadDefPtr;
+			streamGfxImageLoadDef = *outGfxImageLoadDefPtr;
+			auto v1 = sub_44AF80((void**)streamGfxImageLoadDefPtr, (void**)outGfxImageLoadDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varGfxImageLoadDefPtr, v1);
+			Save_GfxImageLoadDef(true);
+		}
+	}
+}
+
+void Save_GfxImageLoadDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxImageLoadDefPtr, sizeof(GfxImageLoadDef*) * count, (void**)&outGfxImageLoadDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxImageLoadDefPtr(false);
+		varGfxImageLoadDefPtr++;
+		outGfxImageLoadDefPtr++;
+		streamGfxImageLoadDefPtr++;
+	}
+}
+
+void Save_GfxImagePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGfxImagePtr, sizeof(GfxImage*), (void**)&outGfxImagePtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varGfxImagePtr)
+	{
+		*outGfxImagePtr = (GfxImage*)DB_FindStreamData(*varGfxImagePtr);
+		assert(*outGfxImagePtr != (GfxImage*)0xFFFFFFFF);
+		if (!*outGfxImagePtr)
+		{
+			*outGfxImagePtr = AllocSave_GfxImage();
+			varGfxImage = *varGfxImagePtr;
+			streamGfxImage = *outGfxImagePtr;
+			auto v1 = sub_44AF80((void**)streamGfxImagePtr, (void**)outGfxImagePtr);
+			DB_FindStreamDataOrInsert((void*)*varGfxImagePtr, v1);
+			Save_GfxImage(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_GfxImagePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxImagePtr, sizeof(GfxImage*) * count, (void**)&outGfxImagePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxImagePtr(false);
+		varGfxImagePtr++;
+		outGfxImagePtr++;
+		streamGfxImagePtr++;
+	}
+}
+
+void Save_GfxLightDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GfxLightDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxLightDef, sizeof(GfxLightDef) * count, (void**)&outGfxLightDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxLightDef(false);
+		varGfxLightDef++;
+		outGfxLightDef++;
+		streamGfxLightDef++;
+	}
+}
+
+void Save_GfxLightDefAsset(GfxLightDef** asset)
+{
+	// todo!
+}
+
+void Save_GfxLightDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGfxLightDefPtr, sizeof(GfxLightDef*), (void**)&outGfxLightDefPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varGfxLightDefPtr)
+	{
+		*outGfxLightDefPtr = (GfxLightDef*)DB_FindStreamData(*varGfxLightDefPtr);
+		assert(*outGfxLightDefPtr != (GfxLightDef*)0xFFFFFFFF);
+		if (!*outGfxLightDefPtr)
+		{
+			*outGfxLightDefPtr = AllocSave_GfxLightDef();
+			varGfxLightDef = *varGfxLightDefPtr;
+			streamGfxLightDef = *outGfxLightDefPtr;
+			auto v1 = sub_44AF80((void**)streamGfxLightDefPtr, (void**)outGfxLightDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varGfxLightDefPtr, v1);
+			Save_GfxLightDef(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_GfxLightDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxLightDefPtr, sizeof(GfxLightDef*) * count, (void**)&outGfxLightDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxLightDefPtr(false);
+		varGfxLightDefPtr++;
+		outGfxLightDefPtr++;
+		streamGfxLightDefPtr++;
+	}
+}
+
+void Save_GfxLightImage(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GfxLightImageArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxLightImage, sizeof(GfxLightImage) * count, (void**)&outGfxLightImage);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxLightImage(false);
+		varGfxLightImage++;
+		outGfxLightImage++;
+		streamGfxLightImage++;
+	}
+}
+
+void Save_GfxLightImagePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGfxLightImagePtr, sizeof(GfxLightImage*), (void**)&outGfxLightImagePtr);
+	if (*varGfxLightImagePtr)
+	{
+		*outGfxLightImagePtr = (GfxLightImage*)DB_FindStreamData(*varGfxLightImagePtr);
+		assert(*outGfxLightImagePtr != (GfxLightImage*)0xFFFFFFFF);
+		if (!*outGfxLightImagePtr)
+		{
+			*outGfxLightImagePtr = AllocSave_GfxLightImage();
+			varGfxLightImage = *varGfxLightImagePtr;
+			streamGfxLightImage = *outGfxLightImagePtr;
+			auto v1 = sub_44AF80((void**)streamGfxLightImagePtr, (void**)outGfxLightImagePtr);
+			DB_FindStreamDataOrInsert((void*)*varGfxLightImagePtr, v1);
+			Save_GfxLightImage(true);
+		}
+	}
+}
+
+void Save_GfxLightImagePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxLightImagePtr, sizeof(GfxLightImage*) * count, (void**)&outGfxLightImagePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxLightImagePtr(false);
+		varGfxLightImagePtr++;
+		outGfxLightImagePtr++;
+		streamGfxLightImagePtr++;
+	}
+}
+
+void Save_GfxPackedVertex(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GfxPackedVertexArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxPackedVertex, sizeof(GfxPackedVertex) * count, (void**)&outGfxPackedVertex);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxPackedVertex(false);
+		varGfxPackedVertex++;
+		outGfxPackedVertex++;
+		streamGfxPackedVertex++;
+	}
+}
+
+void Save_GfxPackedVertexPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGfxPackedVertexPtr, sizeof(GfxPackedVertex*), (void**)&outGfxPackedVertexPtr);
+	if (*varGfxPackedVertexPtr)
+	{
+		*outGfxPackedVertexPtr = (GfxPackedVertex*)DB_FindStreamData(*varGfxPackedVertexPtr);
+		assert(*outGfxPackedVertexPtr != (GfxPackedVertex*)0xFFFFFFFF);
+		if (!*outGfxPackedVertexPtr)
+		{
+			*outGfxPackedVertexPtr = AllocSave_GfxPackedVertex();
+			varGfxPackedVertex = *varGfxPackedVertexPtr;
+			streamGfxPackedVertex = *outGfxPackedVertexPtr;
+			auto v1 = sub_44AF80((void**)streamGfxPackedVertexPtr, (void**)outGfxPackedVertexPtr);
+			DB_FindStreamDataOrInsert((void*)*varGfxPackedVertexPtr, v1);
+			Save_GfxPackedVertex(true);
+		}
+	}
+}
+
+void Save_GfxPackedVertexPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxPackedVertexPtr, sizeof(GfxPackedVertex*) * count, (void**)&outGfxPackedVertexPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxPackedVertexPtr(false);
+		varGfxPackedVertexPtr++;
+		outGfxPackedVertexPtr++;
+		streamGfxPackedVertexPtr++;
+	}
+}
+
+void Save_GfxPixelShaderLoadDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GfxPixelShaderLoadDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxPixelShaderLoadDef, sizeof(GfxPixelShaderLoadDef) * count, (void**)&outGfxPixelShaderLoadDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxPixelShaderLoadDef(false);
+		varGfxPixelShaderLoadDef++;
+		outGfxPixelShaderLoadDef++;
+		streamGfxPixelShaderLoadDef++;
+	}
+}
+
+void Save_GfxPixelShaderLoadDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGfxPixelShaderLoadDefPtr, sizeof(GfxPixelShaderLoadDef*), (void**)&outGfxPixelShaderLoadDefPtr);
+	if (*varGfxPixelShaderLoadDefPtr)
+	{
+		*outGfxPixelShaderLoadDefPtr = (GfxPixelShaderLoadDef*)DB_FindStreamData(*varGfxPixelShaderLoadDefPtr);
+		assert(*outGfxPixelShaderLoadDefPtr != (GfxPixelShaderLoadDef*)0xFFFFFFFF);
+		if (!*outGfxPixelShaderLoadDefPtr)
+		{
+			*outGfxPixelShaderLoadDefPtr = AllocSave_GfxPixelShaderLoadDef();
+			varGfxPixelShaderLoadDef = *varGfxPixelShaderLoadDefPtr;
+			streamGfxPixelShaderLoadDef = *outGfxPixelShaderLoadDefPtr;
+			auto v1 = sub_44AF80((void**)streamGfxPixelShaderLoadDefPtr, (void**)outGfxPixelShaderLoadDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varGfxPixelShaderLoadDefPtr, v1);
+			Save_GfxPixelShaderLoadDef(true);
+		}
+	}
+}
+
+void Save_GfxPixelShaderLoadDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxPixelShaderLoadDefPtr, sizeof(GfxPixelShaderLoadDef*) * count, (void**)&outGfxPixelShaderLoadDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxPixelShaderLoadDefPtr(false);
+		varGfxPixelShaderLoadDefPtr++;
+		outGfxPixelShaderLoadDefPtr++;
+		streamGfxPixelShaderLoadDefPtr++;
+	}
+}
+
+void Save_GfxPlacement(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GfxPlacementArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxPlacement, sizeof(GfxPlacement) * count, (void**)&outGfxPlacement);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxPlacement(false);
+		varGfxPlacement++;
+		outGfxPlacement++;
+		streamGfxPlacement++;
+	}
+}
+
+void Save_GfxPlacementPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGfxPlacementPtr, sizeof(GfxPlacement*), (void**)&outGfxPlacementPtr);
+	if (*varGfxPlacementPtr)
+	{
+		*outGfxPlacementPtr = (GfxPlacement*)DB_FindStreamData(*varGfxPlacementPtr);
+		assert(*outGfxPlacementPtr != (GfxPlacement*)0xFFFFFFFF);
+		if (!*outGfxPlacementPtr)
+		{
+			*outGfxPlacementPtr = AllocSave_GfxPlacement();
+			varGfxPlacement = *varGfxPlacementPtr;
+			streamGfxPlacement = *outGfxPlacementPtr;
+			auto v1 = sub_44AF80((void**)streamGfxPlacementPtr, (void**)outGfxPlacementPtr);
+			DB_FindStreamDataOrInsert((void*)*varGfxPlacementPtr, v1);
+			Save_GfxPlacement(true);
+		}
+	}
+}
+
+void Save_GfxPlacementPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxPlacementPtr, sizeof(GfxPlacement*) * count, (void**)&outGfxPlacementPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxPlacementPtr(false);
+		varGfxPlacementPtr++;
+		outGfxPlacementPtr++;
+		streamGfxPlacementPtr++;
+	}
+}
+
+void Save_GfxStateBits(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GfxStateBitsArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxStateBits, sizeof(GfxStateBits) * count, (void**)&outGfxStateBits);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxStateBits(false);
+		varGfxStateBits++;
+		outGfxStateBits++;
+		streamGfxStateBits++;
+	}
+}
+
+void Save_GfxStateBitsPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGfxStateBitsPtr, sizeof(GfxStateBits*), (void**)&outGfxStateBitsPtr);
+	if (*varGfxStateBitsPtr)
+	{
+		*outGfxStateBitsPtr = (GfxStateBits*)DB_FindStreamData(*varGfxStateBitsPtr);
+		assert(*outGfxStateBitsPtr != (GfxStateBits*)0xFFFFFFFF);
+		if (!*outGfxStateBitsPtr)
+		{
+			*outGfxStateBitsPtr = AllocSave_GfxStateBits();
+			varGfxStateBits = *varGfxStateBitsPtr;
+			streamGfxStateBits = *outGfxStateBitsPtr;
+			auto v1 = sub_44AF80((void**)streamGfxStateBitsPtr, (void**)outGfxStateBitsPtr);
+			DB_FindStreamDataOrInsert((void*)*varGfxStateBitsPtr, v1);
+			Save_GfxStateBits(true);
+		}
+	}
+}
+
+void Save_GfxStateBitsPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxStateBitsPtr, sizeof(GfxStateBits*) * count, (void**)&outGfxStateBitsPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxStateBitsPtr(false);
+		varGfxStateBitsPtr++;
+		outGfxStateBitsPtr++;
+		streamGfxStateBitsPtr++;
+	}
+}
+
+void Save_GfxTexture(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GfxTextureArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxTexture, sizeof(GfxTexture) * count, (void**)&outGfxTexture);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxTexture(false);
+		varGfxTexture++;
+		outGfxTexture++;
+		streamGfxTexture++;
+	}
+}
+
+void Save_GfxTexturePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGfxTexturePtr, sizeof(GfxTexture*), (void**)&outGfxTexturePtr);
+	if (*varGfxTexturePtr)
+	{
+		*outGfxTexturePtr = (GfxTexture*)DB_FindStreamData(*varGfxTexturePtr);
+		assert(*outGfxTexturePtr != (GfxTexture*)0xFFFFFFFF);
+		if (!*outGfxTexturePtr)
+		{
+			*outGfxTexturePtr = AllocSave_GfxTexture();
+			varGfxTexture = *varGfxTexturePtr;
+			streamGfxTexture = *outGfxTexturePtr;
+			auto v1 = sub_44AF80((void**)streamGfxTexturePtr, (void**)outGfxTexturePtr);
+			DB_FindStreamDataOrInsert((void*)*varGfxTexturePtr, v1);
+			Save_GfxTexture(true);
+		}
+	}
+}
+
+void Save_GfxTexturePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxTexturePtr, sizeof(GfxTexture*) * count, (void**)&outGfxTexturePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxTexturePtr(false);
+		varGfxTexturePtr++;
+		outGfxTexturePtr++;
+		streamGfxTexturePtr++;
+	}
+}
+
+void Save_GfxVertexShaderLoadDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GfxVertexShaderLoadDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxVertexShaderLoadDef, sizeof(GfxVertexShaderLoadDef) * count, (void**)&outGfxVertexShaderLoadDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxVertexShaderLoadDef(false);
+		varGfxVertexShaderLoadDef++;
+		outGfxVertexShaderLoadDef++;
+		streamGfxVertexShaderLoadDef++;
+	}
+}
+
+void Save_GfxVertexShaderLoadDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGfxVertexShaderLoadDefPtr, sizeof(GfxVertexShaderLoadDef*), (void**)&outGfxVertexShaderLoadDefPtr);
+	if (*varGfxVertexShaderLoadDefPtr)
+	{
+		*outGfxVertexShaderLoadDefPtr = (GfxVertexShaderLoadDef*)DB_FindStreamData(*varGfxVertexShaderLoadDefPtr);
+		assert(*outGfxVertexShaderLoadDefPtr != (GfxVertexShaderLoadDef*)0xFFFFFFFF);
+		if (!*outGfxVertexShaderLoadDefPtr)
+		{
+			*outGfxVertexShaderLoadDefPtr = AllocSave_GfxVertexShaderLoadDef();
+			varGfxVertexShaderLoadDef = *varGfxVertexShaderLoadDefPtr;
+			streamGfxVertexShaderLoadDef = *outGfxVertexShaderLoadDefPtr;
+			auto v1 = sub_44AF80((void**)streamGfxVertexShaderLoadDefPtr, (void**)outGfxVertexShaderLoadDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varGfxVertexShaderLoadDefPtr, v1);
+			Save_GfxVertexShaderLoadDef(true);
+		}
+	}
+}
+
+void Save_GfxVertexShaderLoadDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGfxVertexShaderLoadDefPtr, sizeof(GfxVertexShaderLoadDef*) * count, (void**)&outGfxVertexShaderLoadDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GfxVertexShaderLoadDefPtr(false);
+		varGfxVertexShaderLoadDefPtr++;
+		outGfxVertexShaderLoadDefPtr++;
+		streamGfxVertexShaderLoadDefPtr++;
+	}
+}
+
+void Save_Glyph(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_GlyphArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGlyph, sizeof(Glyph) * count, (void**)&outGlyph);
+	for (int i = 0; i < count; i++)
+	{
+		Save_Glyph(false);
+		varGlyph++;
+		outGlyph++;
+		streamGlyph++;
+	}
+}
+
+void Save_GlyphPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varGlyphPtr, sizeof(Glyph*), (void**)&outGlyphPtr);
+	if (*varGlyphPtr)
+	{
+		*outGlyphPtr = (Glyph*)DB_FindStreamData(*varGlyphPtr);
+		assert(*outGlyphPtr != (Glyph*)0xFFFFFFFF);
+		if (!*outGlyphPtr)
+		{
+			*outGlyphPtr = AllocSave_Glyph();
+			varGlyph = *varGlyphPtr;
+			streamGlyph = *outGlyphPtr;
+			auto v1 = sub_44AF80((void**)streamGlyphPtr, (void**)outGlyphPtr);
+			DB_FindStreamDataOrInsert((void*)*varGlyphPtr, v1);
+			Save_Glyph(true);
+		}
+	}
+}
+
+void Save_GlyphPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varGlyphPtr, sizeof(Glyph*) * count, (void**)&outGlyphPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_GlyphPtr(false);
+		varGlyphPtr++;
+		outGlyphPtr++;
+		streamGlyphPtr++;
+	}
+}
+
+void Save_ItemFloatExpression(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_ItemFloatExpressionArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varItemFloatExpression, sizeof(ItemFloatExpression) * count, (void**)&outItemFloatExpression);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ItemFloatExpression(false);
+		varItemFloatExpression++;
+		outItemFloatExpression++;
+		streamItemFloatExpression++;
+	}
+}
+
+void Save_ItemFloatExpressionPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varItemFloatExpressionPtr, sizeof(ItemFloatExpression*), (void**)&outItemFloatExpressionPtr);
+	if (*varItemFloatExpressionPtr)
+	{
+		*outItemFloatExpressionPtr = (ItemFloatExpression*)DB_FindStreamData(*varItemFloatExpressionPtr);
+		assert(*outItemFloatExpressionPtr != (ItemFloatExpression*)0xFFFFFFFF);
+		if (!*outItemFloatExpressionPtr)
+		{
+			*outItemFloatExpressionPtr = AllocSave_ItemFloatExpression();
+			varItemFloatExpression = *varItemFloatExpressionPtr;
+			streamItemFloatExpression = *outItemFloatExpressionPtr;
+			auto v1 = sub_44AF80((void**)streamItemFloatExpressionPtr, (void**)outItemFloatExpressionPtr);
+			DB_FindStreamDataOrInsert((void*)*varItemFloatExpressionPtr, v1);
+			Save_ItemFloatExpression(true);
+		}
+	}
+}
+
+void Save_ItemFloatExpressionPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varItemFloatExpressionPtr, sizeof(ItemFloatExpression*) * count, (void**)&outItemFloatExpressionPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ItemFloatExpressionPtr(false);
+		varItemFloatExpressionPtr++;
+		outItemFloatExpressionPtr++;
+		streamItemFloatExpressionPtr++;
+	}
+}
+
+void Save_ItemKeyHandler(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_ItemKeyHandlerArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varItemKeyHandler, sizeof(ItemKeyHandler) * count, (void**)&outItemKeyHandler);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ItemKeyHandler(false);
+		varItemKeyHandler++;
+		outItemKeyHandler++;
+		streamItemKeyHandler++;
+	}
+}
+
+void Save_ItemKeyHandlerPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varItemKeyHandlerPtr, sizeof(ItemKeyHandler*), (void**)&outItemKeyHandlerPtr);
+	if (*varItemKeyHandlerPtr)
+	{
+		*outItemKeyHandlerPtr = (ItemKeyHandler*)DB_FindStreamData(*varItemKeyHandlerPtr);
+		assert(*outItemKeyHandlerPtr != (ItemKeyHandler*)0xFFFFFFFF);
+		if (!*outItemKeyHandlerPtr)
+		{
+			*outItemKeyHandlerPtr = AllocSave_ItemKeyHandler();
+			varItemKeyHandler = *varItemKeyHandlerPtr;
+			streamItemKeyHandler = *outItemKeyHandlerPtr;
+			auto v1 = sub_44AF80((void**)streamItemKeyHandlerPtr, (void**)outItemKeyHandlerPtr);
+			DB_FindStreamDataOrInsert((void*)*varItemKeyHandlerPtr, v1);
+			Save_ItemKeyHandler(true);
+		}
+	}
+}
+
+void Save_ItemKeyHandlerPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varItemKeyHandlerPtr, sizeof(ItemKeyHandler*) * count, (void**)&outItemKeyHandlerPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ItemKeyHandlerPtr(false);
+		varItemKeyHandlerPtr++;
+		outItemKeyHandlerPtr++;
+		streamItemKeyHandlerPtr++;
+	}
+}
+
+void Save_LbColumnDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_LbColumnDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varLbColumnDef, sizeof(LbColumnDef) * count, (void**)&outLbColumnDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_LbColumnDef(false);
+		varLbColumnDef++;
+		outLbColumnDef++;
+		streamLbColumnDef++;
+	}
+}
+
+void Save_LbColumnDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varLbColumnDefPtr, sizeof(LbColumnDef*), (void**)&outLbColumnDefPtr);
+	if (*varLbColumnDefPtr)
+	{
+		*outLbColumnDefPtr = (LbColumnDef*)DB_FindStreamData(*varLbColumnDefPtr);
+		assert(*outLbColumnDefPtr != (LbColumnDef*)0xFFFFFFFF);
+		if (!*outLbColumnDefPtr)
+		{
+			*outLbColumnDefPtr = AllocSave_LbColumnDef();
+			varLbColumnDef = *varLbColumnDefPtr;
+			streamLbColumnDef = *outLbColumnDefPtr;
+			auto v1 = sub_44AF80((void**)streamLbColumnDefPtr, (void**)outLbColumnDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varLbColumnDefPtr, v1);
+			Save_LbColumnDef(true);
+		}
+	}
+}
+
+void Save_LbColumnDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varLbColumnDefPtr, sizeof(LbColumnDef*) * count, (void**)&outLbColumnDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_LbColumnDefPtr(false);
+		varLbColumnDefPtr++;
+		outLbColumnDefPtr++;
+		streamLbColumnDefPtr++;
+	}
+}
+
+void Save_LeaderboardDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_LeaderboardDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varLeaderboardDef, sizeof(LeaderboardDef) * count, (void**)&outLeaderboardDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_LeaderboardDef(false);
+		varLeaderboardDef++;
+		outLeaderboardDef++;
+		streamLeaderboardDef++;
+	}
+}
+
+void Save_LeaderboardDefAsset(LeaderboardDef** asset)
+{
+	// todo!
+}
+
+void Save_LeaderboardDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varLeaderboardDefPtr, sizeof(LeaderboardDef*), (void**)&outLeaderboardDefPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varLeaderboardDefPtr)
+	{
+		*outLeaderboardDefPtr = (LeaderboardDef*)DB_FindStreamData(*varLeaderboardDefPtr);
+		assert(*outLeaderboardDefPtr != (LeaderboardDef*)0xFFFFFFFF);
+		if (!*outLeaderboardDefPtr)
+		{
+			*outLeaderboardDefPtr = AllocSave_LeaderboardDef();
+			varLeaderboardDef = *varLeaderboardDefPtr;
+			streamLeaderboardDef = *outLeaderboardDefPtr;
+			auto v1 = sub_44AF80((void**)streamLeaderboardDefPtr, (void**)outLeaderboardDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varLeaderboardDefPtr, v1);
+			Save_LeaderboardDef(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_LeaderboardDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varLeaderboardDefPtr, sizeof(LeaderboardDef*) * count, (void**)&outLeaderboardDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_LeaderboardDefPtr(false);
+		varLeaderboardDefPtr++;
+		outLeaderboardDefPtr++;
+		streamLeaderboardDefPtr++;
+	}
+}
+
+void Save_LoadedSound(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_LoadedSoundArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varLoadedSound, sizeof(LoadedSound) * count, (void**)&outLoadedSound);
+	for (int i = 0; i < count; i++)
+	{
+		Save_LoadedSound(false);
+		varLoadedSound++;
+		outLoadedSound++;
+		streamLoadedSound++;
+	}
+}
+
+void Save_LoadedSoundPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varLoadedSoundPtr, sizeof(LoadedSound*), (void**)&outLoadedSoundPtr);
+	if (*varLoadedSoundPtr)
+	{
+		*outLoadedSoundPtr = (LoadedSound*)DB_FindStreamData(*varLoadedSoundPtr);
+		assert(*outLoadedSoundPtr != (LoadedSound*)0xFFFFFFFF);
+		if (!*outLoadedSoundPtr)
+		{
+			*outLoadedSoundPtr = AllocSave_LoadedSound();
+			varLoadedSound = *varLoadedSoundPtr;
+			streamLoadedSound = *outLoadedSoundPtr;
+			auto v1 = sub_44AF80((void**)streamLoadedSoundPtr, (void**)outLoadedSoundPtr);
+			DB_FindStreamDataOrInsert((void*)*varLoadedSoundPtr, v1);
+			Save_LoadedSound(true);
+		}
+	}
+}
+
+void Save_LoadedSoundPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varLoadedSoundPtr, sizeof(LoadedSound*) * count, (void**)&outLoadedSoundPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_LoadedSoundPtr(false);
+		varLoadedSoundPtr++;
+		outLoadedSoundPtr++;
+		streamLoadedSoundPtr++;
+	}
+}
+
+void Save_LocalizeEntry(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_LocalizeEntryArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varLocalizeEntry, sizeof(LocalizeEntry) * count, (void**)&outLocalizeEntry);
+	for (int i = 0; i < count; i++)
+	{
+		Save_LocalizeEntry(false);
+		varLocalizeEntry++;
+		outLocalizeEntry++;
+		streamLocalizeEntry++;
+	}
+}
+
+void Save_LocalizeEntryAsset(LocalizeEntry** asset)
+{
+	// todo!
+}
+
+void Save_LocalizeEntryPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varLocalizeEntryPtr, sizeof(LocalizeEntry*), (void**)&outLocalizeEntryPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varLocalizeEntryPtr)
+	{
+		*outLocalizeEntryPtr = (LocalizeEntry*)DB_FindStreamData(*varLocalizeEntryPtr);
+		assert(*outLocalizeEntryPtr != (LocalizeEntry*)0xFFFFFFFF);
+		if (!*outLocalizeEntryPtr)
+		{
+			*outLocalizeEntryPtr = AllocSave_LocalizeEntry();
+			varLocalizeEntry = *varLocalizeEntryPtr;
+			streamLocalizeEntry = *outLocalizeEntryPtr;
+			auto v1 = sub_44AF80((void**)streamLocalizeEntryPtr, (void**)outLocalizeEntryPtr);
+			DB_FindStreamDataOrInsert((void*)*varLocalizeEntryPtr, v1);
+			Save_LocalizeEntry(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_LocalizeEntryPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varLocalizeEntryPtr, sizeof(LocalizeEntry*) * count, (void**)&outLocalizeEntryPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_LocalizeEntryPtr(false);
+		varLocalizeEntryPtr++;
+		outLocalizeEntryPtr++;
+		streamLocalizeEntryPtr++;
+	}
+}
+
+void Save_MSSChannelMap(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MSSChannelMapArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMSSChannelMap, sizeof(MSSChannelMap) * count, (void**)&outMSSChannelMap);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MSSChannelMap(false);
+		varMSSChannelMap++;
+		outMSSChannelMap++;
+		streamMSSChannelMap++;
+	}
+}
+
+void Save_MSSChannelMapPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMSSChannelMapPtr, sizeof(MSSChannelMap*), (void**)&outMSSChannelMapPtr);
+	if (*varMSSChannelMapPtr)
+	{
+		*outMSSChannelMapPtr = (MSSChannelMap*)DB_FindStreamData(*varMSSChannelMapPtr);
+		assert(*outMSSChannelMapPtr != (MSSChannelMap*)0xFFFFFFFF);
+		if (!*outMSSChannelMapPtr)
+		{
+			*outMSSChannelMapPtr = AllocSave_MSSChannelMap();
+			varMSSChannelMap = *varMSSChannelMapPtr;
+			streamMSSChannelMap = *outMSSChannelMapPtr;
+			auto v1 = sub_44AF80((void**)streamMSSChannelMapPtr, (void**)outMSSChannelMapPtr);
+			DB_FindStreamDataOrInsert((void*)*varMSSChannelMapPtr, v1);
+			Save_MSSChannelMap(true);
+		}
+	}
+}
+
+void Save_MSSChannelMapPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMSSChannelMapPtr, sizeof(MSSChannelMap*) * count, (void**)&outMSSChannelMapPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MSSChannelMapPtr(false);
+		varMSSChannelMapPtr++;
+		outMSSChannelMapPtr++;
+		streamMSSChannelMapPtr++;
+	}
+}
+
+void Save_MSSSpeakerLevels(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MSSSpeakerLevelsArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMSSSpeakerLevels, sizeof(MSSSpeakerLevels) * count, (void**)&outMSSSpeakerLevels);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MSSSpeakerLevels(false);
+		varMSSSpeakerLevels++;
+		outMSSSpeakerLevels++;
+		streamMSSSpeakerLevels++;
+	}
+}
+
+void Save_MSSSpeakerLevelsPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMSSSpeakerLevelsPtr, sizeof(MSSSpeakerLevels*), (void**)&outMSSSpeakerLevelsPtr);
+	if (*varMSSSpeakerLevelsPtr)
+	{
+		*outMSSSpeakerLevelsPtr = (MSSSpeakerLevels*)DB_FindStreamData(*varMSSSpeakerLevelsPtr);
+		assert(*outMSSSpeakerLevelsPtr != (MSSSpeakerLevels*)0xFFFFFFFF);
+		if (!*outMSSSpeakerLevelsPtr)
+		{
+			*outMSSSpeakerLevelsPtr = AllocSave_MSSSpeakerLevels();
+			varMSSSpeakerLevels = *varMSSSpeakerLevelsPtr;
+			streamMSSSpeakerLevels = *outMSSSpeakerLevelsPtr;
+			auto v1 = sub_44AF80((void**)streamMSSSpeakerLevelsPtr, (void**)outMSSSpeakerLevelsPtr);
+			DB_FindStreamDataOrInsert((void*)*varMSSSpeakerLevelsPtr, v1);
+			Save_MSSSpeakerLevels(true);
+		}
+	}
+}
+
+void Save_MSSSpeakerLevelsPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMSSSpeakerLevelsPtr, sizeof(MSSSpeakerLevels*) * count, (void**)&outMSSSpeakerLevelsPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MSSSpeakerLevelsPtr(false);
+		varMSSSpeakerLevelsPtr++;
+		outMSSSpeakerLevelsPtr++;
+		streamMSSSpeakerLevelsPtr++;
+	}
+}
+
+void Save_MapEnts(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MapEntsArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMapEnts, sizeof(MapEnts) * count, (void**)&outMapEnts);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MapEnts(false);
+		varMapEnts++;
+		outMapEnts++;
+		streamMapEnts++;
+	}
+}
+
+void Save_MapEntsAsset(MapEnts** asset)
+{
+	// todo!
+}
+
+void Save_MapEntsPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMapEntsPtr, sizeof(MapEnts*), (void**)&outMapEntsPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varMapEntsPtr)
+	{
+		*outMapEntsPtr = (MapEnts*)DB_FindStreamData(*varMapEntsPtr);
+		assert(*outMapEntsPtr != (MapEnts*)0xFFFFFFFF);
+		if (!*outMapEntsPtr)
+		{
+			*outMapEntsPtr = AllocSave_MapEnts();
+			varMapEnts = *varMapEntsPtr;
+			streamMapEnts = *outMapEntsPtr;
+			auto v1 = sub_44AF80((void**)streamMapEntsPtr, (void**)outMapEntsPtr);
+			DB_FindStreamDataOrInsert((void*)*varMapEntsPtr, v1);
+			Save_MapEnts(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_MapEntsPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMapEntsPtr, sizeof(MapEnts*) * count, (void**)&outMapEntsPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MapEntsPtr(false);
+		varMapEntsPtr++;
+		outMapEntsPtr++;
+		streamMapEntsPtr++;
+	}
+}
+
+void Save_MapTriggers(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MapTriggersArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMapTriggers, sizeof(MapTriggers) * count, (void**)&outMapTriggers);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MapTriggers(false);
+		varMapTriggers++;
+		outMapTriggers++;
+		streamMapTriggers++;
+	}
+}
+
+void Save_MapTriggersPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMapTriggersPtr, sizeof(MapTriggers*), (void**)&outMapTriggersPtr);
+	if (*varMapTriggersPtr)
+	{
+		*outMapTriggersPtr = (MapTriggers*)DB_FindStreamData(*varMapTriggersPtr);
+		assert(*outMapTriggersPtr != (MapTriggers*)0xFFFFFFFF);
+		if (!*outMapTriggersPtr)
+		{
+			*outMapTriggersPtr = AllocSave_MapTriggers();
+			varMapTriggers = *varMapTriggersPtr;
+			streamMapTriggers = *outMapTriggersPtr;
+			auto v1 = sub_44AF80((void**)streamMapTriggersPtr, (void**)outMapTriggersPtr);
+			DB_FindStreamDataOrInsert((void*)*varMapTriggersPtr, v1);
+			Save_MapTriggers(true);
+		}
+	}
+}
+
+void Save_MapTriggersPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMapTriggersPtr, sizeof(MapTriggers*) * count, (void**)&outMapTriggersPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MapTriggersPtr(false);
+		varMapTriggersPtr++;
+		outMapTriggersPtr++;
+		streamMapTriggersPtr++;
+	}
+}
+
+void Save_Material(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialArgumentCodeConst(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialArgumentCodeConstArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialArgumentCodeConst, sizeof(MaterialArgumentCodeConst) * count, (void**)&outMaterialArgumentCodeConst);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialArgumentCodeConst(false);
+		varMaterialArgumentCodeConst++;
+		outMaterialArgumentCodeConst++;
+		streamMaterialArgumentCodeConst++;
+	}
+}
+
+void Save_MaterialArgumentCodeConstPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialArgumentCodeConstPtr, sizeof(MaterialArgumentCodeConst*), (void**)&outMaterialArgumentCodeConstPtr);
+	if (*varMaterialArgumentCodeConstPtr)
+	{
+		*outMaterialArgumentCodeConstPtr = (MaterialArgumentCodeConst*)DB_FindStreamData(*varMaterialArgumentCodeConstPtr);
+		assert(*outMaterialArgumentCodeConstPtr != (MaterialArgumentCodeConst*)0xFFFFFFFF);
+		if (!*outMaterialArgumentCodeConstPtr)
+		{
+			*outMaterialArgumentCodeConstPtr = AllocSave_MaterialArgumentCodeConst();
+			varMaterialArgumentCodeConst = *varMaterialArgumentCodeConstPtr;
+			streamMaterialArgumentCodeConst = *outMaterialArgumentCodeConstPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialArgumentCodeConstPtr, (void**)outMaterialArgumentCodeConstPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialArgumentCodeConstPtr, v1);
+			Save_MaterialArgumentCodeConst(true);
+		}
+	}
+}
+
+void Save_MaterialArgumentCodeConstPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialArgumentCodeConstPtr, sizeof(MaterialArgumentCodeConst*) * count, (void**)&outMaterialArgumentCodeConstPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialArgumentCodeConstPtr(false);
+		varMaterialArgumentCodeConstPtr++;
+		outMaterialArgumentCodeConstPtr++;
+		streamMaterialArgumentCodeConstPtr++;
+	}
+}
+
+void Save_MaterialArgumentDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialArgumentDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialArgumentDef, sizeof(MaterialArgumentDef) * count, (void**)&outMaterialArgumentDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialArgumentDef(false);
+		varMaterialArgumentDef++;
+		outMaterialArgumentDef++;
+		streamMaterialArgumentDef++;
+	}
+}
+
+void Save_MaterialArgumentDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialArgumentDefPtr, sizeof(MaterialArgumentDef*), (void**)&outMaterialArgumentDefPtr);
+	if (*varMaterialArgumentDefPtr)
+	{
+		*outMaterialArgumentDefPtr = (MaterialArgumentDef*)DB_FindStreamData(*varMaterialArgumentDefPtr);
+		assert(*outMaterialArgumentDefPtr != (MaterialArgumentDef*)0xFFFFFFFF);
+		if (!*outMaterialArgumentDefPtr)
+		{
+			*outMaterialArgumentDefPtr = AllocSave_MaterialArgumentDef();
+			varMaterialArgumentDef = *varMaterialArgumentDefPtr;
+			streamMaterialArgumentDef = *outMaterialArgumentDefPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialArgumentDefPtr, (void**)outMaterialArgumentDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialArgumentDefPtr, v1);
+			Save_MaterialArgumentDef(true);
+		}
+	}
+}
+
+void Save_MaterialArgumentDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialArgumentDefPtr, sizeof(MaterialArgumentDef*) * count, (void**)&outMaterialArgumentDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialArgumentDefPtr(false);
+		varMaterialArgumentDefPtr++;
+		outMaterialArgumentDefPtr++;
+		streamMaterialArgumentDefPtr++;
+	}
+}
+
+void Save_MaterialArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterial, sizeof(Material) * count, (void**)&outMaterial);
+	for (int i = 0; i < count; i++)
+	{
+		Save_Material(false);
+		varMaterial++;
+		outMaterial++;
+		streamMaterial++;
+	}
+}
+
+void Save_MaterialAsset(Material** asset)
+{
+	// todo!
+}
+
+void Save_MaterialConstantDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialConstantDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialConstantDef, sizeof(MaterialConstantDef) * count, (void**)&outMaterialConstantDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialConstantDef(false);
+		varMaterialConstantDef++;
+		outMaterialConstantDef++;
+		streamMaterialConstantDef++;
+	}
+}
+
+void Save_MaterialConstantDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialConstantDefPtr, sizeof(MaterialConstantDef*), (void**)&outMaterialConstantDefPtr);
+	if (*varMaterialConstantDefPtr)
+	{
+		*outMaterialConstantDefPtr = (MaterialConstantDef*)DB_FindStreamData(*varMaterialConstantDefPtr);
+		assert(*outMaterialConstantDefPtr != (MaterialConstantDef*)0xFFFFFFFF);
+		if (!*outMaterialConstantDefPtr)
+		{
+			*outMaterialConstantDefPtr = AllocSave_MaterialConstantDef();
+			varMaterialConstantDef = *varMaterialConstantDefPtr;
+			streamMaterialConstantDef = *outMaterialConstantDefPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialConstantDefPtr, (void**)outMaterialConstantDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialConstantDefPtr, v1);
+			Save_MaterialConstantDef(true);
+		}
+	}
+}
+
+void Save_MaterialConstantDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialConstantDefPtr, sizeof(MaterialConstantDef*) * count, (void**)&outMaterialConstantDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialConstantDefPtr(false);
+		varMaterialConstantDefPtr++;
+		outMaterialConstantDefPtr++;
+		streamMaterialConstantDefPtr++;
+	}
+}
+
+void Save_MaterialInfo(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialInfoArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialInfo, sizeof(MaterialInfo) * count, (void**)&outMaterialInfo);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialInfo(false);
+		varMaterialInfo++;
+		outMaterialInfo++;
+		streamMaterialInfo++;
+	}
+}
+
+void Save_MaterialInfoPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialInfoPtr, sizeof(MaterialInfo*), (void**)&outMaterialInfoPtr);
+	if (*varMaterialInfoPtr)
+	{
+		*outMaterialInfoPtr = (MaterialInfo*)DB_FindStreamData(*varMaterialInfoPtr);
+		assert(*outMaterialInfoPtr != (MaterialInfo*)0xFFFFFFFF);
+		if (!*outMaterialInfoPtr)
+		{
+			*outMaterialInfoPtr = AllocSave_MaterialInfo();
+			varMaterialInfo = *varMaterialInfoPtr;
+			streamMaterialInfo = *outMaterialInfoPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialInfoPtr, (void**)outMaterialInfoPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialInfoPtr, v1);
+			Save_MaterialInfo(true);
+		}
+	}
+}
+
+void Save_MaterialInfoPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialInfoPtr, sizeof(MaterialInfo*) * count, (void**)&outMaterialInfoPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialInfoPtr(false);
+		varMaterialInfoPtr++;
+		outMaterialInfoPtr++;
+		streamMaterialInfoPtr++;
+	}
+}
+
+void Save_MaterialPass(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialPassArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialPass, sizeof(MaterialPass) * count, (void**)&outMaterialPass);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialPass(false);
+		varMaterialPass++;
+		outMaterialPass++;
+		streamMaterialPass++;
+	}
+}
+
+void Save_MaterialPassPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialPassPtr, sizeof(MaterialPass*), (void**)&outMaterialPassPtr);
+	if (*varMaterialPassPtr)
+	{
+		*outMaterialPassPtr = (MaterialPass*)DB_FindStreamData(*varMaterialPassPtr);
+		assert(*outMaterialPassPtr != (MaterialPass*)0xFFFFFFFF);
+		if (!*outMaterialPassPtr)
+		{
+			*outMaterialPassPtr = AllocSave_MaterialPass();
+			varMaterialPass = *varMaterialPassPtr;
+			streamMaterialPass = *outMaterialPassPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialPassPtr, (void**)outMaterialPassPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialPassPtr, v1);
+			Save_MaterialPass(true);
+		}
+	}
+}
+
+void Save_MaterialPassPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialPassPtr, sizeof(MaterialPass*) * count, (void**)&outMaterialPassPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialPassPtr(false);
+		varMaterialPassPtr++;
+		outMaterialPassPtr++;
+		streamMaterialPassPtr++;
+	}
+}
+
+void Save_MaterialPixelShader(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialPixelShaderArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialPixelShader, sizeof(MaterialPixelShader) * count, (void**)&outMaterialPixelShader);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialPixelShader(false);
+		varMaterialPixelShader++;
+		outMaterialPixelShader++;
+		streamMaterialPixelShader++;
+	}
+}
+
+void Save_MaterialPixelShaderAsset(MaterialPixelShader** asset)
+{
+	// todo!
+}
+
+void Save_MaterialPixelShaderProgram(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialPixelShaderProgramArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialPixelShaderProgram, sizeof(MaterialPixelShaderProgram) * count, (void**)&outMaterialPixelShaderProgram);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialPixelShaderProgram(false);
+		varMaterialPixelShaderProgram++;
+		outMaterialPixelShaderProgram++;
+		streamMaterialPixelShaderProgram++;
+	}
+}
+
+void Save_MaterialPixelShaderProgramPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialPixelShaderProgramPtr, sizeof(MaterialPixelShaderProgram*), (void**)&outMaterialPixelShaderProgramPtr);
+	if (*varMaterialPixelShaderProgramPtr)
+	{
+		*outMaterialPixelShaderProgramPtr = (MaterialPixelShaderProgram*)DB_FindStreamData(*varMaterialPixelShaderProgramPtr);
+		assert(*outMaterialPixelShaderProgramPtr != (MaterialPixelShaderProgram*)0xFFFFFFFF);
+		if (!*outMaterialPixelShaderProgramPtr)
+		{
+			*outMaterialPixelShaderProgramPtr = AllocSave_MaterialPixelShaderProgram();
+			varMaterialPixelShaderProgram = *varMaterialPixelShaderProgramPtr;
+			streamMaterialPixelShaderProgram = *outMaterialPixelShaderProgramPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialPixelShaderProgramPtr, (void**)outMaterialPixelShaderProgramPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialPixelShaderProgramPtr, v1);
+			Save_MaterialPixelShaderProgram(true);
+		}
+	}
+}
+
+void Save_MaterialPixelShaderProgramPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialPixelShaderProgramPtr, sizeof(MaterialPixelShaderProgram*) * count, (void**)&outMaterialPixelShaderProgramPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialPixelShaderProgramPtr(false);
+		varMaterialPixelShaderProgramPtr++;
+		outMaterialPixelShaderProgramPtr++;
+		streamMaterialPixelShaderProgramPtr++;
+	}
+}
+
+void Save_MaterialPixelShaderPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialPixelShaderPtr, sizeof(MaterialPixelShader*), (void**)&outMaterialPixelShaderPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varMaterialPixelShaderPtr)
+	{
+		*outMaterialPixelShaderPtr = (MaterialPixelShader*)DB_FindStreamData(*varMaterialPixelShaderPtr);
+		assert(*outMaterialPixelShaderPtr != (MaterialPixelShader*)0xFFFFFFFF);
+		if (!*outMaterialPixelShaderPtr)
+		{
+			*outMaterialPixelShaderPtr = AllocSave_MaterialPixelShader();
+			varMaterialPixelShader = *varMaterialPixelShaderPtr;
+			streamMaterialPixelShader = *outMaterialPixelShaderPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialPixelShaderPtr, (void**)outMaterialPixelShaderPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialPixelShaderPtr, v1);
+			Save_MaterialPixelShader(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_MaterialPixelShaderPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialPixelShaderPtr, sizeof(MaterialPixelShader*) * count, (void**)&outMaterialPixelShaderPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialPixelShaderPtr(false);
+		varMaterialPixelShaderPtr++;
+		outMaterialPixelShaderPtr++;
+		streamMaterialPixelShaderPtr++;
+	}
+}
+
+void Save_MaterialPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialPtr, sizeof(Material*), (void**)&outMaterialPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varMaterialPtr)
+	{
+		*outMaterialPtr = (Material*)DB_FindStreamData(*varMaterialPtr);
+		assert(*outMaterialPtr != (Material*)0xFFFFFFFF);
+		if (!*outMaterialPtr)
+		{
+			*outMaterialPtr = AllocSave_Material();
+			varMaterial = *varMaterialPtr;
+			streamMaterial = *outMaterialPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialPtr, (void**)outMaterialPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialPtr, v1);
+			Save_Material(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_MaterialPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialPtr, sizeof(Material*) * count, (void**)&outMaterialPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialPtr(false);
+		varMaterialPtr++;
+		outMaterialPtr++;
+		streamMaterialPtr++;
+	}
+}
+
+void Save_MaterialShaderArgument(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialShaderArgumentArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialShaderArgument, sizeof(MaterialShaderArgument) * count, (void**)&outMaterialShaderArgument);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialShaderArgument(false);
+		varMaterialShaderArgument++;
+		outMaterialShaderArgument++;
+		streamMaterialShaderArgument++;
+	}
+}
+
+void Save_MaterialShaderArgumentPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialShaderArgumentPtr, sizeof(MaterialShaderArgument*), (void**)&outMaterialShaderArgumentPtr);
+	if (*varMaterialShaderArgumentPtr)
+	{
+		*outMaterialShaderArgumentPtr = (MaterialShaderArgument*)DB_FindStreamData(*varMaterialShaderArgumentPtr);
+		assert(*outMaterialShaderArgumentPtr != (MaterialShaderArgument*)0xFFFFFFFF);
+		if (!*outMaterialShaderArgumentPtr)
+		{
+			*outMaterialShaderArgumentPtr = AllocSave_MaterialShaderArgument();
+			varMaterialShaderArgument = *varMaterialShaderArgumentPtr;
+			streamMaterialShaderArgument = *outMaterialShaderArgumentPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialShaderArgumentPtr, (void**)outMaterialShaderArgumentPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialShaderArgumentPtr, v1);
+			Save_MaterialShaderArgument(true);
+		}
+	}
+}
+
+void Save_MaterialShaderArgumentPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialShaderArgumentPtr, sizeof(MaterialShaderArgument*) * count, (void**)&outMaterialShaderArgumentPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialShaderArgumentPtr(false);
+		varMaterialShaderArgumentPtr++;
+		outMaterialShaderArgumentPtr++;
+		streamMaterialShaderArgumentPtr++;
+	}
+}
+
+void Save_MaterialStreamRouting(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialStreamRoutingArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialStreamRouting, sizeof(MaterialStreamRouting) * count, (void**)&outMaterialStreamRouting);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialStreamRouting(false);
+		varMaterialStreamRouting++;
+		outMaterialStreamRouting++;
+		streamMaterialStreamRouting++;
+	}
+}
+
+void Save_MaterialStreamRoutingPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialStreamRoutingPtr, sizeof(MaterialStreamRouting*), (void**)&outMaterialStreamRoutingPtr);
+	if (*varMaterialStreamRoutingPtr)
+	{
+		*outMaterialStreamRoutingPtr = (MaterialStreamRouting*)DB_FindStreamData(*varMaterialStreamRoutingPtr);
+		assert(*outMaterialStreamRoutingPtr != (MaterialStreamRouting*)0xFFFFFFFF);
+		if (!*outMaterialStreamRoutingPtr)
+		{
+			*outMaterialStreamRoutingPtr = AllocSave_MaterialStreamRouting();
+			varMaterialStreamRouting = *varMaterialStreamRoutingPtr;
+			streamMaterialStreamRouting = *outMaterialStreamRoutingPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialStreamRoutingPtr, (void**)outMaterialStreamRoutingPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialStreamRoutingPtr, v1);
+			Save_MaterialStreamRouting(true);
+		}
+	}
+}
+
+void Save_MaterialStreamRoutingPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialStreamRoutingPtr, sizeof(MaterialStreamRouting*) * count, (void**)&outMaterialStreamRoutingPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialStreamRoutingPtr(false);
+		varMaterialStreamRoutingPtr++;
+		outMaterialStreamRoutingPtr++;
+		streamMaterialStreamRoutingPtr++;
+	}
+}
+
+void Save_MaterialTechnique(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialTechniqueArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialTechnique, sizeof(MaterialTechnique) * count, (void**)&outMaterialTechnique);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialTechnique(false);
+		varMaterialTechnique++;
+		outMaterialTechnique++;
+		streamMaterialTechnique++;
+	}
+}
+
+void Save_MaterialTechniquePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialTechniquePtr, sizeof(MaterialTechnique*), (void**)&outMaterialTechniquePtr);
+	if (*varMaterialTechniquePtr)
+	{
+		*outMaterialTechniquePtr = (MaterialTechnique*)DB_FindStreamData(*varMaterialTechniquePtr);
+		assert(*outMaterialTechniquePtr != (MaterialTechnique*)0xFFFFFFFF);
+		if (!*outMaterialTechniquePtr)
+		{
+			*outMaterialTechniquePtr = AllocSave_MaterialTechnique();
+			varMaterialTechnique = *varMaterialTechniquePtr;
+			streamMaterialTechnique = *outMaterialTechniquePtr;
+			auto v1 = sub_44AF80((void**)streamMaterialTechniquePtr, (void**)outMaterialTechniquePtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialTechniquePtr, v1);
+			Save_MaterialTechnique(true);
+		}
+	}
+}
+
+void Save_MaterialTechniquePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialTechniquePtr, sizeof(MaterialTechnique*) * count, (void**)&outMaterialTechniquePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialTechniquePtr(false);
+		varMaterialTechniquePtr++;
+		outMaterialTechniquePtr++;
+		streamMaterialTechniquePtr++;
+	}
+}
+
+void Save_MaterialTechniqueSet(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialTechniqueSetArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialTechniqueSet, sizeof(MaterialTechniqueSet) * count, (void**)&outMaterialTechniqueSet);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialTechniqueSet(false);
+		varMaterialTechniqueSet++;
+		outMaterialTechniqueSet++;
+		streamMaterialTechniqueSet++;
+	}
+}
+
+void Save_MaterialTechniqueSetAsset(MaterialTechniqueSet** asset)
+{
+	// todo!
+}
+
+void Save_MaterialTechniqueSetPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialTechniqueSetPtr, sizeof(MaterialTechniqueSet*), (void**)&outMaterialTechniqueSetPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varMaterialTechniqueSetPtr)
+	{
+		*outMaterialTechniqueSetPtr = (MaterialTechniqueSet*)DB_FindStreamData(*varMaterialTechniqueSetPtr);
+		assert(*outMaterialTechniqueSetPtr != (MaterialTechniqueSet*)0xFFFFFFFF);
+		if (!*outMaterialTechniqueSetPtr)
+		{
+			*outMaterialTechniqueSetPtr = AllocSave_MaterialTechniqueSet();
+			varMaterialTechniqueSet = *varMaterialTechniqueSetPtr;
+			streamMaterialTechniqueSet = *outMaterialTechniqueSetPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialTechniqueSetPtr, (void**)outMaterialTechniqueSetPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialTechniqueSetPtr, v1);
+			Save_MaterialTechniqueSet(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_MaterialTechniqueSetPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialTechniqueSetPtr, sizeof(MaterialTechniqueSet*) * count, (void**)&outMaterialTechniqueSetPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialTechniqueSetPtr(false);
+		varMaterialTechniqueSetPtr++;
+		outMaterialTechniqueSetPtr++;
+		streamMaterialTechniqueSetPtr++;
+	}
+}
+
+void Save_MaterialTextureDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialTextureDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialTextureDef, sizeof(MaterialTextureDef) * count, (void**)&outMaterialTextureDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialTextureDef(false);
+		varMaterialTextureDef++;
+		outMaterialTextureDef++;
+		streamMaterialTextureDef++;
+	}
+}
+
+void Save_MaterialTextureDefInfo(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialTextureDefInfoArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialTextureDefInfo, sizeof(MaterialTextureDefInfo) * count, (void**)&outMaterialTextureDefInfo);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialTextureDefInfo(false);
+		varMaterialTextureDefInfo++;
+		outMaterialTextureDefInfo++;
+		streamMaterialTextureDefInfo++;
+	}
+}
+
+void Save_MaterialTextureDefInfoPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialTextureDefInfoPtr, sizeof(MaterialTextureDefInfo*), (void**)&outMaterialTextureDefInfoPtr);
+	if (*varMaterialTextureDefInfoPtr)
+	{
+		*outMaterialTextureDefInfoPtr = (MaterialTextureDefInfo*)DB_FindStreamData(*varMaterialTextureDefInfoPtr);
+		assert(*outMaterialTextureDefInfoPtr != (MaterialTextureDefInfo*)0xFFFFFFFF);
+		if (!*outMaterialTextureDefInfoPtr)
+		{
+			*outMaterialTextureDefInfoPtr = AllocSave_MaterialTextureDefInfo();
+			varMaterialTextureDefInfo = *varMaterialTextureDefInfoPtr;
+			streamMaterialTextureDefInfo = *outMaterialTextureDefInfoPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialTextureDefInfoPtr, (void**)outMaterialTextureDefInfoPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialTextureDefInfoPtr, v1);
+			Save_MaterialTextureDefInfo(true);
+		}
+	}
+}
+
+void Save_MaterialTextureDefInfoPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialTextureDefInfoPtr, sizeof(MaterialTextureDefInfo*) * count, (void**)&outMaterialTextureDefInfoPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialTextureDefInfoPtr(false);
+		varMaterialTextureDefInfoPtr++;
+		outMaterialTextureDefInfoPtr++;
+		streamMaterialTextureDefInfoPtr++;
+	}
+}
+
+void Save_MaterialTextureDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialTextureDefPtr, sizeof(MaterialTextureDef*), (void**)&outMaterialTextureDefPtr);
+	if (*varMaterialTextureDefPtr)
+	{
+		*outMaterialTextureDefPtr = (MaterialTextureDef*)DB_FindStreamData(*varMaterialTextureDefPtr);
+		assert(*outMaterialTextureDefPtr != (MaterialTextureDef*)0xFFFFFFFF);
+		if (!*outMaterialTextureDefPtr)
+		{
+			*outMaterialTextureDefPtr = AllocSave_MaterialTextureDef();
+			varMaterialTextureDef = *varMaterialTextureDefPtr;
+			streamMaterialTextureDef = *outMaterialTextureDefPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialTextureDefPtr, (void**)outMaterialTextureDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialTextureDefPtr, v1);
+			Save_MaterialTextureDef(true);
+		}
+	}
+}
+
+void Save_MaterialTextureDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialTextureDefPtr, sizeof(MaterialTextureDef*) * count, (void**)&outMaterialTextureDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialTextureDefPtr(false);
+		varMaterialTextureDefPtr++;
+		outMaterialTextureDefPtr++;
+		streamMaterialTextureDefPtr++;
+	}
+}
+
+void Save_MaterialVertexDeclaration(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialVertexDeclarationArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialVertexDeclaration, sizeof(MaterialVertexDeclaration) * count, (void**)&outMaterialVertexDeclaration);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialVertexDeclaration(false);
+		varMaterialVertexDeclaration++;
+		outMaterialVertexDeclaration++;
+		streamMaterialVertexDeclaration++;
+	}
+}
+
+void Save_MaterialVertexDeclarationAsset(MaterialVertexDeclaration** asset)
+{
+	// todo!
+}
+
+void Save_MaterialVertexDeclarationPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialVertexDeclarationPtr, sizeof(MaterialVertexDeclaration*), (void**)&outMaterialVertexDeclarationPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varMaterialVertexDeclarationPtr)
+	{
+		*outMaterialVertexDeclarationPtr = (MaterialVertexDeclaration*)DB_FindStreamData(*varMaterialVertexDeclarationPtr);
+		assert(*outMaterialVertexDeclarationPtr != (MaterialVertexDeclaration*)0xFFFFFFFF);
+		if (!*outMaterialVertexDeclarationPtr)
+		{
+			*outMaterialVertexDeclarationPtr = AllocSave_MaterialVertexDeclaration();
+			varMaterialVertexDeclaration = *varMaterialVertexDeclarationPtr;
+			streamMaterialVertexDeclaration = *outMaterialVertexDeclarationPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialVertexDeclarationPtr, (void**)outMaterialVertexDeclarationPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialVertexDeclarationPtr, v1);
+			Save_MaterialVertexDeclaration(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_MaterialVertexDeclarationPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialVertexDeclarationPtr, sizeof(MaterialVertexDeclaration*) * count, (void**)&outMaterialVertexDeclarationPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialVertexDeclarationPtr(false);
+		varMaterialVertexDeclarationPtr++;
+		outMaterialVertexDeclarationPtr++;
+		streamMaterialVertexDeclarationPtr++;
+	}
+}
+
+void Save_MaterialVertexShader(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialVertexShaderArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialVertexShader, sizeof(MaterialVertexShader) * count, (void**)&outMaterialVertexShader);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialVertexShader(false);
+		varMaterialVertexShader++;
+		outMaterialVertexShader++;
+		streamMaterialVertexShader++;
+	}
+}
+
+void Save_MaterialVertexShaderAsset(MaterialVertexShader** asset)
+{
+	// todo!
+}
+
+void Save_MaterialVertexShaderProgram(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialVertexShaderProgramArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialVertexShaderProgram, sizeof(MaterialVertexShaderProgram) * count, (void**)&outMaterialVertexShaderProgram);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialVertexShaderProgram(false);
+		varMaterialVertexShaderProgram++;
+		outMaterialVertexShaderProgram++;
+		streamMaterialVertexShaderProgram++;
+	}
+}
+
+void Save_MaterialVertexShaderProgramPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialVertexShaderProgramPtr, sizeof(MaterialVertexShaderProgram*), (void**)&outMaterialVertexShaderProgramPtr);
+	if (*varMaterialVertexShaderProgramPtr)
+	{
+		*outMaterialVertexShaderProgramPtr = (MaterialVertexShaderProgram*)DB_FindStreamData(*varMaterialVertexShaderProgramPtr);
+		assert(*outMaterialVertexShaderProgramPtr != (MaterialVertexShaderProgram*)0xFFFFFFFF);
+		if (!*outMaterialVertexShaderProgramPtr)
+		{
+			*outMaterialVertexShaderProgramPtr = AllocSave_MaterialVertexShaderProgram();
+			varMaterialVertexShaderProgram = *varMaterialVertexShaderProgramPtr;
+			streamMaterialVertexShaderProgram = *outMaterialVertexShaderProgramPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialVertexShaderProgramPtr, (void**)outMaterialVertexShaderProgramPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialVertexShaderProgramPtr, v1);
+			Save_MaterialVertexShaderProgram(true);
+		}
+	}
+}
+
+void Save_MaterialVertexShaderProgramPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialVertexShaderProgramPtr, sizeof(MaterialVertexShaderProgram*) * count, (void**)&outMaterialVertexShaderProgramPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialVertexShaderProgramPtr(false);
+		varMaterialVertexShaderProgramPtr++;
+		outMaterialVertexShaderProgramPtr++;
+		streamMaterialVertexShaderProgramPtr++;
+	}
+}
+
+void Save_MaterialVertexShaderPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialVertexShaderPtr, sizeof(MaterialVertexShader*), (void**)&outMaterialVertexShaderPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varMaterialVertexShaderPtr)
+	{
+		*outMaterialVertexShaderPtr = (MaterialVertexShader*)DB_FindStreamData(*varMaterialVertexShaderPtr);
+		assert(*outMaterialVertexShaderPtr != (MaterialVertexShader*)0xFFFFFFFF);
+		if (!*outMaterialVertexShaderPtr)
+		{
+			*outMaterialVertexShaderPtr = AllocSave_MaterialVertexShader();
+			varMaterialVertexShader = *varMaterialVertexShaderPtr;
+			streamMaterialVertexShader = *outMaterialVertexShaderPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialVertexShaderPtr, (void**)outMaterialVertexShaderPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialVertexShaderPtr, v1);
+			Save_MaterialVertexShader(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_MaterialVertexShaderPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialVertexShaderPtr, sizeof(MaterialVertexShader*) * count, (void**)&outMaterialVertexShaderPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialVertexShaderPtr(false);
+		varMaterialVertexShaderPtr++;
+		outMaterialVertexShaderPtr++;
+		streamMaterialVertexShaderPtr++;
+	}
+}
+
+void Save_MaterialVertexStreamRouting(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MaterialVertexStreamRoutingArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialVertexStreamRouting, sizeof(MaterialVertexStreamRouting) * count, (void**)&outMaterialVertexStreamRouting);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialVertexStreamRouting(false);
+		varMaterialVertexStreamRouting++;
+		outMaterialVertexStreamRouting++;
+		streamMaterialVertexStreamRouting++;
+	}
+}
+
+void Save_MaterialVertexStreamRoutingPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMaterialVertexStreamRoutingPtr, sizeof(MaterialVertexStreamRouting*), (void**)&outMaterialVertexStreamRoutingPtr);
+	if (*varMaterialVertexStreamRoutingPtr)
+	{
+		*outMaterialVertexStreamRoutingPtr = (MaterialVertexStreamRouting*)DB_FindStreamData(*varMaterialVertexStreamRoutingPtr);
+		assert(*outMaterialVertexStreamRoutingPtr != (MaterialVertexStreamRouting*)0xFFFFFFFF);
+		if (!*outMaterialVertexStreamRoutingPtr)
+		{
+			*outMaterialVertexStreamRoutingPtr = AllocSave_MaterialVertexStreamRouting();
+			varMaterialVertexStreamRouting = *varMaterialVertexStreamRoutingPtr;
+			streamMaterialVertexStreamRouting = *outMaterialVertexStreamRoutingPtr;
+			auto v1 = sub_44AF80((void**)streamMaterialVertexStreamRoutingPtr, (void**)outMaterialVertexStreamRoutingPtr);
+			DB_FindStreamDataOrInsert((void*)*varMaterialVertexStreamRoutingPtr, v1);
+			Save_MaterialVertexStreamRouting(true);
+		}
+	}
+}
+
+void Save_MaterialVertexStreamRoutingPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMaterialVertexStreamRoutingPtr, sizeof(MaterialVertexStreamRouting*) * count, (void**)&outMaterialVertexStreamRoutingPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MaterialVertexStreamRoutingPtr(false);
+		varMaterialVertexStreamRoutingPtr++;
+		outMaterialVertexStreamRoutingPtr++;
+		streamMaterialVertexStreamRoutingPtr++;
+	}
+}
+
+void Save_MenuEventHandler(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MenuEventHandlerArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMenuEventHandler, sizeof(MenuEventHandler) * count, (void**)&outMenuEventHandler);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MenuEventHandler(false);
+		varMenuEventHandler++;
+		outMenuEventHandler++;
+		streamMenuEventHandler++;
+	}
+}
+
+void Save_MenuEventHandlerPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMenuEventHandlerPtr, sizeof(MenuEventHandler*), (void**)&outMenuEventHandlerPtr);
+	if (*varMenuEventHandlerPtr)
+	{
+		*outMenuEventHandlerPtr = (MenuEventHandler*)DB_FindStreamData(*varMenuEventHandlerPtr);
+		assert(*outMenuEventHandlerPtr != (MenuEventHandler*)0xFFFFFFFF);
+		if (!*outMenuEventHandlerPtr)
+		{
+			*outMenuEventHandlerPtr = AllocSave_MenuEventHandler();
+			varMenuEventHandler = *varMenuEventHandlerPtr;
+			streamMenuEventHandler = *outMenuEventHandlerPtr;
+			auto v1 = sub_44AF80((void**)streamMenuEventHandlerPtr, (void**)outMenuEventHandlerPtr);
+			DB_FindStreamDataOrInsert((void*)*varMenuEventHandlerPtr, v1);
+			Save_MenuEventHandler(true);
+		}
+	}
+}
+
+void Save_MenuEventHandlerPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMenuEventHandlerPtr, sizeof(MenuEventHandler*) * count, (void**)&outMenuEventHandlerPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MenuEventHandlerPtr(false);
+		varMenuEventHandlerPtr++;
+		outMenuEventHandlerPtr++;
+		streamMenuEventHandlerPtr++;
+	}
+}
+
+void Save_MenuEventHandlerSet(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MenuEventHandlerSetArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMenuEventHandlerSet, sizeof(MenuEventHandlerSet) * count, (void**)&outMenuEventHandlerSet);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MenuEventHandlerSet(false);
+		varMenuEventHandlerSet++;
+		outMenuEventHandlerSet++;
+		streamMenuEventHandlerSet++;
+	}
+}
+
+void Save_MenuEventHandlerSetPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMenuEventHandlerSetPtr, sizeof(MenuEventHandlerSet*), (void**)&outMenuEventHandlerSetPtr);
+	if (*varMenuEventHandlerSetPtr)
+	{
+		*outMenuEventHandlerSetPtr = (MenuEventHandlerSet*)DB_FindStreamData(*varMenuEventHandlerSetPtr);
+		assert(*outMenuEventHandlerSetPtr != (MenuEventHandlerSet*)0xFFFFFFFF);
+		if (!*outMenuEventHandlerSetPtr)
+		{
+			*outMenuEventHandlerSetPtr = AllocSave_MenuEventHandlerSet();
+			varMenuEventHandlerSet = *varMenuEventHandlerSetPtr;
+			streamMenuEventHandlerSet = *outMenuEventHandlerSetPtr;
+			auto v1 = sub_44AF80((void**)streamMenuEventHandlerSetPtr, (void**)outMenuEventHandlerSetPtr);
+			DB_FindStreamDataOrInsert((void*)*varMenuEventHandlerSetPtr, v1);
+			Save_MenuEventHandlerSet(true);
+		}
+	}
+}
+
+void Save_MenuEventHandlerSetPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMenuEventHandlerSetPtr, sizeof(MenuEventHandlerSet*) * count, (void**)&outMenuEventHandlerSetPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MenuEventHandlerSetPtr(false);
+		varMenuEventHandlerSetPtr++;
+		outMenuEventHandlerSetPtr++;
+		streamMenuEventHandlerSetPtr++;
+	}
+}
+
+void Save_MenuList(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MenuListArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMenuList, sizeof(MenuList) * count, (void**)&outMenuList);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MenuList(false);
+		varMenuList++;
+		outMenuList++;
+		streamMenuList++;
+	}
+}
+
+void Save_MenuListAsset(MenuList** asset)
+{
+	// todo!
+}
+
+void Save_MenuListPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMenuListPtr, sizeof(MenuList*), (void**)&outMenuListPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varMenuListPtr)
+	{
+		*outMenuListPtr = (MenuList*)DB_FindStreamData(*varMenuListPtr);
+		assert(*outMenuListPtr != (MenuList*)0xFFFFFFFF);
+		if (!*outMenuListPtr)
+		{
+			*outMenuListPtr = AllocSave_MenuList();
+			varMenuList = *varMenuListPtr;
+			streamMenuList = *outMenuListPtr;
+			auto v1 = sub_44AF80((void**)streamMenuListPtr, (void**)outMenuListPtr);
+			DB_FindStreamDataOrInsert((void*)*varMenuListPtr, v1);
+			Save_MenuList(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_MenuListPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMenuListPtr, sizeof(MenuList*) * count, (void**)&outMenuListPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MenuListPtr(false);
+		varMenuListPtr++;
+		outMenuListPtr++;
+		streamMenuListPtr++;
+	}
+}
+
+void Save_MssSound(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_MssSoundArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMssSound, sizeof(MssSound) * count, (void**)&outMssSound);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MssSound(false);
+		varMssSound++;
+		outMssSound++;
+		streamMssSound++;
+	}
+}
+
+void Save_MssSoundPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varMssSoundPtr, sizeof(MssSound*), (void**)&outMssSoundPtr);
+	if (*varMssSoundPtr)
+	{
+		*outMssSoundPtr = (MssSound*)DB_FindStreamData(*varMssSoundPtr);
+		assert(*outMssSoundPtr != (MssSound*)0xFFFFFFFF);
+		if (!*outMssSoundPtr)
+		{
+			*outMssSoundPtr = AllocSave_MssSound();
+			varMssSound = *varMssSoundPtr;
+			streamMssSound = *outMssSoundPtr;
+			auto v1 = sub_44AF80((void**)streamMssSoundPtr, (void**)outMssSoundPtr);
+			DB_FindStreamDataOrInsert((void*)*varMssSoundPtr, v1);
+			Save_MssSound(true);
+		}
+	}
+}
+
+void Save_MssSoundPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varMssSoundPtr, sizeof(MssSound*) * count, (void**)&outMssSoundPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_MssSoundPtr(false);
+		varMssSoundPtr++;
+		outMssSoundPtr++;
+		streamMssSoundPtr++;
+	}
+}
+
+void Save_Operand(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_OperandArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varOperand, sizeof(Operand) * count, (void**)&outOperand);
+	for (int i = 0; i < count; i++)
+	{
+		Save_Operand(false);
+		varOperand++;
+		outOperand++;
+		streamOperand++;
+	}
+}
+
+void Save_OperandPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varOperandPtr, sizeof(Operand*), (void**)&outOperandPtr);
+	if (*varOperandPtr)
+	{
+		*outOperandPtr = (Operand*)DB_FindStreamData(*varOperandPtr);
+		assert(*outOperandPtr != (Operand*)0xFFFFFFFF);
+		if (!*outOperandPtr)
+		{
+			*outOperandPtr = AllocSave_Operand();
+			varOperand = *varOperandPtr;
+			streamOperand = *outOperandPtr;
+			auto v1 = sub_44AF80((void**)streamOperandPtr, (void**)outOperandPtr);
+			DB_FindStreamDataOrInsert((void*)*varOperandPtr, v1);
+			Save_Operand(true);
+		}
+	}
+}
+
+void Save_OperandPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varOperandPtr, sizeof(Operand*) * count, (void**)&outOperandPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_OperandPtr(false);
+		varOperandPtr++;
+		outOperandPtr++;
+		streamOperandPtr++;
+	}
+}
+
+void Save_PackedTexCoords(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_PackedTexCoordsArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPackedTexCoords, sizeof(PackedTexCoords) * count, (void**)&outPackedTexCoords);
+	for (int i = 0; i < count; i++)
+	{
+		Save_PackedTexCoords(false);
+		varPackedTexCoords++;
+		outPackedTexCoords++;
+		streamPackedTexCoords++;
+	}
+}
+
+void Save_PackedTexCoordsPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varPackedTexCoordsPtr, sizeof(PackedTexCoords*), (void**)&outPackedTexCoordsPtr);
+	if (*varPackedTexCoordsPtr)
+	{
+		*outPackedTexCoordsPtr = (PackedTexCoords*)DB_FindStreamData(*varPackedTexCoordsPtr);
+		assert(*outPackedTexCoordsPtr != (PackedTexCoords*)0xFFFFFFFF);
+		if (!*outPackedTexCoordsPtr)
+		{
+			*outPackedTexCoordsPtr = AllocSave_PackedTexCoords();
+			varPackedTexCoords = *varPackedTexCoordsPtr;
+			streamPackedTexCoords = *outPackedTexCoordsPtr;
+			auto v1 = sub_44AF80((void**)streamPackedTexCoordsPtr, (void**)outPackedTexCoordsPtr);
+			DB_FindStreamDataOrInsert((void*)*varPackedTexCoordsPtr, v1);
+			Save_PackedTexCoords(true);
+		}
+	}
+}
+
+void Save_PackedTexCoordsPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPackedTexCoordsPtr, sizeof(PackedTexCoords*) * count, (void**)&outPackedTexCoordsPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_PackedTexCoordsPtr(false);
+		varPackedTexCoordsPtr++;
+		outPackedTexCoordsPtr++;
+		streamPackedTexCoordsPtr++;
+	}
+}
+
+void Save_PackedUnitVec(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_PackedUnitVecArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPackedUnitVec, sizeof(PackedUnitVec) * count, (void**)&outPackedUnitVec);
+	for (int i = 0; i < count; i++)
+	{
+		Save_PackedUnitVec(false);
+		varPackedUnitVec++;
+		outPackedUnitVec++;
+		streamPackedUnitVec++;
+	}
+}
+
+void Save_PackedUnitVecPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varPackedUnitVecPtr, sizeof(PackedUnitVec*), (void**)&outPackedUnitVecPtr);
+	if (*varPackedUnitVecPtr)
+	{
+		*outPackedUnitVecPtr = (PackedUnitVec*)DB_FindStreamData(*varPackedUnitVecPtr);
+		assert(*outPackedUnitVecPtr != (PackedUnitVec*)0xFFFFFFFF);
+		if (!*outPackedUnitVecPtr)
+		{
+			*outPackedUnitVecPtr = AllocSave_PackedUnitVec();
+			varPackedUnitVec = *varPackedUnitVecPtr;
+			streamPackedUnitVec = *outPackedUnitVecPtr;
+			auto v1 = sub_44AF80((void**)streamPackedUnitVecPtr, (void**)outPackedUnitVecPtr);
+			DB_FindStreamDataOrInsert((void*)*varPackedUnitVecPtr, v1);
+			Save_PackedUnitVec(true);
+		}
+	}
+}
+
+void Save_PackedUnitVecPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPackedUnitVecPtr, sizeof(PackedUnitVec*) * count, (void**)&outPackedUnitVecPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_PackedUnitVecPtr(false);
+		varPackedUnitVecPtr++;
+		outPackedUnitVecPtr++;
+		streamPackedUnitVecPtr++;
+	}
+}
+
+void Save_PhysCollmap(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_PhysCollmapArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPhysCollmap, sizeof(PhysCollmap) * count, (void**)&outPhysCollmap);
+	for (int i = 0; i < count; i++)
+	{
+		Save_PhysCollmap(false);
+		varPhysCollmap++;
+		outPhysCollmap++;
+		streamPhysCollmap++;
+	}
+}
+
+void Save_PhysCollmapAsset(PhysCollmap** asset)
+{
+	// todo!
+}
+
+void Save_PhysCollmapPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varPhysCollmapPtr, sizeof(PhysCollmap*), (void**)&outPhysCollmapPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varPhysCollmapPtr)
+	{
+		*outPhysCollmapPtr = (PhysCollmap*)DB_FindStreamData(*varPhysCollmapPtr);
+		assert(*outPhysCollmapPtr != (PhysCollmap*)0xFFFFFFFF);
+		if (!*outPhysCollmapPtr)
+		{
+			*outPhysCollmapPtr = AllocSave_PhysCollmap();
+			varPhysCollmap = *varPhysCollmapPtr;
+			streamPhysCollmap = *outPhysCollmapPtr;
+			auto v1 = sub_44AF80((void**)streamPhysCollmapPtr, (void**)outPhysCollmapPtr);
+			DB_FindStreamDataOrInsert((void*)*varPhysCollmapPtr, v1);
+			Save_PhysCollmap(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_PhysCollmapPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPhysCollmapPtr, sizeof(PhysCollmap*) * count, (void**)&outPhysCollmapPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_PhysCollmapPtr(false);
+		varPhysCollmapPtr++;
+		outPhysCollmapPtr++;
+		streamPhysCollmapPtr++;
+	}
+}
+
+void Save_PhysGeomInfo(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_PhysGeomInfoArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPhysGeomInfo, sizeof(PhysGeomInfo) * count, (void**)&outPhysGeomInfo);
+	for (int i = 0; i < count; i++)
+	{
+		Save_PhysGeomInfo(false);
+		varPhysGeomInfo++;
+		outPhysGeomInfo++;
+		streamPhysGeomInfo++;
+	}
+}
+
+void Save_PhysGeomInfoPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varPhysGeomInfoPtr, sizeof(PhysGeomInfo*), (void**)&outPhysGeomInfoPtr);
+	if (*varPhysGeomInfoPtr)
+	{
+		*outPhysGeomInfoPtr = (PhysGeomInfo*)DB_FindStreamData(*varPhysGeomInfoPtr);
+		assert(*outPhysGeomInfoPtr != (PhysGeomInfo*)0xFFFFFFFF);
+		if (!*outPhysGeomInfoPtr)
+		{
+			*outPhysGeomInfoPtr = AllocSave_PhysGeomInfo();
+			varPhysGeomInfo = *varPhysGeomInfoPtr;
+			streamPhysGeomInfo = *outPhysGeomInfoPtr;
+			auto v1 = sub_44AF80((void**)streamPhysGeomInfoPtr, (void**)outPhysGeomInfoPtr);
+			DB_FindStreamDataOrInsert((void*)*varPhysGeomInfoPtr, v1);
+			Save_PhysGeomInfo(true);
+		}
+	}
+}
+
+void Save_PhysGeomInfoPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPhysGeomInfoPtr, sizeof(PhysGeomInfo*) * count, (void**)&outPhysGeomInfoPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_PhysGeomInfoPtr(false);
+		varPhysGeomInfoPtr++;
+		outPhysGeomInfoPtr++;
+		streamPhysGeomInfoPtr++;
+	}
+}
+
+void Save_PhysMass(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_PhysMassArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPhysMass, sizeof(PhysMass) * count, (void**)&outPhysMass);
+	for (int i = 0; i < count; i++)
+	{
+		Save_PhysMass(false);
+		varPhysMass++;
+		outPhysMass++;
+		streamPhysMass++;
+	}
+}
+
+void Save_PhysMassPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varPhysMassPtr, sizeof(PhysMass*), (void**)&outPhysMassPtr);
+	if (*varPhysMassPtr)
+	{
+		*outPhysMassPtr = (PhysMass*)DB_FindStreamData(*varPhysMassPtr);
+		assert(*outPhysMassPtr != (PhysMass*)0xFFFFFFFF);
+		if (!*outPhysMassPtr)
+		{
+			*outPhysMassPtr = AllocSave_PhysMass();
+			varPhysMass = *varPhysMassPtr;
+			streamPhysMass = *outPhysMassPtr;
+			auto v1 = sub_44AF80((void**)streamPhysMassPtr, (void**)outPhysMassPtr);
+			DB_FindStreamDataOrInsert((void*)*varPhysMassPtr, v1);
+			Save_PhysMass(true);
+		}
+	}
+}
+
+void Save_PhysMassPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPhysMassPtr, sizeof(PhysMass*) * count, (void**)&outPhysMassPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_PhysMassPtr(false);
+		varPhysMassPtr++;
+		outPhysMassPtr++;
+		streamPhysMassPtr++;
+	}
+}
+
+void Save_PhysPreset(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_PhysPresetArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPhysPreset, sizeof(PhysPreset) * count, (void**)&outPhysPreset);
+	for (int i = 0; i < count; i++)
+	{
+		Save_PhysPreset(false);
+		varPhysPreset++;
+		outPhysPreset++;
+		streamPhysPreset++;
+	}
+}
+
+void Save_PhysPresetAsset(PhysPreset** asset)
+{
+	// todo!
+}
+
+void Save_PhysPresetPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varPhysPresetPtr, sizeof(PhysPreset*), (void**)&outPhysPresetPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varPhysPresetPtr)
+	{
+		*outPhysPresetPtr = (PhysPreset*)DB_FindStreamData(*varPhysPresetPtr);
+		assert(*outPhysPresetPtr != (PhysPreset*)0xFFFFFFFF);
+		if (!*outPhysPresetPtr)
+		{
+			*outPhysPresetPtr = AllocSave_PhysPreset();
+			varPhysPreset = *varPhysPresetPtr;
+			streamPhysPreset = *outPhysPresetPtr;
+			auto v1 = sub_44AF80((void**)streamPhysPresetPtr, (void**)outPhysPresetPtr);
+			DB_FindStreamDataOrInsert((void*)*varPhysPresetPtr, v1);
+			Save_PhysPreset(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_PhysPresetPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPhysPresetPtr, sizeof(PhysPreset*) * count, (void**)&outPhysPresetPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_PhysPresetPtr(false);
+		varPhysPresetPtr++;
+		outPhysPresetPtr++;
+		streamPhysPresetPtr++;
+	}
+}
+
+void Save_Picmip(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_PicmipArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPicmip, sizeof(Picmip) * count, (void**)&outPicmip);
+	for (int i = 0; i < count; i++)
+	{
+		Save_Picmip(false);
+		varPicmip++;
+		outPicmip++;
+		streamPicmip++;
+	}
+}
+
+void Save_PicmipPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varPicmipPtr, sizeof(Picmip*), (void**)&outPicmipPtr);
+	if (*varPicmipPtr)
+	{
+		*outPicmipPtr = (Picmip*)DB_FindStreamData(*varPicmipPtr);
+		assert(*outPicmipPtr != (Picmip*)0xFFFFFFFF);
+		if (!*outPicmipPtr)
+		{
+			*outPicmipPtr = AllocSave_Picmip();
+			varPicmip = *varPicmipPtr;
+			streamPicmip = *outPicmipPtr;
+			auto v1 = sub_44AF80((void**)streamPicmipPtr, (void**)outPicmipPtr);
+			DB_FindStreamDataOrInsert((void*)*varPicmipPtr, v1);
+			Save_Picmip(true);
+		}
+	}
+}
+
+void Save_PicmipPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varPicmipPtr, sizeof(Picmip*) * count, (void**)&outPicmipPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_PicmipPtr(false);
+		varPicmipPtr++;
+		outPicmipPtr++;
+		streamPicmipPtr++;
+	}
+}
+
+void Save_RawFile(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_RawFileArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varRawFile, sizeof(RawFile) * count, (void**)&outRawFile);
+	for (int i = 0; i < count; i++)
+	{
+		Save_RawFile(false);
+		varRawFile++;
+		outRawFile++;
+		streamRawFile++;
+	}
+}
+
+void Save_RawFileAsset(RawFile** asset)
+{
+	// todo!
+}
+
+void Save_RawFilePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varRawFilePtr, sizeof(RawFile*), (void**)&outRawFilePtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varRawFilePtr)
+	{
+		*outRawFilePtr = (RawFile*)DB_FindStreamData(*varRawFilePtr);
+		assert(*outRawFilePtr != (RawFile*)0xFFFFFFFF);
+		if (!*outRawFilePtr)
+		{
+			*outRawFilePtr = AllocSave_RawFile();
+			varRawFile = *varRawFilePtr;
+			streamRawFile = *outRawFilePtr;
+			auto v1 = sub_44AF80((void**)streamRawFilePtr, (void**)outRawFilePtr);
+			DB_FindStreamDataOrInsert((void*)*varRawFilePtr, v1);
+			Save_RawFile(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_RawFilePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varRawFilePtr, sizeof(RawFile*) * count, (void**)&outRawFilePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_RawFilePtr(false);
+		varRawFilePtr++;
+		outRawFilePtr++;
+		streamRawFilePtr++;
+	}
+}
+
+void Save_SModelAabbNode(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_SModelAabbNodeArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSModelAabbNode, sizeof(SModelAabbNode) * count, (void**)&outSModelAabbNode);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SModelAabbNode(false);
+		varSModelAabbNode++;
+		outSModelAabbNode++;
+		streamSModelAabbNode++;
+	}
+}
+
+void Save_SModelAabbNodePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varSModelAabbNodePtr, sizeof(SModelAabbNode*), (void**)&outSModelAabbNodePtr);
+	if (*varSModelAabbNodePtr)
+	{
+		*outSModelAabbNodePtr = (SModelAabbNode*)DB_FindStreamData(*varSModelAabbNodePtr);
+		assert(*outSModelAabbNodePtr != (SModelAabbNode*)0xFFFFFFFF);
+		if (!*outSModelAabbNodePtr)
+		{
+			*outSModelAabbNodePtr = AllocSave_SModelAabbNode();
+			varSModelAabbNode = *varSModelAabbNodePtr;
+			streamSModelAabbNode = *outSModelAabbNodePtr;
+			auto v1 = sub_44AF80((void**)streamSModelAabbNodePtr, (void**)outSModelAabbNodePtr);
+			DB_FindStreamDataOrInsert((void*)*varSModelAabbNodePtr, v1);
+			Save_SModelAabbNode(true);
+		}
+	}
+}
+
+void Save_SModelAabbNodePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSModelAabbNodePtr, sizeof(SModelAabbNode*) * count, (void**)&outSModelAabbNodePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SModelAabbNodePtr(false);
+		varSModelAabbNodePtr++;
+		outSModelAabbNodePtr++;
+		streamSModelAabbNodePtr++;
+	}
+}
+
+void Save_ScriptStringList(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_ScriptStringListArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varScriptStringList, sizeof(ScriptStringList) * count, (void**)&outScriptStringList);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ScriptStringList(false);
+		varScriptStringList++;
+		outScriptStringList++;
+		streamScriptStringList++;
+	}
+}
+
+void Save_ScriptStringListPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varScriptStringListPtr, sizeof(ScriptStringList*), (void**)&outScriptStringListPtr);
+	if (*varScriptStringListPtr)
+	{
+		*outScriptStringListPtr = (ScriptStringList*)DB_FindStreamData(*varScriptStringListPtr);
+		assert(*outScriptStringListPtr != (ScriptStringList*)0xFFFFFFFF);
+		if (!*outScriptStringListPtr)
+		{
+			*outScriptStringListPtr = AllocSave_ScriptStringList();
+			varScriptStringList = *varScriptStringListPtr;
+			streamScriptStringList = *outScriptStringListPtr;
+			auto v1 = sub_44AF80((void**)streamScriptStringListPtr, (void**)outScriptStringListPtr);
+			DB_FindStreamDataOrInsert((void*)*varScriptStringListPtr, v1);
+			Save_ScriptStringList(true);
+		}
+	}
+}
+
+void Save_ScriptStringListPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varScriptStringListPtr, sizeof(ScriptStringList*) * count, (void**)&outScriptStringListPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_ScriptStringListPtr(false);
+		varScriptStringListPtr++;
+		outScriptStringListPtr++;
+		streamScriptStringListPtr++;
+	}
+}
+
+void Save_SetLocalVarData(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_SetLocalVarDataArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSetLocalVarData, sizeof(SetLocalVarData) * count, (void**)&outSetLocalVarData);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SetLocalVarData(false);
+		varSetLocalVarData++;
+		outSetLocalVarData++;
+		streamSetLocalVarData++;
+	}
+}
+
+void Save_SetLocalVarDataPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varSetLocalVarDataPtr, sizeof(SetLocalVarData*), (void**)&outSetLocalVarDataPtr);
+	if (*varSetLocalVarDataPtr)
+	{
+		*outSetLocalVarDataPtr = (SetLocalVarData*)DB_FindStreamData(*varSetLocalVarDataPtr);
+		assert(*outSetLocalVarDataPtr != (SetLocalVarData*)0xFFFFFFFF);
+		if (!*outSetLocalVarDataPtr)
+		{
+			*outSetLocalVarDataPtr = AllocSave_SetLocalVarData();
+			varSetLocalVarData = *varSetLocalVarDataPtr;
+			streamSetLocalVarData = *outSetLocalVarDataPtr;
+			auto v1 = sub_44AF80((void**)streamSetLocalVarDataPtr, (void**)outSetLocalVarDataPtr);
+			DB_FindStreamDataOrInsert((void*)*varSetLocalVarDataPtr, v1);
+			Save_SetLocalVarData(true);
+		}
+	}
+}
+
+void Save_SetLocalVarDataPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSetLocalVarDataPtr, sizeof(SetLocalVarData*) * count, (void**)&outSetLocalVarDataPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SetLocalVarDataPtr(false);
+		varSetLocalVarDataPtr++;
+		outSetLocalVarDataPtr++;
+		streamSetLocalVarDataPtr++;
+	}
+}
+
+void Save_SndCurve(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_SndCurveArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSndCurve, sizeof(SndCurve) * count, (void**)&outSndCurve);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SndCurve(false);
+		varSndCurve++;
+		outSndCurve++;
+		streamSndCurve++;
+	}
+}
+
+void Save_SndCurveAsset(SndCurve** asset)
+{
+	// todo!
+}
+
+void Save_SndCurvePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varSndCurvePtr, sizeof(SndCurve*), (void**)&outSndCurvePtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varSndCurvePtr)
+	{
+		*outSndCurvePtr = (SndCurve*)DB_FindStreamData(*varSndCurvePtr);
+		assert(*outSndCurvePtr != (SndCurve*)0xFFFFFFFF);
+		if (!*outSndCurvePtr)
+		{
+			*outSndCurvePtr = AllocSave_SndCurve();
+			varSndCurve = *varSndCurvePtr;
+			streamSndCurve = *outSndCurvePtr;
+			auto v1 = sub_44AF80((void**)streamSndCurvePtr, (void**)outSndCurvePtr);
+			DB_FindStreamDataOrInsert((void*)*varSndCurvePtr, v1);
+			Save_SndCurve(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_SndCurvePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSndCurvePtr, sizeof(SndCurve*) * count, (void**)&outSndCurvePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SndCurvePtr(false);
+		varSndCurvePtr++;
+		outSndCurvePtr++;
+		streamSndCurvePtr++;
+	}
+}
+
+void Save_SndDriverGlobals(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_SndDriverGlobalsArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSndDriverGlobals, sizeof(SndDriverGlobals) * count, (void**)&outSndDriverGlobals);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SndDriverGlobals(false);
+		varSndDriverGlobals++;
+		outSndDriverGlobals++;
+		streamSndDriverGlobals++;
+	}
+}
+
+void Save_SndDriverGlobalsPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varSndDriverGlobalsPtr, sizeof(SndDriverGlobals*), (void**)&outSndDriverGlobalsPtr);
+	if (*varSndDriverGlobalsPtr)
+	{
+		*outSndDriverGlobalsPtr = (SndDriverGlobals*)DB_FindStreamData(*varSndDriverGlobalsPtr);
+		assert(*outSndDriverGlobalsPtr != (SndDriverGlobals*)0xFFFFFFFF);
+		if (!*outSndDriverGlobalsPtr)
+		{
+			*outSndDriverGlobalsPtr = AllocSave_SndDriverGlobals();
+			varSndDriverGlobals = *varSndDriverGlobalsPtr;
+			streamSndDriverGlobals = *outSndDriverGlobalsPtr;
+			auto v1 = sub_44AF80((void**)streamSndDriverGlobalsPtr, (void**)outSndDriverGlobalsPtr);
+			DB_FindStreamDataOrInsert((void*)*varSndDriverGlobalsPtr, v1);
+			Save_SndDriverGlobals(true);
+		}
+	}
+}
+
+void Save_SndDriverGlobalsPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSndDriverGlobalsPtr, sizeof(SndDriverGlobals*) * count, (void**)&outSndDriverGlobalsPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SndDriverGlobalsPtr(false);
+		varSndDriverGlobalsPtr++;
+		outSndDriverGlobalsPtr++;
+		streamSndDriverGlobalsPtr++;
+	}
+}
+
+void Save_SoundFile(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_SoundFileArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSoundFile, sizeof(SoundFile) * count, (void**)&outSoundFile);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SoundFile(false);
+		varSoundFile++;
+		outSoundFile++;
+		streamSoundFile++;
+	}
+}
+
+void Save_SoundFilePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varSoundFilePtr, sizeof(SoundFile*), (void**)&outSoundFilePtr);
+	if (*varSoundFilePtr)
+	{
+		*outSoundFilePtr = (SoundFile*)DB_FindStreamData(*varSoundFilePtr);
+		assert(*outSoundFilePtr != (SoundFile*)0xFFFFFFFF);
+		if (!*outSoundFilePtr)
+		{
+			*outSoundFilePtr = AllocSave_SoundFile();
+			varSoundFile = *varSoundFilePtr;
+			streamSoundFile = *outSoundFilePtr;
+			auto v1 = sub_44AF80((void**)streamSoundFilePtr, (void**)outSoundFilePtr);
+			DB_FindStreamDataOrInsert((void*)*varSoundFilePtr, v1);
+			Save_SoundFile(true);
+		}
+	}
+}
+
+void Save_SoundFilePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSoundFilePtr, sizeof(SoundFile*) * count, (void**)&outSoundFilePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SoundFilePtr(false);
+		varSoundFilePtr++;
+		outSoundFilePtr++;
+		streamSoundFilePtr++;
+	}
+}
+
+void Save_SoundFileRef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_SoundFileRefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSoundFileRef, sizeof(SoundFileRef) * count, (void**)&outSoundFileRef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SoundFileRef(false);
+		varSoundFileRef++;
+		outSoundFileRef++;
+		streamSoundFileRef++;
+	}
+}
+
+void Save_SoundFileRefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varSoundFileRefPtr, sizeof(SoundFileRef*), (void**)&outSoundFileRefPtr);
+	if (*varSoundFileRefPtr)
+	{
+		*outSoundFileRefPtr = (SoundFileRef*)DB_FindStreamData(*varSoundFileRefPtr);
+		assert(*outSoundFileRefPtr != (SoundFileRef*)0xFFFFFFFF);
+		if (!*outSoundFileRefPtr)
+		{
+			*outSoundFileRefPtr = AllocSave_SoundFileRef();
+			varSoundFileRef = *varSoundFileRefPtr;
+			streamSoundFileRef = *outSoundFileRefPtr;
+			auto v1 = sub_44AF80((void**)streamSoundFileRefPtr, (void**)outSoundFileRefPtr);
+			DB_FindStreamDataOrInsert((void*)*varSoundFileRefPtr, v1);
+			Save_SoundFileRef(true);
+		}
+	}
+}
+
+void Save_SoundFileRefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSoundFileRefPtr, sizeof(SoundFileRef*) * count, (void**)&outSoundFileRefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SoundFileRefPtr(false);
+		varSoundFileRefPtr++;
+		outSoundFileRefPtr++;
+		streamSoundFileRefPtr++;
+	}
+}
+
+void Save_SpeakerMap(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_SpeakerMapArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSpeakerMap, sizeof(SpeakerMap) * count, (void**)&outSpeakerMap);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SpeakerMap(false);
+		varSpeakerMap++;
+		outSpeakerMap++;
+		streamSpeakerMap++;
+	}
+}
+
+void Save_SpeakerMapPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varSpeakerMapPtr, sizeof(SpeakerMap*), (void**)&outSpeakerMapPtr);
+	if (*varSpeakerMapPtr)
+	{
+		*outSpeakerMapPtr = (SpeakerMap*)DB_FindStreamData(*varSpeakerMapPtr);
+		assert(*outSpeakerMapPtr != (SpeakerMap*)0xFFFFFFFF);
+		if (!*outSpeakerMapPtr)
+		{
+			*outSpeakerMapPtr = AllocSave_SpeakerMap();
+			varSpeakerMap = *varSpeakerMapPtr;
+			streamSpeakerMap = *outSpeakerMapPtr;
+			auto v1 = sub_44AF80((void**)streamSpeakerMapPtr, (void**)outSpeakerMapPtr);
+			DB_FindStreamDataOrInsert((void*)*varSpeakerMapPtr, v1);
+			Save_SpeakerMap(true);
+		}
+	}
+}
+
+void Save_SpeakerMapPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varSpeakerMapPtr, sizeof(SpeakerMap*) * count, (void**)&outSpeakerMapPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_SpeakerMapPtr(false);
+		varSpeakerMapPtr++;
+		outSpeakerMapPtr++;
+		streamSpeakerMapPtr++;
+	}
+}
+
+void Save_Stage(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StageArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStage, sizeof(Stage) * count, (void**)&outStage);
+	for (int i = 0; i < count; i++)
+	{
+		Save_Stage(false);
+		varStage++;
+		outStage++;
+		streamStage++;
+	}
+}
+
+void Save_StagePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStagePtr, sizeof(Stage*), (void**)&outStagePtr);
+	if (*varStagePtr)
+	{
+		*outStagePtr = (Stage*)DB_FindStreamData(*varStagePtr);
+		assert(*outStagePtr != (Stage*)0xFFFFFFFF);
+		if (!*outStagePtr)
+		{
+			*outStagePtr = AllocSave_Stage();
+			varStage = *varStagePtr;
+			streamStage = *outStagePtr;
+			auto v1 = sub_44AF80((void**)streamStagePtr, (void**)outStagePtr);
+			DB_FindStreamDataOrInsert((void*)*varStagePtr, v1);
+			Save_Stage(true);
+		}
+	}
+}
+
+void Save_StagePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStagePtr, sizeof(Stage*) * count, (void**)&outStagePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StagePtr(false);
+		varStagePtr++;
+		outStagePtr++;
+		streamStagePtr++;
+	}
+}
+
+void Save_Statement_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_Statement_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStatement_s, sizeof(Statement_s) * count, (void**)&outStatement_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_Statement_s(false);
+		varStatement_s++;
+		outStatement_s++;
+		streamStatement_s++;
+	}
+}
+
+void Save_Statement_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStatement_sPtr, sizeof(Statement_s*), (void**)&outStatement_sPtr);
+	if (*varStatement_sPtr)
+	{
+		*outStatement_sPtr = (Statement_s*)DB_FindStreamData(*varStatement_sPtr);
+		assert(*outStatement_sPtr != (Statement_s*)0xFFFFFFFF);
+		if (!*outStatement_sPtr)
+		{
+			*outStatement_sPtr = AllocSave_Statement_s();
+			varStatement_s = *varStatement_sPtr;
+			streamStatement_s = *outStatement_sPtr;
+			auto v1 = sub_44AF80((void**)streamStatement_sPtr, (void**)outStatement_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varStatement_sPtr, v1);
+			Save_Statement_s(true);
+		}
+	}
+}
+
+void Save_Statement_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStatement_sPtr, sizeof(Statement_s*) * count, (void**)&outStatement_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_Statement_sPtr(false);
+		varStatement_sPtr++;
+		outStatement_sPtr++;
+		streamStatement_sPtr++;
+	}
+}
+
+void Save_StaticDvar(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StaticDvarArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStaticDvar, sizeof(StaticDvar) * count, (void**)&outStaticDvar);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StaticDvar(false);
+		varStaticDvar++;
+		outStaticDvar++;
+		streamStaticDvar++;
+	}
+}
+
+void Save_StaticDvarList(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StaticDvarListArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStaticDvarList, sizeof(StaticDvarList) * count, (void**)&outStaticDvarList);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StaticDvarList(false);
+		varStaticDvarList++;
+		outStaticDvarList++;
+		streamStaticDvarList++;
+	}
+}
+
+void Save_StaticDvarListPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStaticDvarListPtr, sizeof(StaticDvarList*), (void**)&outStaticDvarListPtr);
+	if (*varStaticDvarListPtr)
+	{
+		*outStaticDvarListPtr = (StaticDvarList*)DB_FindStreamData(*varStaticDvarListPtr);
+		assert(*outStaticDvarListPtr != (StaticDvarList*)0xFFFFFFFF);
+		if (!*outStaticDvarListPtr)
+		{
+			*outStaticDvarListPtr = AllocSave_StaticDvarList();
+			varStaticDvarList = *varStaticDvarListPtr;
+			streamStaticDvarList = *outStaticDvarListPtr;
+			auto v1 = sub_44AF80((void**)streamStaticDvarListPtr, (void**)outStaticDvarListPtr);
+			DB_FindStreamDataOrInsert((void*)*varStaticDvarListPtr, v1);
+			Save_StaticDvarList(true);
+		}
+	}
+}
+
+void Save_StaticDvarListPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStaticDvarListPtr, sizeof(StaticDvarList*) * count, (void**)&outStaticDvarListPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StaticDvarListPtr(false);
+		varStaticDvarListPtr++;
+		outStaticDvarListPtr++;
+		streamStaticDvarListPtr++;
+	}
+}
+
+void Save_StaticDvarPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStaticDvarPtr, sizeof(StaticDvar*), (void**)&outStaticDvarPtr);
+	if (*varStaticDvarPtr)
+	{
+		*outStaticDvarPtr = (StaticDvar*)DB_FindStreamData(*varStaticDvarPtr);
+		assert(*outStaticDvarPtr != (StaticDvar*)0xFFFFFFFF);
+		if (!*outStaticDvarPtr)
+		{
+			*outStaticDvarPtr = AllocSave_StaticDvar();
+			varStaticDvar = *varStaticDvarPtr;
+			streamStaticDvar = *outStaticDvarPtr;
+			auto v1 = sub_44AF80((void**)streamStaticDvarPtr, (void**)outStaticDvarPtr);
+			DB_FindStreamDataOrInsert((void*)*varStaticDvarPtr, v1);
+			Save_StaticDvar(true);
+		}
+	}
+}
+
+void Save_StaticDvarPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStaticDvarPtr, sizeof(StaticDvar*) * count, (void**)&outStaticDvarPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StaticDvarPtr(false);
+		varStaticDvarPtr++;
+		outStaticDvarPtr++;
+		streamStaticDvarPtr++;
+	}
+}
+
+void Save_StreamFileInfo(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StreamFileInfoArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStreamFileInfo, sizeof(StreamFileInfo) * count, (void**)&outStreamFileInfo);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StreamFileInfo(false);
+		varStreamFileInfo++;
+		outStreamFileInfo++;
+		streamStreamFileInfo++;
+	}
+}
+
+void Save_StreamFileInfoPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStreamFileInfoPtr, sizeof(StreamFileInfo*), (void**)&outStreamFileInfoPtr);
+	if (*varStreamFileInfoPtr)
+	{
+		*outStreamFileInfoPtr = (StreamFileInfo*)DB_FindStreamData(*varStreamFileInfoPtr);
+		assert(*outStreamFileInfoPtr != (StreamFileInfo*)0xFFFFFFFF);
+		if (!*outStreamFileInfoPtr)
+		{
+			*outStreamFileInfoPtr = AllocSave_StreamFileInfo();
+			varStreamFileInfo = *varStreamFileInfoPtr;
+			streamStreamFileInfo = *outStreamFileInfoPtr;
+			auto v1 = sub_44AF80((void**)streamStreamFileInfoPtr, (void**)outStreamFileInfoPtr);
+			DB_FindStreamDataOrInsert((void*)*varStreamFileInfoPtr, v1);
+			Save_StreamFileInfo(true);
+		}
+	}
+}
+
+void Save_StreamFileInfoPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStreamFileInfoPtr, sizeof(StreamFileInfo*) * count, (void**)&outStreamFileInfoPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StreamFileInfoPtr(false);
+		varStreamFileInfoPtr++;
+		outStreamFileInfoPtr++;
+		streamStreamFileInfoPtr++;
+	}
+}
+
+void Save_StreamFileName(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StreamFileNameArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStreamFileName, sizeof(StreamFileName) * count, (void**)&outStreamFileName);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StreamFileName(false);
+		varStreamFileName++;
+		outStreamFileName++;
+		streamStreamFileName++;
+	}
+}
+
+void Save_StreamFileNamePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStreamFileNamePtr, sizeof(StreamFileName*), (void**)&outStreamFileNamePtr);
+	if (*varStreamFileNamePtr)
+	{
+		*outStreamFileNamePtr = (StreamFileName*)DB_FindStreamData(*varStreamFileNamePtr);
+		assert(*outStreamFileNamePtr != (StreamFileName*)0xFFFFFFFF);
+		if (!*outStreamFileNamePtr)
+		{
+			*outStreamFileNamePtr = AllocSave_StreamFileName();
+			varStreamFileName = *varStreamFileNamePtr;
+			streamStreamFileName = *outStreamFileNamePtr;
+			auto v1 = sub_44AF80((void**)streamStreamFileNamePtr, (void**)outStreamFileNamePtr);
+			DB_FindStreamDataOrInsert((void*)*varStreamFileNamePtr, v1);
+			Save_StreamFileName(true);
+		}
+	}
+}
+
+void Save_StreamFileNamePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStreamFileNamePtr, sizeof(StreamFileName*) * count, (void**)&outStreamFileNamePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StreamFileNamePtr(false);
+		varStreamFileNamePtr++;
+		outStreamFileNamePtr++;
+		streamStreamFileNamePtr++;
+	}
+}
+
+void Save_StreamFileNameRaw(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StreamFileNameRawArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStreamFileNameRaw, sizeof(StreamFileNameRaw) * count, (void**)&outStreamFileNameRaw);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StreamFileNameRaw(false);
+		varStreamFileNameRaw++;
+		outStreamFileNameRaw++;
+		streamStreamFileNameRaw++;
+	}
+}
+
+void Save_StreamFileNameRawPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStreamFileNameRawPtr, sizeof(StreamFileNameRaw*), (void**)&outStreamFileNameRawPtr);
+	if (*varStreamFileNameRawPtr)
+	{
+		*outStreamFileNameRawPtr = (StreamFileNameRaw*)DB_FindStreamData(*varStreamFileNameRawPtr);
+		assert(*outStreamFileNameRawPtr != (StreamFileNameRaw*)0xFFFFFFFF);
+		if (!*outStreamFileNameRawPtr)
+		{
+			*outStreamFileNameRawPtr = AllocSave_StreamFileNameRaw();
+			varStreamFileNameRaw = *varStreamFileNameRawPtr;
+			streamStreamFileNameRaw = *outStreamFileNameRawPtr;
+			auto v1 = sub_44AF80((void**)streamStreamFileNameRawPtr, (void**)outStreamFileNameRawPtr);
+			DB_FindStreamDataOrInsert((void*)*varStreamFileNameRawPtr, v1);
+			Save_StreamFileNameRaw(true);
+		}
+	}
+}
+
+void Save_StreamFileNameRawPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStreamFileNameRawPtr, sizeof(StreamFileNameRaw*) * count, (void**)&outStreamFileNameRawPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StreamFileNameRawPtr(false);
+		varStreamFileNameRawPtr++;
+		outStreamFileNameRawPtr++;
+		streamStreamFileNameRawPtr++;
+	}
+}
+
+void Save_StreamedSound(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StreamedSoundArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStreamedSound, sizeof(StreamedSound) * count, (void**)&outStreamedSound);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StreamedSound(false);
+		varStreamedSound++;
+		outStreamedSound++;
+		streamStreamedSound++;
+	}
+}
+
+void Save_StreamedSoundPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStreamedSoundPtr, sizeof(StreamedSound*), (void**)&outStreamedSoundPtr);
+	if (*varStreamedSoundPtr)
+	{
+		*outStreamedSoundPtr = (StreamedSound*)DB_FindStreamData(*varStreamedSoundPtr);
+		assert(*outStreamedSoundPtr != (StreamedSound*)0xFFFFFFFF);
+		if (!*outStreamedSoundPtr)
+		{
+			*outStreamedSoundPtr = AllocSave_StreamedSound();
+			varStreamedSound = *varStreamedSoundPtr;
+			streamStreamedSound = *outStreamedSoundPtr;
+			auto v1 = sub_44AF80((void**)streamStreamedSoundPtr, (void**)outStreamedSoundPtr);
+			DB_FindStreamDataOrInsert((void*)*varStreamedSoundPtr, v1);
+			Save_StreamedSound(true);
+		}
+	}
+}
+
+void Save_StreamedSoundPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStreamedSoundPtr, sizeof(StreamedSound*) * count, (void**)&outStreamedSoundPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StreamedSoundPtr(false);
+		varStreamedSoundPtr++;
+		outStreamedSoundPtr++;
+		streamStreamedSoundPtr++;
+	}
+}
+
+void Save_StringList(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StringListArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStringList, sizeof(StringList) * count, (void**)&outStringList);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StringList(false);
+		varStringList++;
+		outStringList++;
+		streamStringList++;
+	}
+}
+
+void Save_StringListPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStringListPtr, sizeof(StringList*), (void**)&outStringListPtr);
+	if (*varStringListPtr)
+	{
+		*outStringListPtr = (StringList*)DB_FindStreamData(*varStringListPtr);
+		assert(*outStringListPtr != (StringList*)0xFFFFFFFF);
+		if (!*outStringListPtr)
+		{
+			*outStringListPtr = AllocSave_StringList();
+			varStringList = *varStringListPtr;
+			streamStringList = *outStringListPtr;
+			auto v1 = sub_44AF80((void**)streamStringListPtr, (void**)outStringListPtr);
+			DB_FindStreamDataOrInsert((void*)*varStringListPtr, v1);
+			Save_StringList(true);
+		}
+	}
+}
+
+void Save_StringListPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStringListPtr, sizeof(StringList*) * count, (void**)&outStringListPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StringListPtr(false);
+		varStringListPtr++;
+		outStringListPtr++;
+		streamStringListPtr++;
+	}
+}
+
+void Save_StringTable(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StringTableArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStringTable, sizeof(StringTable) * count, (void**)&outStringTable);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StringTable(false);
+		varStringTable++;
+		outStringTable++;
+		streamStringTable++;
+	}
+}
+
+void Save_StringTableAsset(StringTable** asset)
+{
+	// todo!
+}
+
+void Save_StringTableCell(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StringTableCellArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStringTableCell, sizeof(StringTableCell) * count, (void**)&outStringTableCell);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StringTableCell(false);
+		varStringTableCell++;
+		outStringTableCell++;
+		streamStringTableCell++;
+	}
+}
+
+void Save_StringTableCellPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStringTableCellPtr, sizeof(StringTableCell*), (void**)&outStringTableCellPtr);
+	if (*varStringTableCellPtr)
+	{
+		*outStringTableCellPtr = (StringTableCell*)DB_FindStreamData(*varStringTableCellPtr);
+		assert(*outStringTableCellPtr != (StringTableCell*)0xFFFFFFFF);
+		if (!*outStringTableCellPtr)
+		{
+			*outStringTableCellPtr = AllocSave_StringTableCell();
+			varStringTableCell = *varStringTableCellPtr;
+			streamStringTableCell = *outStringTableCellPtr;
+			auto v1 = sub_44AF80((void**)streamStringTableCellPtr, (void**)outStringTableCellPtr);
+			DB_FindStreamDataOrInsert((void*)*varStringTableCellPtr, v1);
+			Save_StringTableCell(true);
+		}
+	}
+}
+
+void Save_StringTableCellPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStringTableCellPtr, sizeof(StringTableCell*) * count, (void**)&outStringTableCellPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StringTableCellPtr(false);
+		varStringTableCellPtr++;
+		outStringTableCellPtr++;
+		streamStringTableCellPtr++;
+	}
+}
+
+void Save_StringTablePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStringTablePtr, sizeof(StringTable*), (void**)&outStringTablePtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varStringTablePtr)
+	{
+		*outStringTablePtr = (StringTable*)DB_FindStreamData(*varStringTablePtr);
+		assert(*outStringTablePtr != (StringTable*)0xFFFFFFFF);
+		if (!*outStringTablePtr)
+		{
+			*outStringTablePtr = AllocSave_StringTable();
+			varStringTable = *varStringTablePtr;
+			streamStringTable = *outStringTablePtr;
+			auto v1 = sub_44AF80((void**)streamStringTablePtr, (void**)outStringTablePtr);
+			DB_FindStreamDataOrInsert((void*)*varStringTablePtr, v1);
+			Save_StringTable(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_StringTablePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStringTablePtr, sizeof(StringTable*) * count, (void**)&outStringTablePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StringTablePtr(false);
+		varStringTablePtr++;
+		outStringTablePtr++;
+		streamStringTablePtr++;
+	}
+}
+
+void Save_StructuredDataDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StructuredDataDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataDef, sizeof(StructuredDataDef) * count, (void**)&outStructuredDataDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataDef(false);
+		varStructuredDataDef++;
+		outStructuredDataDef++;
+		streamStructuredDataDef++;
+	}
+}
+
+void Save_StructuredDataDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStructuredDataDefPtr, sizeof(StructuredDataDef*), (void**)&outStructuredDataDefPtr);
+	if (*varStructuredDataDefPtr)
+	{
+		*outStructuredDataDefPtr = (StructuredDataDef*)DB_FindStreamData(*varStructuredDataDefPtr);
+		assert(*outStructuredDataDefPtr != (StructuredDataDef*)0xFFFFFFFF);
+		if (!*outStructuredDataDefPtr)
+		{
+			*outStructuredDataDefPtr = AllocSave_StructuredDataDef();
+			varStructuredDataDef = *varStructuredDataDefPtr;
+			streamStructuredDataDef = *outStructuredDataDefPtr;
+			auto v1 = sub_44AF80((void**)streamStructuredDataDefPtr, (void**)outStructuredDataDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varStructuredDataDefPtr, v1);
+			Save_StructuredDataDef(true);
+		}
+	}
+}
+
+void Save_StructuredDataDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataDefPtr, sizeof(StructuredDataDef*) * count, (void**)&outStructuredDataDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataDefPtr(false);
+		varStructuredDataDefPtr++;
+		outStructuredDataDefPtr++;
+		streamStructuredDataDefPtr++;
+	}
+}
+
+void Save_StructuredDataDefSet(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StructuredDataDefSetArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataDefSet, sizeof(StructuredDataDefSet) * count, (void**)&outStructuredDataDefSet);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataDefSet(false);
+		varStructuredDataDefSet++;
+		outStructuredDataDefSet++;
+		streamStructuredDataDefSet++;
+	}
+}
+
+void Save_StructuredDataDefSetAsset(StructuredDataDefSet** asset)
+{
+	// todo!
+}
+
+void Save_StructuredDataDefSetPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStructuredDataDefSetPtr, sizeof(StructuredDataDefSet*), (void**)&outStructuredDataDefSetPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varStructuredDataDefSetPtr)
+	{
+		*outStructuredDataDefSetPtr = (StructuredDataDefSet*)DB_FindStreamData(*varStructuredDataDefSetPtr);
+		assert(*outStructuredDataDefSetPtr != (StructuredDataDefSet*)0xFFFFFFFF);
+		if (!*outStructuredDataDefSetPtr)
+		{
+			*outStructuredDataDefSetPtr = AllocSave_StructuredDataDefSet();
+			varStructuredDataDefSet = *varStructuredDataDefSetPtr;
+			streamStructuredDataDefSet = *outStructuredDataDefSetPtr;
+			auto v1 = sub_44AF80((void**)streamStructuredDataDefSetPtr, (void**)outStructuredDataDefSetPtr);
+			DB_FindStreamDataOrInsert((void*)*varStructuredDataDefSetPtr, v1);
+			Save_StructuredDataDefSet(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_StructuredDataDefSetPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataDefSetPtr, sizeof(StructuredDataDefSet*) * count, (void**)&outStructuredDataDefSetPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataDefSetPtr(false);
+		varStructuredDataDefSetPtr++;
+		outStructuredDataDefSetPtr++;
+		streamStructuredDataDefSetPtr++;
+	}
+}
+
+void Save_StructuredDataEnum(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StructuredDataEnumArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataEnum, sizeof(StructuredDataEnum) * count, (void**)&outStructuredDataEnum);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataEnum(false);
+		varStructuredDataEnum++;
+		outStructuredDataEnum++;
+		streamStructuredDataEnum++;
+	}
+}
+
+void Save_StructuredDataEnumEntry(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StructuredDataEnumEntryArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataEnumEntry, sizeof(StructuredDataEnumEntry) * count, (void**)&outStructuredDataEnumEntry);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataEnumEntry(false);
+		varStructuredDataEnumEntry++;
+		outStructuredDataEnumEntry++;
+		streamStructuredDataEnumEntry++;
+	}
+}
+
+void Save_StructuredDataEnumEntryPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStructuredDataEnumEntryPtr, sizeof(StructuredDataEnumEntry*), (void**)&outStructuredDataEnumEntryPtr);
+	if (*varStructuredDataEnumEntryPtr)
+	{
+		*outStructuredDataEnumEntryPtr = (StructuredDataEnumEntry*)DB_FindStreamData(*varStructuredDataEnumEntryPtr);
+		assert(*outStructuredDataEnumEntryPtr != (StructuredDataEnumEntry*)0xFFFFFFFF);
+		if (!*outStructuredDataEnumEntryPtr)
+		{
+			*outStructuredDataEnumEntryPtr = AllocSave_StructuredDataEnumEntry();
+			varStructuredDataEnumEntry = *varStructuredDataEnumEntryPtr;
+			streamStructuredDataEnumEntry = *outStructuredDataEnumEntryPtr;
+			auto v1 = sub_44AF80((void**)streamStructuredDataEnumEntryPtr, (void**)outStructuredDataEnumEntryPtr);
+			DB_FindStreamDataOrInsert((void*)*varStructuredDataEnumEntryPtr, v1);
+			Save_StructuredDataEnumEntry(true);
+		}
+	}
+}
+
+void Save_StructuredDataEnumEntryPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataEnumEntryPtr, sizeof(StructuredDataEnumEntry*) * count, (void**)&outStructuredDataEnumEntryPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataEnumEntryPtr(false);
+		varStructuredDataEnumEntryPtr++;
+		outStructuredDataEnumEntryPtr++;
+		streamStructuredDataEnumEntryPtr++;
+	}
+}
+
+void Save_StructuredDataEnumPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStructuredDataEnumPtr, sizeof(StructuredDataEnum*), (void**)&outStructuredDataEnumPtr);
+	if (*varStructuredDataEnumPtr)
+	{
+		*outStructuredDataEnumPtr = (StructuredDataEnum*)DB_FindStreamData(*varStructuredDataEnumPtr);
+		assert(*outStructuredDataEnumPtr != (StructuredDataEnum*)0xFFFFFFFF);
+		if (!*outStructuredDataEnumPtr)
+		{
+			*outStructuredDataEnumPtr = AllocSave_StructuredDataEnum();
+			varStructuredDataEnum = *varStructuredDataEnumPtr;
+			streamStructuredDataEnum = *outStructuredDataEnumPtr;
+			auto v1 = sub_44AF80((void**)streamStructuredDataEnumPtr, (void**)outStructuredDataEnumPtr);
+			DB_FindStreamDataOrInsert((void*)*varStructuredDataEnumPtr, v1);
+			Save_StructuredDataEnum(true);
+		}
+	}
+}
+
+void Save_StructuredDataEnumPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataEnumPtr, sizeof(StructuredDataEnum*) * count, (void**)&outStructuredDataEnumPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataEnumPtr(false);
+		varStructuredDataEnumPtr++;
+		outStructuredDataEnumPtr++;
+		streamStructuredDataEnumPtr++;
+	}
+}
+
+void Save_StructuredDataEnumedArray(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StructuredDataEnumedArrayArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataEnumedArray, sizeof(StructuredDataEnumedArray) * count, (void**)&outStructuredDataEnumedArray);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataEnumedArray(false);
+		varStructuredDataEnumedArray++;
+		outStructuredDataEnumedArray++;
+		streamStructuredDataEnumedArray++;
+	}
+}
+
+void Save_StructuredDataEnumedArrayPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStructuredDataEnumedArrayPtr, sizeof(StructuredDataEnumedArray*), (void**)&outStructuredDataEnumedArrayPtr);
+	if (*varStructuredDataEnumedArrayPtr)
+	{
+		*outStructuredDataEnumedArrayPtr = (StructuredDataEnumedArray*)DB_FindStreamData(*varStructuredDataEnumedArrayPtr);
+		assert(*outStructuredDataEnumedArrayPtr != (StructuredDataEnumedArray*)0xFFFFFFFF);
+		if (!*outStructuredDataEnumedArrayPtr)
+		{
+			*outStructuredDataEnumedArrayPtr = AllocSave_StructuredDataEnumedArray();
+			varStructuredDataEnumedArray = *varStructuredDataEnumedArrayPtr;
+			streamStructuredDataEnumedArray = *outStructuredDataEnumedArrayPtr;
+			auto v1 = sub_44AF80((void**)streamStructuredDataEnumedArrayPtr, (void**)outStructuredDataEnumedArrayPtr);
+			DB_FindStreamDataOrInsert((void*)*varStructuredDataEnumedArrayPtr, v1);
+			Save_StructuredDataEnumedArray(true);
+		}
+	}
+}
+
+void Save_StructuredDataEnumedArrayPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataEnumedArrayPtr, sizeof(StructuredDataEnumedArray*) * count, (void**)&outStructuredDataEnumedArrayPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataEnumedArrayPtr(false);
+		varStructuredDataEnumedArrayPtr++;
+		outStructuredDataEnumedArrayPtr++;
+		streamStructuredDataEnumedArrayPtr++;
+	}
+}
+
+void Save_StructuredDataIndexedArray(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StructuredDataIndexedArrayArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataIndexedArray, sizeof(StructuredDataIndexedArray) * count, (void**)&outStructuredDataIndexedArray);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataIndexedArray(false);
+		varStructuredDataIndexedArray++;
+		outStructuredDataIndexedArray++;
+		streamStructuredDataIndexedArray++;
+	}
+}
+
+void Save_StructuredDataIndexedArrayPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStructuredDataIndexedArrayPtr, sizeof(StructuredDataIndexedArray*), (void**)&outStructuredDataIndexedArrayPtr);
+	if (*varStructuredDataIndexedArrayPtr)
+	{
+		*outStructuredDataIndexedArrayPtr = (StructuredDataIndexedArray*)DB_FindStreamData(*varStructuredDataIndexedArrayPtr);
+		assert(*outStructuredDataIndexedArrayPtr != (StructuredDataIndexedArray*)0xFFFFFFFF);
+		if (!*outStructuredDataIndexedArrayPtr)
+		{
+			*outStructuredDataIndexedArrayPtr = AllocSave_StructuredDataIndexedArray();
+			varStructuredDataIndexedArray = *varStructuredDataIndexedArrayPtr;
+			streamStructuredDataIndexedArray = *outStructuredDataIndexedArrayPtr;
+			auto v1 = sub_44AF80((void**)streamStructuredDataIndexedArrayPtr, (void**)outStructuredDataIndexedArrayPtr);
+			DB_FindStreamDataOrInsert((void*)*varStructuredDataIndexedArrayPtr, v1);
+			Save_StructuredDataIndexedArray(true);
+		}
+	}
+}
+
+void Save_StructuredDataIndexedArrayPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataIndexedArrayPtr, sizeof(StructuredDataIndexedArray*) * count, (void**)&outStructuredDataIndexedArrayPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataIndexedArrayPtr(false);
+		varStructuredDataIndexedArrayPtr++;
+		outStructuredDataIndexedArrayPtr++;
+		streamStructuredDataIndexedArrayPtr++;
+	}
+}
+
+void Save_StructuredDataStruct(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StructuredDataStructArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataStruct, sizeof(StructuredDataStruct) * count, (void**)&outStructuredDataStruct);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataStruct(false);
+		varStructuredDataStruct++;
+		outStructuredDataStruct++;
+		streamStructuredDataStruct++;
+	}
+}
+
+void Save_StructuredDataStructProperty(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StructuredDataStructPropertyArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataStructProperty, sizeof(StructuredDataStructProperty) * count, (void**)&outStructuredDataStructProperty);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataStructProperty(false);
+		varStructuredDataStructProperty++;
+		outStructuredDataStructProperty++;
+		streamStructuredDataStructProperty++;
+	}
+}
+
+void Save_StructuredDataStructPropertyPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStructuredDataStructPropertyPtr, sizeof(StructuredDataStructProperty*), (void**)&outStructuredDataStructPropertyPtr);
+	if (*varStructuredDataStructPropertyPtr)
+	{
+		*outStructuredDataStructPropertyPtr = (StructuredDataStructProperty*)DB_FindStreamData(*varStructuredDataStructPropertyPtr);
+		assert(*outStructuredDataStructPropertyPtr != (StructuredDataStructProperty*)0xFFFFFFFF);
+		if (!*outStructuredDataStructPropertyPtr)
+		{
+			*outStructuredDataStructPropertyPtr = AllocSave_StructuredDataStructProperty();
+			varStructuredDataStructProperty = *varStructuredDataStructPropertyPtr;
+			streamStructuredDataStructProperty = *outStructuredDataStructPropertyPtr;
+			auto v1 = sub_44AF80((void**)streamStructuredDataStructPropertyPtr, (void**)outStructuredDataStructPropertyPtr);
+			DB_FindStreamDataOrInsert((void*)*varStructuredDataStructPropertyPtr, v1);
+			Save_StructuredDataStructProperty(true);
+		}
+	}
+}
+
+void Save_StructuredDataStructPropertyPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataStructPropertyPtr, sizeof(StructuredDataStructProperty*) * count, (void**)&outStructuredDataStructPropertyPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataStructPropertyPtr(false);
+		varStructuredDataStructPropertyPtr++;
+		outStructuredDataStructPropertyPtr++;
+		streamStructuredDataStructPropertyPtr++;
+	}
+}
+
+void Save_StructuredDataStructPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStructuredDataStructPtr, sizeof(StructuredDataStruct*), (void**)&outStructuredDataStructPtr);
+	if (*varStructuredDataStructPtr)
+	{
+		*outStructuredDataStructPtr = (StructuredDataStruct*)DB_FindStreamData(*varStructuredDataStructPtr);
+		assert(*outStructuredDataStructPtr != (StructuredDataStruct*)0xFFFFFFFF);
+		if (!*outStructuredDataStructPtr)
+		{
+			*outStructuredDataStructPtr = AllocSave_StructuredDataStruct();
+			varStructuredDataStruct = *varStructuredDataStructPtr;
+			streamStructuredDataStruct = *outStructuredDataStructPtr;
+			auto v1 = sub_44AF80((void**)streamStructuredDataStructPtr, (void**)outStructuredDataStructPtr);
+			DB_FindStreamDataOrInsert((void*)*varStructuredDataStructPtr, v1);
+			Save_StructuredDataStruct(true);
+		}
+	}
+}
+
+void Save_StructuredDataStructPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataStructPtr, sizeof(StructuredDataStruct*) * count, (void**)&outStructuredDataStructPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataStructPtr(false);
+		varStructuredDataStructPtr++;
+		outStructuredDataStructPtr++;
+		streamStructuredDataStructPtr++;
+	}
+}
+
+void Save_StructuredDataType(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StructuredDataTypeArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataType, sizeof(StructuredDataType) * count, (void**)&outStructuredDataType);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataType(false);
+		varStructuredDataType++;
+		outStructuredDataType++;
+		streamStructuredDataType++;
+	}
+}
+
+void Save_StructuredDataTypePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStructuredDataTypePtr, sizeof(StructuredDataType*), (void**)&outStructuredDataTypePtr);
+	if (*varStructuredDataTypePtr)
+	{
+		*outStructuredDataTypePtr = (StructuredDataType*)DB_FindStreamData(*varStructuredDataTypePtr);
+		assert(*outStructuredDataTypePtr != (StructuredDataType*)0xFFFFFFFF);
+		if (!*outStructuredDataTypePtr)
+		{
+			*outStructuredDataTypePtr = AllocSave_StructuredDataType();
+			varStructuredDataType = *varStructuredDataTypePtr;
+			streamStructuredDataType = *outStructuredDataTypePtr;
+			auto v1 = sub_44AF80((void**)streamStructuredDataTypePtr, (void**)outStructuredDataTypePtr);
+			DB_FindStreamDataOrInsert((void*)*varStructuredDataTypePtr, v1);
+			Save_StructuredDataType(true);
+		}
+	}
+}
+
+void Save_StructuredDataTypePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataTypePtr, sizeof(StructuredDataType*) * count, (void**)&outStructuredDataTypePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataTypePtr(false);
+		varStructuredDataTypePtr++;
+		outStructuredDataTypePtr++;
+		streamStructuredDataTypePtr++;
+	}
+}
+
+void Save_StructuredDataTypeUnion(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_StructuredDataTypeUnionArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataTypeUnion, sizeof(StructuredDataTypeUnion) * count, (void**)&outStructuredDataTypeUnion);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataTypeUnion(false);
+		varStructuredDataTypeUnion++;
+		outStructuredDataTypeUnion++;
+		streamStructuredDataTypeUnion++;
+	}
+}
+
+void Save_StructuredDataTypeUnionPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varStructuredDataTypeUnionPtr, sizeof(StructuredDataTypeUnion*), (void**)&outStructuredDataTypeUnionPtr);
+	if (*varStructuredDataTypeUnionPtr)
+	{
+		*outStructuredDataTypeUnionPtr = (StructuredDataTypeUnion*)DB_FindStreamData(*varStructuredDataTypeUnionPtr);
+		assert(*outStructuredDataTypeUnionPtr != (StructuredDataTypeUnion*)0xFFFFFFFF);
+		if (!*outStructuredDataTypeUnionPtr)
+		{
+			*outStructuredDataTypeUnionPtr = AllocSave_StructuredDataTypeUnion();
+			varStructuredDataTypeUnion = *varStructuredDataTypeUnionPtr;
+			streamStructuredDataTypeUnion = *outStructuredDataTypeUnionPtr;
+			auto v1 = sub_44AF80((void**)streamStructuredDataTypeUnionPtr, (void**)outStructuredDataTypeUnionPtr);
+			DB_FindStreamDataOrInsert((void*)*varStructuredDataTypeUnionPtr, v1);
+			Save_StructuredDataTypeUnion(true);
+		}
+	}
+}
+
+void Save_StructuredDataTypeUnionPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varStructuredDataTypeUnionPtr, sizeof(StructuredDataTypeUnion*) * count, (void**)&outStructuredDataTypeUnionPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_StructuredDataTypeUnionPtr(false);
+		varStructuredDataTypeUnionPtr++;
+		outStructuredDataTypeUnionPtr++;
+		streamStructuredDataTypeUnionPtr++;
+	}
+}
+
+void Save_TempString(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_TempStringArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varTempString, sizeof(TempString) * count, (void**)&outTempString);
+	for (int i = 0; i < count; i++)
+	{
+		Save_TempString(false);
+		varTempString++;
+		outTempString++;
+		streamTempString++;
+	}
+}
+
+void Save_TempStringPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varTempStringPtr, sizeof(TempString*), (void**)&outTempStringPtr);
+	if (*varTempStringPtr)
+	{
+		*outTempStringPtr = (TempString*)DB_FindStreamData(*varTempStringPtr);
+		assert(*outTempStringPtr != (TempString*)0xFFFFFFFF);
+		if (!*outTempStringPtr)
+		{
+			*outTempStringPtr = AllocSave_TempString();
+			varTempString = *varTempStringPtr;
+			streamTempString = *outTempStringPtr;
+			auto v1 = sub_44AF80((void**)streamTempStringPtr, (void**)outTempStringPtr);
+			DB_FindStreamDataOrInsert((void*)*varTempStringPtr, v1);
+			Save_TempString(true);
+		}
+	}
+}
+
+void Save_TempStringPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varTempStringPtr, sizeof(TempString*) * count, (void**)&outTempStringPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_TempStringPtr(false);
+		varTempStringPtr++;
+		outTempStringPtr++;
+		streamTempStringPtr++;
+	}
+}
+
+void Save_TracerDef(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_TracerDefArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varTracerDef, sizeof(TracerDef) * count, (void**)&outTracerDef);
+	for (int i = 0; i < count; i++)
+	{
+		Save_TracerDef(false);
+		varTracerDef++;
+		outTracerDef++;
+		streamTracerDef++;
+	}
+}
+
+void Save_TracerDefAsset(TracerDef** asset)
+{
+	// todo!
+}
+
+void Save_TracerDefPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varTracerDefPtr, sizeof(TracerDef*), (void**)&outTracerDefPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varTracerDefPtr)
+	{
+		*outTracerDefPtr = (TracerDef*)DB_FindStreamData(*varTracerDefPtr);
+		assert(*outTracerDefPtr != (TracerDef*)0xFFFFFFFF);
+		if (!*outTracerDefPtr)
+		{
+			*outTracerDefPtr = AllocSave_TracerDef();
+			varTracerDef = *varTracerDefPtr;
+			streamTracerDef = *outTracerDefPtr;
+			auto v1 = sub_44AF80((void**)streamTracerDefPtr, (void**)outTracerDefPtr);
+			DB_FindStreamDataOrInsert((void*)*varTracerDefPtr, v1);
+			Save_TracerDef(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_TracerDefPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varTracerDefPtr, sizeof(TracerDef*) * count, (void**)&outTracerDefPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_TracerDefPtr(false);
+		varTracerDefPtr++;
+		outTracerDefPtr++;
+		streamTracerDefPtr++;
+	}
+}
+
+void Save_TriIndice(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_TriIndiceArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varTriIndice, sizeof(TriIndice) * count, (void**)&outTriIndice);
+	for (int i = 0; i < count; i++)
+	{
+		Save_TriIndice(false);
+		varTriIndice++;
+		outTriIndice++;
+		streamTriIndice++;
+	}
+}
+
+void Save_TriIndicePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varTriIndicePtr, sizeof(TriIndice*), (void**)&outTriIndicePtr);
+	if (*varTriIndicePtr)
+	{
+		*outTriIndicePtr = (TriIndice*)DB_FindStreamData(*varTriIndicePtr);
+		assert(*outTriIndicePtr != (TriIndice*)0xFFFFFFFF);
+		if (!*outTriIndicePtr)
+		{
+			*outTriIndicePtr = AllocSave_TriIndice();
+			varTriIndice = *varTriIndicePtr;
+			streamTriIndice = *outTriIndicePtr;
+			auto v1 = sub_44AF80((void**)streamTriIndicePtr, (void**)outTriIndicePtr);
+			DB_FindStreamDataOrInsert((void*)*varTriIndicePtr, v1);
+			Save_TriIndice(true);
+		}
+	}
+}
+
+void Save_TriIndicePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varTriIndicePtr, sizeof(TriIndice*) * count, (void**)&outTriIndicePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_TriIndicePtr(false);
+		varTriIndicePtr++;
+		outTriIndicePtr++;
+		streamTriIndicePtr++;
+	}
+}
+
+void Save_TriggerHull(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_TriggerHullArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varTriggerHull, sizeof(TriggerHull) * count, (void**)&outTriggerHull);
+	for (int i = 0; i < count; i++)
+	{
+		Save_TriggerHull(false);
+		varTriggerHull++;
+		outTriggerHull++;
+		streamTriggerHull++;
+	}
+}
+
+void Save_TriggerHullPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varTriggerHullPtr, sizeof(TriggerHull*), (void**)&outTriggerHullPtr);
+	if (*varTriggerHullPtr)
+	{
+		*outTriggerHullPtr = (TriggerHull*)DB_FindStreamData(*varTriggerHullPtr);
+		assert(*outTriggerHullPtr != (TriggerHull*)0xFFFFFFFF);
+		if (!*outTriggerHullPtr)
+		{
+			*outTriggerHullPtr = AllocSave_TriggerHull();
+			varTriggerHull = *varTriggerHullPtr;
+			streamTriggerHull = *outTriggerHullPtr;
+			auto v1 = sub_44AF80((void**)streamTriggerHullPtr, (void**)outTriggerHullPtr);
+			DB_FindStreamDataOrInsert((void*)*varTriggerHullPtr, v1);
+			Save_TriggerHull(true);
+		}
+	}
+}
+
+void Save_TriggerHullPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varTriggerHullPtr, sizeof(TriggerHull*) * count, (void**)&outTriggerHullPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_TriggerHullPtr(false);
+		varTriggerHullPtr++;
+		outTriggerHullPtr++;
+		streamTriggerHullPtr++;
+	}
+}
+
+void Save_TriggerModel(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_TriggerModelArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varTriggerModel, sizeof(TriggerModel) * count, (void**)&outTriggerModel);
+	for (int i = 0; i < count; i++)
+	{
+		Save_TriggerModel(false);
+		varTriggerModel++;
+		outTriggerModel++;
+		streamTriggerModel++;
+	}
+}
+
+void Save_TriggerModelPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varTriggerModelPtr, sizeof(TriggerModel*), (void**)&outTriggerModelPtr);
+	if (*varTriggerModelPtr)
+	{
+		*outTriggerModelPtr = (TriggerModel*)DB_FindStreamData(*varTriggerModelPtr);
+		assert(*outTriggerModelPtr != (TriggerModel*)0xFFFFFFFF);
+		if (!*outTriggerModelPtr)
+		{
+			*outTriggerModelPtr = AllocSave_TriggerModel();
+			varTriggerModel = *varTriggerModelPtr;
+			streamTriggerModel = *outTriggerModelPtr;
+			auto v1 = sub_44AF80((void**)streamTriggerModelPtr, (void**)outTriggerModelPtr);
+			DB_FindStreamDataOrInsert((void*)*varTriggerModelPtr, v1);
+			Save_TriggerModel(true);
+		}
+	}
+}
+
+void Save_TriggerModelPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varTriggerModelPtr, sizeof(TriggerModel*) * count, (void**)&outTriggerModelPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_TriggerModelPtr(false);
+		varTriggerModelPtr++;
+		outTriggerModelPtr++;
+		streamTriggerModelPtr++;
+	}
+}
+
+void Save_TriggerSlab(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_TriggerSlabArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varTriggerSlab, sizeof(TriggerSlab) * count, (void**)&outTriggerSlab);
+	for (int i = 0; i < count; i++)
+	{
+		Save_TriggerSlab(false);
+		varTriggerSlab++;
+		outTriggerSlab++;
+		streamTriggerSlab++;
+	}
+}
+
+void Save_TriggerSlabPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varTriggerSlabPtr, sizeof(TriggerSlab*), (void**)&outTriggerSlabPtr);
+	if (*varTriggerSlabPtr)
+	{
+		*outTriggerSlabPtr = (TriggerSlab*)DB_FindStreamData(*varTriggerSlabPtr);
+		assert(*outTriggerSlabPtr != (TriggerSlab*)0xFFFFFFFF);
+		if (!*outTriggerSlabPtr)
+		{
+			*outTriggerSlabPtr = AllocSave_TriggerSlab();
+			varTriggerSlab = *varTriggerSlabPtr;
+			streamTriggerSlab = *outTriggerSlabPtr;
+			auto v1 = sub_44AF80((void**)streamTriggerSlabPtr, (void**)outTriggerSlabPtr);
+			DB_FindStreamDataOrInsert((void*)*varTriggerSlabPtr, v1);
+			Save_TriggerSlab(true);
+		}
+	}
+}
+
+void Save_TriggerSlabPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varTriggerSlabPtr, sizeof(TriggerSlab*) * count, (void**)&outTriggerSlabPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_TriggerSlabPtr(false);
+		varTriggerSlabPtr++;
+		outTriggerSlabPtr++;
+		streamTriggerSlabPtr++;
+	}
+}
+
+void Save_UIFunctionList(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_UIFunctionListArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varUIFunctionList, sizeof(UIFunctionList) * count, (void**)&outUIFunctionList);
+	for (int i = 0; i < count; i++)
+	{
+		Save_UIFunctionList(false);
+		varUIFunctionList++;
+		outUIFunctionList++;
+		streamUIFunctionList++;
+	}
+}
+
+void Save_UIFunctionListPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varUIFunctionListPtr, sizeof(UIFunctionList*), (void**)&outUIFunctionListPtr);
+	if (*varUIFunctionListPtr)
+	{
+		*outUIFunctionListPtr = (UIFunctionList*)DB_FindStreamData(*varUIFunctionListPtr);
+		assert(*outUIFunctionListPtr != (UIFunctionList*)0xFFFFFFFF);
+		if (!*outUIFunctionListPtr)
+		{
+			*outUIFunctionListPtr = AllocSave_UIFunctionList();
+			varUIFunctionList = *varUIFunctionListPtr;
+			streamUIFunctionList = *outUIFunctionListPtr;
+			auto v1 = sub_44AF80((void**)streamUIFunctionListPtr, (void**)outUIFunctionListPtr);
+			DB_FindStreamDataOrInsert((void*)*varUIFunctionListPtr, v1);
+			Save_UIFunctionList(true);
+		}
+	}
+}
+
+void Save_UIFunctionListPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varUIFunctionListPtr, sizeof(UIFunctionList*) * count, (void**)&outUIFunctionListPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_UIFunctionListPtr(false);
+		varUIFunctionListPtr++;
+		outUIFunctionListPtr++;
+		streamUIFunctionListPtr++;
+	}
+}
+
+void Save_WaterWritable(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_WaterWritableArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varWaterWritable, sizeof(WaterWritable) * count, (void**)&outWaterWritable);
+	for (int i = 0; i < count; i++)
+	{
+		Save_WaterWritable(false);
+		varWaterWritable++;
+		outWaterWritable++;
+		streamWaterWritable++;
+	}
+}
+
+void Save_WaterWritablePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varWaterWritablePtr, sizeof(WaterWritable*), (void**)&outWaterWritablePtr);
+	if (*varWaterWritablePtr)
+	{
+		*outWaterWritablePtr = (WaterWritable*)DB_FindStreamData(*varWaterWritablePtr);
+		assert(*outWaterWritablePtr != (WaterWritable*)0xFFFFFFFF);
+		if (!*outWaterWritablePtr)
+		{
+			*outWaterWritablePtr = AllocSave_WaterWritable();
+			varWaterWritable = *varWaterWritablePtr;
+			streamWaterWritable = *outWaterWritablePtr;
+			auto v1 = sub_44AF80((void**)streamWaterWritablePtr, (void**)outWaterWritablePtr);
+			DB_FindStreamDataOrInsert((void*)*varWaterWritablePtr, v1);
+			Save_WaterWritable(true);
+		}
+	}
+}
+
+void Save_WaterWritablePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varWaterWritablePtr, sizeof(WaterWritable*) * count, (void**)&outWaterWritablePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_WaterWritablePtr(false);
+		varWaterWritablePtr++;
+		outWaterWritablePtr++;
+		streamWaterWritablePtr++;
+	}
+}
+
+void Save_XAnimDeltaPart(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimDeltaPartArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPart, sizeof(XAnimDeltaPart) * count, (void**)&outXAnimDeltaPart);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPart(false);
+		varXAnimDeltaPart++;
+		outXAnimDeltaPart++;
+		streamXAnimDeltaPart++;
+	}
+}
+
+void Save_XAnimDeltaPartPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartPtr, sizeof(XAnimDeltaPart*), (void**)&outXAnimDeltaPartPtr);
+	if (*varXAnimDeltaPartPtr)
+	{
+		*outXAnimDeltaPartPtr = (XAnimDeltaPart*)DB_FindStreamData(*varXAnimDeltaPartPtr);
+		assert(*outXAnimDeltaPartPtr != (XAnimDeltaPart*)0xFFFFFFFF);
+		if (!*outXAnimDeltaPartPtr)
+		{
+			*outXAnimDeltaPartPtr = AllocSave_XAnimDeltaPart();
+			varXAnimDeltaPart = *varXAnimDeltaPartPtr;
+			streamXAnimDeltaPart = *outXAnimDeltaPartPtr;
+			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartPtr, (void**)outXAnimDeltaPartPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartPtr, v1);
+			Save_XAnimDeltaPart(true);
+		}
+	}
+}
+
+void Save_XAnimDeltaPartPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartPtr, sizeof(XAnimDeltaPart*) * count, (void**)&outXAnimDeltaPartPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPartPtr(false);
+		varXAnimDeltaPartPtr++;
+		outXAnimDeltaPartPtr++;
+		streamXAnimDeltaPartPtr++;
+	}
+}
+
+void Save_XAnimDeltaPartQuat(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimDeltaPartQuat2(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimDeltaPartQuat2Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuat2, sizeof(XAnimDeltaPartQuat2) * count, (void**)&outXAnimDeltaPartQuat2);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPartQuat2(false);
+		varXAnimDeltaPartQuat2++;
+		outXAnimDeltaPartQuat2++;
+		streamXAnimDeltaPartQuat2++;
+	}
+}
+
+void Save_XAnimDeltaPartQuat2Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuat2Ptr, sizeof(XAnimDeltaPartQuat2*), (void**)&outXAnimDeltaPartQuat2Ptr);
+	if (*varXAnimDeltaPartQuat2Ptr)
+	{
+		*outXAnimDeltaPartQuat2Ptr = (XAnimDeltaPartQuat2*)DB_FindStreamData(*varXAnimDeltaPartQuat2Ptr);
+		assert(*outXAnimDeltaPartQuat2Ptr != (XAnimDeltaPartQuat2*)0xFFFFFFFF);
+		if (!*outXAnimDeltaPartQuat2Ptr)
+		{
+			*outXAnimDeltaPartQuat2Ptr = AllocSave_XAnimDeltaPartQuat2();
+			varXAnimDeltaPartQuat2 = *varXAnimDeltaPartQuat2Ptr;
+			streamXAnimDeltaPartQuat2 = *outXAnimDeltaPartQuat2Ptr;
+			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartQuat2Ptr, (void**)outXAnimDeltaPartQuat2Ptr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartQuat2Ptr, v1);
+			Save_XAnimDeltaPartQuat2(true);
+		}
+	}
+}
+
+void Save_XAnimDeltaPartQuat2PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuat2Ptr, sizeof(XAnimDeltaPartQuat2*) * count, (void**)&outXAnimDeltaPartQuat2Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPartQuat2Ptr(false);
+		varXAnimDeltaPartQuat2Ptr++;
+		outXAnimDeltaPartQuat2Ptr++;
+		streamXAnimDeltaPartQuat2Ptr++;
+	}
+}
+
+void Save_XAnimDeltaPartQuatArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuat, sizeof(XAnimDeltaPartQuat) * count, (void**)&outXAnimDeltaPartQuat);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPartQuat(false);
+		varXAnimDeltaPartQuat++;
+		outXAnimDeltaPartQuat++;
+		streamXAnimDeltaPartQuat++;
+	}
+}
+
+void Save_XAnimDeltaPartQuatData(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimDeltaPartQuatData2(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimDeltaPartQuatData2Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatData2, sizeof(XAnimDeltaPartQuatData2) * count, (void**)&outXAnimDeltaPartQuatData2);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPartQuatData2(false);
+		varXAnimDeltaPartQuatData2++;
+		outXAnimDeltaPartQuatData2++;
+		streamXAnimDeltaPartQuatData2++;
+	}
+}
+
+void Save_XAnimDeltaPartQuatData2Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatData2Ptr, sizeof(XAnimDeltaPartQuatData2*), (void**)&outXAnimDeltaPartQuatData2Ptr);
+	if (*varXAnimDeltaPartQuatData2Ptr)
+	{
+		*outXAnimDeltaPartQuatData2Ptr = (XAnimDeltaPartQuatData2*)DB_FindStreamData(*varXAnimDeltaPartQuatData2Ptr);
+		assert(*outXAnimDeltaPartQuatData2Ptr != (XAnimDeltaPartQuatData2*)0xFFFFFFFF);
+		if (!*outXAnimDeltaPartQuatData2Ptr)
+		{
+			*outXAnimDeltaPartQuatData2Ptr = AllocSave_XAnimDeltaPartQuatData2();
+			varXAnimDeltaPartQuatData2 = *varXAnimDeltaPartQuatData2Ptr;
+			streamXAnimDeltaPartQuatData2 = *outXAnimDeltaPartQuatData2Ptr;
+			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartQuatData2Ptr, (void**)outXAnimDeltaPartQuatData2Ptr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartQuatData2Ptr, v1);
+			Save_XAnimDeltaPartQuatData2(true);
+		}
+	}
+}
+
+void Save_XAnimDeltaPartQuatData2PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatData2Ptr, sizeof(XAnimDeltaPartQuatData2*) * count, (void**)&outXAnimDeltaPartQuatData2Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPartQuatData2Ptr(false);
+		varXAnimDeltaPartQuatData2Ptr++;
+		outXAnimDeltaPartQuatData2Ptr++;
+		streamXAnimDeltaPartQuatData2Ptr++;
+	}
+}
+
+void Save_XAnimDeltaPartQuatDataArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatData, sizeof(XAnimDeltaPartQuatData) * count, (void**)&outXAnimDeltaPartQuatData);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPartQuatData(false);
+		varXAnimDeltaPartQuatData++;
+		outXAnimDeltaPartQuatData++;
+		streamXAnimDeltaPartQuatData++;
+	}
+}
+
+void Save_XAnimDeltaPartQuatDataFrames(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimDeltaPartQuatDataFrames2(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimDeltaPartQuatDataFrames2Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatDataFrames2, sizeof(XAnimDeltaPartQuatDataFrames2) * count, (void**)&outXAnimDeltaPartQuatDataFrames2);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPartQuatDataFrames2(false);
+		varXAnimDeltaPartQuatDataFrames2++;
+		outXAnimDeltaPartQuatDataFrames2++;
+		streamXAnimDeltaPartQuatDataFrames2++;
+	}
+}
+
+void Save_XAnimDeltaPartQuatDataFrames2Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatDataFrames2Ptr, sizeof(XAnimDeltaPartQuatDataFrames2*), (void**)&outXAnimDeltaPartQuatDataFrames2Ptr);
+	if (*varXAnimDeltaPartQuatDataFrames2Ptr)
+	{
+		*outXAnimDeltaPartQuatDataFrames2Ptr = (XAnimDeltaPartQuatDataFrames2*)DB_FindStreamData(*varXAnimDeltaPartQuatDataFrames2Ptr);
+		assert(*outXAnimDeltaPartQuatDataFrames2Ptr != (XAnimDeltaPartQuatDataFrames2*)0xFFFFFFFF);
+		if (!*outXAnimDeltaPartQuatDataFrames2Ptr)
+		{
+			*outXAnimDeltaPartQuatDataFrames2Ptr = AllocSave_XAnimDeltaPartQuatDataFrames2();
+			varXAnimDeltaPartQuatDataFrames2 = *varXAnimDeltaPartQuatDataFrames2Ptr;
+			streamXAnimDeltaPartQuatDataFrames2 = *outXAnimDeltaPartQuatDataFrames2Ptr;
+			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartQuatDataFrames2Ptr, (void**)outXAnimDeltaPartQuatDataFrames2Ptr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartQuatDataFrames2Ptr, v1);
+			Save_XAnimDeltaPartQuatDataFrames2(true);
+		}
+	}
+}
+
+void Save_XAnimDeltaPartQuatDataFrames2PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatDataFrames2Ptr, sizeof(XAnimDeltaPartQuatDataFrames2*) * count, (void**)&outXAnimDeltaPartQuatDataFrames2Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPartQuatDataFrames2Ptr(false);
+		varXAnimDeltaPartQuatDataFrames2Ptr++;
+		outXAnimDeltaPartQuatDataFrames2Ptr++;
+		streamXAnimDeltaPartQuatDataFrames2Ptr++;
+	}
+}
+
+void Save_XAnimDeltaPartQuatDataFramesArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatDataFrames, sizeof(XAnimDeltaPartQuatDataFrames) * count, (void**)&outXAnimDeltaPartQuatDataFrames);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPartQuatDataFrames(false);
+		varXAnimDeltaPartQuatDataFrames++;
+		outXAnimDeltaPartQuatDataFrames++;
+		streamXAnimDeltaPartQuatDataFrames++;
+	}
+}
+
+void Save_XAnimDeltaPartQuatDataFramesPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatDataFramesPtr, sizeof(XAnimDeltaPartQuatDataFrames*), (void**)&outXAnimDeltaPartQuatDataFramesPtr);
+	if (*varXAnimDeltaPartQuatDataFramesPtr)
+	{
+		*outXAnimDeltaPartQuatDataFramesPtr = (XAnimDeltaPartQuatDataFrames*)DB_FindStreamData(*varXAnimDeltaPartQuatDataFramesPtr);
+		assert(*outXAnimDeltaPartQuatDataFramesPtr != (XAnimDeltaPartQuatDataFrames*)0xFFFFFFFF);
+		if (!*outXAnimDeltaPartQuatDataFramesPtr)
+		{
+			*outXAnimDeltaPartQuatDataFramesPtr = AllocSave_XAnimDeltaPartQuatDataFrames();
+			varXAnimDeltaPartQuatDataFrames = *varXAnimDeltaPartQuatDataFramesPtr;
+			streamXAnimDeltaPartQuatDataFrames = *outXAnimDeltaPartQuatDataFramesPtr;
+			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartQuatDataFramesPtr, (void**)outXAnimDeltaPartQuatDataFramesPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartQuatDataFramesPtr, v1);
+			Save_XAnimDeltaPartQuatDataFrames(true);
+		}
+	}
+}
+
+void Save_XAnimDeltaPartQuatDataFramesPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatDataFramesPtr, sizeof(XAnimDeltaPartQuatDataFrames*) * count, (void**)&outXAnimDeltaPartQuatDataFramesPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPartQuatDataFramesPtr(false);
+		varXAnimDeltaPartQuatDataFramesPtr++;
+		outXAnimDeltaPartQuatDataFramesPtr++;
+		streamXAnimDeltaPartQuatDataFramesPtr++;
+	}
+}
+
+void Save_XAnimDeltaPartQuatDataPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatDataPtr, sizeof(XAnimDeltaPartQuatData*), (void**)&outXAnimDeltaPartQuatDataPtr);
+	if (*varXAnimDeltaPartQuatDataPtr)
+	{
+		*outXAnimDeltaPartQuatDataPtr = (XAnimDeltaPartQuatData*)DB_FindStreamData(*varXAnimDeltaPartQuatDataPtr);
+		assert(*outXAnimDeltaPartQuatDataPtr != (XAnimDeltaPartQuatData*)0xFFFFFFFF);
+		if (!*outXAnimDeltaPartQuatDataPtr)
+		{
+			*outXAnimDeltaPartQuatDataPtr = AllocSave_XAnimDeltaPartQuatData();
+			varXAnimDeltaPartQuatData = *varXAnimDeltaPartQuatDataPtr;
+			streamXAnimDeltaPartQuatData = *outXAnimDeltaPartQuatDataPtr;
+			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartQuatDataPtr, (void**)outXAnimDeltaPartQuatDataPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartQuatDataPtr, v1);
+			Save_XAnimDeltaPartQuatData(true);
+		}
+	}
+}
+
+void Save_XAnimDeltaPartQuatDataPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatDataPtr, sizeof(XAnimDeltaPartQuatData*) * count, (void**)&outXAnimDeltaPartQuatDataPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPartQuatDataPtr(false);
+		varXAnimDeltaPartQuatDataPtr++;
+		outXAnimDeltaPartQuatDataPtr++;
+		streamXAnimDeltaPartQuatDataPtr++;
+	}
+}
+
+void Save_XAnimDeltaPartQuatPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatPtr, sizeof(XAnimDeltaPartQuat*), (void**)&outXAnimDeltaPartQuatPtr);
+	if (*varXAnimDeltaPartQuatPtr)
+	{
+		*outXAnimDeltaPartQuatPtr = (XAnimDeltaPartQuat*)DB_FindStreamData(*varXAnimDeltaPartQuatPtr);
+		assert(*outXAnimDeltaPartQuatPtr != (XAnimDeltaPartQuat*)0xFFFFFFFF);
+		if (!*outXAnimDeltaPartQuatPtr)
+		{
+			*outXAnimDeltaPartQuatPtr = AllocSave_XAnimDeltaPartQuat();
+			varXAnimDeltaPartQuat = *varXAnimDeltaPartQuatPtr;
+			streamXAnimDeltaPartQuat = *outXAnimDeltaPartQuatPtr;
+			auto v1 = sub_44AF80((void**)streamXAnimDeltaPartQuatPtr, (void**)outXAnimDeltaPartQuatPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimDeltaPartQuatPtr, v1);
+			Save_XAnimDeltaPartQuat(true);
+		}
+	}
+}
+
+void Save_XAnimDeltaPartQuatPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDeltaPartQuatPtr, sizeof(XAnimDeltaPartQuat*) * count, (void**)&outXAnimDeltaPartQuatPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDeltaPartQuatPtr(false);
+		varXAnimDeltaPartQuatPtr++;
+		outXAnimDeltaPartQuatPtr++;
+		streamXAnimDeltaPartQuatPtr++;
+	}
+}
+
+void Save_XAnimDynamicFrames(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimDynamicFramesArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDynamicFrames, sizeof(XAnimDynamicFrames) * count, (void**)&outXAnimDynamicFrames);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDynamicFrames(false);
+		varXAnimDynamicFrames++;
+		outXAnimDynamicFrames++;
+		streamXAnimDynamicFrames++;
+	}
+}
+
+void Save_XAnimDynamicFramesPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimDynamicFramesPtr, sizeof(XAnimDynamicFrames*), (void**)&outXAnimDynamicFramesPtr);
+	if (*varXAnimDynamicFramesPtr)
+	{
+		*outXAnimDynamicFramesPtr = (XAnimDynamicFrames*)DB_FindStreamData(*varXAnimDynamicFramesPtr);
+		assert(*outXAnimDynamicFramesPtr != (XAnimDynamicFrames*)0xFFFFFFFF);
+		if (!*outXAnimDynamicFramesPtr)
+		{
+			*outXAnimDynamicFramesPtr = AllocSave_XAnimDynamicFrames();
+			varXAnimDynamicFrames = *varXAnimDynamicFramesPtr;
+			streamXAnimDynamicFrames = *outXAnimDynamicFramesPtr;
+			auto v1 = sub_44AF80((void**)streamXAnimDynamicFramesPtr, (void**)outXAnimDynamicFramesPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimDynamicFramesPtr, v1);
+			Save_XAnimDynamicFrames(true);
+		}
+	}
+}
+
+void Save_XAnimDynamicFramesPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDynamicFramesPtr, sizeof(XAnimDynamicFrames*) * count, (void**)&outXAnimDynamicFramesPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDynamicFramesPtr(false);
+		varXAnimDynamicFramesPtr++;
+		outXAnimDynamicFramesPtr++;
+		streamXAnimDynamicFramesPtr++;
+	}
+}
+
+void Save_XAnimDynamicIndices(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimDynamicIndicesArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDynamicIndices, sizeof(XAnimDynamicIndices) * count, (void**)&outXAnimDynamicIndices);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDynamicIndices(false);
+		varXAnimDynamicIndices++;
+		outXAnimDynamicIndices++;
+		streamXAnimDynamicIndices++;
+	}
+}
+
+void Save_XAnimDynamicIndicesPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimDynamicIndicesPtr, sizeof(XAnimDynamicIndices*), (void**)&outXAnimDynamicIndicesPtr);
+	if (*varXAnimDynamicIndicesPtr)
+	{
+		*outXAnimDynamicIndicesPtr = (XAnimDynamicIndices*)DB_FindStreamData(*varXAnimDynamicIndicesPtr);
+		assert(*outXAnimDynamicIndicesPtr != (XAnimDynamicIndices*)0xFFFFFFFF);
+		if (!*outXAnimDynamicIndicesPtr)
+		{
+			*outXAnimDynamicIndicesPtr = AllocSave_XAnimDynamicIndices();
+			varXAnimDynamicIndices = *varXAnimDynamicIndicesPtr;
+			streamXAnimDynamicIndices = *outXAnimDynamicIndicesPtr;
+			auto v1 = sub_44AF80((void**)streamXAnimDynamicIndicesPtr, (void**)outXAnimDynamicIndicesPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimDynamicIndicesPtr, v1);
+			Save_XAnimDynamicIndices(true);
+		}
+	}
+}
+
+void Save_XAnimDynamicIndicesPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimDynamicIndicesPtr, sizeof(XAnimDynamicIndices*) * count, (void**)&outXAnimDynamicIndicesPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimDynamicIndicesPtr(false);
+		varXAnimDynamicIndicesPtr++;
+		outXAnimDynamicIndicesPtr++;
+		streamXAnimDynamicIndicesPtr++;
+	}
+}
+
+void Save_XAnimIndices(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimIndicesArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimIndices, sizeof(XAnimIndices) * count, (void**)&outXAnimIndices);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimIndices(false);
+		varXAnimIndices++;
+		outXAnimIndices++;
+		streamXAnimIndices++;
+	}
+}
+
+void Save_XAnimIndicesPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimIndicesPtr, sizeof(XAnimIndices*), (void**)&outXAnimIndicesPtr);
+	if (*varXAnimIndicesPtr)
+	{
+		*outXAnimIndicesPtr = (XAnimIndices*)DB_FindStreamData(*varXAnimIndicesPtr);
+		assert(*outXAnimIndicesPtr != (XAnimIndices*)0xFFFFFFFF);
+		if (!*outXAnimIndicesPtr)
+		{
+			*outXAnimIndicesPtr = AllocSave_XAnimIndices();
+			varXAnimIndices = *varXAnimIndicesPtr;
+			streamXAnimIndices = *outXAnimIndicesPtr;
+			auto v1 = sub_44AF80((void**)streamXAnimIndicesPtr, (void**)outXAnimIndicesPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimIndicesPtr, v1);
+			Save_XAnimIndices(true);
+		}
+	}
+}
+
+void Save_XAnimIndicesPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimIndicesPtr, sizeof(XAnimIndices*) * count, (void**)&outXAnimIndicesPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimIndicesPtr(false);
+		varXAnimIndicesPtr++;
+		outXAnimIndicesPtr++;
+		streamXAnimIndicesPtr++;
+	}
+}
+
+void Save_XAnimNotifyInfo(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimNotifyInfoArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimNotifyInfo, sizeof(XAnimNotifyInfo) * count, (void**)&outXAnimNotifyInfo);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimNotifyInfo(false);
+		varXAnimNotifyInfo++;
+		outXAnimNotifyInfo++;
+		streamXAnimNotifyInfo++;
+	}
+}
+
+void Save_XAnimNotifyInfoPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimNotifyInfoPtr, sizeof(XAnimNotifyInfo*), (void**)&outXAnimNotifyInfoPtr);
+	if (*varXAnimNotifyInfoPtr)
+	{
+		*outXAnimNotifyInfoPtr = (XAnimNotifyInfo*)DB_FindStreamData(*varXAnimNotifyInfoPtr);
+		assert(*outXAnimNotifyInfoPtr != (XAnimNotifyInfo*)0xFFFFFFFF);
+		if (!*outXAnimNotifyInfoPtr)
+		{
+			*outXAnimNotifyInfoPtr = AllocSave_XAnimNotifyInfo();
+			varXAnimNotifyInfo = *varXAnimNotifyInfoPtr;
+			streamXAnimNotifyInfo = *outXAnimNotifyInfoPtr;
+			auto v1 = sub_44AF80((void**)streamXAnimNotifyInfoPtr, (void**)outXAnimNotifyInfoPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimNotifyInfoPtr, v1);
+			Save_XAnimNotifyInfo(true);
+		}
+	}
+}
+
+void Save_XAnimNotifyInfoPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimNotifyInfoPtr, sizeof(XAnimNotifyInfo*) * count, (void**)&outXAnimNotifyInfoPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimNotifyInfoPtr(false);
+		varXAnimNotifyInfoPtr++;
+		outXAnimNotifyInfoPtr++;
+		streamXAnimNotifyInfoPtr++;
+	}
+}
+
+void Save_XAnimPartTrans(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimPartTransArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimPartTrans, sizeof(XAnimPartTrans) * count, (void**)&outXAnimPartTrans);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimPartTrans(false);
+		varXAnimPartTrans++;
+		outXAnimPartTrans++;
+		streamXAnimPartTrans++;
+	}
+}
+
+void Save_XAnimPartTransData(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimPartTransDataArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimPartTransData, sizeof(XAnimPartTransData) * count, (void**)&outXAnimPartTransData);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimPartTransData(false);
+		varXAnimPartTransData++;
+		outXAnimPartTransData++;
+		streamXAnimPartTransData++;
+	}
+}
+
+void Save_XAnimPartTransDataPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimPartTransDataPtr, sizeof(XAnimPartTransData*), (void**)&outXAnimPartTransDataPtr);
+	if (*varXAnimPartTransDataPtr)
+	{
+		*outXAnimPartTransDataPtr = (XAnimPartTransData*)DB_FindStreamData(*varXAnimPartTransDataPtr);
+		assert(*outXAnimPartTransDataPtr != (XAnimPartTransData*)0xFFFFFFFF);
+		if (!*outXAnimPartTransDataPtr)
+		{
+			*outXAnimPartTransDataPtr = AllocSave_XAnimPartTransData();
+			varXAnimPartTransData = *varXAnimPartTransDataPtr;
+			streamXAnimPartTransData = *outXAnimPartTransDataPtr;
+			auto v1 = sub_44AF80((void**)streamXAnimPartTransDataPtr, (void**)outXAnimPartTransDataPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimPartTransDataPtr, v1);
+			Save_XAnimPartTransData(true);
+		}
+	}
+}
+
+void Save_XAnimPartTransDataPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimPartTransDataPtr, sizeof(XAnimPartTransData*) * count, (void**)&outXAnimPartTransDataPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimPartTransDataPtr(false);
+		varXAnimPartTransDataPtr++;
+		outXAnimPartTransDataPtr++;
+		streamXAnimPartTransDataPtr++;
+	}
+}
+
+void Save_XAnimPartTransFrames(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimPartTransFramesArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimPartTransFrames, sizeof(XAnimPartTransFrames) * count, (void**)&outXAnimPartTransFrames);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimPartTransFrames(false);
+		varXAnimPartTransFrames++;
+		outXAnimPartTransFrames++;
+		streamXAnimPartTransFrames++;
+	}
+}
+
+void Save_XAnimPartTransFramesPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimPartTransFramesPtr, sizeof(XAnimPartTransFrames*), (void**)&outXAnimPartTransFramesPtr);
+	if (*varXAnimPartTransFramesPtr)
+	{
+		*outXAnimPartTransFramesPtr = (XAnimPartTransFrames*)DB_FindStreamData(*varXAnimPartTransFramesPtr);
+		assert(*outXAnimPartTransFramesPtr != (XAnimPartTransFrames*)0xFFFFFFFF);
+		if (!*outXAnimPartTransFramesPtr)
+		{
+			*outXAnimPartTransFramesPtr = AllocSave_XAnimPartTransFrames();
+			varXAnimPartTransFrames = *varXAnimPartTransFramesPtr;
+			streamXAnimPartTransFrames = *outXAnimPartTransFramesPtr;
+			auto v1 = sub_44AF80((void**)streamXAnimPartTransFramesPtr, (void**)outXAnimPartTransFramesPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimPartTransFramesPtr, v1);
+			Save_XAnimPartTransFrames(true);
+		}
+	}
+}
+
+void Save_XAnimPartTransFramesPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimPartTransFramesPtr, sizeof(XAnimPartTransFrames*) * count, (void**)&outXAnimPartTransFramesPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimPartTransFramesPtr(false);
+		varXAnimPartTransFramesPtr++;
+		outXAnimPartTransFramesPtr++;
+		streamXAnimPartTransFramesPtr++;
+	}
+}
+
+void Save_XAnimPartTransPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimPartTransPtr, sizeof(XAnimPartTrans*), (void**)&outXAnimPartTransPtr);
+	if (*varXAnimPartTransPtr)
+	{
+		*outXAnimPartTransPtr = (XAnimPartTrans*)DB_FindStreamData(*varXAnimPartTransPtr);
+		assert(*outXAnimPartTransPtr != (XAnimPartTrans*)0xFFFFFFFF);
+		if (!*outXAnimPartTransPtr)
+		{
+			*outXAnimPartTransPtr = AllocSave_XAnimPartTrans();
+			varXAnimPartTrans = *varXAnimPartTransPtr;
+			streamXAnimPartTrans = *outXAnimPartTransPtr;
+			auto v1 = sub_44AF80((void**)streamXAnimPartTransPtr, (void**)outXAnimPartTransPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimPartTransPtr, v1);
+			Save_XAnimPartTrans(true);
+		}
+	}
+}
+
+void Save_XAnimPartTransPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimPartTransPtr, sizeof(XAnimPartTrans*) * count, (void**)&outXAnimPartTransPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimPartTransPtr(false);
+		varXAnimPartTransPtr++;
+		outXAnimPartTransPtr++;
+		streamXAnimPartTransPtr++;
+	}
+}
+
+void Save_XAnimParts(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAnimPartsArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimParts, sizeof(XAnimParts) * count, (void**)&outXAnimParts);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimParts(false);
+		varXAnimParts++;
+		outXAnimParts++;
+		streamXAnimParts++;
+	}
+}
+
+void Save_XAnimPartsAsset(XAnimParts** asset)
+{
+	// todo!
+}
+
+void Save_XAnimPartsPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAnimPartsPtr, sizeof(XAnimParts*), (void**)&outXAnimPartsPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varXAnimPartsPtr)
+	{
+		*outXAnimPartsPtr = (XAnimParts*)DB_FindStreamData(*varXAnimPartsPtr);
+		assert(*outXAnimPartsPtr != (XAnimParts*)0xFFFFFFFF);
+		if (!*outXAnimPartsPtr)
+		{
+			*outXAnimPartsPtr = AllocSave_XAnimParts();
+			varXAnimParts = *varXAnimPartsPtr;
+			streamXAnimParts = *outXAnimPartsPtr;
+			auto v1 = sub_44AF80((void**)streamXAnimPartsPtr, (void**)outXAnimPartsPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAnimPartsPtr, v1);
+			Save_XAnimParts(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_XAnimPartsPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAnimPartsPtr, sizeof(XAnimParts*) * count, (void**)&outXAnimPartsPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAnimPartsPtr(false);
+		varXAnimPartsPtr++;
+		outXAnimPartsPtr++;
+		streamXAnimPartsPtr++;
+	}
+}
+
+void Save_XAsset(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAssetArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAsset, sizeof(XAsset) * count, (void**)&outXAsset);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAsset(false);
+		varXAsset++;
+		outXAsset++;
+		streamXAsset++;
+	}
+}
+
+void Save_XAssetHeader(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAssetHeaderArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAssetHeader, sizeof(XAssetHeader) * count, (void**)&outXAssetHeader);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAssetHeader(false);
+		varXAssetHeader++;
+		outXAssetHeader++;
+		streamXAssetHeader++;
+	}
+}
+
+void Save_XAssetHeaderPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAssetHeaderPtr, sizeof(XAssetHeader*), (void**)&outXAssetHeaderPtr);
+	if (*varXAssetHeaderPtr)
+	{
+		*outXAssetHeaderPtr = (XAssetHeader*)DB_FindStreamData(*varXAssetHeaderPtr);
+		assert(*outXAssetHeaderPtr != (XAssetHeader*)0xFFFFFFFF);
+		if (!*outXAssetHeaderPtr)
+		{
+			*outXAssetHeaderPtr = AllocSave_XAssetHeader();
+			varXAssetHeader = *varXAssetHeaderPtr;
+			streamXAssetHeader = *outXAssetHeaderPtr;
+			auto v1 = sub_44AF80((void**)streamXAssetHeaderPtr, (void**)outXAssetHeaderPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAssetHeaderPtr, v1);
+			Save_XAssetHeader(true);
+		}
+	}
+}
+
+void Save_XAssetHeaderPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAssetHeaderPtr, sizeof(XAssetHeader*) * count, (void**)&outXAssetHeaderPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAssetHeaderPtr(false);
+		varXAssetHeaderPtr++;
+		outXAssetHeaderPtr++;
+		streamXAssetHeaderPtr++;
+	}
+}
+
+void Save_XAssetList(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XAssetListArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAssetList, sizeof(XAssetList) * count, (void**)&outXAssetList);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAssetList(false);
+		varXAssetList++;
+		outXAssetList++;
+		streamXAssetList++;
+	}
+}
+
+void Save_XAssetListAsset(XAssetList** asset)
+{
+	// todo!
+}
+
+void Save_XAssetListPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAssetListPtr, sizeof(XAssetList*), (void**)&outXAssetListPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varXAssetListPtr)
+	{
+		*outXAssetListPtr = (XAssetList*)DB_FindStreamData(*varXAssetListPtr);
+		assert(*outXAssetListPtr != (XAssetList*)0xFFFFFFFF);
+		if (!*outXAssetListPtr)
+		{
+			*outXAssetListPtr = AllocSave_XAssetList();
+			varXAssetList = *varXAssetListPtr;
+			streamXAssetList = *outXAssetListPtr;
+			auto v1 = sub_44AF80((void**)streamXAssetListPtr, (void**)outXAssetListPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAssetListPtr, v1);
+			Save_XAssetList(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_XAssetListPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAssetListPtr, sizeof(XAssetList*) * count, (void**)&outXAssetListPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAssetListPtr(false);
+		varXAssetListPtr++;
+		outXAssetListPtr++;
+		streamXAssetListPtr++;
+	}
+}
+
+void Save_XAssetPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXAssetPtr, sizeof(XAsset*), (void**)&outXAssetPtr);
+	if (*varXAssetPtr)
+	{
+		*outXAssetPtr = (XAsset*)DB_FindStreamData(*varXAssetPtr);
+		assert(*outXAssetPtr != (XAsset*)0xFFFFFFFF);
+		if (!*outXAssetPtr)
+		{
+			*outXAssetPtr = AllocSave_XAsset();
+			varXAsset = *varXAssetPtr;
+			streamXAsset = *outXAssetPtr;
+			auto v1 = sub_44AF80((void**)streamXAssetPtr, (void**)outXAssetPtr);
+			DB_FindStreamDataOrInsert((void*)*varXAssetPtr, v1);
+			Save_XAsset(true);
+		}
+	}
+}
+
+void Save_XAssetPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXAssetPtr, sizeof(XAsset*) * count, (void**)&outXAssetPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XAssetPtr(false);
+		varXAssetPtr++;
+		outXAssetPtr++;
+		streamXAssetPtr++;
+	}
+}
+
+void Save_XBoneInfo(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XBoneInfoArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXBoneInfo, sizeof(XBoneInfo) * count, (void**)&outXBoneInfo);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XBoneInfo(false);
+		varXBoneInfo++;
+		outXBoneInfo++;
+		streamXBoneInfo++;
+	}
+}
+
+void Save_XBoneInfoPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXBoneInfoPtr, sizeof(XBoneInfo*), (void**)&outXBoneInfoPtr);
+	if (*varXBoneInfoPtr)
+	{
+		*outXBoneInfoPtr = (XBoneInfo*)DB_FindStreamData(*varXBoneInfoPtr);
+		assert(*outXBoneInfoPtr != (XBoneInfo*)0xFFFFFFFF);
+		if (!*outXBoneInfoPtr)
+		{
+			*outXBoneInfoPtr = AllocSave_XBoneInfo();
+			varXBoneInfo = *varXBoneInfoPtr;
+			streamXBoneInfo = *outXBoneInfoPtr;
+			auto v1 = sub_44AF80((void**)streamXBoneInfoPtr, (void**)outXBoneInfoPtr);
+			DB_FindStreamDataOrInsert((void*)*varXBoneInfoPtr, v1);
+			Save_XBoneInfo(true);
+		}
+	}
+}
+
+void Save_XBoneInfoPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXBoneInfoPtr, sizeof(XBoneInfo*) * count, (void**)&outXBoneInfoPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XBoneInfoPtr(false);
+		varXBoneInfoPtr++;
+		outXBoneInfoPtr++;
+		streamXBoneInfoPtr++;
+	}
+}
+
+void Save_XModel(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XModelArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXModel, sizeof(XModel) * count, (void**)&outXModel);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XModel(false);
+		varXModel++;
+		outXModel++;
+		streamXModel++;
+	}
+}
+
+void Save_XModelAsset(XModel** asset)
+{
+	// todo!
+}
+
+void Save_XModelCollSurf_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XModelCollSurf_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXModelCollSurf_s, sizeof(XModelCollSurf_s) * count, (void**)&outXModelCollSurf_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XModelCollSurf_s(false);
+		varXModelCollSurf_s++;
+		outXModelCollSurf_s++;
+		streamXModelCollSurf_s++;
+	}
+}
+
+void Save_XModelCollSurf_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXModelCollSurf_sPtr, sizeof(XModelCollSurf_s*), (void**)&outXModelCollSurf_sPtr);
+	if (*varXModelCollSurf_sPtr)
+	{
+		*outXModelCollSurf_sPtr = (XModelCollSurf_s*)DB_FindStreamData(*varXModelCollSurf_sPtr);
+		assert(*outXModelCollSurf_sPtr != (XModelCollSurf_s*)0xFFFFFFFF);
+		if (!*outXModelCollSurf_sPtr)
+		{
+			*outXModelCollSurf_sPtr = AllocSave_XModelCollSurf_s();
+			varXModelCollSurf_s = *varXModelCollSurf_sPtr;
+			streamXModelCollSurf_s = *outXModelCollSurf_sPtr;
+			auto v1 = sub_44AF80((void**)streamXModelCollSurf_sPtr, (void**)outXModelCollSurf_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varXModelCollSurf_sPtr, v1);
+			Save_XModelCollSurf_s(true);
+		}
+	}
+}
+
+void Save_XModelCollSurf_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXModelCollSurf_sPtr, sizeof(XModelCollSurf_s*) * count, (void**)&outXModelCollSurf_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XModelCollSurf_sPtr(false);
+		varXModelCollSurf_sPtr++;
+		outXModelCollSurf_sPtr++;
+		streamXModelCollSurf_sPtr++;
+	}
+}
+
+void Save_XModelCollTri_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XModelCollTri_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXModelCollTri_s, sizeof(XModelCollTri_s) * count, (void**)&outXModelCollTri_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XModelCollTri_s(false);
+		varXModelCollTri_s++;
+		outXModelCollTri_s++;
+		streamXModelCollTri_s++;
+	}
+}
+
+void Save_XModelCollTri_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXModelCollTri_sPtr, sizeof(XModelCollTri_s*), (void**)&outXModelCollTri_sPtr);
+	if (*varXModelCollTri_sPtr)
+	{
+		*outXModelCollTri_sPtr = (XModelCollTri_s*)DB_FindStreamData(*varXModelCollTri_sPtr);
+		assert(*outXModelCollTri_sPtr != (XModelCollTri_s*)0xFFFFFFFF);
+		if (!*outXModelCollTri_sPtr)
+		{
+			*outXModelCollTri_sPtr = AllocSave_XModelCollTri_s();
+			varXModelCollTri_s = *varXModelCollTri_sPtr;
+			streamXModelCollTri_s = *outXModelCollTri_sPtr;
+			auto v1 = sub_44AF80((void**)streamXModelCollTri_sPtr, (void**)outXModelCollTri_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varXModelCollTri_sPtr, v1);
+			Save_XModelCollTri_s(true);
+		}
+	}
+}
+
+void Save_XModelCollTri_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXModelCollTri_sPtr, sizeof(XModelCollTri_s*) * count, (void**)&outXModelCollTri_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XModelCollTri_sPtr(false);
+		varXModelCollTri_sPtr++;
+		outXModelCollTri_sPtr++;
+		streamXModelCollTri_sPtr++;
+	}
+}
+
+void Save_XModelLodInfo(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XModelLodInfoArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXModelLodInfo, sizeof(XModelLodInfo) * count, (void**)&outXModelLodInfo);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XModelLodInfo(false);
+		varXModelLodInfo++;
+		outXModelLodInfo++;
+		streamXModelLodInfo++;
+	}
+}
+
+void Save_XModelLodInfoPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXModelLodInfoPtr, sizeof(XModelLodInfo*), (void**)&outXModelLodInfoPtr);
+	if (*varXModelLodInfoPtr)
+	{
+		*outXModelLodInfoPtr = (XModelLodInfo*)DB_FindStreamData(*varXModelLodInfoPtr);
+		assert(*outXModelLodInfoPtr != (XModelLodInfo*)0xFFFFFFFF);
+		if (!*outXModelLodInfoPtr)
+		{
+			*outXModelLodInfoPtr = AllocSave_XModelLodInfo();
+			varXModelLodInfo = *varXModelLodInfoPtr;
+			streamXModelLodInfo = *outXModelLodInfoPtr;
+			auto v1 = sub_44AF80((void**)streamXModelLodInfoPtr, (void**)outXModelLodInfoPtr);
+			DB_FindStreamDataOrInsert((void*)*varXModelLodInfoPtr, v1);
+			Save_XModelLodInfo(true);
+		}
+	}
+}
+
+void Save_XModelLodInfoPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXModelLodInfoPtr, sizeof(XModelLodInfo*) * count, (void**)&outXModelLodInfoPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XModelLodInfoPtr(false);
+		varXModelLodInfoPtr++;
+		outXModelLodInfoPtr++;
+		streamXModelLodInfoPtr++;
+	}
+}
+
+void Save_XModelPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXModelPtr, sizeof(XModel*), (void**)&outXModelPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varXModelPtr)
+	{
+		*outXModelPtr = (XModel*)DB_FindStreamData(*varXModelPtr);
+		assert(*outXModelPtr != (XModel*)0xFFFFFFFF);
+		if (!*outXModelPtr)
+		{
+			*outXModelPtr = AllocSave_XModel();
+			varXModel = *varXModelPtr;
+			streamXModel = *outXModelPtr;
+			auto v1 = sub_44AF80((void**)streamXModelPtr, (void**)outXModelPtr);
+			DB_FindStreamDataOrInsert((void*)*varXModelPtr, v1);
+			Save_XModel(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_XModelPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXModelPtr, sizeof(XModel*) * count, (void**)&outXModelPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XModelPtr(false);
+		varXModelPtr++;
+		outXModelPtr++;
+		streamXModelPtr++;
+	}
+}
+
+void Save_XModelSurfs(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XModelSurfsArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXModelSurfs, sizeof(XModelSurfs) * count, (void**)&outXModelSurfs);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XModelSurfs(false);
+		varXModelSurfs++;
+		outXModelSurfs++;
+		streamXModelSurfs++;
+	}
+}
+
+void Save_XModelSurfsAsset(XModelSurfs** asset)
+{
+	// todo!
+}
+
+void Save_XModelSurfsPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXModelSurfsPtr, sizeof(XModelSurfs*), (void**)&outXModelSurfsPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varXModelSurfsPtr)
+	{
+		*outXModelSurfsPtr = (XModelSurfs*)DB_FindStreamData(*varXModelSurfsPtr);
+		assert(*outXModelSurfsPtr != (XModelSurfs*)0xFFFFFFFF);
+		if (!*outXModelSurfsPtr)
+		{
+			*outXModelSurfsPtr = AllocSave_XModelSurfs();
+			varXModelSurfs = *varXModelSurfsPtr;
+			streamXModelSurfs = *outXModelSurfsPtr;
+			auto v1 = sub_44AF80((void**)streamXModelSurfsPtr, (void**)outXModelSurfsPtr);
+			DB_FindStreamDataOrInsert((void*)*varXModelSurfsPtr, v1);
+			Save_XModelSurfs(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_XModelSurfsPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXModelSurfsPtr, sizeof(XModelSurfs*) * count, (void**)&outXModelSurfsPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XModelSurfsPtr(false);
+		varXModelSurfsPtr++;
+		outXModelSurfsPtr++;
+		streamXModelSurfsPtr++;
+	}
+}
+
+void Save_XRigidVertList(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XRigidVertListArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXRigidVertList, sizeof(XRigidVertList) * count, (void**)&outXRigidVertList);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XRigidVertList(false);
+		varXRigidVertList++;
+		outXRigidVertList++;
+		streamXRigidVertList++;
+	}
+}
+
+void Save_XRigidVertListPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXRigidVertListPtr, sizeof(XRigidVertList*), (void**)&outXRigidVertListPtr);
+	if (*varXRigidVertListPtr)
+	{
+		*outXRigidVertListPtr = (XRigidVertList*)DB_FindStreamData(*varXRigidVertListPtr);
+		assert(*outXRigidVertListPtr != (XRigidVertList*)0xFFFFFFFF);
+		if (!*outXRigidVertListPtr)
+		{
+			*outXRigidVertListPtr = AllocSave_XRigidVertList();
+			varXRigidVertList = *varXRigidVertListPtr;
+			streamXRigidVertList = *outXRigidVertListPtr;
+			auto v1 = sub_44AF80((void**)streamXRigidVertListPtr, (void**)outXRigidVertListPtr);
+			DB_FindStreamDataOrInsert((void*)*varXRigidVertListPtr, v1);
+			Save_XRigidVertList(true);
+		}
+	}
+}
+
+void Save_XRigidVertListPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXRigidVertListPtr, sizeof(XRigidVertList*) * count, (void**)&outXRigidVertListPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XRigidVertListPtr(false);
+		varXRigidVertListPtr++;
+		outXRigidVertListPtr++;
+		streamXRigidVertListPtr++;
+	}
+}
+
+void Save_XString(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XStringArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXString, sizeof(XString) * count, (void**)&outXString);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XString(false);
+		varXString++;
+		outXString++;
+		streamXString++;
+	}
+}
+
+void Save_XStringPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXStringPtr, sizeof(XString*), (void**)&outXStringPtr);
+	if (*varXStringPtr)
+	{
+		*outXStringPtr = (XString*)DB_FindStreamData(*varXStringPtr);
+		assert(*outXStringPtr != (XString*)0xFFFFFFFF);
+		if (!*outXStringPtr)
+		{
+			*outXStringPtr = AllocSave_XString();
+			varXString = *varXStringPtr;
+			streamXString = *outXStringPtr;
+			auto v1 = sub_44AF80((void**)streamXStringPtr, (void**)outXStringPtr);
+			DB_FindStreamDataOrInsert((void*)*varXStringPtr, v1);
+			Save_XString(true);
+		}
+	}
+}
+
+void Save_XStringPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXStringPtr, sizeof(XString*) * count, (void**)&outXStringPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XStringPtr(false);
+		varXStringPtr++;
+		outXStringPtr++;
+		streamXStringPtr++;
+	}
+}
+
+void Save_XSurface(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XSurfaceArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXSurface, sizeof(XSurface) * count, (void**)&outXSurface);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XSurface(false);
+		varXSurface++;
+		outXSurface++;
+		streamXSurface++;
+	}
+}
+
+void Save_XSurfaceCollisionAabb(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XSurfaceCollisionAabbArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXSurfaceCollisionAabb, sizeof(XSurfaceCollisionAabb) * count, (void**)&outXSurfaceCollisionAabb);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XSurfaceCollisionAabb(false);
+		varXSurfaceCollisionAabb++;
+		outXSurfaceCollisionAabb++;
+		streamXSurfaceCollisionAabb++;
+	}
+}
+
+void Save_XSurfaceCollisionAabbPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXSurfaceCollisionAabbPtr, sizeof(XSurfaceCollisionAabb*), (void**)&outXSurfaceCollisionAabbPtr);
+	if (*varXSurfaceCollisionAabbPtr)
+	{
+		*outXSurfaceCollisionAabbPtr = (XSurfaceCollisionAabb*)DB_FindStreamData(*varXSurfaceCollisionAabbPtr);
+		assert(*outXSurfaceCollisionAabbPtr != (XSurfaceCollisionAabb*)0xFFFFFFFF);
+		if (!*outXSurfaceCollisionAabbPtr)
+		{
+			*outXSurfaceCollisionAabbPtr = AllocSave_XSurfaceCollisionAabb();
+			varXSurfaceCollisionAabb = *varXSurfaceCollisionAabbPtr;
+			streamXSurfaceCollisionAabb = *outXSurfaceCollisionAabbPtr;
+			auto v1 = sub_44AF80((void**)streamXSurfaceCollisionAabbPtr, (void**)outXSurfaceCollisionAabbPtr);
+			DB_FindStreamDataOrInsert((void*)*varXSurfaceCollisionAabbPtr, v1);
+			Save_XSurfaceCollisionAabb(true);
+		}
+	}
+}
+
+void Save_XSurfaceCollisionAabbPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXSurfaceCollisionAabbPtr, sizeof(XSurfaceCollisionAabb*) * count, (void**)&outXSurfaceCollisionAabbPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XSurfaceCollisionAabbPtr(false);
+		varXSurfaceCollisionAabbPtr++;
+		outXSurfaceCollisionAabbPtr++;
+		streamXSurfaceCollisionAabbPtr++;
+	}
+}
+
+void Save_XSurfaceCollisionLeaf(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XSurfaceCollisionLeafArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXSurfaceCollisionLeaf, sizeof(XSurfaceCollisionLeaf) * count, (void**)&outXSurfaceCollisionLeaf);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XSurfaceCollisionLeaf(false);
+		varXSurfaceCollisionLeaf++;
+		outXSurfaceCollisionLeaf++;
+		streamXSurfaceCollisionLeaf++;
+	}
+}
+
+void Save_XSurfaceCollisionLeafPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXSurfaceCollisionLeafPtr, sizeof(XSurfaceCollisionLeaf*), (void**)&outXSurfaceCollisionLeafPtr);
+	if (*varXSurfaceCollisionLeafPtr)
+	{
+		*outXSurfaceCollisionLeafPtr = (XSurfaceCollisionLeaf*)DB_FindStreamData(*varXSurfaceCollisionLeafPtr);
+		assert(*outXSurfaceCollisionLeafPtr != (XSurfaceCollisionLeaf*)0xFFFFFFFF);
+		if (!*outXSurfaceCollisionLeafPtr)
+		{
+			*outXSurfaceCollisionLeafPtr = AllocSave_XSurfaceCollisionLeaf();
+			varXSurfaceCollisionLeaf = *varXSurfaceCollisionLeafPtr;
+			streamXSurfaceCollisionLeaf = *outXSurfaceCollisionLeafPtr;
+			auto v1 = sub_44AF80((void**)streamXSurfaceCollisionLeafPtr, (void**)outXSurfaceCollisionLeafPtr);
+			DB_FindStreamDataOrInsert((void*)*varXSurfaceCollisionLeafPtr, v1);
+			Save_XSurfaceCollisionLeaf(true);
+		}
+	}
+}
+
+void Save_XSurfaceCollisionLeafPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXSurfaceCollisionLeafPtr, sizeof(XSurfaceCollisionLeaf*) * count, (void**)&outXSurfaceCollisionLeafPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XSurfaceCollisionLeafPtr(false);
+		varXSurfaceCollisionLeafPtr++;
+		outXSurfaceCollisionLeafPtr++;
+		streamXSurfaceCollisionLeafPtr++;
+	}
+}
+
+void Save_XSurfaceCollisionNode(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XSurfaceCollisionNodeArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXSurfaceCollisionNode, sizeof(XSurfaceCollisionNode) * count, (void**)&outXSurfaceCollisionNode);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XSurfaceCollisionNode(false);
+		varXSurfaceCollisionNode++;
+		outXSurfaceCollisionNode++;
+		streamXSurfaceCollisionNode++;
+	}
+}
+
+void Save_XSurfaceCollisionNodePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXSurfaceCollisionNodePtr, sizeof(XSurfaceCollisionNode*), (void**)&outXSurfaceCollisionNodePtr);
+	if (*varXSurfaceCollisionNodePtr)
+	{
+		*outXSurfaceCollisionNodePtr = (XSurfaceCollisionNode*)DB_FindStreamData(*varXSurfaceCollisionNodePtr);
+		assert(*outXSurfaceCollisionNodePtr != (XSurfaceCollisionNode*)0xFFFFFFFF);
+		if (!*outXSurfaceCollisionNodePtr)
+		{
+			*outXSurfaceCollisionNodePtr = AllocSave_XSurfaceCollisionNode();
+			varXSurfaceCollisionNode = *varXSurfaceCollisionNodePtr;
+			streamXSurfaceCollisionNode = *outXSurfaceCollisionNodePtr;
+			auto v1 = sub_44AF80((void**)streamXSurfaceCollisionNodePtr, (void**)outXSurfaceCollisionNodePtr);
+			DB_FindStreamDataOrInsert((void*)*varXSurfaceCollisionNodePtr, v1);
+			Save_XSurfaceCollisionNode(true);
+		}
+	}
+}
+
+void Save_XSurfaceCollisionNodePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXSurfaceCollisionNodePtr, sizeof(XSurfaceCollisionNode*) * count, (void**)&outXSurfaceCollisionNodePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XSurfaceCollisionNodePtr(false);
+		varXSurfaceCollisionNodePtr++;
+		outXSurfaceCollisionNodePtr++;
+		streamXSurfaceCollisionNodePtr++;
+	}
+}
+
+void Save_XSurfaceCollisionTree(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XSurfaceCollisionTreeArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXSurfaceCollisionTree, sizeof(XSurfaceCollisionTree) * count, (void**)&outXSurfaceCollisionTree);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XSurfaceCollisionTree(false);
+		varXSurfaceCollisionTree++;
+		outXSurfaceCollisionTree++;
+		streamXSurfaceCollisionTree++;
+	}
+}
+
+void Save_XSurfaceCollisionTreePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXSurfaceCollisionTreePtr, sizeof(XSurfaceCollisionTree*), (void**)&outXSurfaceCollisionTreePtr);
+	if (*varXSurfaceCollisionTreePtr)
+	{
+		*outXSurfaceCollisionTreePtr = (XSurfaceCollisionTree*)DB_FindStreamData(*varXSurfaceCollisionTreePtr);
+		assert(*outXSurfaceCollisionTreePtr != (XSurfaceCollisionTree*)0xFFFFFFFF);
+		if (!*outXSurfaceCollisionTreePtr)
+		{
+			*outXSurfaceCollisionTreePtr = AllocSave_XSurfaceCollisionTree();
+			varXSurfaceCollisionTree = *varXSurfaceCollisionTreePtr;
+			streamXSurfaceCollisionTree = *outXSurfaceCollisionTreePtr;
+			auto v1 = sub_44AF80((void**)streamXSurfaceCollisionTreePtr, (void**)outXSurfaceCollisionTreePtr);
+			DB_FindStreamDataOrInsert((void*)*varXSurfaceCollisionTreePtr, v1);
+			Save_XSurfaceCollisionTree(true);
+		}
+	}
+}
+
+void Save_XSurfaceCollisionTreePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXSurfaceCollisionTreePtr, sizeof(XSurfaceCollisionTree*) * count, (void**)&outXSurfaceCollisionTreePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XSurfaceCollisionTreePtr(false);
+		varXSurfaceCollisionTreePtr++;
+		outXSurfaceCollisionTreePtr++;
+		streamXSurfaceCollisionTreePtr++;
+	}
+}
+
+void Save_XSurfacePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXSurfacePtr, sizeof(XSurface*), (void**)&outXSurfacePtr);
+	if (*varXSurfacePtr)
+	{
+		*outXSurfacePtr = (XSurface*)DB_FindStreamData(*varXSurfacePtr);
+		assert(*outXSurfacePtr != (XSurface*)0xFFFFFFFF);
+		if (!*outXSurfacePtr)
+		{
+			*outXSurfacePtr = AllocSave_XSurface();
+			varXSurface = *varXSurfacePtr;
+			streamXSurface = *outXSurfacePtr;
+			auto v1 = sub_44AF80((void**)streamXSurfacePtr, (void**)outXSurfacePtr);
+			DB_FindStreamDataOrInsert((void*)*varXSurfacePtr, v1);
+			Save_XSurface(true);
+		}
+	}
+}
+
+void Save_XSurfacePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXSurfacePtr, sizeof(XSurface*) * count, (void**)&outXSurfacePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XSurfacePtr(false);
+		varXSurfacePtr++;
+		outXSurfacePtr++;
+		streamXSurfacePtr++;
+	}
+}
+
+void Save_XSurfaceVertexInfo(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_XSurfaceVertexInfoArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXSurfaceVertexInfo, sizeof(XSurfaceVertexInfo) * count, (void**)&outXSurfaceVertexInfo);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XSurfaceVertexInfo(false);
+		varXSurfaceVertexInfo++;
+		outXSurfaceVertexInfo++;
+		streamXSurfaceVertexInfo++;
+	}
+}
+
+void Save_XSurfaceVertexInfoPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varXSurfaceVertexInfoPtr, sizeof(XSurfaceVertexInfo*), (void**)&outXSurfaceVertexInfoPtr);
+	if (*varXSurfaceVertexInfoPtr)
+	{
+		*outXSurfaceVertexInfoPtr = (XSurfaceVertexInfo*)DB_FindStreamData(*varXSurfaceVertexInfoPtr);
+		assert(*outXSurfaceVertexInfoPtr != (XSurfaceVertexInfo*)0xFFFFFFFF);
+		if (!*outXSurfaceVertexInfoPtr)
+		{
+			*outXSurfaceVertexInfoPtr = AllocSave_XSurfaceVertexInfo();
+			varXSurfaceVertexInfo = *varXSurfaceVertexInfoPtr;
+			streamXSurfaceVertexInfo = *outXSurfaceVertexInfoPtr;
+			auto v1 = sub_44AF80((void**)streamXSurfaceVertexInfoPtr, (void**)outXSurfaceVertexInfoPtr);
+			DB_FindStreamDataOrInsert((void*)*varXSurfaceVertexInfoPtr, v1);
+			Save_XSurfaceVertexInfo(true);
+		}
+	}
+}
+
+void Save_XSurfaceVertexInfoPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varXSurfaceVertexInfoPtr, sizeof(XSurfaceVertexInfo*) * count, (void**)&outXSurfaceVertexInfoPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_XSurfaceVertexInfoPtr(false);
+		varXSurfaceVertexInfoPtr++;
+		outXSurfaceVertexInfoPtr++;
+		streamXSurfaceVertexInfoPtr++;
+	}
+}
+
+void Save__AILSOUNDINFO(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save__AILSOUNDINFOArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, var_AILSOUNDINFO, sizeof(_AILSOUNDINFO) * count, (void**)&out_AILSOUNDINFO);
+	for (int i = 0; i < count; i++)
+	{
+		Save__AILSOUNDINFO(false);
+		var_AILSOUNDINFO++;
+		out_AILSOUNDINFO++;
+		stream_AILSOUNDINFO++;
+	}
+}
+
+void Save__AILSOUNDINFOPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, var_AILSOUNDINFOPtr, sizeof(_AILSOUNDINFO*), (void**)&out_AILSOUNDINFOPtr);
+	if (*var_AILSOUNDINFOPtr)
+	{
+		*out_AILSOUNDINFOPtr = (_AILSOUNDINFO*)DB_FindStreamData(*var_AILSOUNDINFOPtr);
+		assert(*out_AILSOUNDINFOPtr != (_AILSOUNDINFO*)0xFFFFFFFF);
+		if (!*out_AILSOUNDINFOPtr)
+		{
+			*out_AILSOUNDINFOPtr = AllocSave__AILSOUNDINFO();
+			var_AILSOUNDINFO = *var_AILSOUNDINFOPtr;
+			stream_AILSOUNDINFO = *out_AILSOUNDINFOPtr;
+			auto v1 = sub_44AF80((void**)stream_AILSOUNDINFOPtr, (void**)out_AILSOUNDINFOPtr);
+			DB_FindStreamDataOrInsert((void*)*var_AILSOUNDINFOPtr, v1);
+			Save__AILSOUNDINFO(true);
+		}
+	}
+}
+
+void Save__AILSOUNDINFOPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, var_AILSOUNDINFOPtr, sizeof(_AILSOUNDINFO*) * count, (void**)&out_AILSOUNDINFOPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save__AILSOUNDINFOPtr(false);
+		var_AILSOUNDINFOPtr++;
+		out_AILSOUNDINFOPtr++;
+		stream_AILSOUNDINFOPtr++;
+	}
+}
+
+void Save_bool(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_boolArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varbool, sizeof(bool) * count, (void**)&outbool);
+	for (int i = 0; i < count; i++)
+	{
+		Save_bool(false);
+		varbool++;
+		outbool++;
+		streambool++;
+	}
+}
+
+void Save_boolPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varboolPtr, sizeof(bool*), (void**)&outboolPtr);
+	if (*varboolPtr)
+	{
+		*outboolPtr = (bool*)DB_FindStreamData(*varboolPtr);
+		assert(*outboolPtr != (bool*)0xFFFFFFFF);
+		if (!*outboolPtr)
+		{
+			*outboolPtr = AllocSave_bool();
+			varbool = *varboolPtr;
+			streambool = *outboolPtr;
+			auto v1 = sub_44AF80((void**)streamboolPtr, (void**)outboolPtr);
+			DB_FindStreamDataOrInsert((void*)*varboolPtr, v1);
+			Save_bool(true);
+		}
+	}
+}
+
+void Save_boolPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varboolPtr, sizeof(bool*) * count, (void**)&outboolPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_boolPtr(false);
+		varboolPtr++;
+		outboolPtr++;
+		streamboolPtr++;
+	}
+}
+
+void Save_cLeafBrushNodeChildren_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_cLeafBrushNodeChildren_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcLeafBrushNodeChildren_t, sizeof(cLeafBrushNodeChildren_t) * count, (void**)&outcLeafBrushNodeChildren_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cLeafBrushNodeChildren_t(false);
+		varcLeafBrushNodeChildren_t++;
+		outcLeafBrushNodeChildren_t++;
+		streamcLeafBrushNodeChildren_t++;
+	}
+}
+
+void Save_cLeafBrushNodeChildren_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcLeafBrushNodeChildren_tPtr, sizeof(cLeafBrushNodeChildren_t*), (void**)&outcLeafBrushNodeChildren_tPtr);
+	if (*varcLeafBrushNodeChildren_tPtr)
+	{
+		*outcLeafBrushNodeChildren_tPtr = (cLeafBrushNodeChildren_t*)DB_FindStreamData(*varcLeafBrushNodeChildren_tPtr);
+		assert(*outcLeafBrushNodeChildren_tPtr != (cLeafBrushNodeChildren_t*)0xFFFFFFFF);
+		if (!*outcLeafBrushNodeChildren_tPtr)
+		{
+			*outcLeafBrushNodeChildren_tPtr = AllocSave_cLeafBrushNodeChildren_t();
+			varcLeafBrushNodeChildren_t = *varcLeafBrushNodeChildren_tPtr;
+			streamcLeafBrushNodeChildren_t = *outcLeafBrushNodeChildren_tPtr;
+			auto v1 = sub_44AF80((void**)streamcLeafBrushNodeChildren_tPtr, (void**)outcLeafBrushNodeChildren_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varcLeafBrushNodeChildren_tPtr, v1);
+			Save_cLeafBrushNodeChildren_t(true);
+		}
+	}
+}
+
+void Save_cLeafBrushNodeChildren_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcLeafBrushNodeChildren_tPtr, sizeof(cLeafBrushNodeChildren_t*) * count, (void**)&outcLeafBrushNodeChildren_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cLeafBrushNodeChildren_tPtr(false);
+		varcLeafBrushNodeChildren_tPtr++;
+		outcLeafBrushNodeChildren_tPtr++;
+		streamcLeafBrushNodeChildren_tPtr++;
+	}
+}
+
+void Save_cLeafBrushNodeData_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_cLeafBrushNodeData_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcLeafBrushNodeData_t, sizeof(cLeafBrushNodeData_t) * count, (void**)&outcLeafBrushNodeData_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cLeafBrushNodeData_t(false);
+		varcLeafBrushNodeData_t++;
+		outcLeafBrushNodeData_t++;
+		streamcLeafBrushNodeData_t++;
+	}
+}
+
+void Save_cLeafBrushNodeData_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcLeafBrushNodeData_tPtr, sizeof(cLeafBrushNodeData_t*), (void**)&outcLeafBrushNodeData_tPtr);
+	if (*varcLeafBrushNodeData_tPtr)
+	{
+		*outcLeafBrushNodeData_tPtr = (cLeafBrushNodeData_t*)DB_FindStreamData(*varcLeafBrushNodeData_tPtr);
+		assert(*outcLeafBrushNodeData_tPtr != (cLeafBrushNodeData_t*)0xFFFFFFFF);
+		if (!*outcLeafBrushNodeData_tPtr)
+		{
+			*outcLeafBrushNodeData_tPtr = AllocSave_cLeafBrushNodeData_t();
+			varcLeafBrushNodeData_t = *varcLeafBrushNodeData_tPtr;
+			streamcLeafBrushNodeData_t = *outcLeafBrushNodeData_tPtr;
+			auto v1 = sub_44AF80((void**)streamcLeafBrushNodeData_tPtr, (void**)outcLeafBrushNodeData_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varcLeafBrushNodeData_tPtr, v1);
+			Save_cLeafBrushNodeData_t(true);
+		}
+	}
+}
+
+void Save_cLeafBrushNodeData_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcLeafBrushNodeData_tPtr, sizeof(cLeafBrushNodeData_t*) * count, (void**)&outcLeafBrushNodeData_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cLeafBrushNodeData_tPtr(false);
+		varcLeafBrushNodeData_tPtr++;
+		outcLeafBrushNodeData_tPtr++;
+		streamcLeafBrushNodeData_tPtr++;
+	}
+}
+
+void Save_cLeafBrushNodeLeaf_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_cLeafBrushNodeLeaf_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcLeafBrushNodeLeaf_t, sizeof(cLeafBrushNodeLeaf_t) * count, (void**)&outcLeafBrushNodeLeaf_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cLeafBrushNodeLeaf_t(false);
+		varcLeafBrushNodeLeaf_t++;
+		outcLeafBrushNodeLeaf_t++;
+		streamcLeafBrushNodeLeaf_t++;
+	}
+}
+
+void Save_cLeafBrushNodeLeaf_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcLeafBrushNodeLeaf_tPtr, sizeof(cLeafBrushNodeLeaf_t*), (void**)&outcLeafBrushNodeLeaf_tPtr);
+	if (*varcLeafBrushNodeLeaf_tPtr)
+	{
+		*outcLeafBrushNodeLeaf_tPtr = (cLeafBrushNodeLeaf_t*)DB_FindStreamData(*varcLeafBrushNodeLeaf_tPtr);
+		assert(*outcLeafBrushNodeLeaf_tPtr != (cLeafBrushNodeLeaf_t*)0xFFFFFFFF);
+		if (!*outcLeafBrushNodeLeaf_tPtr)
+		{
+			*outcLeafBrushNodeLeaf_tPtr = AllocSave_cLeafBrushNodeLeaf_t();
+			varcLeafBrushNodeLeaf_t = *varcLeafBrushNodeLeaf_tPtr;
+			streamcLeafBrushNodeLeaf_t = *outcLeafBrushNodeLeaf_tPtr;
+			auto v1 = sub_44AF80((void**)streamcLeafBrushNodeLeaf_tPtr, (void**)outcLeafBrushNodeLeaf_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varcLeafBrushNodeLeaf_tPtr, v1);
+			Save_cLeafBrushNodeLeaf_t(true);
+		}
+	}
+}
+
+void Save_cLeafBrushNodeLeaf_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcLeafBrushNodeLeaf_tPtr, sizeof(cLeafBrushNodeLeaf_t*) * count, (void**)&outcLeafBrushNodeLeaf_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cLeafBrushNodeLeaf_tPtr(false);
+		varcLeafBrushNodeLeaf_tPtr++;
+		outcLeafBrushNodeLeaf_tPtr++;
+		streamcLeafBrushNodeLeaf_tPtr++;
+	}
+}
+
+void Save_cLeafBrushNode_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_cLeafBrushNode_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcLeafBrushNode_s, sizeof(cLeafBrushNode_s) * count, (void**)&outcLeafBrushNode_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cLeafBrushNode_s(false);
+		varcLeafBrushNode_s++;
+		outcLeafBrushNode_s++;
+		streamcLeafBrushNode_s++;
+	}
+}
+
+void Save_cLeafBrushNode_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcLeafBrushNode_sPtr, sizeof(cLeafBrushNode_s*), (void**)&outcLeafBrushNode_sPtr);
+	if (*varcLeafBrushNode_sPtr)
+	{
+		*outcLeafBrushNode_sPtr = (cLeafBrushNode_s*)DB_FindStreamData(*varcLeafBrushNode_sPtr);
+		assert(*outcLeafBrushNode_sPtr != (cLeafBrushNode_s*)0xFFFFFFFF);
+		if (!*outcLeafBrushNode_sPtr)
+		{
+			*outcLeafBrushNode_sPtr = AllocSave_cLeafBrushNode_s();
+			varcLeafBrushNode_s = *varcLeafBrushNode_sPtr;
+			streamcLeafBrushNode_s = *outcLeafBrushNode_sPtr;
+			auto v1 = sub_44AF80((void**)streamcLeafBrushNode_sPtr, (void**)outcLeafBrushNode_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varcLeafBrushNode_sPtr, v1);
+			Save_cLeafBrushNode_s(true);
+		}
+	}
+}
+
+void Save_cLeafBrushNode_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcLeafBrushNode_sPtr, sizeof(cLeafBrushNode_s*) * count, (void**)&outcLeafBrushNode_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cLeafBrushNode_sPtr(false);
+		varcLeafBrushNode_sPtr++;
+		outcLeafBrushNode_sPtr++;
+		streamcLeafBrushNode_sPtr++;
+	}
+}
+
+void Save_cLeaf_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_cLeaf_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcLeaf_t, sizeof(cLeaf_t) * count, (void**)&outcLeaf_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cLeaf_t(false);
+		varcLeaf_t++;
+		outcLeaf_t++;
+		streamcLeaf_t++;
+	}
+}
+
+void Save_cLeaf_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcLeaf_tPtr, sizeof(cLeaf_t*), (void**)&outcLeaf_tPtr);
+	if (*varcLeaf_tPtr)
+	{
+		*outcLeaf_tPtr = (cLeaf_t*)DB_FindStreamData(*varcLeaf_tPtr);
+		assert(*outcLeaf_tPtr != (cLeaf_t*)0xFFFFFFFF);
+		if (!*outcLeaf_tPtr)
+		{
+			*outcLeaf_tPtr = AllocSave_cLeaf_t();
+			varcLeaf_t = *varcLeaf_tPtr;
+			streamcLeaf_t = *outcLeaf_tPtr;
+			auto v1 = sub_44AF80((void**)streamcLeaf_tPtr, (void**)outcLeaf_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varcLeaf_tPtr, v1);
+			Save_cLeaf_t(true);
+		}
+	}
+}
+
+void Save_cLeaf_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcLeaf_tPtr, sizeof(cLeaf_t*) * count, (void**)&outcLeaf_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cLeaf_tPtr(false);
+		varcLeaf_tPtr++;
+		outcLeaf_tPtr++;
+		streamcLeaf_tPtr++;
+	}
+}
+
+void Save_cNode_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_cNode_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcNode_t, sizeof(cNode_t) * count, (void**)&outcNode_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cNode_t(false);
+		varcNode_t++;
+		outcNode_t++;
+		streamcNode_t++;
+	}
+}
+
+void Save_cNode_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcNode_tPtr, sizeof(cNode_t*), (void**)&outcNode_tPtr);
+	if (*varcNode_tPtr)
+	{
+		*outcNode_tPtr = (cNode_t*)DB_FindStreamData(*varcNode_tPtr);
+		assert(*outcNode_tPtr != (cNode_t*)0xFFFFFFFF);
+		if (!*outcNode_tPtr)
+		{
+			*outcNode_tPtr = AllocSave_cNode_t();
+			varcNode_t = *varcNode_tPtr;
+			streamcNode_t = *outcNode_tPtr;
+			auto v1 = sub_44AF80((void**)streamcNode_tPtr, (void**)outcNode_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varcNode_tPtr, v1);
+			Save_cNode_t(true);
+		}
+	}
+}
+
+void Save_cNode_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcNode_tPtr, sizeof(cNode_t*) * count, (void**)&outcNode_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cNode_tPtr(false);
+		varcNode_tPtr++;
+		outcNode_tPtr++;
+		streamcNode_tPtr++;
+	}
+}
+
+void Save_cStaticModel_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_cStaticModel_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcStaticModel_s, sizeof(cStaticModel_s) * count, (void**)&outcStaticModel_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cStaticModel_s(false);
+		varcStaticModel_s++;
+		outcStaticModel_s++;
+		streamcStaticModel_s++;
+	}
+}
+
+void Save_cStaticModel_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcStaticModel_sPtr, sizeof(cStaticModel_s*), (void**)&outcStaticModel_sPtr);
+	if (*varcStaticModel_sPtr)
+	{
+		*outcStaticModel_sPtr = (cStaticModel_s*)DB_FindStreamData(*varcStaticModel_sPtr);
+		assert(*outcStaticModel_sPtr != (cStaticModel_s*)0xFFFFFFFF);
+		if (!*outcStaticModel_sPtr)
+		{
+			*outcStaticModel_sPtr = AllocSave_cStaticModel_s();
+			varcStaticModel_s = *varcStaticModel_sPtr;
+			streamcStaticModel_s = *outcStaticModel_sPtr;
+			auto v1 = sub_44AF80((void**)streamcStaticModel_sPtr, (void**)outcStaticModel_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varcStaticModel_sPtr, v1);
+			Save_cStaticModel_s(true);
+		}
+	}
+}
+
+void Save_cStaticModel_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcStaticModel_sPtr, sizeof(cStaticModel_s*) * count, (void**)&outcStaticModel_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cStaticModel_sPtr(false);
+		varcStaticModel_sPtr++;
+		outcStaticModel_sPtr++;
+		streamcStaticModel_sPtr++;
+	}
+}
+
+void Save_cbrush_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_cbrush_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcbrush_t, sizeof(cbrush_t) * count, (void**)&outcbrush_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cbrush_t(false);
+		varcbrush_t++;
+		outcbrush_t++;
+		streamcbrush_t++;
+	}
+}
+
+void Save_cbrush_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcbrush_tPtr, sizeof(cbrush_t*), (void**)&outcbrush_tPtr);
+	if (*varcbrush_tPtr)
+	{
+		*outcbrush_tPtr = (cbrush_t*)DB_FindStreamData(*varcbrush_tPtr);
+		assert(*outcbrush_tPtr != (cbrush_t*)0xFFFFFFFF);
+		if (!*outcbrush_tPtr)
+		{
+			*outcbrush_tPtr = AllocSave_cbrush_t();
+			varcbrush_t = *varcbrush_tPtr;
+			streamcbrush_t = *outcbrush_tPtr;
+			auto v1 = sub_44AF80((void**)streamcbrush_tPtr, (void**)outcbrush_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varcbrush_tPtr, v1);
+			Save_cbrush_t(true);
+		}
+	}
+}
+
+void Save_cbrush_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcbrush_tPtr, sizeof(cbrush_t*) * count, (void**)&outcbrush_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cbrush_tPtr(false);
+		varcbrush_tPtr++;
+		outcbrush_tPtr++;
+		streamcbrush_tPtr++;
+	}
+}
+
+void Save_cbrushside_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_cbrushside_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcbrushside_t, sizeof(cbrushside_t) * count, (void**)&outcbrushside_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cbrushside_t(false);
+		varcbrushside_t++;
+		outcbrushside_t++;
+		streamcbrushside_t++;
+	}
+}
+
+void Save_cbrushside_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcbrushside_tPtr, sizeof(cbrushside_t*), (void**)&outcbrushside_tPtr);
+	if (*varcbrushside_tPtr)
+	{
+		*outcbrushside_tPtr = (cbrushside_t*)DB_FindStreamData(*varcbrushside_tPtr);
+		assert(*outcbrushside_tPtr != (cbrushside_t*)0xFFFFFFFF);
+		if (!*outcbrushside_tPtr)
+		{
+			*outcbrushside_tPtr = AllocSave_cbrushside_t();
+			varcbrushside_t = *varcbrushside_tPtr;
+			streamcbrushside_t = *outcbrushside_tPtr;
+			auto v1 = sub_44AF80((void**)streamcbrushside_tPtr, (void**)outcbrushside_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varcbrushside_tPtr, v1);
+			Save_cbrushside_t(true);
+		}
+	}
+}
+
+void Save_cbrushside_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcbrushside_tPtr, sizeof(cbrushside_t*) * count, (void**)&outcbrushside_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cbrushside_tPtr(false);
+		varcbrushside_tPtr++;
+		outcbrushside_tPtr++;
+		streamcbrushside_tPtr++;
+	}
+}
+
+void Save_char(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_char16(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_char16Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varchar16, sizeof(char16) * count, (void**)&outchar16);
+	for (int i = 0; i < count; i++)
+	{
+		Save_char16(false);
+		varchar16++;
+		outchar16++;
+		streamchar16++;
+	}
+}
+
+void Save_char16Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varchar16Ptr, sizeof(char16*), (void**)&outchar16Ptr);
+	if (*varchar16Ptr)
+	{
+		*outchar16Ptr = (char16*)DB_FindStreamData(*varchar16Ptr);
+		assert(*outchar16Ptr != (char16*)0xFFFFFFFF);
+		if (!*outchar16Ptr)
+		{
+			*outchar16Ptr = AllocSave_char16();
+			varchar16 = *varchar16Ptr;
+			streamchar16 = *outchar16Ptr;
+			auto v1 = sub_44AF80((void**)streamchar16Ptr, (void**)outchar16Ptr);
+			DB_FindStreamDataOrInsert((void*)*varchar16Ptr, v1);
+			Save_char16(true);
+		}
+	}
+}
+
+void Save_char16PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varchar16Ptr, sizeof(char16*) * count, (void**)&outchar16Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_char16Ptr(false);
+		varchar16Ptr++;
+		outchar16Ptr++;
+		streamchar16Ptr++;
+	}
+}
+
+void Save_charArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varchar, sizeof(char) * count, (void**)&outchar);
+	for (int i = 0; i < count; i++)
+	{
+		Save_char(false);
+		varchar++;
+		outchar++;
+		streamchar++;
+	}
+}
+
+void Save_charPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcharPtr, sizeof(char*), (void**)&outcharPtr);
+	if (*varcharPtr)
+	{
+		*outcharPtr = (char*)DB_FindStreamData(*varcharPtr);
+		assert(*outcharPtr != (char*)0xFFFFFFFF);
+		if (!*outcharPtr)
+		{
+			*outcharPtr = AllocSave_char();
+			varchar = *varcharPtr;
+			streamchar = *outcharPtr;
+			auto v1 = sub_44AF80((void**)streamcharPtr, (void**)outcharPtr);
+			DB_FindStreamDataOrInsert((void*)*varcharPtr, v1);
+			Save_char(true);
+		}
+	}
+}
+
+void Save_charPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcharPtr, sizeof(char*) * count, (void**)&outcharPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_charPtr(false);
+		varcharPtr++;
+		outcharPtr++;
+		streamcharPtr++;
+	}
+}
+
+void Save_clipMap_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_clipMap_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varclipMap_t, sizeof(clipMap_t) * count, (void**)&outclipMap_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_clipMap_t(false);
+		varclipMap_t++;
+		outclipMap_t++;
+		streamclipMap_t++;
+	}
+}
+
+void Save_clipMap_tAsset(clipMap_t** asset)
+{
+	// todo!
+}
+
+void Save_clipMap_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varclipMap_tPtr, sizeof(clipMap_t*), (void**)&outclipMap_tPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varclipMap_tPtr)
+	{
+		*outclipMap_tPtr = (clipMap_t*)DB_FindStreamData(*varclipMap_tPtr);
+		assert(*outclipMap_tPtr != (clipMap_t*)0xFFFFFFFF);
+		if (!*outclipMap_tPtr)
+		{
+			*outclipMap_tPtr = AllocSave_clipMap_t();
+			varclipMap_t = *varclipMap_tPtr;
+			streamclipMap_t = *outclipMap_tPtr;
+			auto v1 = sub_44AF80((void**)streamclipMap_tPtr, (void**)outclipMap_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varclipMap_tPtr, v1);
+			Save_clipMap_t(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_clipMap_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varclipMap_tPtr, sizeof(clipMap_t*) * count, (void**)&outclipMap_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_clipMap_tPtr(false);
+		varclipMap_tPtr++;
+		outclipMap_tPtr++;
+		streamclipMap_tPtr++;
+	}
+}
+
+void Save_cmodel_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_cmodel_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcmodel_t, sizeof(cmodel_t) * count, (void**)&outcmodel_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cmodel_t(false);
+		varcmodel_t++;
+		outcmodel_t++;
+		streamcmodel_t++;
+	}
+}
+
+void Save_cmodel_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcmodel_tPtr, sizeof(cmodel_t*), (void**)&outcmodel_tPtr);
+	if (*varcmodel_tPtr)
+	{
+		*outcmodel_tPtr = (cmodel_t*)DB_FindStreamData(*varcmodel_tPtr);
+		assert(*outcmodel_tPtr != (cmodel_t*)0xFFFFFFFF);
+		if (!*outcmodel_tPtr)
+		{
+			*outcmodel_tPtr = AllocSave_cmodel_t();
+			varcmodel_t = *varcmodel_tPtr;
+			streamcmodel_t = *outcmodel_tPtr;
+			auto v1 = sub_44AF80((void**)streamcmodel_tPtr, (void**)outcmodel_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varcmodel_tPtr, v1);
+			Save_cmodel_t(true);
+		}
+	}
+}
+
+void Save_cmodel_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcmodel_tPtr, sizeof(cmodel_t*) * count, (void**)&outcmodel_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cmodel_tPtr(false);
+		varcmodel_tPtr++;
+		outcmodel_tPtr++;
+		streamcmodel_tPtr++;
+	}
+}
+
+void Save_columnInfo_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_columnInfo_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcolumnInfo_s, sizeof(columnInfo_s) * count, (void**)&outcolumnInfo_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_columnInfo_s(false);
+		varcolumnInfo_s++;
+		outcolumnInfo_s++;
+		streamcolumnInfo_s++;
+	}
+}
+
+void Save_columnInfo_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcolumnInfo_sPtr, sizeof(columnInfo_s*), (void**)&outcolumnInfo_sPtr);
+	if (*varcolumnInfo_sPtr)
+	{
+		*outcolumnInfo_sPtr = (columnInfo_s*)DB_FindStreamData(*varcolumnInfo_sPtr);
+		assert(*outcolumnInfo_sPtr != (columnInfo_s*)0xFFFFFFFF);
+		if (!*outcolumnInfo_sPtr)
+		{
+			*outcolumnInfo_sPtr = AllocSave_columnInfo_s();
+			varcolumnInfo_s = *varcolumnInfo_sPtr;
+			streamcolumnInfo_s = *outcolumnInfo_sPtr;
+			auto v1 = sub_44AF80((void**)streamcolumnInfo_sPtr, (void**)outcolumnInfo_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varcolumnInfo_sPtr, v1);
+			Save_columnInfo_s(true);
+		}
+	}
+}
+
+void Save_columnInfo_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcolumnInfo_sPtr, sizeof(columnInfo_s*) * count, (void**)&outcolumnInfo_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_columnInfo_sPtr(false);
+		varcolumnInfo_sPtr++;
+		outcolumnInfo_sPtr++;
+		streamcolumnInfo_sPtr++;
+	}
+}
+
+void Save_complex_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_complex_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcomplex_s, sizeof(complex_s) * count, (void**)&outcomplex_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_complex_s(false);
+		varcomplex_s++;
+		outcomplex_s++;
+		streamcomplex_s++;
+	}
+}
+
+void Save_complex_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcomplex_sPtr, sizeof(complex_s*), (void**)&outcomplex_sPtr);
+	if (*varcomplex_sPtr)
+	{
+		*outcomplex_sPtr = (complex_s*)DB_FindStreamData(*varcomplex_sPtr);
+		assert(*outcomplex_sPtr != (complex_s*)0xFFFFFFFF);
+		if (!*outcomplex_sPtr)
+		{
+			*outcomplex_sPtr = AllocSave_complex_s();
+			varcomplex_s = *varcomplex_sPtr;
+			streamcomplex_s = *outcomplex_sPtr;
+			auto v1 = sub_44AF80((void**)streamcomplex_sPtr, (void**)outcomplex_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varcomplex_sPtr, v1);
+			Save_complex_s(true);
+		}
+	}
+}
+
+void Save_complex_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcomplex_sPtr, sizeof(complex_s*) * count, (void**)&outcomplex_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_complex_sPtr(false);
+		varcomplex_sPtr++;
+		outcomplex_sPtr++;
+		streamcomplex_sPtr++;
+	}
+}
+
+void Save_cplane_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_cplane_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcplane_s, sizeof(cplane_s) * count, (void**)&outcplane_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cplane_s(false);
+		varcplane_s++;
+		outcplane_s++;
+		streamcplane_s++;
+	}
+}
+
+void Save_cplane_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varcplane_sPtr, sizeof(cplane_s*), (void**)&outcplane_sPtr);
+	if (*varcplane_sPtr)
+	{
+		*outcplane_sPtr = (cplane_s*)DB_FindStreamData(*varcplane_sPtr);
+		assert(*outcplane_sPtr != (cplane_s*)0xFFFFFFFF);
+		if (!*outcplane_sPtr)
+		{
+			*outcplane_sPtr = AllocSave_cplane_s();
+			varcplane_s = *varcplane_sPtr;
+			streamcplane_s = *outcplane_sPtr;
+			auto v1 = sub_44AF80((void**)streamcplane_sPtr, (void**)outcplane_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varcplane_sPtr, v1);
+			Save_cplane_s(true);
+		}
+	}
+}
+
+void Save_cplane_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varcplane_sPtr, sizeof(cplane_s*) * count, (void**)&outcplane_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_cplane_sPtr(false);
+		varcplane_sPtr++;
+		outcplane_sPtr++;
+		streamcplane_sPtr++;
+	}
+}
+
+void Save_double(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_doubleArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, vardouble, sizeof(double) * count, (void**)&outdouble);
+	for (int i = 0; i < count; i++)
+	{
+		Save_double(false);
+		vardouble++;
+		outdouble++;
+		streamdouble++;
+	}
+}
+
+void Save_doublePtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, vardoublePtr, sizeof(double*), (void**)&outdoublePtr);
+	if (*vardoublePtr)
+	{
+		*outdoublePtr = (double*)DB_FindStreamData(*vardoublePtr);
+		assert(*outdoublePtr != (double*)0xFFFFFFFF);
+		if (!*outdoublePtr)
+		{
+			*outdoublePtr = AllocSave_double();
+			vardouble = *vardoublePtr;
+			streamdouble = *outdoublePtr;
+			auto v1 = sub_44AF80((void**)streamdoublePtr, (void**)outdoublePtr);
+			DB_FindStreamDataOrInsert((void*)*vardoublePtr, v1);
+			Save_double(true);
+		}
+	}
+}
+
+void Save_doublePtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, vardoublePtr, sizeof(double*) * count, (void**)&outdoublePtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_doublePtr(false);
+		vardoublePtr++;
+		outdoublePtr++;
+		streamdoublePtr++;
+	}
+}
+
+void Save_editFieldDef_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_editFieldDef_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, vareditFieldDef_s, sizeof(editFieldDef_s) * count, (void**)&outeditFieldDef_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_editFieldDef_s(false);
+		vareditFieldDef_s++;
+		outeditFieldDef_s++;
+		streameditFieldDef_s++;
+	}
+}
+
+void Save_editFieldDef_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, vareditFieldDef_sPtr, sizeof(editFieldDef_s*), (void**)&outeditFieldDef_sPtr);
+	if (*vareditFieldDef_sPtr)
+	{
+		*outeditFieldDef_sPtr = (editFieldDef_s*)DB_FindStreamData(*vareditFieldDef_sPtr);
+		assert(*outeditFieldDef_sPtr != (editFieldDef_s*)0xFFFFFFFF);
+		if (!*outeditFieldDef_sPtr)
+		{
+			*outeditFieldDef_sPtr = AllocSave_editFieldDef_s();
+			vareditFieldDef_s = *vareditFieldDef_sPtr;
+			streameditFieldDef_s = *outeditFieldDef_sPtr;
+			auto v1 = sub_44AF80((void**)streameditFieldDef_sPtr, (void**)outeditFieldDef_sPtr);
+			DB_FindStreamDataOrInsert((void*)*vareditFieldDef_sPtr, v1);
+			Save_editFieldDef_s(true);
+		}
+	}
+}
+
+void Save_editFieldDef_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, vareditFieldDef_sPtr, sizeof(editFieldDef_s*) * count, (void**)&outeditFieldDef_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_editFieldDef_sPtr(false);
+		vareditFieldDef_sPtr++;
+		outeditFieldDef_sPtr++;
+		streameditFieldDef_sPtr++;
+	}
+}
+
+void Save_entryInternalData(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_entryInternalDataArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varentryInternalData, sizeof(entryInternalData) * count, (void**)&outentryInternalData);
+	for (int i = 0; i < count; i++)
+	{
+		Save_entryInternalData(false);
+		varentryInternalData++;
+		outentryInternalData++;
+		streamentryInternalData++;
+	}
+}
+
+void Save_entryInternalDataPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varentryInternalDataPtr, sizeof(entryInternalData*), (void**)&outentryInternalDataPtr);
+	if (*varentryInternalDataPtr)
+	{
+		*outentryInternalDataPtr = (entryInternalData*)DB_FindStreamData(*varentryInternalDataPtr);
+		assert(*outentryInternalDataPtr != (entryInternalData*)0xFFFFFFFF);
+		if (!*outentryInternalDataPtr)
+		{
+			*outentryInternalDataPtr = AllocSave_entryInternalData();
+			varentryInternalData = *varentryInternalDataPtr;
+			streamentryInternalData = *outentryInternalDataPtr;
+			auto v1 = sub_44AF80((void**)streamentryInternalDataPtr, (void**)outentryInternalDataPtr);
+			DB_FindStreamDataOrInsert((void*)*varentryInternalDataPtr, v1);
+			Save_entryInternalData(true);
+		}
+	}
+}
+
+void Save_entryInternalDataPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varentryInternalDataPtr, sizeof(entryInternalData*) * count, (void**)&outentryInternalDataPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_entryInternalDataPtr(false);
+		varentryInternalDataPtr++;
+		outentryInternalDataPtr++;
+		streamentryInternalDataPtr++;
+	}
+}
+
+void Save_expressionEntry(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_expressionEntryArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varexpressionEntry, sizeof(expressionEntry) * count, (void**)&outexpressionEntry);
+	for (int i = 0; i < count; i++)
+	{
+		Save_expressionEntry(false);
+		varexpressionEntry++;
+		outexpressionEntry++;
+		streamexpressionEntry++;
+	}
+}
+
+void Save_expressionEntryPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varexpressionEntryPtr, sizeof(expressionEntry*), (void**)&outexpressionEntryPtr);
+	if (*varexpressionEntryPtr)
+	{
+		*outexpressionEntryPtr = (expressionEntry*)DB_FindStreamData(*varexpressionEntryPtr);
+		assert(*outexpressionEntryPtr != (expressionEntry*)0xFFFFFFFF);
+		if (!*outexpressionEntryPtr)
+		{
+			*outexpressionEntryPtr = AllocSave_expressionEntry();
+			varexpressionEntry = *varexpressionEntryPtr;
+			streamexpressionEntry = *outexpressionEntryPtr;
+			auto v1 = sub_44AF80((void**)streamexpressionEntryPtr, (void**)outexpressionEntryPtr);
+			DB_FindStreamDataOrInsert((void*)*varexpressionEntryPtr, v1);
+			Save_expressionEntry(true);
+		}
+	}
+}
+
+void Save_expressionEntryPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varexpressionEntryPtr, sizeof(expressionEntry*) * count, (void**)&outexpressionEntryPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_expressionEntryPtr(false);
+		varexpressionEntryPtr++;
+		outexpressionEntryPtr++;
+		streamexpressionEntryPtr++;
+	}
+}
+
+void Save_float(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_float16(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_float16Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varfloat16, sizeof(float16) * count, (void**)&outfloat16);
+	for (int i = 0; i < count; i++)
+	{
+		Save_float16(false);
+		varfloat16++;
+		outfloat16++;
+		streamfloat16++;
+	}
+}
+
+void Save_float16Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varfloat16Ptr, sizeof(float16*), (void**)&outfloat16Ptr);
+	if (*varfloat16Ptr)
+	{
+		*outfloat16Ptr = (float16*)DB_FindStreamData(*varfloat16Ptr);
+		assert(*outfloat16Ptr != (float16*)0xFFFFFFFF);
+		if (!*outfloat16Ptr)
+		{
+			*outfloat16Ptr = AllocSave_float16();
+			varfloat16 = *varfloat16Ptr;
+			streamfloat16 = *outfloat16Ptr;
+			auto v1 = sub_44AF80((void**)streamfloat16Ptr, (void**)outfloat16Ptr);
+			DB_FindStreamDataOrInsert((void*)*varfloat16Ptr, v1);
+			Save_float16(true);
+		}
+	}
+}
+
+void Save_float16PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varfloat16Ptr, sizeof(float16*) * count, (void**)&outfloat16Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_float16Ptr(false);
+		varfloat16Ptr++;
+		outfloat16Ptr++;
+		streamfloat16Ptr++;
+	}
+}
+
+void Save_floatArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varfloat, sizeof(float) * count, (void**)&outfloat);
+	for (int i = 0; i < count; i++)
+	{
+		Save_float(false);
+		varfloat++;
+		outfloat++;
+		streamfloat++;
+	}
+}
+
+void Save_floatPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varfloatPtr, sizeof(float*), (void**)&outfloatPtr);
+	if (*varfloatPtr)
+	{
+		*outfloatPtr = (float*)DB_FindStreamData(*varfloatPtr);
+		assert(*outfloatPtr != (float*)0xFFFFFFFF);
+		if (!*outfloatPtr)
+		{
+			*outfloatPtr = AllocSave_float();
+			varfloat = *varfloatPtr;
+			streamfloat = *outfloatPtr;
+			auto v1 = sub_44AF80((void**)streamfloatPtr, (void**)outfloatPtr);
+			DB_FindStreamDataOrInsert((void*)*varfloatPtr, v1);
+			Save_float(true);
+		}
+	}
+}
+
+void Save_floatPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varfloatPtr, sizeof(float*) * count, (void**)&outfloatPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_floatPtr(false);
+		varfloatPtr++;
+		outfloatPtr++;
+		streamfloatPtr++;
+	}
+}
+
+void Save_int16(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_int16Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varint16, sizeof(int16) * count, (void**)&outint16);
+	for (int i = 0; i < count; i++)
+	{
+		Save_int16(false);
+		varint16++;
+		outint16++;
+		streamint16++;
+	}
+}
+
+void Save_int16Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varint16Ptr, sizeof(int16*), (void**)&outint16Ptr);
+	if (*varint16Ptr)
+	{
+		*outint16Ptr = (int16*)DB_FindStreamData(*varint16Ptr);
+		assert(*outint16Ptr != (int16*)0xFFFFFFFF);
+		if (!*outint16Ptr)
+		{
+			*outint16Ptr = AllocSave_int16();
+			varint16 = *varint16Ptr;
+			streamint16 = *outint16Ptr;
+			auto v1 = sub_44AF80((void**)streamint16Ptr, (void**)outint16Ptr);
+			DB_FindStreamDataOrInsert((void*)*varint16Ptr, v1);
+			Save_int16(true);
+		}
+	}
+}
+
+void Save_int16PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varint16Ptr, sizeof(int16*) * count, (void**)&outint16Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_int16Ptr(false);
+		varint16Ptr++;
+		outint16Ptr++;
+		streamint16Ptr++;
+	}
+}
+
+void Save_int32(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_int32Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varint32, sizeof(int32) * count, (void**)&outint32);
+	for (int i = 0; i < count; i++)
+	{
+		Save_int32(false);
+		varint32++;
+		outint32++;
+		streamint32++;
+	}
+}
+
+void Save_int32Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varint32Ptr, sizeof(int32*), (void**)&outint32Ptr);
+	if (*varint32Ptr)
+	{
+		*outint32Ptr = (int32*)DB_FindStreamData(*varint32Ptr);
+		assert(*outint32Ptr != (int32*)0xFFFFFFFF);
+		if (!*outint32Ptr)
+		{
+			*outint32Ptr = AllocSave_int32();
+			varint32 = *varint32Ptr;
+			streamint32 = *outint32Ptr;
+			auto v1 = sub_44AF80((void**)streamint32Ptr, (void**)outint32Ptr);
+			DB_FindStreamDataOrInsert((void*)*varint32Ptr, v1);
+			Save_int32(true);
+		}
+	}
+}
+
+void Save_int32PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varint32Ptr, sizeof(int32*) * count, (void**)&outint32Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_int32Ptr(false);
+		varint32Ptr++;
+		outint32Ptr++;
+		streamint32Ptr++;
+	}
+}
+
+void Save_int64(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_int64Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varint64, sizeof(int64) * count, (void**)&outint64);
+	for (int i = 0; i < count; i++)
+	{
+		Save_int64(false);
+		varint64++;
+		outint64++;
+		streamint64++;
+	}
+}
+
+void Save_int64Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varint64Ptr, sizeof(int64*), (void**)&outint64Ptr);
+	if (*varint64Ptr)
+	{
+		*outint64Ptr = (int64*)DB_FindStreamData(*varint64Ptr);
+		assert(*outint64Ptr != (int64*)0xFFFFFFFF);
+		if (!*outint64Ptr)
+		{
+			*outint64Ptr = AllocSave_int64();
+			varint64 = *varint64Ptr;
+			streamint64 = *outint64Ptr;
+			auto v1 = sub_44AF80((void**)streamint64Ptr, (void**)outint64Ptr);
+			DB_FindStreamDataOrInsert((void*)*varint64Ptr, v1);
+			Save_int64(true);
+		}
+	}
+}
+
+void Save_int64PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varint64Ptr, sizeof(int64*) * count, (void**)&outint64Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_int64Ptr(false);
+		varint64Ptr++;
+		outint64Ptr++;
+		streamint64Ptr++;
+	}
+}
+
+void Save_int8(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_int8Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varint8, sizeof(int8) * count, (void**)&outint8);
+	for (int i = 0; i < count; i++)
+	{
+		Save_int8(false);
+		varint8++;
+		outint8++;
+		streamint8++;
+	}
+}
+
+void Save_int8Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varint8Ptr, sizeof(int8*), (void**)&outint8Ptr);
+	if (*varint8Ptr)
+	{
+		*outint8Ptr = (int8*)DB_FindStreamData(*varint8Ptr);
+		assert(*outint8Ptr != (int8*)0xFFFFFFFF);
+		if (!*outint8Ptr)
+		{
+			*outint8Ptr = AllocSave_int8();
+			varint8 = *varint8Ptr;
+			streamint8 = *outint8Ptr;
+			auto v1 = sub_44AF80((void**)streamint8Ptr, (void**)outint8Ptr);
+			DB_FindStreamDataOrInsert((void*)*varint8Ptr, v1);
+			Save_int8(true);
+		}
+	}
+}
+
+void Save_int8PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varint8Ptr, sizeof(int8*) * count, (void**)&outint8Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_int8Ptr(false);
+		varint8Ptr++;
+		outint8Ptr++;
+		streamint8Ptr++;
+	}
+}
+
+void Save_itemDefData_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_itemDefData_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varitemDefData_t, sizeof(itemDefData_t) * count, (void**)&outitemDefData_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_itemDefData_t(false);
+		varitemDefData_t++;
+		outitemDefData_t++;
+		streamitemDefData_t++;
+	}
+}
+
+void Save_itemDefData_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varitemDefData_tPtr, sizeof(itemDefData_t*), (void**)&outitemDefData_tPtr);
+	if (*varitemDefData_tPtr)
+	{
+		*outitemDefData_tPtr = (itemDefData_t*)DB_FindStreamData(*varitemDefData_tPtr);
+		assert(*outitemDefData_tPtr != (itemDefData_t*)0xFFFFFFFF);
+		if (!*outitemDefData_tPtr)
+		{
+			*outitemDefData_tPtr = AllocSave_itemDefData_t();
+			varitemDefData_t = *varitemDefData_tPtr;
+			streamitemDefData_t = *outitemDefData_tPtr;
+			auto v1 = sub_44AF80((void**)streamitemDefData_tPtr, (void**)outitemDefData_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varitemDefData_tPtr, v1);
+			Save_itemDefData_t(true);
+		}
+	}
+}
+
+void Save_itemDefData_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varitemDefData_tPtr, sizeof(itemDefData_t*) * count, (void**)&outitemDefData_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_itemDefData_tPtr(false);
+		varitemDefData_tPtr++;
+		outitemDefData_tPtr++;
+		streamitemDefData_tPtr++;
+	}
+}
+
+void Save_itemDef_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_itemDef_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varitemDef_s, sizeof(itemDef_s) * count, (void**)&outitemDef_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_itemDef_s(false);
+		varitemDef_s++;
+		outitemDef_s++;
+		streamitemDef_s++;
+	}
+}
+
+void Save_itemDef_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varitemDef_sPtr, sizeof(itemDef_s*), (void**)&outitemDef_sPtr);
+	if (*varitemDef_sPtr)
+	{
+		*outitemDef_sPtr = (itemDef_s*)DB_FindStreamData(*varitemDef_sPtr);
+		assert(*outitemDef_sPtr != (itemDef_s*)0xFFFFFFFF);
+		if (!*outitemDef_sPtr)
+		{
+			*outitemDef_sPtr = AllocSave_itemDef_s();
+			varitemDef_s = *varitemDef_sPtr;
+			streamitemDef_s = *outitemDef_sPtr;
+			auto v1 = sub_44AF80((void**)streamitemDef_sPtr, (void**)outitemDef_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varitemDef_sPtr, v1);
+			Save_itemDef_s(true);
+		}
+	}
+}
+
+void Save_itemDef_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varitemDef_sPtr, sizeof(itemDef_s*) * count, (void**)&outitemDef_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_itemDef_sPtr(false);
+		varitemDef_sPtr++;
+		outitemDef_sPtr++;
+		streamitemDef_sPtr++;
+	}
+}
+
+void Save_listBoxDef_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_listBoxDef_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varlistBoxDef_s, sizeof(listBoxDef_s) * count, (void**)&outlistBoxDef_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_listBoxDef_s(false);
+		varlistBoxDef_s++;
+		outlistBoxDef_s++;
+		streamlistBoxDef_s++;
+	}
+}
+
+void Save_listBoxDef_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varlistBoxDef_sPtr, sizeof(listBoxDef_s*), (void**)&outlistBoxDef_sPtr);
+	if (*varlistBoxDef_sPtr)
+	{
+		*outlistBoxDef_sPtr = (listBoxDef_s*)DB_FindStreamData(*varlistBoxDef_sPtr);
+		assert(*outlistBoxDef_sPtr != (listBoxDef_s*)0xFFFFFFFF);
+		if (!*outlistBoxDef_sPtr)
+		{
+			*outlistBoxDef_sPtr = AllocSave_listBoxDef_s();
+			varlistBoxDef_s = *varlistBoxDef_sPtr;
+			streamlistBoxDef_s = *outlistBoxDef_sPtr;
+			auto v1 = sub_44AF80((void**)streamlistBoxDef_sPtr, (void**)outlistBoxDef_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varlistBoxDef_sPtr, v1);
+			Save_listBoxDef_s(true);
+		}
+	}
+}
+
+void Save_listBoxDef_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varlistBoxDef_sPtr, sizeof(listBoxDef_s*) * count, (void**)&outlistBoxDef_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_listBoxDef_sPtr(false);
+		varlistBoxDef_sPtr++;
+		outlistBoxDef_sPtr++;
+		streamlistBoxDef_sPtr++;
+	}
+}
+
+void Save_menuDef_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_menuDef_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varmenuDef_t, sizeof(menuDef_t) * count, (void**)&outmenuDef_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_menuDef_t(false);
+		varmenuDef_t++;
+		outmenuDef_t++;
+		streammenuDef_t++;
+	}
+}
+
+void Save_menuDef_tAsset(menuDef_t** asset)
+{
+	// todo!
+}
+
+void Save_menuDef_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varmenuDef_tPtr, sizeof(menuDef_t*), (void**)&outmenuDef_tPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varmenuDef_tPtr)
+	{
+		*outmenuDef_tPtr = (menuDef_t*)DB_FindStreamData(*varmenuDef_tPtr);
+		assert(*outmenuDef_tPtr != (menuDef_t*)0xFFFFFFFF);
+		if (!*outmenuDef_tPtr)
+		{
+			*outmenuDef_tPtr = AllocSave_menuDef_t();
+			varmenuDef_t = *varmenuDef_tPtr;
+			streammenuDef_t = *outmenuDef_tPtr;
+			auto v1 = sub_44AF80((void**)streammenuDef_tPtr, (void**)outmenuDef_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varmenuDef_tPtr, v1);
+			Save_menuDef_t(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_menuDef_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varmenuDef_tPtr, sizeof(menuDef_t*) * count, (void**)&outmenuDef_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_menuDef_tPtr(false);
+		varmenuDef_tPtr++;
+		outmenuDef_tPtr++;
+		streammenuDef_tPtr++;
+	}
+}
+
+void Save_menuTransition(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_menuTransitionArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varmenuTransition, sizeof(menuTransition) * count, (void**)&outmenuTransition);
+	for (int i = 0; i < count; i++)
+	{
+		Save_menuTransition(false);
+		varmenuTransition++;
+		outmenuTransition++;
+		streammenuTransition++;
+	}
+}
+
+void Save_menuTransitionPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varmenuTransitionPtr, sizeof(menuTransition*), (void**)&outmenuTransitionPtr);
+	if (*varmenuTransitionPtr)
+	{
+		*outmenuTransitionPtr = (menuTransition*)DB_FindStreamData(*varmenuTransitionPtr);
+		assert(*outmenuTransitionPtr != (menuTransition*)0xFFFFFFFF);
+		if (!*outmenuTransitionPtr)
+		{
+			*outmenuTransitionPtr = AllocSave_menuTransition();
+			varmenuTransition = *varmenuTransitionPtr;
+			streammenuTransition = *outmenuTransitionPtr;
+			auto v1 = sub_44AF80((void**)streammenuTransitionPtr, (void**)outmenuTransitionPtr);
+			DB_FindStreamDataOrInsert((void*)*varmenuTransitionPtr, v1);
+			Save_menuTransition(true);
+		}
+	}
+}
+
+void Save_menuTransitionPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varmenuTransitionPtr, sizeof(menuTransition*) * count, (void**)&outmenuTransitionPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_menuTransitionPtr(false);
+		varmenuTransitionPtr++;
+		outmenuTransitionPtr++;
+		streammenuTransitionPtr++;
+	}
+}
+
+void Save_multiDef_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_multiDef_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varmultiDef_s, sizeof(multiDef_s) * count, (void**)&outmultiDef_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_multiDef_s(false);
+		varmultiDef_s++;
+		outmultiDef_s++;
+		streammultiDef_s++;
+	}
+}
+
+void Save_multiDef_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varmultiDef_sPtr, sizeof(multiDef_s*), (void**)&outmultiDef_sPtr);
+	if (*varmultiDef_sPtr)
+	{
+		*outmultiDef_sPtr = (multiDef_s*)DB_FindStreamData(*varmultiDef_sPtr);
+		assert(*outmultiDef_sPtr != (multiDef_s*)0xFFFFFFFF);
+		if (!*outmultiDef_sPtr)
+		{
+			*outmultiDef_sPtr = AllocSave_multiDef_s();
+			varmultiDef_s = *varmultiDef_sPtr;
+			streammultiDef_s = *outmultiDef_sPtr;
+			auto v1 = sub_44AF80((void**)streammultiDef_sPtr, (void**)outmultiDef_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varmultiDef_sPtr, v1);
+			Save_multiDef_s(true);
+		}
+	}
+}
+
+void Save_multiDef_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varmultiDef_sPtr, sizeof(multiDef_s*) * count, (void**)&outmultiDef_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_multiDef_sPtr(false);
+		varmultiDef_sPtr++;
+		outmultiDef_sPtr++;
+		streammultiDef_sPtr++;
+	}
+}
+
+void Save_newsTickerDef_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_newsTickerDef_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varnewsTickerDef_s, sizeof(newsTickerDef_s) * count, (void**)&outnewsTickerDef_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_newsTickerDef_s(false);
+		varnewsTickerDef_s++;
+		outnewsTickerDef_s++;
+		streamnewsTickerDef_s++;
+	}
+}
+
+void Save_newsTickerDef_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varnewsTickerDef_sPtr, sizeof(newsTickerDef_s*), (void**)&outnewsTickerDef_sPtr);
+	if (*varnewsTickerDef_sPtr)
+	{
+		*outnewsTickerDef_sPtr = (newsTickerDef_s*)DB_FindStreamData(*varnewsTickerDef_sPtr);
+		assert(*outnewsTickerDef_sPtr != (newsTickerDef_s*)0xFFFFFFFF);
+		if (!*outnewsTickerDef_sPtr)
+		{
+			*outnewsTickerDef_sPtr = AllocSave_newsTickerDef_s();
+			varnewsTickerDef_s = *varnewsTickerDef_sPtr;
+			streamnewsTickerDef_s = *outnewsTickerDef_sPtr;
+			auto v1 = sub_44AF80((void**)streamnewsTickerDef_sPtr, (void**)outnewsTickerDef_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varnewsTickerDef_sPtr, v1);
+			Save_newsTickerDef_s(true);
+		}
+	}
+}
+
+void Save_newsTickerDef_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varnewsTickerDef_sPtr, sizeof(newsTickerDef_s*) * count, (void**)&outnewsTickerDef_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_newsTickerDef_sPtr(false);
+		varnewsTickerDef_sPtr++;
+		outnewsTickerDef_sPtr++;
+		streamnewsTickerDef_sPtr++;
+	}
+}
+
+void Save_operandInternalDataUnion(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_operandInternalDataUnionArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varoperandInternalDataUnion, sizeof(operandInternalDataUnion) * count, (void**)&outoperandInternalDataUnion);
+	for (int i = 0; i < count; i++)
+	{
+		Save_operandInternalDataUnion(false);
+		varoperandInternalDataUnion++;
+		outoperandInternalDataUnion++;
+		streamoperandInternalDataUnion++;
+	}
+}
+
+void Save_operandInternalDataUnionPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varoperandInternalDataUnionPtr, sizeof(operandInternalDataUnion*), (void**)&outoperandInternalDataUnionPtr);
+	if (*varoperandInternalDataUnionPtr)
+	{
+		*outoperandInternalDataUnionPtr = (operandInternalDataUnion*)DB_FindStreamData(*varoperandInternalDataUnionPtr);
+		assert(*outoperandInternalDataUnionPtr != (operandInternalDataUnion*)0xFFFFFFFF);
+		if (!*outoperandInternalDataUnionPtr)
+		{
+			*outoperandInternalDataUnionPtr = AllocSave_operandInternalDataUnion();
+			varoperandInternalDataUnion = *varoperandInternalDataUnionPtr;
+			streamoperandInternalDataUnion = *outoperandInternalDataUnionPtr;
+			auto v1 = sub_44AF80((void**)streamoperandInternalDataUnionPtr, (void**)outoperandInternalDataUnionPtr);
+			DB_FindStreamDataOrInsert((void*)*varoperandInternalDataUnionPtr, v1);
+			Save_operandInternalDataUnion(true);
+		}
+	}
+}
+
+void Save_operandInternalDataUnionPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varoperandInternalDataUnionPtr, sizeof(operandInternalDataUnion*) * count, (void**)&outoperandInternalDataUnionPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_operandInternalDataUnionPtr(false);
+		varoperandInternalDataUnionPtr++;
+		outoperandInternalDataUnionPtr++;
+		streamoperandInternalDataUnionPtr++;
+	}
+}
+
+void Save_rectDef_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_rectDef_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varrectDef_s, sizeof(rectDef_s) * count, (void**)&outrectDef_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_rectDef_s(false);
+		varrectDef_s++;
+		outrectDef_s++;
+		streamrectDef_s++;
+	}
+}
+
+void Save_rectDef_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varrectDef_sPtr, sizeof(rectDef_s*), (void**)&outrectDef_sPtr);
+	if (*varrectDef_sPtr)
+	{
+		*outrectDef_sPtr = (rectDef_s*)DB_FindStreamData(*varrectDef_sPtr);
+		assert(*outrectDef_sPtr != (rectDef_s*)0xFFFFFFFF);
+		if (!*outrectDef_sPtr)
+		{
+			*outrectDef_sPtr = AllocSave_rectDef_s();
+			varrectDef_s = *varrectDef_sPtr;
+			streamrectDef_s = *outrectDef_sPtr;
+			auto v1 = sub_44AF80((void**)streamrectDef_sPtr, (void**)outrectDef_sPtr);
+			DB_FindStreamDataOrInsert((void*)*varrectDef_sPtr, v1);
+			Save_rectDef_s(true);
+		}
+	}
+}
+
+void Save_rectDef_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varrectDef_sPtr, sizeof(rectDef_s*) * count, (void**)&outrectDef_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_rectDef_sPtr(false);
+		varrectDef_sPtr++;
+		outrectDef_sPtr++;
+		streamrectDef_sPtr++;
+	}
+}
+
+void Save_snd_alias_list_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_snd_alias_list_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varsnd_alias_list_t, sizeof(snd_alias_list_t) * count, (void**)&outsnd_alias_list_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_snd_alias_list_t(false);
+		varsnd_alias_list_t++;
+		outsnd_alias_list_t++;
+		streamsnd_alias_list_t++;
+	}
+}
+
+void Save_snd_alias_list_tAsset(snd_alias_list_t** asset)
+{
+	// todo!
+}
+
+void Save_snd_alias_list_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varsnd_alias_list_tPtr, sizeof(snd_alias_list_t*), (void**)&outsnd_alias_list_tPtr);
+	DB_PushStreamPos(XFILE_BLOCK_TEMP);
+	if (*varsnd_alias_list_tPtr)
+	{
+		*outsnd_alias_list_tPtr = (snd_alias_list_t*)DB_FindStreamData(*varsnd_alias_list_tPtr);
+		assert(*outsnd_alias_list_tPtr != (snd_alias_list_t*)0xFFFFFFFF);
+		if (!*outsnd_alias_list_tPtr)
+		{
+			*outsnd_alias_list_tPtr = AllocSave_snd_alias_list_t();
+			varsnd_alias_list_t = *varsnd_alias_list_tPtr;
+			streamsnd_alias_list_t = *outsnd_alias_list_tPtr;
+			auto v1 = sub_44AF80((void**)streamsnd_alias_list_tPtr, (void**)outsnd_alias_list_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varsnd_alias_list_tPtr, v1);
+			Save_snd_alias_list_t(true);
+		}
+	}
+	DB_PopStreamPos();
+}
+
+void Save_snd_alias_list_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varsnd_alias_list_tPtr, sizeof(snd_alias_list_t*) * count, (void**)&outsnd_alias_list_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_snd_alias_list_tPtr(false);
+		varsnd_alias_list_tPtr++;
+		outsnd_alias_list_tPtr++;
+		streamsnd_alias_list_tPtr++;
+	}
+}
+
+void Save_snd_alias_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_snd_alias_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varsnd_alias_t, sizeof(snd_alias_t) * count, (void**)&outsnd_alias_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_snd_alias_t(false);
+		varsnd_alias_t++;
+		outsnd_alias_t++;
+		streamsnd_alias_t++;
+	}
+}
+
+void Save_snd_alias_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varsnd_alias_tPtr, sizeof(snd_alias_t*), (void**)&outsnd_alias_tPtr);
+	if (*varsnd_alias_tPtr)
+	{
+		*outsnd_alias_tPtr = (snd_alias_t*)DB_FindStreamData(*varsnd_alias_tPtr);
+		assert(*outsnd_alias_tPtr != (snd_alias_t*)0xFFFFFFFF);
+		if (!*outsnd_alias_tPtr)
+		{
+			*outsnd_alias_tPtr = AllocSave_snd_alias_t();
+			varsnd_alias_t = *varsnd_alias_tPtr;
+			streamsnd_alias_t = *outsnd_alias_tPtr;
+			auto v1 = sub_44AF80((void**)streamsnd_alias_tPtr, (void**)outsnd_alias_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varsnd_alias_tPtr, v1);
+			Save_snd_alias_t(true);
+		}
+	}
+}
+
+void Save_snd_alias_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varsnd_alias_tPtr, sizeof(snd_alias_t*) * count, (void**)&outsnd_alias_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_snd_alias_tPtr(false);
+		varsnd_alias_tPtr++;
+		outsnd_alias_tPtr++;
+		streamsnd_alias_tPtr++;
+	}
+}
+
+void Save_textScrollDef_s(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_textScrollDef_sArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, vartextScrollDef_s, sizeof(textScrollDef_s) * count, (void**)&outtextScrollDef_s);
+	for (int i = 0; i < count; i++)
+	{
+		Save_textScrollDef_s(false);
+		vartextScrollDef_s++;
+		outtextScrollDef_s++;
+		streamtextScrollDef_s++;
+	}
+}
+
+void Save_textScrollDef_sPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, vartextScrollDef_sPtr, sizeof(textScrollDef_s*), (void**)&outtextScrollDef_sPtr);
+	if (*vartextScrollDef_sPtr)
+	{
+		*outtextScrollDef_sPtr = (textScrollDef_s*)DB_FindStreamData(*vartextScrollDef_sPtr);
+		assert(*outtextScrollDef_sPtr != (textScrollDef_s*)0xFFFFFFFF);
+		if (!*outtextScrollDef_sPtr)
+		{
+			*outtextScrollDef_sPtr = AllocSave_textScrollDef_s();
+			vartextScrollDef_s = *vartextScrollDef_sPtr;
+			streamtextScrollDef_s = *outtextScrollDef_sPtr;
+			auto v1 = sub_44AF80((void**)streamtextScrollDef_sPtr, (void**)outtextScrollDef_sPtr);
+			DB_FindStreamDataOrInsert((void*)*vartextScrollDef_sPtr, v1);
+			Save_textScrollDef_s(true);
+		}
+	}
+}
+
+void Save_textScrollDef_sPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, vartextScrollDef_sPtr, sizeof(textScrollDef_s*) * count, (void**)&outtextScrollDef_sPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_textScrollDef_sPtr(false);
+		vartextScrollDef_sPtr++;
+		outtextScrollDef_sPtr++;
+		streamtextScrollDef_sPtr++;
+	}
+}
+
+void Save_uint16(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_uint16Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varuint16, sizeof(uint16) * count, (void**)&outuint16);
+	for (int i = 0; i < count; i++)
+	{
+		Save_uint16(false);
+		varuint16++;
+		outuint16++;
+		streamuint16++;
+	}
+}
+
+void Save_uint16Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varuint16Ptr, sizeof(uint16*), (void**)&outuint16Ptr);
+	if (*varuint16Ptr)
+	{
+		*outuint16Ptr = (uint16*)DB_FindStreamData(*varuint16Ptr);
+		assert(*outuint16Ptr != (uint16*)0xFFFFFFFF);
+		if (!*outuint16Ptr)
+		{
+			*outuint16Ptr = AllocSave_uint16();
+			varuint16 = *varuint16Ptr;
+			streamuint16 = *outuint16Ptr;
+			auto v1 = sub_44AF80((void**)streamuint16Ptr, (void**)outuint16Ptr);
+			DB_FindStreamDataOrInsert((void*)*varuint16Ptr, v1);
+			Save_uint16(true);
+		}
+	}
+}
+
+void Save_uint16PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varuint16Ptr, sizeof(uint16*) * count, (void**)&outuint16Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_uint16Ptr(false);
+		varuint16Ptr++;
+		outuint16Ptr++;
+		streamuint16Ptr++;
+	}
+}
+
+void Save_uint32(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_uint32Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varuint32, sizeof(uint32) * count, (void**)&outuint32);
+	for (int i = 0; i < count; i++)
+	{
+		Save_uint32(false);
+		varuint32++;
+		outuint32++;
+		streamuint32++;
+	}
+}
+
+void Save_uint32Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varuint32Ptr, sizeof(uint32*), (void**)&outuint32Ptr);
+	if (*varuint32Ptr)
+	{
+		*outuint32Ptr = (uint32*)DB_FindStreamData(*varuint32Ptr);
+		assert(*outuint32Ptr != (uint32*)0xFFFFFFFF);
+		if (!*outuint32Ptr)
+		{
+			*outuint32Ptr = AllocSave_uint32();
+			varuint32 = *varuint32Ptr;
+			streamuint32 = *outuint32Ptr;
+			auto v1 = sub_44AF80((void**)streamuint32Ptr, (void**)outuint32Ptr);
+			DB_FindStreamDataOrInsert((void*)*varuint32Ptr, v1);
+			Save_uint32(true);
+		}
+	}
+}
+
+void Save_uint32PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varuint32Ptr, sizeof(uint32*) * count, (void**)&outuint32Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_uint32Ptr(false);
+		varuint32Ptr++;
+		outuint32Ptr++;
+		streamuint32Ptr++;
+	}
+}
+
+void Save_uint64(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_uint64Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varuint64, sizeof(uint64) * count, (void**)&outuint64);
+	for (int i = 0; i < count; i++)
+	{
+		Save_uint64(false);
+		varuint64++;
+		outuint64++;
+		streamuint64++;
+	}
+}
+
+void Save_uint64Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varuint64Ptr, sizeof(uint64*), (void**)&outuint64Ptr);
+	if (*varuint64Ptr)
+	{
+		*outuint64Ptr = (uint64*)DB_FindStreamData(*varuint64Ptr);
+		assert(*outuint64Ptr != (uint64*)0xFFFFFFFF);
+		if (!*outuint64Ptr)
+		{
+			*outuint64Ptr = AllocSave_uint64();
+			varuint64 = *varuint64Ptr;
+			streamuint64 = *outuint64Ptr;
+			auto v1 = sub_44AF80((void**)streamuint64Ptr, (void**)outuint64Ptr);
+			DB_FindStreamDataOrInsert((void*)*varuint64Ptr, v1);
+			Save_uint64(true);
+		}
+	}
+}
+
+void Save_uint64PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varuint64Ptr, sizeof(uint64*) * count, (void**)&outuint64Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_uint64Ptr(false);
+		varuint64Ptr++;
+		outuint64Ptr++;
+		streamuint64Ptr++;
+	}
+}
+
+void Save_uint8(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_uint8Array(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varuint8, sizeof(uint8) * count, (void**)&outuint8);
+	for (int i = 0; i < count; i++)
+	{
+		Save_uint8(false);
+		varuint8++;
+		outuint8++;
+		streamuint8++;
+	}
+}
+
+void Save_uint8Ptr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varuint8Ptr, sizeof(uint8*), (void**)&outuint8Ptr);
+	if (*varuint8Ptr)
+	{
+		*outuint8Ptr = (uint8*)DB_FindStreamData(*varuint8Ptr);
+		assert(*outuint8Ptr != (uint8*)0xFFFFFFFF);
+		if (!*outuint8Ptr)
+		{
+			*outuint8Ptr = AllocSave_uint8();
+			varuint8 = *varuint8Ptr;
+			streamuint8 = *outuint8Ptr;
+			auto v1 = sub_44AF80((void**)streamuint8Ptr, (void**)outuint8Ptr);
+			DB_FindStreamDataOrInsert((void*)*varuint8Ptr, v1);
+			Save_uint8(true);
+		}
+	}
+}
+
+void Save_uint8PtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varuint8Ptr, sizeof(uint8*) * count, (void**)&outuint8Ptr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_uint8Ptr(false);
+		varuint8Ptr++;
+		outuint8Ptr++;
+		streamuint8Ptr++;
+	}
+}
+
+void Save_vec1_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_vec1_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varvec1_t, sizeof(vec1_t) * count, (void**)&outvec1_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_vec1_t(false);
+		varvec1_t++;
+		outvec1_t++;
+		streamvec1_t++;
+	}
+}
+
+void Save_vec1_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varvec1_tPtr, sizeof(vec1_t*), (void**)&outvec1_tPtr);
+	if (*varvec1_tPtr)
+	{
+		*outvec1_tPtr = (vec1_t*)DB_FindStreamData(*varvec1_tPtr);
+		assert(*outvec1_tPtr != (vec1_t*)0xFFFFFFFF);
+		if (!*outvec1_tPtr)
+		{
+			*outvec1_tPtr = AllocSave_vec1_t();
+			varvec1_t = *varvec1_tPtr;
+			streamvec1_t = *outvec1_tPtr;
+			auto v1 = sub_44AF80((void**)streamvec1_tPtr, (void**)outvec1_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varvec1_tPtr, v1);
+			Save_vec1_t(true);
+		}
+	}
+}
+
+void Save_vec1_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varvec1_tPtr, sizeof(vec1_t*) * count, (void**)&outvec1_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_vec1_tPtr(false);
+		varvec1_tPtr++;
+		outvec1_tPtr++;
+		streamvec1_tPtr++;
+	}
+}
+
+void Save_vec2_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_vec2_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varvec2_t, sizeof(vec2_t) * count, (void**)&outvec2_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_vec2_t(false);
+		varvec2_t++;
+		outvec2_t++;
+		streamvec2_t++;
+	}
+}
+
+void Save_vec2_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varvec2_tPtr, sizeof(vec2_t*), (void**)&outvec2_tPtr);
+	if (*varvec2_tPtr)
+	{
+		*outvec2_tPtr = (vec2_t*)DB_FindStreamData(*varvec2_tPtr);
+		assert(*outvec2_tPtr != (vec2_t*)0xFFFFFFFF);
+		if (!*outvec2_tPtr)
+		{
+			*outvec2_tPtr = AllocSave_vec2_t();
+			varvec2_t = *varvec2_tPtr;
+			streamvec2_t = *outvec2_tPtr;
+			auto v1 = sub_44AF80((void**)streamvec2_tPtr, (void**)outvec2_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varvec2_tPtr, v1);
+			Save_vec2_t(true);
+		}
+	}
+}
+
+void Save_vec2_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varvec2_tPtr, sizeof(vec2_t*) * count, (void**)&outvec2_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_vec2_tPtr(false);
+		varvec2_tPtr++;
+		outvec2_tPtr++;
+		streamvec2_tPtr++;
+	}
+}
+
+void Save_vec3_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_vec3_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varvec3_t, sizeof(vec3_t) * count, (void**)&outvec3_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_vec3_t(false);
+		varvec3_t++;
+		outvec3_t++;
+		streamvec3_t++;
+	}
+}
+
+void Save_vec3_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varvec3_tPtr, sizeof(vec3_t*), (void**)&outvec3_tPtr);
+	if (*varvec3_tPtr)
+	{
+		*outvec3_tPtr = (vec3_t*)DB_FindStreamData(*varvec3_tPtr);
+		assert(*outvec3_tPtr != (vec3_t*)0xFFFFFFFF);
+		if (!*outvec3_tPtr)
+		{
+			*outvec3_tPtr = AllocSave_vec3_t();
+			varvec3_t = *varvec3_tPtr;
+			streamvec3_t = *outvec3_tPtr;
+			auto v1 = sub_44AF80((void**)streamvec3_tPtr, (void**)outvec3_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varvec3_tPtr, v1);
+			Save_vec3_t(true);
+		}
+	}
+}
+
+void Save_vec3_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varvec3_tPtr, sizeof(vec3_t*) * count, (void**)&outvec3_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_vec3_tPtr(false);
+		varvec3_tPtr++;
+		outvec3_tPtr++;
+		streamvec3_tPtr++;
+	}
+}
+
+void Save_vec4_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_vec4_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varvec4_t, sizeof(vec4_t) * count, (void**)&outvec4_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_vec4_t(false);
+		varvec4_t++;
+		outvec4_t++;
+		streamvec4_t++;
+	}
+}
+
+void Save_vec4_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varvec4_tPtr, sizeof(vec4_t*), (void**)&outvec4_tPtr);
+	if (*varvec4_tPtr)
+	{
+		*outvec4_tPtr = (vec4_t*)DB_FindStreamData(*varvec4_tPtr);
+		assert(*outvec4_tPtr != (vec4_t*)0xFFFFFFFF);
+		if (!*outvec4_tPtr)
+		{
+			*outvec4_tPtr = AllocSave_vec4_t();
+			varvec4_t = *varvec4_tPtr;
+			streamvec4_t = *outvec4_tPtr;
+			auto v1 = sub_44AF80((void**)streamvec4_tPtr, (void**)outvec4_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varvec4_tPtr, v1);
+			Save_vec4_t(true);
+		}
+	}
+}
+
+void Save_vec4_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varvec4_tPtr, sizeof(vec4_t*) * count, (void**)&outvec4_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_vec4_tPtr(false);
+		varvec4_tPtr++;
+		outvec4_tPtr++;
+		streamvec4_tPtr++;
+	}
+}
+
+void Save_water_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_water_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varwater_t, sizeof(water_t) * count, (void**)&outwater_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_water_t(false);
+		varwater_t++;
+		outwater_t++;
+		streamwater_t++;
+	}
+}
+
+void Save_water_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varwater_tPtr, sizeof(water_t*), (void**)&outwater_tPtr);
+	if (*varwater_tPtr)
+	{
+		*outwater_tPtr = (water_t*)DB_FindStreamData(*varwater_tPtr);
+		assert(*outwater_tPtr != (water_t*)0xFFFFFFFF);
+		if (!*outwater_tPtr)
+		{
+			*outwater_tPtr = AllocSave_water_t();
+			varwater_t = *varwater_tPtr;
+			streamwater_t = *outwater_tPtr;
+			auto v1 = sub_44AF80((void**)streamwater_tPtr, (void**)outwater_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varwater_tPtr, v1);
+			Save_water_t(true);
+		}
+	}
+}
+
+void Save_water_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varwater_tPtr, sizeof(water_t*) * count, (void**)&outwater_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_water_tPtr(false);
+		varwater_tPtr++;
+		outwater_tPtr++;
+		streamwater_tPtr++;
+	}
+}
+
+void Save_windowDef_t(bool atStreamStart)
+{
+	// todo!
+}
+
+void Save_windowDef_tArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varwindowDef_t, sizeof(windowDef_t) * count, (void**)&outwindowDef_t);
+	for (int i = 0; i < count; i++)
+	{
+		Save_windowDef_t(false);
+		varwindowDef_t++;
+		outwindowDef_t++;
+		streamwindowDef_t++;
+	}
+}
+
+void Save_windowDef_tPtr(bool atStreamStart)
+{
+	Save_Stream(atStreamStart, varwindowDef_tPtr, sizeof(windowDef_t*), (void**)&outwindowDef_tPtr);
+	if (*varwindowDef_tPtr)
+	{
+		*outwindowDef_tPtr = (windowDef_t*)DB_FindStreamData(*varwindowDef_tPtr);
+		assert(*outwindowDef_tPtr != (windowDef_t*)0xFFFFFFFF);
+		if (!*outwindowDef_tPtr)
+		{
+			*outwindowDef_tPtr = AllocSave_windowDef_t();
+			varwindowDef_t = *varwindowDef_tPtr;
+			streamwindowDef_t = *outwindowDef_tPtr;
+			auto v1 = sub_44AF80((void**)streamwindowDef_tPtr, (void**)outwindowDef_tPtr);
+			DB_FindStreamDataOrInsert((void*)*varwindowDef_tPtr, v1);
+			Save_windowDef_t(true);
+		}
+	}
+}
+
+void Save_windowDef_tPtrArray(bool atStreamStart, int count)
+{
+	Save_Stream(atStreamStart, varwindowDef_tPtr, sizeof(windowDef_t*) * count, (void**)&outwindowDef_tPtr);
+	for (int i = 0; i < count; i++)
+	{
+		Save_windowDef_tPtr(false);
+		varwindowDef_tPtr++;
+		outwindowDef_tPtr++;
+		streamwindowDef_tPtr++;
+	}
+}
+
 water_t* AllocLoad_water_t()
+{
+	return (water_t*)DB_AllocStreamPos(3);
+}
+
+water_t* AllocSave_water_t()
 {
 	return (water_t*)DB_AllocStreamPos(3);
 }
@@ -19469,12 +34542,27 @@ water_t** AllocLoad_water_tPtr()
 	return (water_t**)DB_AllocStreamPos(3);
 }
 
+water_t** AllocSave_water_tPtr()
+{
+	return (water_t**)DB_AllocStreamPos(3);
+}
+
 windowDef_t* AllocLoad_windowDef_t()
 {
 	return (windowDef_t*)DB_AllocStreamPos(3);
 }
 
+windowDef_t* AllocSave_windowDef_t()
+{
+	return (windowDef_t*)DB_AllocStreamPos(3);
+}
+
 windowDef_t** AllocLoad_windowDef_tPtr()
+{
+	return (windowDef_t**)DB_AllocStreamPos(3);
+}
+
+windowDef_t** AllocSave_windowDef_tPtr()
 {
 	return (windowDef_t**)DB_AllocStreamPos(3);
 }

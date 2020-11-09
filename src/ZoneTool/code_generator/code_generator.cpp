@@ -693,6 +693,11 @@ namespace zonetool::code_generator
 		code += "\t}\n";
 	}
 
+	void code_generator::generate_save(type* type, const std::string& function_name, std::string& code)
+	{
+		code += "\t// todo!\n";
+	}
+	
 	void code_generator::generate_save_ptr(type* type, const std::string& function_name, std::string& code)
 	{
 		//void __cdecl Save_RawFilePtr(char atStreamPos)
@@ -876,6 +881,11 @@ namespace zonetool::code_generator
 		code += "\t}\n";
 	}
 
+	void code_generator::generate_save_asset(type* type, const std::string& function_name, std::string& code)
+	{
+		code += "\t// todo!\n";
+	}
+
 	void code_generator::generate_load_asset(type* type, const std::string& function_name, std::string& code)
 	{
 		auto variable_type_ptr = generate_variable_name(type, variable_type::var_ptr);
@@ -944,7 +954,7 @@ namespace zonetool::code_generator
 		}
 
 		// don't generate Load_*Asset functions if we're not handling an asset type
-		if (function_type == function_type::load_asset && !type->is_asset())
+		if ((function_type == function_type::load_asset || function_type == function_type::save_asset) && !type->is_asset())
 		{
 			return generator_result::skip;
 		}
@@ -990,6 +1000,9 @@ namespace zonetool::code_generator
 		case function_type::load_asset:
 			generate_load_asset(type, function_name, code);
 			break;
+		case function_type::save:
+			generate_save(type, function_name, code);
+			break;
 		case function_type::save_ptr:
 			generate_save_ptr(type, function_name, code);
 			break;
@@ -998,6 +1011,9 @@ namespace zonetool::code_generator
 			break;
 		case function_type::save_ptr_array:
 			generate_save_ptr_array(type, function_name, code);
+			break;
+		case function_type::save_asset:
+			generate_save_asset(type, function_name, code);
 			break;
 		case function_type::name:
 			generate_name(type, function_name, code);
@@ -1083,6 +1099,9 @@ namespace zonetool::code_generator
 		case function_type::save_ptr_array:
 			function_name = va("Save_%sPtrArray", type->name().data());
 			break;
+		case function_type::save_asset:
+			function_name = va("Save_%sAsset", type->name().data());
+			break;
 		case function_type::allocsave:
 			function_name = va("AllocSave_%s", type->name().data());
 			break;
@@ -1137,6 +1156,9 @@ namespace zonetool::code_generator
 		case function_type::save_ptr_array:
 			function_sig = va("void %s(bool atStreamStart, int count)", function_name.data());
 			break;
+		case function_type::save_asset:
+			function_sig = va("void %s(%s** asset)", function_name.data(), type->name().data());
+			break;
 		case function_type::allocsave:
 			function_sig = va("%s* %s()", type->name().data(), function_name.data());
 			break;
@@ -1176,7 +1198,7 @@ namespace zonetool::code_generator
 	{
 		for (auto& type : header_.types())
 		{
-			for (auto i = std::uint32_t(function_type::load); i < std::uint32_t(function_type::max); i++)
+			for (auto i = std::uint32_t(function_type::save); i < std::uint32_t(function_type::max); i++)
 			{
 				std::string function_name = generate_function_name(type.get(), function_type(i));
 				std::string function_sig = generate_function_signature(type.get(), function_type(i));

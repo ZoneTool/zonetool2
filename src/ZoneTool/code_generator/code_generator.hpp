@@ -19,6 +19,7 @@ namespace zonetool::code_generator
 			save_array,
 			save_ptr,
 			save_ptr_array,
+			save_asset,
 
 			allocsave,
 			allocsave_ptr,
@@ -73,10 +74,12 @@ namespace zonetool::code_generator
 		void generate_allocload(type* type, const std::string& function_name, std::string& code);
 		void generate_allocload_ptr(type* type, const std::string& function_name, std::string& code);
 
+		void generate_save(type* type, const std::string& function_name, std::string& code);
 		void generate_save_ptr(type* type, const std::string& function_name, std::string& code);
 		void generate_save_array(type* type, const std::string& function_name, std::string& code);
 		void generate_save_ptr_array(type* type, const std::string& function_name, std::string& code);
-
+		void generate_save_asset(type* type, const std::string& function_name, std::string& code);
+		
 		void generate_name(type* type, const std::string& function_name, std::string& code);
 
 		generator_result generator(type*, const function_type, const std::string&, std::string&);
