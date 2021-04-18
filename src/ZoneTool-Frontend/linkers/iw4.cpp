@@ -15267,11 +15267,21 @@ void Load_MssSound(bool atStreamStart)
 	DB_PushStreamPos(XFILE_BLOCK_TEMP);
 	if (varMssSound->data)
 	{
-		if (varMssSound->data == (char*)0xFFFFFFFF)
+		char* pointer = varMssSound->data;
+		if (varMssSound->data == (char*)0xFFFFFFFF || varMssSound->data == (char*)0xFFFFFFFE)
 		{
 			varMssSound->data = AllocLoad_char();
 			varchar = varMssSound->data;
+			char** insertedPointer = nullptr;
+			if (pointer == (char*)0xFFFFFFFE)
+			{
+				insertedPointer = (char**)DB_InsertPointer();
+			}
 			Load_charArray(true, (varMssSound->info.data_len));
+			if (insertedPointer != nullptr)
+			{
+				*insertedPointer = varchar;
+			}
 		}
 		else
 		{

@@ -80,7 +80,7 @@ namespace zonetool::code_generator
 
 				if (member.second.has_expression(type_expression::expression_type::stream_expression))
 				{
-					const auto stream_expr = member.second.get_expression(type_expression::expression_type::stream_expression);
+					const auto* stream_expr = member.second.get_expression(type_expression::expression_type::stream_expression);
 					code += va("\tDB_PushStreamPos(%s);\n", stream_expr->expression().data());
 				}
 
@@ -101,7 +101,35 @@ namespace zonetool::code_generator
 
 							code += va("\tif (%s->%s)\n", variable_type.data(), member.first.data());
 							code += "\t{\n";
-							if (true || member.second.type_ptr()->is_referenced_by_multiple_structs())
+
+							if (member.second.has_expression(type_expression::expression_type::stream_expression) &&
+								member.second.get_expression(type_expression::expression_type::stream_expression)->expression() == "XFILE_BLOCK_TEMP")
+							{
+								code += va("\t\t%s* pointer = %s->%s;\n", member.second.type_ptr()->name().data(), variable_type.data(), member.first.data());
+
+								code += va("\t\tif (%s->%s == (%s*)0xFFFFFFFF || %s->%s == (%s*)0xFFFFFFFE)\n",
+									variable_type.data(), member.first.data(), member.second.type_ptr()->name().data(),
+									variable_type.data(), member.first.data(), member.second.type_ptr()->name().data());
+								code += "\t\t{\n";
+								code += va("\t\t\t%s->%s = %s();\n", variable_type.data(), member.first.data(), mem_func_allocload.data());
+								code += va("\t\t\t%s = %s->%s;\n", mem_variable_type.data(), variable_type.data(), member.first.data());
+								code += va("\t\t\t%s** insertedPointer = nullptr;\n", member.second.type_ptr()->name().data());
+								code += va("\t\t\tif (pointer == (%s*)0xFFFFFFFE)\n", member.second.type_ptr()->name().data());
+								code += "\t\t\t{\n";
+								code += va("\t\t\t\tinsertedPointer = (%s**)DB_InsertPointer();\n", member.second.type_ptr()->name().data());
+								code += "\t\t\t}\n";
+								code += va("\t\t\t%s(true, (%s));\n", mem_func_load.data(), count_expr->expression().data());
+								code += "\t\t\tif (insertedPointer != nullptr)\n";
+								code += "\t\t\t{\n";
+								code += va("\t\t\t\t*insertedPointer = %s;\n", mem_variable_type.data());
+								code += "\t\t\t}\n";
+								code += "\t\t}\n";
+								code += "\t\telse\n";
+								code += "\t\t{\n";
+								code += va("\t\t\tDB_ConvertOffsetToPointer((void**)&%s->%s);\n", variable_type.data(), member.first.data());
+								code += "\t\t}\n";
+							}
+							else if (true || member.second.type_ptr()->is_referenced_by_multiple_structs())
 							{
 								code += va("\t\tif (%s->%s == (%s*)0xFFFFFFFF)\n", variable_type.data(), member.first.data(), member.second.type_ptr()->name().data());
 								code += "\t\t{\n";
@@ -130,6 +158,7 @@ namespace zonetool::code_generator
 
 							code += va("\tif (%s->%s)\n", variable_type.data(), member.first.data());
 							code += "\t{\n";
+
 							if (true || member.second.type_ptr()->is_referenced_by_multiple_structs())
 							{
 								code += va("\t\tif (%s->%s == (%s**)0xFFFFFFFF)\n", variable_type.data(), member.first.data(), member.second.type_ptr()->name().data());
@@ -434,7 +463,7 @@ namespace zonetool::code_generator
 					{
 						if (enum_val_expr->expression().find(",") != std::string::npos)
 						{
-							auto values = split(enum_val_expr->expression(), ',');
+							auto values = split(enum_val_expr->expression(), { ',' });
 							for (auto& enum_value : values)
 							{
 								code += va("\tcase %s:\n", enum_value.data());
